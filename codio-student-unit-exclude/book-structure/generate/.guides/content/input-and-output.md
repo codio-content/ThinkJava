@@ -1,0 +1,5 @@
+##  Input and output
+
+
+The programs we've looked at so far simply display messages, which doesn't really involve that much computation.
+This chapter will show you how to read input from the keyboard, use that input to calculate a result, and then format that result for output.
