@@ -51,6 +51,21 @@ metadata:
   protectLayout: false
 ```
 
+Available options:
+
+1. `scripts` - array of JS-script
+1. `lexikonTopic` - string
+1. `suppressPageNumbering` - `true|false` - Do not show section numbers
+1. `useSubmitButtons` - `true|false` - Use Submit buttons
+1. `useMarkAsComplete` - `true|false` - Show mark as complete
+1. `hideMenu` - `true|false` - Hide top menu
+1. `allowGuideClose` - `true|false` - Allow Guide to be closable
+1. `collapsedOnStart` - `true|false` - Collapsed on start
+1. `hideSectionsToggle` - `true|false` - Hide sections toggle
+1. `hideBackToDashboard` - `true|false` - Hide "Back to dashboard" button
+1. `protectLayout` - `true|false` - Prevent tabs closing by students
+
+
 ### sections
 
 Pages rules
@@ -76,6 +91,64 @@ Examples
           action: open
 ```
 
+
+Available options:
+1. `layout` - string, guides layout, see Supported layouts
+1. `learningObjectives` - string, learning objectives
+1. `teacherOnly` - `true|false` - show only to teacher
+1. `path` - array of string, open folder nodes in tree
+1. `files` - array of file info objects, see File info objects
+
+##### Supported layouts
+
+1. `1-panel-tree` - 1 Panel with tree
+1. `1-panel` - 1 Panel without tree
+1. `2-panels-tree` - 2 Panels with tree
+1. `2-panels` - 2 Panels without tree
+1. `2-panels-guides-left` - 2 Panels without tree (Guides Left)
+1. `3-columns-tree` - 3 Columns with tree
+1. `3-columns` - 3 Columns without tree
+1. `3-cell-tree` - 3 Panels with tree
+1. `3-cell` -  Panels without tree
+1. `3-cell-left` -  3 Panels without tree (Guides Left)
+1. `4-cell-tree` -  4 Panels with tree
+1. `4-cell` -  4 Panels without tree
+
+##### File info objects
+1. close all tabs (as first item in array)
+```yaml
+        - path: "#tabs"
+          action: close
+```
+2\. open file, `panel` - panel number
+```yaml
+        - path: "code/ch03/GuessSoln.java"
+          panel: 0
+          action: open
+```
+
+3\. open preview, `panel` - panel number
+```yaml
+        - path: "#preview: https://codio.com/docs"
+          panel: 0
+          action: open
+```
+
+3\. execute terminal, `panel` - panel number
+```yaml
+        - path: "#terminal: echo \"hello\""
+          panel: 0
+          action: open
+```
+
+3\. point code line in a file, `panel` - panel number, `ref` line content
+```yaml
+        - path: "test.html"
+          panel: 0
+          action: open
+          ref: "line2"
+          lineCount: 1
+```
 
 #### sections.transformations
 

@@ -1,4 +1,5 @@
 import re
+import uuid
 from collections import defaultdict
 
 from converter.guides.tools import get_text_in_brackets
@@ -167,6 +168,10 @@ class LaTeX2Markdown(object):
                                     (?P<block_contents>.*?)
                                     \\end{figure}""", flags=re.DOTALL + re.VERBOSE)
 
+        self._eqnarray_re = re.compile(r"""\\begin{(?P<block_name>eqnarray\*)}
+                                    (?P<block_contents>.*?)
+                                    \\end{(?P=block_name)}""", flags=re.DOTALL + re.VERBOSE)
+
         self._refs_re = re.compile(r"""\\ref{(?P<ref_name>.*?)}""", flags=re.DOTALL + re.VERBOSE)
         self._page_refs_re = re.compile(r"""\\pageref{(?P<ref_name>.*?)}""", flags=re.DOTALL + re.VERBOSE)
 
@@ -240,6 +245,7 @@ class LaTeX2Markdown(object):
         output_str = ""
         for line in block_contents.lstrip().rstrip().split("\n"):
             line = line.lstrip().rstrip()
+            line = line.replace("\\\\", "<br/>")
             indented_line = line_indent_char + line + "\n"
             output_str += indented_line
         return output_str
@@ -252,6 +258,7 @@ class LaTeX2Markdown(object):
         output_str = ""
         for line in block_contents.lstrip().rstrip().split("\n"):
             line = line.lstrip().rstrip()
+            line = line.replace("\\\\", "<br/>")
 
             markdown_list_line = line.replace(r"\item", list_heading)
             if block_name == "description":
@@ -301,6 +308,16 @@ class LaTeX2Markdown(object):
         ref_name = matchobj.group('ref_name')
         refs = self._refs.get(ref_name, {'section': ref_name})
         return 'in section **{}**'.format(refs['section'])
+
+    def _eqnarray_block(self, matchobj):
+        block_contents = matchobj.group('block_contents')
+        print('block_contents', block_contents)
+        block_contents = re.sub(r"^&& {2}", "", block_contents, flags=re.MULTILINE)
+        block_contents = re.sub(r"^& ", "", block_contents, flags=re.MULTILINE)
+        block_contents = re.sub(r" &$", "", block_contents, flags=re.MULTILINE)
+        block_contents = re.sub(r" & \\\\$", " \\\\\\\\", block_contents, flags=re.MULTILINE)
+        print('block_contents', block_contents)
+        return "$${}$$".format(block_contents, flags=re.MULTILINE)
 
     def _figure_block(self, matchobj):
         block_contents = matchobj.group('block_contents')
@@ -380,6 +397,17 @@ class LaTeX2Markdown(object):
 
         return out
 
+    def _code_block(self, matchobj):
+        block_contents = matchobj.group('block_contents')
+        # % in code block is not latex comments, escape it and replace later
+        block_contents = re.sub(r"%", r"\\%", block_contents)
+        return "```code{}```".format(block_contents)
+
+    def _inline_code_block(self, matchobj):
+        block_contents = matchobj.group('block_contents')
+        block_contents = re.sub(r"\\\\", r"\\", block_contents)
+        return "`{}`".format(block_contents)
+
     def _latex_to_markdown(self):
         """Main function, returns the formatted Markdown as a string.
         Uses a lot of custom regexes to fix a lot of content - you may have
@@ -397,11 +425,6 @@ class LaTeX2Markdown(object):
         output = self._header_re.sub(self._replace_header, output)
         output = self._table_re.sub(self._format_table, output)
 
-        # Fix \\ formatting for line breaks in align blocks
-        output = re.sub(r" \\\\", r" \\\\\\\\", output)
-        # Convert align* block  to align - this fixes formatting
-        output = re.sub(r"align\*", r"align", output)
-
         # Fix emph, textbf, texttt formatting
         output = re.sub(r"\\emph{(.*?)}", r"*\1*", output)
         output = re.sub(r"\\textbf{(.*?)}", r"**\1**", output)
@@ -412,31 +435,32 @@ class LaTeX2Markdown(object):
         output = re.sub(r"{\\bf (.*?)}", r"**\1**", output)
         output = re.sub(r"{\\sf (.*?)}", r"**\1**", output)
 
-        # Fix \% formatting
-        output = re.sub(r"\\%", r"%", output)
-
-        # Throw away content in IGNORE/END block
-        output = re.sub(r"% LaTeX2Markdown IGNORE(.*?)\% LaTeX2Markdown END", "", output, flags=re.DOTALL)
-
         # Fix ``
         output = re.sub("``", "“", output)
 
         # Fix ``
         output = re.sub("''", "”", output)
 
-        output = self._code_re.sub(r"```code\1```", output)
-        output = self._trinket_re.sub(r"```code\2```", output)
-        output = self._stdout_re.sub(r"```code\1```", output)
+        output = self._code_re.sub(self._code_block, output)
+        output = self._trinket_re.sub(self._code_block, output)
+        output = self._stdout_re.sub(self._code_block, output)
         output = self._small_re.sub(r"\1", output)
+
+        # Fix \% formatting
+        percent_token = str(uuid.uuid4())
+        output = re.sub(r"\\%", percent_token, output)
+        output = re.sub("%(.*?)$", "", output, flags=re.MULTILINE)
+        output = re.sub(percent_token, "%", output)
 
         output = self._exercise_re.sub(self._exercise_block, output)
         output = self._figure_re.sub(self._figure_block, output)
         output = self._refs_re.sub(self._refs_block, output)
         output = self._page_refs_re.sub(self._page_refs_block, output)
+        output = self._eqnarray_re.sub(self._eqnarray_block, output)
 
-        output = re.sub(r"\\java{(.*?)}", r"`\1`", output)
-        output = re.sub(r"\\verb\"(.*?)\"", r"`\1`", output)
-        output = re.sub(r"\\verb'(.*?)'", r"`\1`", output)
+        output = re.compile(r"\\java{(?P<block_contents>.*?)}").sub(self._inline_code_block, output)
+        output = re.compile(r"\\verb\"(?P<block_contents>.*?)\"").sub(self._inline_code_block, output)
+        output = re.compile(r"\\verb'(?P<block_contents>.*?)'").sub(self._inline_code_block, output)
 
         output = re.sub(r"\\url{(.*?)}", r"[\1](\1)", output)
 
@@ -444,13 +468,15 @@ class LaTeX2Markdown(object):
 
         output = re.sub(r"{\\tt (.*?)}", r"`\1`", output)
 
-        output = re.sub(r"[\\]+$", "", output)
-
-        output = re.sub("^%(.*?)$", "", output, flags=re.MULTILINE)
+        output = re.sub(r"\\\[ (.*?) \\\]", r"$ \1 $", output)
 
         output = re.sub(r"\\'{(.*?)}", r"\1&#x301;", output)
 
         output = re.sub(r"(\S+)(~)(\S+)", r"\1 \3", output)
+        output = re.sub(r"(~)(\S+)", r" \2", output)
+        output = re.sub(r"(\S+)(~)", r"\1 ", output)
+
+        output = re.sub(r"^\\\\ ", "<br>", output, flags=re.MULTILINE)
 
         return output.lstrip().rstrip()
 

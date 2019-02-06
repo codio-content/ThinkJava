@@ -72,9 +72,13 @@ class TestSuite(unittest.TestCase):
 
     def test_markdown_space(self):
         self.run_case("space")
+        self.run_case("space_both")
 
     def test_markdown_comments_simple(self):
         self.run_case("comments_simple")
+
+    def test_markdown_comments(self):
+        self.run_case("comments")
 
     def test_markdown_href_simple(self):
         self.run_case("href_simple")
@@ -144,3 +148,16 @@ class TestSuite(unittest.TestCase):
             'counter': '2.2'
         }
         self.run_case("pageref", refs=refs)
+
+    def test_math(self):
+        self.write_md("math")
+        self.run_case("math")
+
+    def test_eqnarray(self):
+        self.run_case("eqnarray")
+
+    def test_new_line(self):
+        self.run_case("new_line")
+
+    def test_esc_code(self):
+        self.run_case("esc_code")
