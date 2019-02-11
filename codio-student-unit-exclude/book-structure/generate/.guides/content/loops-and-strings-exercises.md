@@ -2,10 +2,10 @@
 
 
 The code for this chapter is in the `ch06` directory of `ThinkJavaCode2`.
-See page in section **Using the code examples** for instructions on how to download the repository.
+See page in section Using the code examples for instructions on how to download the repository.
 Before you start the exercises, we recommend that you compile and run the examples.
 
-If you have not already read Appendix **16.6**, now might be a good time.
+If you have not already read Appendix 16.6, now might be a good time.
 It describes the DrJava debugger, which is a useful tool for visualizing the flow of execution through loops.
 
 
@@ -48,7 +48,7 @@ The table should contain one column for each variable and one line for each iter
 
 Let's say you are given a number, $a$, and you want to find its square root.
 One way to do that is to start with a rough guess about the answer, $x_0$, and then improve the guess using this formula:
-\[ x_1 =(x_0 + a/x_0) / 2 \]
+$ x_1 =(x_0 + a/x_0) / 2 $
 For example, if we want to find the square root of 9, and we start with $x_0 = 6$, then $x_1 = (6 + 9/6) / 2 = 3.75$, which is closer.
 We can repeat the procedure, using $x_1$ to calculate $x_2$, and so on.
 In this case, $x_2 = 3.075$ and $x_3 = 3.00091$.
@@ -67,7 +67,7 @@ You can use `Math.abs` to calculate the absolute value of the difference.
 **Exercise 7.3:**
 
 One way to evaluate $\exp(-x^2)$ is to use the infinite series expansion:
-\[ \exp(-x^2) = 1 - x^2 + x^4/2 - x^6/6 + \ldots \]
+$ \exp(-x^2) = 1 - x^2 + x^4/2 - x^6/6 + \ldots $
 The $i$th term in this series is $(-1)^i x^{2i} / i!$.
 Write a method named `gauss` that takes `x` and `n` as arguments and returns the sum of the first `n` terms of the series.
 You should not use `factorial` or `pow`.
@@ -83,9 +83,9 @@ For example, the following are all six-letter English abecedarian words:
 
 
 
-> abdest, acknow, acorsy, adempt, adipsy, agnosy, befist, behint, %\\
-> beknow, bijoux, biopsy, cestuy, chintz, deflux, dehors, dehort, %\\
-> deinos, diluvy, dimpsy %\\
+> abdest, acknow, acorsy, adempt, adipsy, agnosy, befist, behint, 
+> beknow, bijoux, biopsy, cestuy, chintz, deflux, dehors, dehort, 
+> deinos, diluvy, dimpsy 
 
 
 Write a method called `isAbecedarian` that takes a `String` and returns a `boolean` indicating whether the word is abecedarian.

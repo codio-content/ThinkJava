@@ -22,7 +22,7 @@ When Java displays the value of an object type, it displays the name of the type
 This address can be useful for debugging, if you want to keep track of individual objects.
 
 To display `Time` objects in a way that is more meaningful to users, you could write a method to display the hour, minute, and second.
-Using `printTime` in Section **5.6** as a starting point, we could write:
+Using `printTime` in Section 5.6 as a starting point, we could write:
 
 ```code
 public static void printTime(Time t) {

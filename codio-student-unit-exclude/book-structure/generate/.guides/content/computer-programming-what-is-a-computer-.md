@@ -11,7 +11,7 @@ Mainframes, desktop and laptop computers, tablets, and smartphones are some of t
 
 Each type of computer has its own unique design, but internally they all share the same type of **hardware**.
 The two most important hardware components are **processors** (or CPUs) that perform simple calculations and **memory** (or RAM) that temporarily stores information.
-Figure **2.1** shows what these components look like.
+Figure 2.1 shows what these components look like.
 
 ![Figure 2.1 Example processor and memory hardware.](figs/CPU.jpg)
 ![Figure 2.1 Example processor and memory hardware.](figs/RAM.jpg)

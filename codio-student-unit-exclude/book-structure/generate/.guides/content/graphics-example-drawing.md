@@ -35,11 +35,11 @@ public void mickey(Graphics g, Rectangle bb) {
 The first line draws the face.
 The next three lines create a smaller rectangle for the ears.
 We `translate` the rectangle up and left for the first ear, then to the right for the second ear.
-The result is shown in Figure **18.3**.
+The result is shown in Figure 18.3.
 
 ![Figure 18.3 A “Hidden Mickey” drawn using Java graphics.](figs/mickey.png)
 
 **Figure 18.3 A “Hidden Mickey” drawn using Java graphics.**
 
-You can read more about `Rectangle` and `translate` in Chapter **11**.
+You can read more about `Rectangle` and `translate` in Chapter 11.
 See the exercises at the end of this appendix for more example drawings.

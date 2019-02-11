@@ -28,13 +28,13 @@ She has also worked on a Ruby version of the book.
 *  Micah Lindstrom reported half a dozen typos and sent corrections.
 
 *  James Riely ported the textbook source from LaTeX to Sphinx.
-\\ [http://fpl.cs.depaul.edu/jriely/thinkapjava/](http://fpl.cs.depaul.edu/jriely/thinkapjava/)
+<br/> [http://fpl.cs.depaul.edu/jriely/thinkapjava/](http://fpl.cs.depaul.edu/jriely/thinkapjava/)
 
 *  Peter Knaggs ported the book to C\#.
-\\ [http://www.rigwit.co.uk/think/sharp/](http://www.rigwit.co.uk/think/sharp/)
+<br/> [http://www.rigwit.co.uk/think/sharp/](http://www.rigwit.co.uk/think/sharp/)
 
 *  Heidi Gentry-Kolen recorded several video lectures that follow the book.
-\\ [https://www.youtube.com/user/digipipeline](https://www.youtube.com/user/digipipeline)
+<br/> [https://www.youtube.com/user/digipipeline](https://www.youtube.com/user/digipipeline)
 
 *  Waldo Ribeiro submitted a pull request that corrected a dozen typos.
 

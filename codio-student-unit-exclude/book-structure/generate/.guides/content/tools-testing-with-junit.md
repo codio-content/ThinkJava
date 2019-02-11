@@ -6,7 +6,7 @@ When beginners start writing methods, they usually test them by invoking them fr
 Writing code like this can get repetitive, but there are tools to make it easier.
 For cases where we know the right answer, we can do better by writing **unit tests**.
 
-For example, to test `fibonacci` from Section **9.4**, we could write:
+For example, to test `fibonacci` from Section 9.4, we could write:
 
 ```code
 public static void main(String[] args) {

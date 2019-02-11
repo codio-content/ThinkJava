@@ -21,7 +21,7 @@ public class Deck {
 
 
 The constructor initializes the instance variable with an array of `n` cards, but it doesn't create any `Card` objects.
-Figure **14.1** shows what a `Deck` looks like with no cards.
+Figure 14.1 shows what a `Deck` looks like with no cards.
 
 ![Figure 14.1 Memory diagram of an unpopulated `Deck` object.](figs/deckobject.jpg)
 
@@ -42,7 +42,7 @@ public Deck() {
 }
 ```
 
-This method is similar to the example in Section **13.6**; we just turned it into a constructor.
+This method is similar to the example in Section 13.6; we just turned it into a constructor.
 We can now create a standard `Deck` like this:
 
 ```code
@@ -51,7 +51,7 @@ Deck deck = new Deck();
 
 
 Now that we have a `Deck` class, we have a logical place to put methods that pertain to decks.
-Looking at the methods we have written so far, one obvious candidate is `printDeck` from Section **13.6**.
+Looking at the methods we have written so far, one obvious candidate is `printDeck` from Section 13.6.
 
 ```code
 public void print() {

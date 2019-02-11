@@ -15,7 +15,7 @@ For most applications, they are as good as random.
 
 
 
-If you did Exercise **4.4**, you have already seen `java.util.Random`, which generates pseudorandom numbers.
+If you did Exercise 4.4, you have already seen `java.util.Random`, which generates pseudorandom numbers.
 The method `nextInt` takes an integer argument, `n`, and returns a random integer between `0` and `n - 1` (inclusive).
 
 If you generate a long series of random numbers, every value should appear, at least approximately, the same number of times.
@@ -35,7 +35,7 @@ public static int[] randomArray(int size) {
 }
 ```
 
-The following `main` method generates an array and displays it using `printArray` from Section **8.3**.
+The following `main` method generates an array and displays it using `printArray` from Section 8.3.
 We could have used `Arrays.toString`, but we like seeing curly braces instead of square brackets.
 
 ```code

@@ -41,7 +41,7 @@ This practice makes it easier to find their types later on, and it helps the rea
 
 
 For readability, each major step of the algorithm is separated by a blank line and begins with a comment.
-The class also includes a documentation comment (`/**`), which you can learn more about in Appendix **17**.
+The class also includes a documentation comment (`/**`), which you can learn more about in Appendix 17.
 
 Many algorithms, including the `Convert` program, perform division and modulo together.
 In both steps, you divide by the same number (`IN_PER_FOOT`).

@@ -16,7 +16,7 @@ double[] values;
 ```
 
 
-To create the array itself, you have to use the `new` operator, which we first saw in Section **4.2**.
+To create the array itself, you have to use the `new` operator, which we first saw in Section 4.2.
 The `new` operator **allocates** memory for the array and automatically initializes all of its elements to zero.
 
 ```code

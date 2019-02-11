@@ -35,7 +35,7 @@ if (evenFlag) {
 Flags may not seem that useful at this point, but they will help simplify complex conditions later on.
 Each part of a condition can be stored in a separate flag, and these flags can be combined with logical operators.
 
-Notice that you don't have to write ~`if (evenFlag == true)`.
+Notice that you don't have to write  `if (evenFlag == true)`.
 Since `evenFlag` is a `boolean`, it's already a condition.
 Furthermore, to check if a flag is `false`:
 

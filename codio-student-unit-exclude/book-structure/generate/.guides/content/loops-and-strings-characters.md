@@ -18,8 +18,7 @@ The argument `0` means that we want the character at **index** 0.
 String indexes range from 0 to $n-1$, where $n$ is the length of the string.
 So the character assigned to `letter` is `b`.
 
-\ttfamily
-|\multicolumn{1}{&#124;l&#124;}{b}|\multicolumn{1}{l&#124;}{a}|\multicolumn{1}{l&#124;}{n}|\multicolumn{1}{l&#124;}{a}|\multicolumn{1}{l&#124;}{n}|\multicolumn{1}{l&#124;}{a} \\\\ \hline|
+|\multicolumn{1}{&#124;l&#124;}{b}|\multicolumn{1}{l&#124;}{a}|\multicolumn{1}{l&#124;}{n}|\multicolumn{1}{l&#124;}{a}|\multicolumn{1}{l&#124;}{n}|\multicolumn{1}{l&#124;}{a} \\ \hline|
 |-|-|-|-|-|-|
 |0                      |1                     |2                     |3                     |4                     |5|
 
@@ -37,7 +36,7 @@ if (letter == 'a') {
 
 Character literals, like `'a'`, appear in single quotes.
 Unlike string literals, which appear in double quotes, character literals can only contain a single character.
-Escape sequences, like `'\\t'`, are legal because they represent a single character.
+Escape sequences, like `'\t'`, are legal because they represent a single character.
 
 The increment and decrement operators also work with characters.
 So this loop displays the letters of the alphabet:

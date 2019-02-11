@@ -243,3 +243,377 @@ class TestSuite(unittest.TestCase):
             for path, content in check_content:
                 file_content = load_file(generate.joinpath(path))
                 self.assertEqual(content, file_content)
+
+    def test_refs(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmp = Path(tmpdir)
+            generate = tmp.joinpath('generate')
+            config, base_path = load_config_file(get_file_path('toc_ref', extension='yml'))
+            config['workspace']['directory'] = base_path
+            convert(config, tmp, True)
+
+            check_exists = [
+                'code/GuessSoln.java',
+                '.guides/book.json',
+                '.guides/metadata.json',
+                '.guides/content/computer-programming.md',
+                '.guides/content/computer-programming-what-is-a-computer-.md',
+                '.guides/content/computer-programming-what-is-programming-.md',
+                '.guides/content/variables-and-operators.md',
+                '.guides/content/variables-and-operators-assigning-variables.md',
+                '.guides/content/variables-and-operators-declaring-variables.md'
+            ]
+
+            for path in check_exists:
+                check = generate.joinpath(path)
+                self.assertTrue(check.exists())
+
+            check_content = [
+                (
+                    '.guides/content/computer-programming.md',
+                    '##  Computer programming\n\nComputer programming content'
+                ),
+                (
+                    '.guides/content/computer-programming-what-is-a-computer-.md',
+                    '###  What is a computer?\n\nWhat is a computer? content'
+                ),
+                (
+                    '.guides/content/computer-programming-what-is-programming-.md',
+                    '###  What is programming?\n\nWhat is programming? content\n\n1\nin section Declaring variables'
+                ),
+                (
+                    '.guides/content/variables-and-operators.md',
+                    '##  Variables and operators\n\nVariables and operators content'
+                ),
+                (
+                    '.guides/content/variables-and-operators-assigning-variables.md',
+                    '###  Assigning variables\n\nAssigning variables content\n\n1.1\nin section Assigning variables'
+                ),
+                (
+                    '.guides/content/variables-and-operators-declaring-variables.md',
+                    '###  Declaring variables\n\nDeclaring variables content'
+                )
+            ]
+
+            for path, content in check_content:
+                file_content = load_file(generate.joinpath(path))
+                self.assertEqual(content, file_content)
+
+    def test_refs_0(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmp = Path(tmpdir)
+            generate = tmp.joinpath('generate')
+            config, base_path = load_config_file(get_file_path('toc_ref_0', extension='yml'))
+            config['workspace']['directory'] = base_path
+            convert(config, tmp, True)
+
+            check_exists = [
+                'code/GuessSoln.java',
+                '.guides/book.json',
+                '.guides/metadata.json',
+                '.guides/content/computer-programming.md',
+                '.guides/content/computer-programming-what-is-a-computer-.md',
+                '.guides/content/computer-programming-what-is-programming-.md',
+                '.guides/content/variables-and-operators.md',
+                '.guides/content/variables-and-operators-assigning-variables.md',
+                '.guides/content/variables-and-operators-declaring-variables.md'
+            ]
+
+            for path in check_exists:
+                check = generate.joinpath(path)
+                self.assertTrue(check.exists())
+
+            check_content = [
+                (
+                    '.guides/content/computer-programming.md',
+                    '##  Computer programming\n\nComputer programming content'
+                ),
+                (
+                    '.guides/content/computer-programming-what-is-a-computer-.md',
+                    '###  What is a computer?\n\nWhat is a computer? content'
+                ),
+                (
+                    '.guides/content/computer-programming-what-is-programming-.md',
+                    '###  What is programming?\n\nWhat is programming? content\n\n0\nin section Declaring variables'
+                ),
+                (
+                    '.guides/content/variables-and-operators.md',
+                    '##  Variables and operators\n\nVariables and operators content'
+                ),
+                (
+                    '.guides/content/variables-and-operators-assigning-variables.md',
+                    '###  Assigning variables\n\nAssigning variables content\n\n0.1\nin section Assigning variables'
+                ),
+                (
+                    '.guides/content/variables-and-operators-declaring-variables.md',
+                    '###  Declaring variables\n\nDeclaring variables content'
+                )
+            ]
+
+            for path, content in check_content:
+                file_content = load_file(generate.joinpath(path))
+                self.assertEqual(content, file_content)
+
+    def test_refs_override(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmp = Path(tmpdir)
+            generate = tmp.joinpath('generate')
+            config, base_path = load_config_file(get_file_path('toc_ref_override', extension='yml'))
+            config['workspace']['directory'] = base_path
+            convert(config, tmp, True)
+
+            check_exists = [
+                'code/GuessSoln.java',
+                '.guides/book.json',
+                '.guides/metadata.json',
+                '.guides/content/computer-programming.md',
+                '.guides/content/computer-programming-what-is-a-computer-.md',
+                '.guides/content/computer-programming-what-is-programming-.md',
+                '.guides/content/variables-and-operators.md',
+                '.guides/content/variables-and-operators-assigning-variables.md',
+                '.guides/content/variables-and-operators-declaring-variables.md'
+            ]
+
+            for path in check_exists:
+                check = generate.joinpath(path)
+                self.assertTrue(check.exists())
+
+            check_content = [
+                (
+                    '.guides/content/computer-programming.md',
+                    '##  Computer programming\n\nComputer programming content'
+                ),
+                (
+                    '.guides/content/computer-programming-what-is-a-computer-.md',
+                    '###  What is a computer?\n\nWhat is a computer? content'
+                ),
+                (
+                    '.guides/content/computer-programming-what-is-programming-.md',
+                    '###  What is programming?\n\nWhat is programming? content\n\noverride.1\n100'
+                ),
+                (
+                    '.guides/content/variables-and-operators.md',
+                    '##  Variables and operators\n\nVariables and operators content'
+                ),
+                (
+                    '.guides/content/variables-and-operators-assigning-variables.md',
+                    '###  Assigning variables\n\nAssigning variables content\n\n1.1\nin section override.3'
+                ),
+                (
+                    '.guides/content/variables-and-operators-declaring-variables.md',
+                    '###  Declaring variables\n\nDeclaring variables content'
+                )
+            ]
+
+            for path, content in check_content:
+                file_content = load_file(generate.joinpath(path))
+                self.assertEqual(content, file_content)
+
+    def test_skip(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmp = Path(tmpdir)
+            generate = tmp.joinpath('generate')
+            config, base_path = load_config_file(get_file_path('toc5', extension='yml'))
+            config['workspace']['directory'] = base_path
+            convert(config, tmp, True)
+
+            check_exists = [
+                'code/GuessSoln.java',
+                '.guides/book.json',
+                '.guides/metadata.json',
+                '.guides/content/computer-programming.md',
+                '.guides/content/computer-programming-what-is-programming-.md',
+                '.guides/content/variables-and-operators.md',
+                '.guides/content/variables-and-operators-assigning-variables.md',
+
+            ]
+
+            for path in check_exists:
+                check = generate.joinpath(path)
+                self.assertTrue(check.exists())
+
+            check_not_exists = [
+                '.guides/content/variables-and-operators-declaring-variables.md',
+                '.guides/content/computer-programming-what-is-a-computer-.md'
+            ]
+
+            for path in check_not_exists:
+                check = generate.joinpath(path)
+                self.assertFalse(check.exists())
+
+            book_raw = load_file(generate.joinpath('.guides/book.json'))
+            book = json.loads(book_raw)
+
+            children = book.get('children')
+            self.assertEqual(2, len(children))
+
+            cp = children[0]
+
+            self.assertEqual(cp.get('id'), 'computer-programming')
+            self.assertEqual(cp.get('pageId'), 'computer-programming')
+            self.assertEqual(cp.get('type'), 'chapter')
+            self.assertEqual(cp.get('title'), 'Computer programming')
+
+            cp_children = cp.get('children')
+
+            self.assertEqual(1, len(cp_children))
+
+            wp = cp_children[0]
+
+            self.assertEqual(wp.get('id'), 'computer-programming-what-is-programming-')
+            self.assertEqual(wp.get('pageId'), 'computer-programming-what-is-programming-')
+            self.assertEqual(wp.get('type'), 'page')
+            self.assertEqual(wp.get('title'), 'What is programming?')
+
+            metadata_raw = load_file(generate.joinpath('.guides/metadata.json'))
+            metadata = json.loads(metadata_raw)
+
+            sections = metadata.get('sections')
+            self.assertEqual(4, len(sections))
+
+    def test_insert(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmp = Path(tmpdir)
+            generate = tmp.joinpath('generate')
+            config, base_path = load_config_file(get_file_path('toc6', extension='yml'))
+            config['workspace']['directory'] = base_path
+            convert(config, tmp, True)
+
+            check_exists = [
+                'code/GuessSoln.java',
+                '.guides/book.json',
+                '.guides/metadata.json',
+                '.guides/content/computer-programming.md',
+                '.guides/content/computer-programming-what-is-programming-.md',
+                '.guides/content/variables-and-operators.md',
+                '.guides/content/variables-and-operators-assigning-variables.md',
+                '.guides/content/variables-and-operators-exercises-1-3.md',
+                '.guides/content/computer-programming-exercises-1-1.md',
+                '.guides/content/computer-programming-exercises-1-2.md'
+
+            ]
+
+            for path in check_exists:
+                check = generate.joinpath(path)
+                self.assertTrue(check.exists(), check)
+
+            check_not_exists = [
+                '.guides/content/variables-and-operators-declaring-variables.md',
+                '.guides/content/computer-programming-what-is-a-computer-.md'
+            ]
+
+            for path in check_not_exists:
+                check = generate.joinpath(path)
+                self.assertFalse(check.exists(), check)
+
+            book_raw = load_file(generate.joinpath('.guides/book.json'))
+            book = json.loads(book_raw)
+
+            children = book.get('children')
+            self.assertEqual(2, len(children))
+
+            cp = children[0]
+
+            self.assertEqual(cp.get('id'), 'computer-programming')
+            self.assertEqual(cp.get('pageId'), 'computer-programming')
+            self.assertEqual(cp.get('type'), 'chapter')
+            self.assertEqual(cp.get('title'), 'Computer programming')
+
+            cp_children = cp.get('children')
+
+            self.assertEqual(3, len(cp_children))
+
+            wp = cp_children[0]
+
+            self.assertEqual(wp.get('id'), 'computer-programming-what-is-programming-')
+            self.assertEqual(wp.get('pageId'), 'computer-programming-what-is-programming-')
+            self.assertEqual(wp.get('type'), 'page')
+            self.assertEqual(wp.get('title'), 'What is programming?')
+
+            metadata_raw = load_file(generate.joinpath('.guides/metadata.json'))
+            metadata = json.loads(metadata_raw)
+
+            sections = metadata.get('sections')
+            self.assertEqual(7, len(sections))
+
+    def test_codio_section(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmp = Path(tmpdir)
+            generate = tmp.joinpath('generate')
+            config, base_path = load_config_file(get_file_path('toc7', extension='yml'))
+            config['workspace']['directory'] = base_path
+            convert(config, tmp, True)
+
+            check_exists = [
+                'code/GuessSoln.java',
+                '.guides/book.json',
+                '.guides/metadata.json',
+                '.guides/content/computer-programming.md',
+                '.guides/content/computer-programming-what-is-programming-.md',
+                '.guides/content/variables-and-operators.md',
+                '.guides/content/variables-and-operators-assigning-variables.md',
+                '.guides/content/variables-and-operators-declaring-variables.md',
+                '.guides/content/computer-programming-what-is-a-computer-.md'
+            ]
+
+            for path in check_exists:
+                check = generate.joinpath(path)
+                self.assertTrue(check.exists(), check)
+
+            book_raw = load_file(generate.joinpath('.guides/book.json'))
+            book = json.loads(book_raw)
+
+            children = book.get('children')
+            self.assertEqual(2, len(children))
+
+            cp = children[0]
+
+            self.assertEqual(cp.get('id'), 'computer-programming')
+            self.assertEqual(cp.get('pageId'), 'computer-programming')
+            self.assertEqual(cp.get('type'), 'chapter')
+            self.assertEqual(cp.get('title'), 'Computer programming')
+
+            cp_children = cp.get('children')
+
+            self.assertEqual(1, len(cp_children))
+
+            wp = cp_children[0]['children'][0]
+
+            self.assertEqual(wp.get('id'), 'computer-programming-what-is-programming-')
+            self.assertEqual(wp.get('pageId'), 'computer-programming-what-is-programming-')
+            self.assertEqual(wp.get('type'), 'page')
+            self.assertEqual(wp.get('title'), 'What is programming?')
+
+            metadata_raw = load_file(generate.joinpath('.guides/metadata.json'))
+            metadata = json.loads(metadata_raw)
+
+            sections = metadata.get('sections')
+            self.assertEqual(6, len(sections))
+
+    def test_trinket(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmp = Path(tmpdir)
+            generate = tmp.joinpath('generate')
+            config, base_path = load_config_file(get_file_path('toc_trinket', extension='yml'))
+            config['workspace']['directory'] = base_path
+            convert(config, tmp, True)
+
+            check_exists = [
+                'code/GuessSoln.java',
+                'code/Hello.java',
+                'code/1',
+                'code/Hello.java',
+                'code/GuessSoln.java',
+                '.guides/book.json',
+                '.guides/metadata.json',
+                '.guides/content/computer-programming.md',
+                '.guides/content/computer-programming-what-is-programming-.md',
+                '.guides/content/variables-and-operators.md',
+                '.guides/content/variables-and-operators-assigning-variables.md',
+                '.guides/content/variables-and-operators-declaring-variables.md',
+                '.guides/content/computer-programming-what-is-a-computer-.md'
+            ]
+
+            for path in check_exists:
+                check = generate.joinpath(path)
+                self.assertTrue(check.exists(), check)

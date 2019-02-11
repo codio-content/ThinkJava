@@ -3,7 +3,7 @@
 
 
 Whenever you create a new class, you are creating a new object type with the same name.
-So way back in Section **2.3**, when we had the class `Hello`, we also had an object type named `Hello`.
+So way back in Section 2.3, when we had the class `Hello`, we also had an object type named `Hello`.
 We didn't declare any variables with type `Hello`, and we didn't use `new` to create a `Hello` object.
 It wouldn't have done much good if we had -- but we could have!
 

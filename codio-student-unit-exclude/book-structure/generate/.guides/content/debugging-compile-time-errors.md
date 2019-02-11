@@ -2,7 +2,7 @@
 
 
 The best kind of debugging is the kind you don't have to do because you avoid making errors in the first place.
-Incremental development, which we presented in Section **5.8**, can help.
+Incremental development, which we presented in Section 5.8, can help.
 The key is to start with a working program and add small amounts of code at a time.
 When there is an error, you will have a pretty good idea where it is.
 

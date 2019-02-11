@@ -2,10 +2,10 @@
 
 
 The code for this chapter is in the `ch02` directory of `ThinkJavaCode2`.
-See page in section **Using the code examples** for instructions on how to download the repository.
+See page in section Using the code examples for instructions on how to download the repository.
 Before you start the exercises, we recommend that you compile and run the examples.
 
-If you have not already read Appendix **16.2**, now might be a good time.
+If you have not already read Appendix 16.2, now might be a good time.
 It describes the DrJava Interactions Pane, which is a useful way to develop and test short fragments of code without writing a complete class definition.
 
 
@@ -31,7 +31,7 @@ The point of this exercise is (1) to use string concatenation to display values 
 1.  Create a new program named `Date.java`.
 Copy or type in something like the hello world program and make sure you can compile and run it.
 
-1.  Following the example in Section **3.4**, write a program that creates variables named `day`, `date`, `month`, and `year`.
+1.  Following the example in Section 3.4, write a program that creates variables named `day`, `date`, `month`, and `year`.
 The variable `day` will contain the day of the week (like Friday), and `date` will contain the day of the month (like the 13th).
 Assign values to those variables that represent today's date.
 
@@ -64,7 +64,7 @@ The point of this exercise is to (1) use some of the arithmetic operators, and (
 1.  Create a new program called `Time.java`.
 From now on, we won't remind you to start with a small, working program, but you should.
 
-1.  Following the example program in Section **3.4**, create variables named `hour`, `minute`, and `second`.
+1.  Following the example program in Section 3.4, create variables named `hour`, `minute`, and `second`.
 Assign values that are roughly the current time.
 Use a 24-hour clock so that at 2pm the value of `hour` is 14.
 

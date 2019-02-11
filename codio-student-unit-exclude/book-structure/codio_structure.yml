@@ -1,5 +1,5 @@
 workspace:
-  directory: /home/codio/workspace/codio-student-unit-exclude/ThinkJava2
+  directory: ThinkJava2
   tex: thinkjava.tex
 metadata:
   hideMenu: false
@@ -14,54 +14,198 @@ sections:
   - name: Preface
     type: chapter
     configuration:
-      layout: 2-panels
-      files:
-        - path: "code/ch03/GuessSoln.java"
-          panel: 0
-          action: open
-    transformations:
-      - add: My simple text
-        position: 5
-      - remove: 1
-        position: 11
-      - add: Text override example
-        position: 12
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: The philosophy behind the book
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Object-oriented programming
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Changes to the 2nd edition
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: About the appendixes
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Using the code examples
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Contributors over the years
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Computer programming
     type: chapter
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: What is a computer?
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: What is programming?
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: The hello world program
     type: section
+    transformations:
+        - remove: 24
+          position: 87
+        - add:  |
+             See the example java code in the top-left pane.
+             To compile and run the code, press the "Run!"
+             {Run!}(javac code/HelloWorld.java && java code/HelloWorld)
+     
+          position: 111
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/HelloWorld.java"
+          panel: 0
+          action: open
   - name: Compiling Java programs
     type: section
+    transformations:
+        - add: Try it out by typing `javac code/HelloWorld.java` into the terminal in the bottom-left pane and pressing Enter.
+          position: 251
+        - add: Try it out by typing `java code/HelloWorld` into the terminal in the bottom-left pane and pressing Enter.
+          position: 264
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/HelloWorld.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
   - name: Displaying two messages
     type: section
+    transformations:
+        - remove: 12
+          position: 273
+        - add: |
+               For example, take a look at Hello2.java in the top-left pane which displays more than one line of output.
+               To compile and run the code, press the "Run!"
+               {Run!}(javac code/Hello2.java && java code/Hello2)
+       
+          position: 273
+        - remove: 15
+          position: 301
+        - add: |
+               For example, take a look at Goodbye.java in the bottom-left pane which uses `print` instead of `println` to avoid the newling at the end.
+               To compile and run the code, press the "Run!"
+               {Run!}(javac code/Goodbye.java && java code/Goodbye)
+       
+          position: 301
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Hello2.java"
+          panel: 0
+          action: open
+        - path: "code/Goodbye.java"
+          panel: 1
+          action: open
   - name: Formatting source code
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Escape sequences
     type: section
+    transformations:
+        - remove: 8
+          position: 396
+        - add:  |
+             See the example java code in the left panel.
+             To compile and run the code, press the "Run!"
+             {Run!}(javac code/Hello3.java && java code/Hello3)
+     
+          position: 395
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Hello3.java"
+          panel: 0
+          action: open
   - name: What is computer science?
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Debugging programs
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Vocabulary
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Exercises
     type: section
+    codio_section: start
+    transformations:
+      - remove: 68
+        position: 655
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Variables and operators
     type: chapter
   - name: Declaring variables
@@ -430,4 +574,72 @@ sections:
     type: section
   - name: Break and continue
     type: section
-
+    
+insert_sections:
+  - name: Exercises 2.1
+    type: section
+    chapter: Computer programming
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex1.1
+      Computer scientists have the annoying habit of using common English words to mean something other than their common English meaning.
+      For example, in English, statements and comments are the same thing, but in programs they are different.
+      \begin{enumerate}
+      \item In computer jargon, what's the difference between a statement and a comment?
+      \item What does it mean to say that a program is portable?
+      \item In common English, what does the word compile mean?
+      \item What is an executable? Why is that word used as a noun?
+      \end{enumerate}
+      The glossary at the end of each chapter is intended to highlight words and phrases that have special meanings in computer science.
+      When you see familiar words, don't assume that you know what they mean!
+      \end{exercise}
+  - name: Exercises 2.2
+    type: section
+    chapter: Computer programming
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex1.2
+      Before you do anything else, find out how to compile and run a Java program.
+      Some environments provide sample programs similar to the example in Section~\ref{hello}.
+      \begin{enumerate}
+      \item Type in the hello world program, then compile and run it.
+      \item Add a print statement that displays a second message after the ``Hello, World!''.
+      Say something witty like, ``How are you?''
+      Compile and run the program again.
+      \item Add a comment to the program (anywhere), recompile, and run it again.
+      The new comment should not affect the result.
+      \end{enumerate}
+      This exercise may seem trivial, but it is the starting place for many of the programs we will work with.
+      To debug with confidence, you will need to have confidence in your programming environment.
+      In some environments, it is easy to lose track of which program is executing.
+      You might find yourself trying to debug one program while you are accidentally running another.
+      Adding (and changing) print statements is a simple way to be sure that the program you are looking at is the program you are running.
+      \end{exercise}
+  - name: Exercises 2.3
+    type: section
+    chapter: Computer programming
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex1.3
+      It is a good idea to commit as many errors as you can think of, so that you see what error messages the compiler produces.
+      Sometimes the compiler tells you exactly what is wrong, and all you have to do is fix it.
+      But sometimes the error messages are misleading.
+      Over time you will develop a sense for when you can trust the compiler and when you have to figure things out yourself.
+      Starting with the hello world program, try out each of the following errors.
+      After you make each change, compile the program, read the error message (if there is one), and then fix the error.
+      \begin{enumerate}
+      \item Remove one of the open curly braces.
+      \item Remove one of the close curly braces.
+      \item Instead of \java{main}, write \java{mian}.
+      \item Remove the word \java{static}.
+      \item Remove the word \java{public}.
+      \item Remove the word \java{System}.
+      \item Replace \java{println} with \java{Println}.
+      \item Replace \java{println} with \java{print}.
+      \item Delete one of the parentheses.
+      \item Add an extra parenthesis.
+      \end{enumerate}
+      \end{exercise}

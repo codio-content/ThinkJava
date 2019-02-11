@@ -52,9 +52,9 @@ public static double calculateArea(double radius) {
 ```
 
 
-On the other hand, **temporary variables** like `result` often make debugging easier, especially when you are stepping through code using an interactive debugger (see Appendix **16.6**).
+On the other hand, **temporary variables** like `result` often make debugging easier, especially when you are stepping through code using an interactive debugger (see Appendix 16.6).
 
-Figure **5.2** illustrates how data values flows through the program.
+Figure 5.2 illustrates how data values flows through the program.
 When the `main` method invokes `calculateArea`, the value `5.0` is assigned to the parameter `radius`.
 `calculateArea` then returns the value `78.54`, which is assigned to the variable `area`.
 

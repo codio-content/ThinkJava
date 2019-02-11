@@ -2,10 +2,10 @@
 
 
 The code for this chapter is in the `ch03` directory of `ThinkJavaCode2`.
-See page in section **Using the code examples** for instructions on how to download the repository.
+See page in section Using the code examples for instructions on how to download the repository.
 Before you start the exercises, we recommend that you compile and run the examples.
 
-If you have not already read Appendix **16.3**, now might be a good time.
+If you have not already read Appendix 16.3, now might be a good time.
 It describes the command-line interface, which is a powerful and efficient way to interact with your computer.
 
 
@@ -28,7 +28,7 @@ For example, it should display `"24.0 C = 75.2 F"`.
 
 Here is the formula.
 Be careful not to use integer division!
-\[ F = C \times \frac{9}{5} + 32 \]
+$ F = C \times \frac{9}{5} + 32 $
 
 
 

@@ -59,6 +59,6 @@ Chapters 15--16 are brand new in this edition, and they cover more advanced topi
 
 
 
-We added Appendix **17** to explain documentation comments and Javadoc in more detail.
+We added Appendix 17 to explain documentation comments and Javadoc in more detail.
 
 The other three appendixes that were present in the first edition have been revised for clarity and layout.

@@ -1,7 +1,7 @@
 ###  More generalization
 
 
-The previous result is similar to the “nested loops” approach in Section **7.4**.
+The previous result is similar to the “nested loops” approach in Section 7.4.
 However, the inner loop is now encapsulated in the `printRow` method.
 We can encapsulate the outer loop in a method too:
 

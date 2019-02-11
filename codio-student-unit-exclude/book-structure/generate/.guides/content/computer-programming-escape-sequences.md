@@ -3,15 +3,11 @@
 
 It's possible to display multiple lines of output with only one line of code.
 You just have to tell Java where to put the line breaks.
+See the example java code in the left panel.
+To compile and run the code, press the "Run!"
+{Run!}(javac code/Hello3.java && java code/Hello3)
 
-```code
-public class Hello3 {
 
-    public static void main(String[] args) {
-        System.out.print("Hello!\nHow are you doing?\n");
-    }
-}
-```
 
 The output is two lines, each ending with a newline character:
 
@@ -30,10 +26,10 @@ If you add a space there, there will be a space at the beginning of the second l
 |-|-|
 |`\t`|tab |
 |`\"`|double quote |
-|`\\`|backslash |
+|`\`|backslash |
 
 
-Java has a total of eight escape sequences, and the four most commonly used ones are listed in Table **2.7**.
+Java has a total of eight escape sequences, and the four most commonly used ones are listed in Table 2.7.
 For example, to write quotation marks inside of strings, you need to escape them with a backslash.
 
 ```code

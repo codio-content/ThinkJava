@@ -44,7 +44,7 @@ public static void displayBinary(int value) {
 If `value` is zero, `displayBinary` does nothing (that's the base case).
 If the argument is positive, the method divides it by two and calls `displayBinary` recursively.
 When the recursive call returns, the method displays one digit of the result and returns (again).
-Figure **9.3** illustrates this process.
+Figure 9.3 illustrates this process.
 
 
 ![Figure 9.3 Stack diagram for the `displayBinary` method.](figs/stack4.jpg)

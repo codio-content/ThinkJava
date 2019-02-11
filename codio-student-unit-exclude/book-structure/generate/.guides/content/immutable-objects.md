@@ -7,7 +7,7 @@ This way of organizing programs is a powerful design concept, and we will introd
 
 
 An **object** is a collection of data that provides a set of methods.
-For example, `Scanner`, which we saw in Section **4.2**, is an object that provides methods for parsing input.
+For example, `Scanner`, which we saw in Section 4.2, is an object that provides methods for parsing input.
 `System.out` and `System.in` are also objects.
 
 Strings are objects, too.

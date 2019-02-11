@@ -11,7 +11,7 @@ box.x = box.x + 50;
 box.y = box.y + 100;
 ```
 
-The result is shown in Figure **11.4**.
+The result is shown in Figure 11.4.
 
 ![Figure 11.4 Memory diagram showing updated attributes.](figs/rectangle2.jpg)
 

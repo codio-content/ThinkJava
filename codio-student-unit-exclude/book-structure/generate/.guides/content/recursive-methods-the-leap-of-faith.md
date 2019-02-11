@@ -11,7 +11,7 @@ When you invoke `Math.cos` or `System.out.println`, you don't examine or think a
 You just assume that they work properly.
 
 The same is true of other methods.
-For example, consider the method from Section **6.7** that determines whether an integer has only one digit:
+For example, consider the method from Section 6.7 that determines whether an integer has only one digit:
 
 ```code
 public static boolean isSingleDigit(int x) {
@@ -39,10 +39,10 @@ public static int factorial(int n) {
 
 Notice how similar this implementation (with the temporary variables removed) is to the original mathematical definition.
 There is essentially a one-to-one correspondence.
-\begin{eqnarray*}
-&&  0! = 1 \\\\
-&&  n! = n \cdot(n-1)!
-\end{eqnarray*}
+$$
+0! = 1 \\
+n! = n \cdot(n-1)!
+$$
 Of course, it is strange to assume that the method works correctly when you have not finished writing it.
 But that's why it's called the leap of faith!
 
@@ -50,11 +50,11 @@ But that's why it's called the leap of faith!
 
 
 Another common recursively-defined mathematical function is the Fibonacci sequence, which has the following definition:
-\begin{eqnarray*}
-&& fibonacci(1) = 1 \\\\
-&& fibonacci(2) = 1 \\\\
+$$
+&& fibonacci(1) = 1 \\
+&& fibonacci(2) = 1 \\
 && fibonacci(n) = fibonacci(n-1) + fibonacci(n-2)
-\end{eqnarray*}
+$$
 Translated into Java, this function is:
 
 ```code

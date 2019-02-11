@@ -24,7 +24,7 @@ blank = new Point(3, 4);
 The first line declares that `blank` has type `Point`.
 The second line creates the new `Point` with the given coordinates.
 The result of the `new` operator is a *reference* to the object.
-Figure **11.1** shows the result.
+Figure 11.1 shows the result.
 
 
 ![Figure 11.1 Memory diagram showing a variable that refers to a `Point` object.](figs/reference.jpg)

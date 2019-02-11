@@ -2,8 +2,8 @@
 
 
 
-Now that you know about strings, arrays, and wrapper classes, we can *finally* explain the `args` parameter of the `main` method, which we have been ignoring since Chapter **2**.
-If you are unfamiliar with the command-line interface, please read Appendix **16.3**.
+Now that you know about strings, arrays, and wrapper classes, we can *finally* explain the `args` parameter of the `main` method, which we have been ignoring since Chapter 2.
+If you are unfamiliar with the command-line interface, please read Appendix 16.3.
 
 Let's write a program to find the maximum value in a sequence of numbers.
 Rather than read the numbers from `System.in` using a `Scanner`, we'll pass them as command-line arguments.

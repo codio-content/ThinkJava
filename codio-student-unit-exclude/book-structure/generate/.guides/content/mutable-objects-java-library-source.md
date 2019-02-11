@@ -17,8 +17,8 @@ In the paths below, you'll need to replace “`...`” with the version number.
 
 
 *  On Linux, it's likely under: `/usr/lib/jvm/openjdk-.../`
-\\ If not, then install the `openjdk-...-source` package.
-*  On MacOS, it's likely under: \\\\ `/Library/Java/JavaVirtualMachines/jdk.../Contents/Home/`
+<br/> If not, then install the `openjdk-...-source` package.
+*  On MacOS, it's likely under: <br/> `/Library/Java/JavaVirtualMachines/jdk.../Contents/Home/`
 *  On Windows, it's likely under: `C:\Program Files\Java\jdk...\`
 
 
@@ -31,7 +31,7 @@ It uses language features we haven't yet discussed, so you probably won't unders
 But you can get a sense of what professional Java source code looks like by browsing through the library.
 
 
-Notice how much of `Point.java` is documentation (see Appendix **17**).
+Notice how much of `Point.java` is documentation (see Appendix 17).
 Each method is thoroughly commented, including `@param`, `@return`, and other tags.
 Javadoc reads these comments and generates documentation in HTML.
 You can see the results by reading the documentation for the `Point` class, which you can find by doing a web search for “Java Point”.

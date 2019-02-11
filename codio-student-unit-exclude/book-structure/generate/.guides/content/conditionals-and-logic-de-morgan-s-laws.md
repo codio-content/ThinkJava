@@ -16,8 +16,8 @@ A better way to negate logic expressions is to apply **De Morgan's laws**:
 
 
 
-*  `!(A && B)` ~is the same as~ `!A || !B`
-*  `!(A || B)` ~is the same as~ `!A && !B`
+*  `!(A && B)`  is the same as  `!A || !B`
+*  `!(A || B)`  is the same as  `!A && !B`
 
 
 Negating a logical expression is the same as negating each term and changing the operator.
@@ -28,8 +28,8 @@ In this case, negating each term means using the “opposite” relational opera
 
 
 
-*  `!(x < 5 && y == 3)` ~is the same as~ `x >= 5 || y != 3`
-*  `!(x >= 1 || y != 7)` ~is the same as~ `x < 1 && y == 7`
+*  `!(x < 5 && y == 3)`  is the same as  `x >= 5 || y != 3`
+*  `!(x >= 1 || y != 7)`  is the same as  `x < 1 && y == 7`
 
 
 It may help to read these examples out loud in English.

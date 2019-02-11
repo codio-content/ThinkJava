@@ -95,4 +95,4 @@ As a general rule, each line of Java code should end with a semicolon or brace -
 
 The compiler won't complain if you omit optional braces or write empty statements.
 Doing so is allowed by the Java language, but it often results in bugs that are difficult to find.
-Development tools like Checkstyle (see Appendix **16.5**) can warn you about these and other kinds of programming mistakes.
+Development tools like Checkstyle (see Appendix 16.5) can warn you about these and other kinds of programming mistakes.

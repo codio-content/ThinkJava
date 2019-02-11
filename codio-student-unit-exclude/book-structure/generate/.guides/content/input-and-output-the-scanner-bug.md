@@ -37,7 +37,7 @@ What is your name? Hello , age 45
 ```
 
 To understand what is happening, you need to realize that `Scanner` doesn't see input as multiple lines like we do.
-Instead, it gets a “stream of characters” as shown in Figure **4.3**.
+Instead, it gets a “stream of characters” as shown in Figure 4.3.
 
 ![Figure 4.3 A stream of characters as seen by a `Scanner`.](figs/hopper1.jpg)
 
@@ -46,7 +46,7 @@ Instead, it gets a “stream of characters” as shown in Figure **4.3**.
 
 The arrow indicates the next character to be read by `Scanner`.
 When you call `nextInt`, it reads characters until it gets to a non-digit.
-Figure **4.4** shows the state of the stream after `nextInt` is called.
+Figure 4.4 shows the state of the stream after `nextInt` is called.
 
 ![Figure 4.4 A stream of characters after `nextInt` is called.](figs/hopper2.jpg)
 

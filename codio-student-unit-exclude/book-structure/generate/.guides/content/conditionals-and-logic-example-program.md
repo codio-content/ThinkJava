@@ -38,7 +38,7 @@ public class Logarithm {
 }
 ```
 
-What started as five lines of code at the beginning of Section **6.8** is now a 30-line program.
+What started as five lines of code at the beginning of Section 6.8 is now a 30-line program.
 Making programs robust (and secure) often requires a lot of additional checking, as shown in this example.
 
 

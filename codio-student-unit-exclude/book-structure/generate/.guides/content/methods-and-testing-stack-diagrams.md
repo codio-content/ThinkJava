@@ -19,7 +19,7 @@ Inside `printTime`, the value of `hour` is `12`, not `11`, and the value of `min
 Furthermore, if `printTime` modifies one of its parameters, that change has no effect on the variables in `main`.
 
 
-One way to keep track of everything is to draw a **stack diagram**, which is a memory diagram (see Section **3.3**) that shows currently running methods.
+One way to keep track of everything is to draw a **stack diagram**, which is a memory diagram (see Section 3.3) that shows currently running methods.
 For each method there is a box called a **frame** that contains the method's parameters and local variables.
 The name of the method appears outside the frame; the variables and parameters appear inside.
 
@@ -28,7 +28,7 @@ The name of the method appears outside the frame; the variables and parameters a
 **Figure 5.1 Stack diagram for `printTime(hour + 1, 0)`.**
 
 As with memory diagrams, stack diagrams show variables and methods at a particular point in time.
-Figure **5.1** is a stack diagram at the beginning of the `printTime` method.
+Figure 5.1 is a stack diagram at the beginning of the `printTime` method.
 Notice that `main` is on top, because it executed first.
 
 

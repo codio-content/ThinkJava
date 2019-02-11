@@ -33,7 +33,7 @@ Otherwise, the body of the loop is executed (again).
 
 The `for` loop is often easier to read because it puts all the loop-related statements at the top of the loop.
 Doing so allows you to focus on the statements in the loop body.
-Figure **7.2** illustrates `for` loops with a flowchart.
+Figure 7.2 illustrates `for` loops with a flowchart.
 
 ![Figure 7.2 Flow of execution for a `for` loop.](figs/for.jpg)
 

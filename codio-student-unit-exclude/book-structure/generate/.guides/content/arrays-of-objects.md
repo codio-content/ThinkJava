@@ -8,9 +8,9 @@ Here is an outline of the road ahead:
 
 *  In this chapter, we define a `Card` class and write methods that work with cards and arrays of cards.
 
-*  In Chapter **14.1**, we define a `Deck` class that encapsulates an array of cards, and we write methods that operate on decks.
+*  In Chapter 14.1, we define a `Deck` class that encapsulates an array of cards, and we write methods that operate on decks.
 
-*  In Chapter **15**, we introduce a way to create new classes that extend existing classes.
+*  In Chapter 15, we introduce a way to create new classes that extend existing classes.
 We then use `Card`, `Deck`, and other classes to implement the game *Crazy Eights*.
 
 

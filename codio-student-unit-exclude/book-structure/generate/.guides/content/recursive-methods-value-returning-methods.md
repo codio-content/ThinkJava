@@ -9,7 +9,7 @@ Of course, a truly circular definition is not very useful:
 
 
 
-> **recursive:** \\\\
+> **recursive:** <br/>
 > An adjective used to describe a method that is recursive.
 
 
@@ -21,10 +21,10 @@ People fall for that link all the time.
 
 Many mathematical functions are defined recursively, because that is often the simplest way.
 For example, the **factorial** of an integer $n$, which is written $n!$, is defined like this:
-\begin{eqnarray*}
-&&  0! = 1 \\\\
-&&  n! = n \cdot(n-1)!
-\end{eqnarray*}
+$$
+0! = 1 \\
+n! = n \cdot(n-1)!
+$$
 Don't confuse the mathematical symbol $!$, which means *factorial*, with the Java operator `!`, which means *not*.
 This definition says that `factorial(0)` is `1`, and that `factorial(n)` is `n * factorial(n - 1)`.
 
@@ -69,7 +69,7 @@ public static int factorial(int n) {
 To illustrate what is happening, we'll use the temporary variables `recurse` and `result`.
 In each method call, `recurse` stores the factorial of $n - 1$, and `result` stores the factorial of $n$.
 
-The flow of execution for this program is similar to `countdown` from Section **9.1**.
+The flow of execution for this program is similar to `countdown` from Section 9.1.
 If we invoke `factorial` with the value 3:
 
 
@@ -90,7 +90,7 @@ The return value (2) gets multiplied by `n`, which is 3, and the result, 6, is r
 \end{quote}
 
 
-Figure **9.2** shows what the stack diagram looks like for this sequence of method invocations.
+Figure 9.2 shows what the stack diagram looks like for this sequence of method invocations.
 The return values are shown being passed up the stack.
 Notice that `recurse` and `result` do not exist in the last frame, because when `n == 0` the code that declares them does not execute.
 

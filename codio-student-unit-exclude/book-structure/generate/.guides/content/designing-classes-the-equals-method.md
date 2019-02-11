@@ -16,7 +16,7 @@ With objects you can use either one, but they are not the same.
 The definition of identity is always the same, so the `==` operator always does the same thing.
 But the definition of equivalence is different for different objects, so objects can define their own `equals` methods.
 
-Consider the following variables and the memory diagram in Figure **12.2**.
+Consider the following variables and the memory diagram in Figure 12.2.
 
 ```code
 Time time1 = new Time(9, 30, 0.0);

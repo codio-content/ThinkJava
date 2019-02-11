@@ -152,6 +152,12 @@ Available options:
 
 #### sections.transformations
 
+transformation could be an string `skip` - remove item from procession or described below dicts
+
+```yaml
+    transformations: skip
+```
+
 The page transformations
 Supports 2 transformations:
 
@@ -173,6 +179,63 @@ Supports 2 transformations:
       - remove: 5
         position: 74
 ```
+
+### Content not existed in book
+
+It is possible to add own content via `insert_sections`
+
+You should specify `chapter` and `section` which exists in book for identify a place for insert
+
+```yaml
+    chapter: Computer programming
+    section: What is programming?
+```
+
+```yaml
+insert_sections:
+  - name: Exercises 1.1
+    type: section
+    chapter: Computer programming
+    section: What is programming?
+    before: false
+    latex: |
+      hello latex
+  - name: Exercises 1.2
+    type: section
+    chapter: Computer programming
+    section: What is programming?
+    before: false
+    markdown: |
+      hello markdown
+```
+
+
+### Refs
+
+Show available refs in book `python3 converter.py example -r`
+
+You could override ref counting of `\ref` instruction by directive(changees in chapter counting)
+
+```yaml
+refs:
+  chapter_counter_from: 0
+```
+
+Also you could override any `\ref` or `\pageref` output by `override rules`
+
+```yaml
+refs:
+  overrides:
+    JUnit:
+      pageref: Testing with JUnit
+      ref: '16.7'
+    UML:
+      pageref: 100
+      ref: '11.7'
+```
+
+If you are using a `string` for `pageref` in generated md file prefix `in section` will be added
+If a number - no additional
 
 ## Book generation
 

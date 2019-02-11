@@ -1,7 +1,7 @@
 ###  Garbage collection
 
 
-In Section **11.5**, we saw what happens when more than one variable refers to the same object.
+In Section 11.5, we saw what happens when more than one variable refers to the same object.
 What happens when *no* variables refer to an object?
 
 ```code
@@ -11,7 +11,7 @@ blank = null;
 
 The first line creates a new `Point` object and makes `blank` refer to it.
 The second line changes `blank` so that instead of referring to the object, it refers to nothing.
-As shown in Figure **11.8**, there is no longer an arrow between them.
+As shown in Figure 11.8, there is no longer an arrow between them.
 
 ![Figure 11.8 Memory diagram showing the effect of setting a variable to `null`.](figs/reference3.jpg)
 

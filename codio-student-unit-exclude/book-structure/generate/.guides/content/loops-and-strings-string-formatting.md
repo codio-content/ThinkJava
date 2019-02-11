@@ -2,7 +2,7 @@
 
 
 
-In Section **4.5**, we learned how to use `System.out.printf` to display formatted output.
+In Section 4.5, we learned how to use `System.out.printf` to display formatted output.
 Sometimes programs need to create strings that are formatted a certain way, but not display them immediately, or ever.
 For example, the following method returns a time string in 12-hour format:
 
