@@ -17,16 +17,16 @@ Often that means it is caught in an infinite loop or an infinite recursion.
 
 Run the program.
 If you get the first message and not the second, you know where the program is getting stuck.
-Go to the section titled “Infinite loop”.% on page in section **Run-time errors**.
+Go to the section titled “Infinite loop”.
 
 
 *  Most of the time an infinite recursion will cause the program to run for a while and then produce a `StackOverflowError`.
-If that happens, go to the section titled “Infinite recursion”.% on page in section **Run-time errors**.
+If that happens, go to the section titled “Infinite recursion”.
 
 If you are not getting a `StackOverflowError`, but you suspect there is a problem with a recursive method, you can still use the techniques in the infinite recursion section.
 
 *  If neither of the previous suggestions helps, you might not understand the flow of execution in your program.
-Go to the section titled “Flow of execution”.% on page in section **Run-time errors**.
+Go to the section titled “Flow of execution”.
 
 
 

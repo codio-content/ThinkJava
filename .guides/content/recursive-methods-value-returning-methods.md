@@ -9,7 +9,7 @@ Of course, a truly circular definition is not very useful:
 
 
 
-> **recursive:** \\\\
+> **recursive:** <br/>
 > An adjective used to describe a method that is recursive.
 
 
@@ -21,10 +21,10 @@ People fall for that link all the time.
 
 Many mathematical functions are defined recursively, because that is often the simplest way.
 For example, the **factorial** of an integer $n$, which is written $n!$, is defined like this:
-\begin{eqnarray*}
-&&  0! = 1 \\\\
-&&  n! = n \cdot(n-1)!
-\end{eqnarray*}
+$$
+0! = 1 \\
+n! = n \cdot(n-1)!
+$$
 Don't confuse the mathematical symbol $!$, which means *factorial*, with the Java operator `!`, which means *not*.
 This definition says that `factorial(0)` is `1`, and that `factorial(n)` is `n * factorial(n - 1)`.
 

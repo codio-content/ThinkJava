@@ -192,15 +192,15 @@ Some processors even provide a hardware implementation of this operation for flo
 1.  Write a `main` method that tests `multadd` by invoking it with a few simple parameters, like `1.0, 2.0, 3.0`.
 
 1.  Also in `main`, use `multadd` to compute the following values:
-\begin{eqnarray*}
-& \sin \frac{\pi}{4} + \frac{\cos \frac{\pi}{4}}{2} & \\\\
-& \log 10 + \log 20 &
-\end{eqnarray*}
+$$
+\sin \frac{\pi}{4} + \frac{\cos \frac{\pi}{4}}{2} & <br/>
+\log 10 + \log 20
+$$
 
 1.  Write a method called `expSum` that takes a double as a parameter and that uses `multadd` to calculate:
-\begin{eqnarray*}
+$$
 x e^{-x} + \sqrt{1 - e^{-x}}
-\end{eqnarray*}
+$$
 *Hint:* The method for raising $e$ to a power is `Math.exp`.
 
 

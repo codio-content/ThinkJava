@@ -16,9 +16,9 @@ Consider the first verse of the song “99 Bottles of Beer”:
 
 
 
-> 99 bottles of beer on the wall,\\
-> 99 bottles of beer,\\
-> ya' take one down, ya' pass it around,\\
+> 99 bottles of beer on the wall,<br/>
+> 99 bottles of beer,<br/>
+> ya' take one down, ya' pass it around,<br/>
 > 98 bottles of beer on the wall.
 
 
@@ -26,9 +26,9 @@ Subsequent verses are identical except that the number of bottles gets smaller b
 
 
 
-> No bottles of beer on the wall,\\
-> no bottles of beer,\\
-> ya' can't take one down, ya' can't pass it around,\\
+> No bottles of beer on the wall,<br/>
+> no bottles of beer,<br/>
+> ya' can't take one down, ya' can't pass it around,<br/>
 > 'cause there are no more bottles of beer on the wall!
 
 
@@ -90,13 +90,13 @@ public static int prod(int m, int n) {
 
 The goal of this exercise is to translate a recursive definition into a Java method.
 The Ackermann function is defined for non-negative integers as follows:
-\begin{eqnarray*}
+$$
 A(m, n) = \begin{cases}
-              n+1 & \mbox{if } m = 0 \\\\
-        A(m-1, 1) & \mbox{if } m > 0 \mbox{ and } n = 0 \\\\
+              n+1 & \mbox{if } m = 0 \\
+        A(m-1, 1) & \mbox{if } m > 0 \mbox{ and } n = 0 \\
 A(m-1, A(m, n-1)) & \mbox{if } m > 0 \mbox{ and } n > 0
 \end{cases}
-\end{eqnarray*}
+$$
 
 Write a recursive method called `ack` that takes two `int`s as parameters and that computes and returns the value of the Ackermann function.
 

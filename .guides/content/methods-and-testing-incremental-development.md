@@ -20,7 +20,7 @@ At any point, if there is an error, you will know where to look.
 As an example, suppose you want to find the distance between two points, given by the coordinates $(x_1, y_1)$ and $(x_2, y_2)$.
 By the usual definition:
 
-\[ distance = \sqrt{(x_2 - x_1)^2 +(y_2 - y_1)^2} \]
+$ distance = \sqrt{(x_2 - x_1)^2 +(y_2 - y_1)^2} $
 
 The first step is to consider what a `distance` method should look like in Java.
 In other words, what are the inputs (parameters) and what is the output (return value)?

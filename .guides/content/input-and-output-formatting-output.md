@@ -96,4 +96,4 @@ In order words, it doesn't know what value to substitute for the %d.
 The bottom of the error indicates where to look: Example.java line 10.
 
 It might be difficult to see what's wrong, given that `inch` and `cm` are at the end of the `printf` statement.
-But if `inch` is 1 and `cm` is 2.54, the actual format string would be `"%d in = %f cm\\n12.54"`.
+But if `inch` is 1 and `cm` is 2.54, the actual format string would be `"%d in = %f cm\n12.54"`.

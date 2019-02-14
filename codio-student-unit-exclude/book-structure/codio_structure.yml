@@ -1,10 +1,14 @@
 workspace:
   directory: ThinkJava2
   tex: thinkjava.tex
+  #removes inline code examples that are full programs (they auto-generate code files)
+  removeTrinket: true
 metadata:
   hideMenu: false
   protectLayout: false
-  suppressPageNumbering: true
+refs:
+  #Offsets chapter numbering to match physical book
+  chapter_counter_from: 0
 assets:
   - code
   - figs: "*.png"
@@ -60,6 +64,7 @@ sections:
         files:
             - path: "#tabs"
               action: close
+# Chapter 1
   - name: Computer programming
     type: chapter
     configuration:
@@ -84,20 +89,20 @@ sections:
   - name: The hello world program
     type: section
     transformations:
-        - remove: 24
+        - remove: 1
           position: 87
         - add:  |
              See the example java code in the top-left pane.
              To compile and run the code, press the "Run!"
              {Run!}(javac code/HelloWorld.java && java code/HelloWorld)
      
-          position: 111
+          position: 105
     configuration:
       layout: 2-panels
       files:
         - path: "#tabs"
           action: close
-        - path: "code/HelloWorld.java"
+        - path: "code/Hello.java"
           panel: 0
           action: open
   - name: Compiling Java programs
@@ -112,7 +117,7 @@ sections:
       files:
         - path: "#tabs"
           action: close
-        - path: "code/HelloWorld.java"
+        - path: "code/Hello.java"
           panel: 0
           action: open
         - path: "#terminal: "
@@ -121,22 +126,22 @@ sections:
   - name: Displaying two messages
     type: section
     transformations:
-        - remove: 12
+        - remove: 1
           position: 273
         - add: |
                For example, take a look at Hello2.java in the top-left pane which displays more than one line of output.
                To compile and run the code, press the "Run!"
                {Run!}(javac code/Hello2.java && java code/Hello2)
        
-          position: 273
-        - remove: 15
+          position: 274
+        - remove: 1
           position: 301
         - add: |
                For example, take a look at Goodbye.java in the bottom-left pane which uses `print` instead of `println` to avoid the newling at the end.
                To compile and run the code, press the "Run!"
                {Run!}(javac code/Goodbye.java && java code/Goodbye)
        
-          position: 301
+          position: 302
     configuration:
       layout: 3-cell
       files:
@@ -150,16 +155,37 @@ sections:
           action: open
   - name: Formatting source code
     type: section
+    transformations:
+        - remove: 1
+          position: 338
+        - add: |
+               For example, the program in the top-left pane, `Goodbye2.java` *is* legal.
+               To compile and run the code, press the "Run!"
+               {Run!}(javac code/Goodbye2.java && java code/Goodbye2)
+    
+          position: 339
+        - remove: 1
+          position: 350
+        - add: |
+               For example, we could write the same program like the example `Goodbye3.java` in the bottom-left pane.
+               To compile and run the code, press the "Run!"
+               {Run!}(javac code/Goodbye3.java && java code/Goodbye3)
+    
+          position: 351
     configuration:
-      layout: 1-panel
+      layout: 3-cell
       files:
           - path: "#tabs"
             action: close
+          - path: "code/Goodbye2.java"
+            panel: 0
+            action: open
+          - path: "code/Goodbye3.java"
+            panel: 1
+            action: open
   - name: Escape sequences
     type: section
     transformations:
-        - remove: 8
-          position: 396
         - add:  |
              See the example java code in the left panel.
              To compile and run the code, press the "Run!"
@@ -206,6 +232,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
+# Chapter 2
   - name: Variables and operators
     type: chapter
   - name: Declaring variables
@@ -574,7 +601,7 @@ sections:
     type: section
   - name: Break and continue
     type: section
-    
+#inserting exercises on seperate pages so that they are cherry-pick-able
 insert_sections:
   - name: Exercises 2.1
     type: section

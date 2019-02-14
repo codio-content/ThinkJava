@@ -28,7 +28,7 @@ For example, it should display `"24.0 C = 75.2 F"`.
 
 Here is the formula.
 Be careful not to use integer division!
-\[ F = C \times \frac{9}{5} + 32 \]
+$ F = C \times \frac{9}{5} + 32 $
 
 
 

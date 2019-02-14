@@ -13,13 +13,12 @@
       "content-file": ".guides/content/preface.md",
       "files": [
         {
-          "action": "open",
-          "panel": 0,
-          "path": "code/ch03/GuessSoln.java"
+          "action": "close",
+          "path": "#tabs"
         }
       ],
       "id": "preface",
-      "layout": "2-panels",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -30,8 +29,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/preface-the-philosophy-behind-the-book.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "preface-the-philosophy-behind-the-book",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -42,8 +47,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/preface-object-oriented-programming.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "preface-object-oriented-programming",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -54,8 +65,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/preface-changes-to-the-2nd-edition.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "preface-changes-to-the-2nd-edition",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -66,8 +83,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/preface-about-the-appendixes.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "preface-about-the-appendixes",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -78,8 +101,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/preface-using-the-code-examples.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "preface-using-the-code-examples",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -90,8 +119,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/preface-contributors-over-the-years.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "preface-contributors-over-the-years",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -102,8 +137,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/computer-programming.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "computer-programming",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -114,8 +155,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-what-is-a-computer-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "computer-programming-what-is-a-computer-",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -126,8 +173,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-what-is-programming-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "computer-programming-what-is-programming-",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -138,8 +191,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-the-hello-world-program.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/HelloWorld.java"
+        }
+      ],
       "id": "computer-programming-the-hello-world-program",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -150,8 +214,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-compiling-java-programs.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/HelloWorld.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "computer-programming-compiling-java-programs",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -162,8 +242,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-displaying-two-messages.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Hello2.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/Goodbye.java"
+        }
+      ],
       "id": "computer-programming-displaying-two-messages",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -174,8 +270,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-formatting-source-code.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "computer-programming-formatting-source-code",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -186,8 +288,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-escape-sequences.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Hello3.java"
+        }
+      ],
       "id": "computer-programming-escape-sequences",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -198,8 +311,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-what-is-computer-science-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "computer-programming-what-is-computer-science-",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -210,8 +329,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-debugging-programs.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "computer-programming-debugging-programs",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -222,8 +347,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "computer-programming-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -234,8 +365,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "computer-programming-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],

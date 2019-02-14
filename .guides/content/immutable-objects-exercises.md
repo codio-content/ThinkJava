@@ -22,13 +22,13 @@ What is the type of the result?
 1.  Make a bigger copy of the following table and fill it in.
 At the intersection of each pair of types, you should indicate whether it is legal to use the `+` operator with these types, what operation is performed (addition or concatenation), and what the type of the result is.
 
-|&  boolean | ~char~ | ~~int ~ | double | String \\\\ \hline|
+|&  boolean |  char  |  ~int ~ | double | String <br/> \hline|
 |-|-|-|-|-|
-|boolean|         |        |         |        |        \\\\ \hline|
-|char   |         |        |         |        |        \\\\ \hline|
-|int    |         |        |         |        |        \\\\ \hline|
-|double |         |        |         |        |        \\\\ \hline|
-|String |         |        |         |        |        \\\\ \hline|
+|boolean|         |        |         |        |        <br/> \hline|
+|char   |         |        |         |        |        <br/> \hline|
+|int    |         |        |         |        |        <br/> \hline|
+|double |         |        |         |        |        <br/> \hline|
+|String |         |        |         |        |        <br/> \hline|
 
 
 1.  Think about some of the choices the designers of Java made, based on this table.
@@ -124,7 +124,7 @@ But don't use `BigInteger.pow`; that would spoil the fun.
 
 One way to calculate $e^x$ is to use the following infinite series expansion.
 The $i$th term in the series is $x^i / i!$.
-\[ e^x = 1 + x + x^2 / 2! + x^3 / 3! + x^4 / 4! + \ldots \]
+$ e^x = 1 + x + x^2 / 2! + x^3 / 3! + x^4 / 4! + \ldots $
 
 
 1.  Write a method called `myexp` that takes `x` and `n` as parameters and estimates $e^x$ by adding the first `n` terms of this series.
@@ -142,7 +142,7 @@ The output should look something like:
 1.0     2.708333333333333     2.718281828459045
 ```
 
-You can use the escape sequence `"\\t"` to put a tab character between columns of a table.
+You can use the escape sequence `"<br/>t"` to put a tab character between columns of a table.
 
 1.  Vary the number of terms in the series (the second argument that `check` sends to `myexp`) and see the effect on the accuracy of the result.
 Adjust this value until the estimated value agrees with the correct answer when `x` is 1.

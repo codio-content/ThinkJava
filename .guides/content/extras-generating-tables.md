@@ -44,7 +44,7 @@ The output of this program is:
 `Math.log` computes natural logarithms, that is, logarithms base $e$.
 For computer science applications, we often want logarithms with respect to base 2.
 To compute them, we can apply this equation:
-\[ \log_2 x = \frac{log_e x}{log_e 2} \]
+$ \log_2 x = \frac{log_e x}{log_e 2} $
 We can modify the loop as follows:
 
 ```code

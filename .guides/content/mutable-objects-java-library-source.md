@@ -17,8 +17,8 @@ In the paths below, you'll need to replace “`...`” with the version number.
 
 
 *  On Linux, it's likely under: `/usr/lib/jvm/openjdk-.../`
-\\ If not, then install the `openjdk-...-source` package.
-*  On MacOS, it's likely under: \\\\ `/Library/Java/JavaVirtualMachines/jdk.../Contents/Home/`
+<br/> If not, then install the `openjdk-...-source` package.
+*  On MacOS, it's likely under: <br/> `/Library/Java/JavaVirtualMachines/jdk.../Contents/Home/`
 *  On Windows, it's likely under: `C:\Program Files\Java\jdk...\`
 
 

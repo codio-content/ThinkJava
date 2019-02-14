@@ -36,7 +36,7 @@ The multiplication happens first, yielding `660 + 59`.
 Then the addition yields `719`.
 
 Addition, subtraction, and multiplication all do what you expect, but you might be surprised by division.
-For example, the following fragment tries to compute the fraction of an hour that has elapsed:%, but it has a logic error:
+For example, the following fragment tries to compute the fraction of an hour that has elapsed:
 
 ```code
 System.out.print("Fraction of the hour that has passed: ");

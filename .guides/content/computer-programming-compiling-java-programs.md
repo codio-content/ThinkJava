@@ -48,6 +48,7 @@ Figure **2.3** shows the steps of the development process.
 The Java compiler is a program named `javac`.
 It translates `.java` files into `.class` files that store the resulting byte code.
 The Java interpreter is a program named `java`, which is short for “Java Virtual Machine” (JVM).
+Try it out by typing `javac code/HelloWorld.java` into the terminal in the bottom-left pane and pressing Enter.
 
 ![Figure 2.3 The process of compiling and running a Java program.](figs/compiler.jpg)
 
@@ -57,6 +58,7 @@ The programmer writes source code in the file `Hello.java` and uses `javac` to c
 If there are no errors, the compiler saves the byte code in the file `Hello.class`.
 To run the program, the programmer uses `java` to interpret the byte code.
 The result of the program is then displayed on the screen.
+Try it out by typing `java code/HelloWorld` into the terminal in the bottom-left pane and pressing Enter.
 
 Although it might seem complicated, these steps are automated for you in most program development environments.
 Usually you only have to press a button or type a single command to compile and run your program.

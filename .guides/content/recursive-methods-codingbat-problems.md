@@ -16,13 +16,12 @@ The first problem is available at [http://codingbat.com/prob/p118230](http://cod
 
 
 
-> **Recursion-1 ~noX**
+> **Recursion-1  noX**
 > 
 > Given a string, compute recursively a new string where all the 'x' chars have been removed.
 > 
-> \ttfamily
-> noX("xaxb") $\rightarrow$ "ab" \\\\
-> noX("abc") $\rightarrow$ "abc" \\\\
+> noX("xaxb") $\rightarrow$ "ab" <br/>
+> noX("abc") $\rightarrow$ "abc" <br/>
 > noX("xx") $\rightarrow$ ""
 
 
@@ -60,13 +59,12 @@ The second problem is available at [http://codingbat.com/prob/p135988](http://co
 
 
 
-> **Recursion-1 ~array11**
+> **Recursion-1  array11**
 > 
 > Given an array of ints, compute recursively the number of times that the value 11 appears in the array.
 > 
-> \ttfamily
-> array11([1, 2, 11], 0) $\rightarrow$ 1 \\\\
-> array11([11, 11], 0) $\rightarrow$ 2 \\\\
+> array11([1, 2, 11], 0) $\rightarrow$ 1 <br/>
+> array11([11, 11], 0) $\rightarrow$ 2 <br/>
 > array11([1, 2, 3, 4], 0) $\rightarrow$ 0
 
 
