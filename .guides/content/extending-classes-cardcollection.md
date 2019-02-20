@@ -1,6 +1,3 @@
-###  CardCollection
-
-
 To implement *Crazy Eights*, we need to represent a deck of cards, a discard pile, a draw pile, and a hand for each player.
 And we need to be able to deal, draw, and discard cards.
 
@@ -117,7 +114,7 @@ public void swapCards(int i, int j) {
 }
 ```
 
-We use `swapCards` to implement `shuffle`, which we described in Section **14.2**:
+We use `swapCards` to implement `shuffle`, which we described in Section 0.2:
 
 ```code
 public void shuffle() {

@@ -1,7 +1,3 @@
-###  Rounding errors
-
-
-
 Most floating-point numbers are only *approximately* correct.
 Some numbers, like reasonably-sized integers, can be represented exactly.
 But repeating fractions, like $1/3$, and irrational numbers, like $\pi$, cannot.

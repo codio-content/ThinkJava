@@ -1,8 +1,3 @@
-###  Vocabulary
-
-
-
-
 **boolean**
 
 A data type with only two possible values, `true` and `false`.

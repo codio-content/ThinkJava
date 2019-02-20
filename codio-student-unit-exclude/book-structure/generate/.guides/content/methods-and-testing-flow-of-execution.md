@@ -1,7 +1,3 @@
-###  Flow of execution
-
-
-
 When you look at a class definition that contains several methods, it is tempting to read it from top to bottom.
 But that is *not* the **flow of execution**, or the order the program actually runs.
 The `NewLine` program runs methods in the opposite order than they are listed.

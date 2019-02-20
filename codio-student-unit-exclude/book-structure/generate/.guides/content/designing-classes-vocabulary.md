@@ -1,8 +1,3 @@
-###  Vocabulary
-
-
-
-
 **class**
 
 Previously, we defined a class as a collection of related methods.

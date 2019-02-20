@@ -1,8 +1,3 @@
-###  Vocabulary
-
-
-
-
 **package**
 
 A directory of classes that are related to each other.

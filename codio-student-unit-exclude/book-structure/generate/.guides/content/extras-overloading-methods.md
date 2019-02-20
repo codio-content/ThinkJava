@@ -1,6 +1,3 @@
-###  Overloading methods
-
-
 You might have noticed that `circleArea` and `calculateArea` perform similar functions.
 They both find the area of a circle, but they take different parameters.
 For `calculateArea`, we have to provide the radius; for `circleArea` we provide two points.

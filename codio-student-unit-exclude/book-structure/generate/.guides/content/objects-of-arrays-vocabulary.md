@@ -1,8 +1,3 @@
-###  Vocabulary
-
-
-
-
 **pseudocode**
 
 A way of designing programs by writing rough drafts in a combination of English and Java.

@@ -1,6 +1,3 @@
-###  Dealing cards
-
-
 To begin the game, we need to deal cards to each of the players.
 And during the game, we need to move cards between hands and piles.
 If we add the following method to `CardCollection`, it can meet both of these requirements.

@@ -1,8 +1,3 @@
-###  Vocabulary
-
-
-
-
 **encode**
 
 To represent one set of values using another set of values by constructing a mapping between them.

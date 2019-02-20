@@ -1,8 +1,5 @@
-###  Debugging programs
-
-
 It is a good idea to read this book in front of a computer so you can try out the examples as you go.
-You can run many of the examples directly in DrJava's Interactions Pane (see Appendix **16.2**).
+You can run many of the examples directly in DrJava's Interactions Pane (see Appendix 0.2).
 But if you put the code in a source file, it will be easier to try out variations.
 
 

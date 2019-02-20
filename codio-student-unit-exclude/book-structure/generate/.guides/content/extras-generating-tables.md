@@ -1,7 +1,3 @@
-###  Generating tables
-
-
-
 Before computers were readily available, people had to calculate logarithms, sines and cosines, and other common mathematical functions by hand.
 To make that easier, there were books of tables where you could look up values of various functions.
 Creating these tables by hand was slow and boring, and the results were often full of errors.

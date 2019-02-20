@@ -1,6 +1,3 @@
-###  Vocabulary
-
-
 Throughout the book, we try to define each term the first time we use it.
 At the end of each chapter, we include the new terms and their definitions in order of appearance.
 If you spend some time learning this vocabulary, you will have an easier time reading the following chapters.

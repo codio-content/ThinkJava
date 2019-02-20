@@ -1,7 +1,3 @@
-###  Objects as parameters
-
-
-
 You can pass objects as parameters in the usual way.
 For example:
 
@@ -14,7 +10,7 @@ public static void printPoint(Point p) {
 This method takes a point as an argument and displays its attributes in parentheses.
 If you invoke `printPoint(blank)`, it displays `(3, 4)`.
 
-As another example, we can rewrite the `distance` method from Section **5.8** so that it takes two `Point`s as parameters instead of four `double`s.
+As another example, we can rewrite the `distance` method from Section 0.8 so that it takes two `Point`s as parameters instead of four `double`s.
 
 ```code
 public static double distance(Point p1, Point p2) {

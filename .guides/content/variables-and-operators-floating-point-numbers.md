@@ -1,7 +1,3 @@
-###  Floating-point numbers
-
-
-
 A more general solution is to use **floating-point** numbers, which can represent fractions as well as integers.
 In Java, the default floating-point type is called `double`, which is short for double-precision.
 You can create `double` variables and assign values to them the same way we did for the other types:

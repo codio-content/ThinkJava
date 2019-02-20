@@ -1,7 +1,3 @@
-###  Merging decks
-
-
-
 The next helper method we need is `merge`, which takes two sorted subdecks and returns a new deck containing all cards from both decks, in order.
 Here's what the algorithm looks like in pseudocode, assuming the subdecks are named `d1` and `d2`:
 

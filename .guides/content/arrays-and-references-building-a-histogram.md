@@ -1,7 +1,3 @@
-###  Building a histogram
-
-
-
 If these values were exam scores -- and they would be pretty bad exam scores in that case -- the teacher might present them to the class in the form of a **histogram**.
 In statistics, a histogram is a set of counters that keeps track of the number of times each value appears.
 

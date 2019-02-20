@@ -107,10 +107,30 @@
      "type": "page"
     },
     {
+     "children": [
+      {
+       "id": "computer-programming-exercises-2-1",
+       "pageId": "computer-programming-exercises-2-1",
+       "title": "Exercises 2.1",
+       "type": "page"
+      },
+      {
+       "id": "computer-programming-exercises-2-2",
+       "pageId": "computer-programming-exercises-2-2",
+       "title": "Exercises 2.2",
+       "type": "page"
+      },
+      {
+       "id": "computer-programming-exercises-2-3",
+       "pageId": "computer-programming-exercises-2-3",
+       "title": "Exercises 2.3",
+       "type": "page"
+      }
+     ],
      "id": "computer-programming-exercises",
      "pageId": "computer-programming-exercises",
      "title": "Exercises",
-     "type": "page"
+     "type": "section"
     }
    ],
    "id": "computer-programming",

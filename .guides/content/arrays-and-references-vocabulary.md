@@ -1,8 +1,3 @@
-###  Vocabulary
-
-
-
-
 **array**
 
 A collection of values, where all the values have the same type, and each value is identified by an index.

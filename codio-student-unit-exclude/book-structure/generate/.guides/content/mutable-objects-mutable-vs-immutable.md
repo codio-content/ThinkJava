@@ -1,7 +1,3 @@
-###  Mutable vs immutable
-
-
-
 `Point`s and `Rectangle`s are **mutable** objects, because their attributes can be modified.
 You can modify their attributes directly, like `box.x = 15`, or you can invoke methods that modify their attributes, like `box.translate(15, 0)`.
 
@@ -13,17 +9,7 @@ For example, two strings that contain the same contents can be stored in memory 
 The Java compiler automatically detects this situation:
 
 
-```code
-public class Surprise {
-    public static void main(String[] args) {
-        String s1 = "Hi, Mom!";
-        String s2 = "Hi, " + "Mom!";
-        if (s1 == s2) {  // true!
-            System.out.println("s1 and s2 are the same");
-        }
-    }
-}
-```
+
 
 In this example, `s1` and `s2` represent the *same* string, even though they are created differently.
 Because strings are immutable, the compiler decides to reuse a single object for both `s1` and `s2`.
@@ -41,21 +27,7 @@ Strings are particularly inefficient when you need to concatenate them multiple 
 Consider the following program that inputs ten lines from `System.in` and concatenates them into a single `String`.
 
 
-```code
-import java.util.Scanner;
-public class Append {
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.println("Enter 10 lines:");
-        String text = "";
-        for (int i = 0; i < 10; i++) {
-            String line = in.nextLine();        // new string
-            text = text + line + '\n';    // two more strings
-        }
-        System.out.print("You entered:\n" + text);
-    }
-}
-```
+
 
 Each time that `in.nextLine()` is invoked, it returns a new string.
 The next line of code performs `text + line`, which creates another string, and then appends the newline character, which creates yet another string.

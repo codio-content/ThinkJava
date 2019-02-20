@@ -1,8 +1,4 @@
-###  Command-line testing
-
-
-
-As described in Section **2.9**, it's more effective to program and debug your code little by little than to attempt writing everything all at once.
+As described in Section 0.9, it's more effective to program and debug your code little by little than to attempt writing everything all at once.
 And after you've completed programming an algorithm, it's important to test that it works correctly on a variety of inputs.
 
 Throughout the book, we illustrate techniques for testing your programs.
@@ -70,7 +66,7 @@ Usually the program is at fault, and `diff` provides some insight about what is 
 But there's also a chance that we have a correct program and the expected output is wrong.
 
 Interpreting the results from `diff` can be confusing, but fortunately there are many graphical tools that show the differences between two files.
-For example, on Windows you can install `WinMerge`, on Mac you can use `opendiff` (which comes with Xcode), and on Linux there's `meld`, shown in Figure **16.4**.
+For example, on Windows you can install `WinMerge`, on Mac you can use `opendiff` (which comes with Xcode), and on Linux there's `meld`, shown in Figure 0.4.
 
 Regardless of what tool you use, the goal is the same.
 Debug your program until the actual output is *identical* to the expected output.

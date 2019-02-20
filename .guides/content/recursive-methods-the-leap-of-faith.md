@@ -1,7 +1,3 @@
-###  The leap of faith
-
-
-
 Following the flow of execution is one way to read programs, but it can quickly become overwhelming.
 An alternative way to understand recursion is the **leap of faith**:
 when you come to a method invocation, instead of following the flow of execution, you *assume* that the method works correctly and returns the appropriate value.
@@ -11,7 +7,7 @@ When you invoke `Math.cos` or `System.out.println`, you don't examine or think a
 You just assume that they work properly.
 
 The same is true of other methods.
-For example, consider the method from Section **6.7** that determines whether an integer has only one digit:
+For example, consider the method from Section 0.7 that determines whether an integer has only one digit:
 
 ```code
 public static boolean isSingleDigit(int x) {

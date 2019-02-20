@@ -1,7 +1,3 @@
-###  The for statement
-
-
-
 The loops we have written so far have several elements in common.
 They start by initializing a variable, they have a condition that depends on that variable, and inside the loop they do something to update that variable.
 
@@ -33,7 +29,7 @@ Otherwise, the body of the loop is executed (again).
 
 The `for` loop is often easier to read because it puts all the loop-related statements at the top of the loop.
 Doing so allows you to focus on the statements in the loop body.
-Figure **7.2** illustrates `for` loops with a flowchart.
+Figure 0.2 illustrates `for` loops with a flowchart.
 
 ![Figure 7.2 Flow of execution for a `for` loop.](figs/for.jpg)
 

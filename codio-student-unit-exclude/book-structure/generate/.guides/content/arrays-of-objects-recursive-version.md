@@ -1,7 +1,3 @@
-###  Recursive version
-
-
-
 Another way to write a binary search is with a recursive method.
 The trick is to write a method that takes `low` and `high` as parameters, and turn steps 3 and 4 into recursive invocations.
 Here's what that code looks like:

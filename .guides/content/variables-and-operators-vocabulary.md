@@ -1,8 +1,3 @@
-###  Vocabulary
-
-
-
-
 **variable**
 
 A named storage location for values.

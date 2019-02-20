@@ -1,7 +1,3 @@
-###  The do-while loop
-
-
-
 The `while` and `for` statements are **pretest loops**; that is, they test the condition first and at the beginning of each pass through the loop.
 
 
@@ -9,7 +5,7 @@ Java also provides a **posttest loop**: the `do`-`while` statement.
 This type of loop is useful when you need to run the body of the loop at least once.
 
 
-For example, in Section **6.8** we used the `return` statement to avoid reading invalid input from the user.
+For example, in Section 0.8 we used the `return` statement to avoid reading invalid input from the user.
 We can use a `do`-`while` loop to keep reading input until it's valid:
 
 ```code

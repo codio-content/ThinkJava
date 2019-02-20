@@ -1,7 +1,3 @@
-###  Boolean methods
-
-
-
 Methods can return `boolean` values, just like any other type, which is often convenient for hiding tests inside methods.
 For example:
 

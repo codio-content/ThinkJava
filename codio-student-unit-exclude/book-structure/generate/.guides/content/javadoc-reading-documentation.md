@@ -1,11 +1,6 @@
-###  Reading documentation
-
-
-
-
-As an example, let's look at the documentation for `Scanner`, a class we first used in Section 4.2.
+As an example, let's look at the documentation for `Scanner`, a class we first used in Section 0.2.
 You can find the documentation quickly by doing a web search for “Java Scanner”.
-Figure 17.1 shows a screenshot of the page.
+Figure 0.1 shows a screenshot of the page.
 
 ![Figure 17.1 Screenshot of the documentation for `Scanner`.](figs/scanner.png)
 

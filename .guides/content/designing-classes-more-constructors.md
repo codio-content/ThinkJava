@@ -1,7 +1,3 @@
-###  More constructors
-
-
-
 Like other methods, constructors can be overloaded, which means you can provide multiple constructors with different parameters.
 Java knows which constructor to invoke by matching the arguments you provide with the parameters of the constructor.
 
@@ -36,24 +32,3 @@ You can write them quickly just by looking at the list of instance variables.
 In fact, some IDEs can generate them for you.
 
 Pulling it all together, here is the complete class definition so far:
-
-
-```code
-public class Time {
-    private int hour;
-    private int minute;
-    private double second;
-
-    public Time() {
-        this.hour = 0;
-        this.minute = 0;
-        this.second = 0.0;
-    }
-
-    public Time(int hour, int minute, double second) {
-        this.hour = hour;
-        this.minute = minute;
-        this.second = second;
-    }
-}
-```

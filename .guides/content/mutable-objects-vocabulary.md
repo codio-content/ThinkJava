@@ -1,8 +1,3 @@
-###  Vocabulary
-
-
-
-
 **attribute**
 
 One of the named data items that make up an object.

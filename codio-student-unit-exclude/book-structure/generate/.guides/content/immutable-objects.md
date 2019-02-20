@@ -1,13 +1,9 @@
-##  Immutable objects
-
-
-
 Java is an “object-oriented” language, which means that it uses objects to represent data *and* provide methods related to them.
 This way of organizing programs is a powerful design concept, and we will introduce it gradually throughout the remainder of the book.
 
 
 An **object** is a collection of data that provides a set of methods.
-For example, `Scanner`, which we saw in Section 4.2, is an object that provides methods for parsing input.
+For example, `Scanner`, which we saw in Section 0.2, is an object that provides methods for parsing input.
 `System.out` and `System.in` are also objects.
 
 Strings are objects, too.

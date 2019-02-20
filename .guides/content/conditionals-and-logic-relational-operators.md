@@ -1,7 +1,3 @@
-###  Relational operators
-
-
-
 Java has six **relational operators** that test the relationship between two values (e.g., whether they are equal, or whether one is greater than the other).
 The following expressions show how they are used:
 

@@ -1,6 +1,3 @@
-###  Parameters and arguments
-
-
 Some of the methods we have used require arguments, which are the values you provide in parentheses when you invoke the method.
 
 For example, the `Math.sin` method takes a `double` argument.
@@ -14,19 +11,7 @@ When you define a method, you name the **parameters**, which are variables that 
 The following class shows an example:
 
 
-```code
-public class PrintTwice {
 
-    public static void printTwice(String s) {
-        System.out.println(s);
-        System.out.println(s);
-    }
-
-    public static void main(String[] args) {
-        printTwice("Don't make me say this twice!");
-    }
-}
-```
 
 The `printTwice` method has a parameter named `s` with type `String`.
 When you invoke `printTwice`, you have to provide an argument with type `String`.
@@ -121,21 +106,3 @@ printTime(int 11, int 59);  // syntax error
 ```
 
 Pulling together the code fragments, here is the complete program:
-
-
-```code
-public class PrintTime {
-
-    public static void printTime(int hour, int minute) {
-        System.out.print(hour);
-        System.out.print(":");
-        System.out.println(minute);
-    }
-
-    public static void main(String[] args) {
-        int hour = 11;
-        int minute = 59;
-        printTime(hour, minute);
-    }
-}
-```

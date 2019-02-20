@@ -1,6 +1,3 @@
-###  Strings are immutable
-
-
 If the Java library didn't have a `String` class, we would have to use character arrays to store and manipulate text.
 Operations like concatenation (`+`), `indexOf`, and `substring` would be difficult and inconvenient.
 Fortunately, Java does have a `String` class that provides these and other methods.

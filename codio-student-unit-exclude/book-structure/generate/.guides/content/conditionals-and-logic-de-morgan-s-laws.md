@@ -1,6 +1,3 @@
-###  De Morgan's laws
-
-
 Sometimes you need to negate an expression containing a mix of relational and logical operators.
 For example, to test if `x` and `y` are both nonzero, you could write:
 

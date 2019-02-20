@@ -1,7 +1,3 @@
-###  Creating arrays
-
-
-
 An **array** is a sequence of values; the values in the array are called **elements**.
 You can make an array of `int`s, `double`s, `String`s, or any other type, but all the values in an array must have the same type.
 
@@ -16,7 +12,7 @@ double[] values;
 ```
 
 
-To create the array itself, you have to use the `new` operator, which we first saw in Section 4.2.
+To create the array itself, you have to use the `new` operator, which we first saw in Section 0.2.
 The `new` operator **allocates** memory for the array and automatically initializes all of its elements to zero.
 
 ```code

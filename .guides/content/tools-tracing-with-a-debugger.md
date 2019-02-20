@@ -1,7 +1,3 @@
-###  Tracing with a debugger
-
-
-
 A great way to visualize the flow of execution, including how parameters and arguments work, is to use a **debugger**.
 Most debuggers make it possible to:
 
@@ -20,7 +16,7 @@ These commands are also available from the **Debugger** menu, in case you forget
 
 
 When you run the program, execution pauses at the first breakpoint.
-The debug pane displays the **call stack**, with the current method on top of the stack, as shown in Figure **16.5**.
+The debug pane displays the **call stack**, with the current method on top of the stack, as shown in Figure 0.5.
 You might be surprised to see how many methods were called before the `main` method!
 
 ![Figure 16.5 \caption{Screenshot of the DrJava debugger.](figs/debugger.png)

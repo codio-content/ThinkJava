@@ -1,6 +1,3 @@
-###  Pure methods
-
-
 This implementation of `add` does not modify either of the parameters.
 Instead, it creates and returns a new `Time` object.
 Alternatively, we could have written a method like this:

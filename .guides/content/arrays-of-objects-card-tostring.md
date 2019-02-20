@@ -1,7 +1,3 @@
-###  Card toString
-
-
-
 When you create a new class, the first step is to declare the instance variables and write constructors.
 A good next step is to write `toString`, which is useful for debugging and incremental development.
 
@@ -23,14 +19,14 @@ suits[2] = "Hearts";
 suits[3] = "Spades";
 ```
 
-Or we can create the array and initialize the elements at the same time, as we saw in Section **8.3**:
+Or we can create the array and initialize the elements at the same time, as we saw in Section 0.3:
 
 ```code
 String[] suits = {"Clubs", "Diamonds", "Hearts", "Spades"};
 ```
 
 
-The memory diagram in Figure **13.1** shows the result.
+The memory diagram in Figure 0.1 shows the result.
 Each element of the array is a reference to a `String`.
 
 ![Figure 13.1 Memory diagram of an array of strings.](figs/stringarray.jpg)

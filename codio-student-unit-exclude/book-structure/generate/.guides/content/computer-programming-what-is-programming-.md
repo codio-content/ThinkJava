@@ -1,7 +1,3 @@
-###  What is programming?
-
-
-
 A **program** is a sequence of instructions that specifies how to perform a computation on computer hardware.
 The computation might be something mathematical, like solving a system of equations or finding the roots of a polynomial.
 It could also be a symbolic computation, like searching and replacing text in a document or (strangely enough) compiling a program.

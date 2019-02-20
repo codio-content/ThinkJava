@@ -1,8 +1,3 @@
-###  Declaring variables
-
-
-
-
 One of the most powerful features of a programming language is the ability to define and manipulate **variables**.
 A variable is a named location in memory that stores a **value**.
 Values may be numbers, text, images, sounds, and other types of data.

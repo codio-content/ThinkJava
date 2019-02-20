@@ -1,7 +1,3 @@
-###  String iteration
-
-
-
 The following loop iterates the characters in `fruit` and displays them, one on each line:
 
 ```code

@@ -1,6 +1,3 @@
-###  Literals and constants
-
-
 Although most of the world has adopted the metric system for weights and measures, some countries are stuck with Imperial units.
 For example, when talking with friends in Europe about the weather, people in the United States might have to convert from Celsius to Fahrenheit and back.
 Or they might want to convert height in inches to centimeters.

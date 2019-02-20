@@ -1,8 +1,5 @@
-###  Exercises
-
-
 The code for this chapter is in the `ch09` directory of `ThinkJavaCode2`.
-See page in section **Using the code examples** for instructions on how to download the repository.
+See page in section Using the code examples for instructions on how to download the repository.
 Before you start the exercises, we recommend that you compile and run the examples.
 
 
@@ -53,10 +50,10 @@ The goal of this exercise is to practice encapsulation and generalization using 
 
 
 
-1.  Starting with the code in Section **8.5**, write a method called `powArray` that takes a `double` array, `a`, and returns a new array that contains the elements of `a` squared.
+1.  Starting with the code in Section 0.5, write a method called `powArray` that takes a `double` array, `a`, and returns a new array that contains the elements of `a` squared.
 Generalize it to take a second argument and raise the elements of `a` to the given power.
 
-1.  Starting with the code in Section **8.8**, write a method called `histogram` that takes an `int` array of scores from 0 to (but not including) 100, and returns a histogram of 100 counters.
+1.  Starting with the code in Section 0.8, write a method called `histogram` that takes an `int` array of scores from 0 to (but not including) 100, and returns a histogram of 100 counters.
 Generalize it to take the number of counters as an argument.
 
 
@@ -128,7 +125,7 @@ $ e^x = 1 + x + x^2 / 2! + x^3 / 3! + x^4 / 4! + \ldots $
 
 
 1.  Write a method called `myexp` that takes `x` and `n` as parameters and estimates $e^x$ by adding the first `n` terms of this series.
-You can use the `factorial` method from Section **9.3** or your iterative version from the previous exercise.
+You can use the `factorial` method from Section 0.3 or your iterative version from the previous exercise.
 
 
 1.  You can make this method more efficient by observing that the numerator of each term is the same as its predecessor multiplied by `x`, and the denominator is the same as its predecessor multiplied by `i`.

@@ -1,7 +1,4 @@
-###  Static context
-
-
-Figure **14.3** lists the `Deck` methods we have so far.
+Figure 0.3 lists the `Deck` methods we have so far.
 In UML diagrams, `private` methods begin with a minus sign (`-`), and `static` methods are underlined.
 
 

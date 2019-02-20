@@ -1,7 +1,3 @@
-###  Other types of errors
-
-
-
 The second type of error is a **run-time error**, so-called because it does not appear until after the program has started running.
 In Java, these errors occur while the interpreter is executing byte code and something goes wrong.
 These errors are also called “exceptions” because they usually indicate that something unexpected has happened.
@@ -35,15 +31,7 @@ Instead, it will do exactly what you told it to do.
 For example, here is a version of the hello world program with a logic error:
 
 
-```code
-public class Hello {
 
-    public static void main(String[] args) {
-        System.out.println("Hello, ");
-        System.out.println("World!");
-    }
-}
-```
 
 This program compiles and runs just fine, but the output is:
 
@@ -53,7 +41,7 @@ World!
 ```
 
 Assuming that we wanted the output on one line, this is not correct.
-The problem is that the first line uses `println`, when we probably meant to use `print` (see the “goodbye world” example of Section goodbye).
+The problem is that the first line uses `println`, when we probably meant to use `print` (see the “goodbye world” example of Section 0.5).
 
 Identifying logic errors can be hard because you have to work backwards, looking at the output of the program, trying to figure out why it is doing the wrong thing, and how to make it do the right thing.
 Usually the compiler and the interpreter can't help you, since they don't know what the right thing is.

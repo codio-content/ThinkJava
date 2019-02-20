@@ -1,6 +1,3 @@
-###  Printing variables
-
-
 You can display the current value of a variable using `print` or `println`.
 The following statements declare a variable named `firstLine`, assign it the value `"Hello, again!"`, and display that value.
 

@@ -1,9 +1,3 @@
-###  The Scanner class
-
-
-
-
-
 The `System` class also provides the special value `System.in`, which is an `InputStream` that has methods for reading input from the keyboard.
 These methods are not convenient to use, but fortunately Java provides other classes that make it easy to handle common input tasks.
 
@@ -33,25 +27,7 @@ The `Scanner` class provides a method called `nextLine` that reads a line of inp
 The following example reads two lines and repeats them back to the user:
 
 
-```code
-import java.util.Scanner;
 
-public class Echo {
-
-    public static void main(String[] args) {
-        String line;
-        Scanner in = new Scanner(System.in);
-
-        System.out.print("Type something: ");
-        line = in.nextLine();
-        System.out.println("You said: " + line);
-
-        System.out.print("Type something else: ");
-        line = in.nextLine();
-        System.out.println("You also said: " + line);
-    }
-}
-```
 
 If you omit the import statement at the top of the file, you will get a compiler error saying “cannot find symbol”.
 That means the compiler doesn't know where to find the definition for `Scanner`.

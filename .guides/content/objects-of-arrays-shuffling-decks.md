@@ -1,9 +1,5 @@
-###  Shuffling decks
-
-
-
 For most card games, you need to be able to shuffle the deck; that is, put the cards in a random order.
-In Section **8.6** we saw how to generate random numbers, but it is not obvious how to use them to shuffle a deck.
+In Section 0.6 we saw how to generate random numbers, but it is not obvious how to use them to shuffle a deck.
 
 One possibility is to model the way humans shuffle, which is usually dividing the deck in two halves and then choosing alternately from each one.
 Since humans usually don't shuffle perfectly, after about seven iterations the order of the deck is pretty well randomized.

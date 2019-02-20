@@ -199,7 +199,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/HelloWorld.java"
+          "path": "code/Hello.java"
         }
       ],
       "id": "computer-programming-the-hello-world-program",
@@ -222,7 +222,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/HelloWorld.java"
+          "path": "code/Hello.java"
         },
         {
           "action": "open",
@@ -274,10 +274,20 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Goodbye2.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/Goodbye3.java"
         }
       ],
       "id": "computer-programming-formatting-source-code",
-      "layout": "1-panel",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2613,7 +2623,7 @@
       "type": "markdown"
     }
   ],
-  "suppressPageNumbering": true,
+  "suppressPageNumbering": false,
   "theme": "light",
   "useMarkAsComplete": true,
   "useSubmitButtons": true

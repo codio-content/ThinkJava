@@ -1,7 +1,3 @@
-##  Tools
-
-
-
 The steps for compiling, running, and debugging Java code depend on your development environment and operating system.
 We avoided putting these details in the main text, because they can be distracting.
 Instead, we provide this appendix with a brief introduction to DrJava -- an **integrated development environment** (IDE) that is helpful for beginners -- and other development tools, including Checkstyle for code quality and JUnit for testing.

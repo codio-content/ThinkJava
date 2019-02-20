@@ -1,7 +1,3 @@
-###  Composition
-
-
-
 You have probably learned to evaluate simple expressions like $\sin(\pi/2)$ and $\log(1/x)$.
 First, you evaluate the expression in parentheses, which is called the **argument** of the function.
 Then you can evaluate the function itself, either by hand or by punching it into a calculator.

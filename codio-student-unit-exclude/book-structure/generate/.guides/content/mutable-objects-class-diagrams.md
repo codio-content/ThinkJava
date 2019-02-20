@@ -1,6 +1,3 @@
-###  Class diagrams
-
-
 To summarize what we've learned so far, `Point` and `Rectangle` objects each have their own attributes and methods.
 Attributes are an object's *data*, and methods are an object's *code*.
 An object's *class* defines which attributes and methods it will have.
@@ -14,7 +11,7 @@ In practice, it's more convenient to look at high-level pictures than to examine
 **Figure 11.7 UML class diagrams for `Point` and `Rectangle`.**
 
 
-As shown in Figure 11.7, a **class diagram** is divided into two sections.
+As shown in Figure 0.7, a **class diagram** is divided into two sections.
 The top half lists the attributes, and the bottom half lists the methods.
 
 

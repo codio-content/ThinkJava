@@ -1,8 +1,3 @@
-###  Vocabulary
-
-
-
-
 **inheritance**
 
 The ability to define a new class that has the same instance variables and methods of an existing class.

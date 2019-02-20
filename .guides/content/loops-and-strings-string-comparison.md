@@ -1,7 +1,3 @@
-###  String comparison
-
-
-
 To compare two strings, it may be tempting to use the `==` and `!=` operators.
 
 ```code

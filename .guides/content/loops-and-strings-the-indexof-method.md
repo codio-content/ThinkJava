@@ -1,7 +1,3 @@
-###  The indexOf method
-
-
-
 To search for a specific character in a string, you could write a `for` loop and use `charAt` like in the previous section.
 However, the `String` class already provides a method for doing just that.
 
@@ -20,7 +16,7 @@ To find subsequent appearances, you can use another version of `indexOf`, which 
 int index = fruit.indexOf('a', 2);  // returns 3
 ```
 
-To visualize how `indexOf` and other `String` methods work, it helps to draw a picture like Figure **7.3**.
+To visualize how `indexOf` and other `String` methods work, it helps to draw a picture like Figure 0.3.
 The previous code starts at index 2 (the first `'n'`) and finds the next `'a'`, which is at index 3.
 
 

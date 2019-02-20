@@ -1,7 +1,3 @@
-###  Substrings
-
-
-
 The `substring` method returns a new string that copies letters from an existing string, starting at the given index.
 
 

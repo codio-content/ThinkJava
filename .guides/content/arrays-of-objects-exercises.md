@@ -1,15 +1,12 @@
-###  Exercises
-
-
 The code for this chapter is in the `ch12` directory of `ThinkJavaCode2`.
-See page in section **Using the code examples** for instructions on how to download the repository.
+See page in section Using the code examples for instructions on how to download the repository.
 Before you start the exercises, we recommend that you compile and run the examples.
 
 
 
 **Exercise 13.1:**
 
-Encapsulate the deck-building code from Section **13.6** in a method called `makeDeck` that takes no parameters and returns a fully-populated array of `Card`s.
+Encapsulate the deck-building code from Section 0.6 in a method called `makeDeck` that takes no parameters and returns a fully-populated array of `Card`s.
 
 
 
@@ -42,7 +39,7 @@ Your solution should only traverse the array once.
 **Exercise 13.4:**
 
 Working with cards is more interesting if you can display them on the screen.
-If you have not already read Appendix **18** about 2D graphics, you should read it before working on this exercise.
+If you have not already read Appendix 0 about 2D graphics, you should read it before working on this exercise.
 In the code directory for this chapter, `ch12`, you will find:
 
 

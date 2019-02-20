@@ -1,18 +1,15 @@
-###  Exercises
-
-
 The code for this chapter is in the `ch04` directory of `ThinkJavaCode2`.
 See page in section Using the code examples for instructions on how to download the repository.
 Before you start the exercises, we recommend that you compile and run the examples.
 
-If you have not already read Appendix 16.4, now might be a good time.
+If you have not already read Appendix 0.4, now might be a good time.
 It describes an efficient way to test programs that take input from the user and display specific output.
 
 
 **Exercise 5.1:**
 
 The purpose of this exercise is to take code from a previous exercise and redesign it as a method that takes parameters.
-You should start with a working solution to Exercise 3.2.
+You should start with a working solution to Exercise 0.2.
 
 
 

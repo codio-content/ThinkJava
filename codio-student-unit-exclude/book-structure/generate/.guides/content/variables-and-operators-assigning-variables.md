@@ -1,7 +1,3 @@
-###  Assigning variables
-
-
-
 Now that we have declared some variables, we can use them to store values.
 We do that with an **assignment** statement.
 

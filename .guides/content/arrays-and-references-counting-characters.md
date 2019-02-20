@@ -1,7 +1,4 @@
-###  Counting characters
-
-
-We now return to the example from the beginning of the chapter and present a solution to Exercise **7.5** using arrays.
+We now return to the example from the beginning of the chapter and present a solution to Exercise 0.5 using arrays.
 Here is the problem again:
 
 
@@ -11,7 +8,7 @@ Here is the problem again:
 > To ignore case, invoke the `toLowerCase` method before checking.
 
 
-Based on the approach from Section **8.7**, we will create an array of 26 integers to count how many times each letter appears.
+Based on the approach from Section 0.7, we will create an array of 26 integers to count how many times each letter appears.
 We convert the string to lowercase, so that we can treat `'A'` and `'a'` (for example) as the same latter.
 
 ```code
@@ -53,36 +50,8 @@ for (int count : counts) {
 return true;  // is a doubloon
 ```
 
-Like in Section **8.5**, we can return immediately if the inner condition is true (which, in this example, means that the word is not a doubloon).
+Like in Section 0.5, we can return immediately if the inner condition is true (which, in this example, means that the word is not a doubloon).
 If we make it all the way through the `for` loop, we know that all counts are 0 or 2.
 
 Pulling together the code fragments, and adding some comments and test cases, here is an entire program.
 It's amazing to think about how much you've learned in just seven chapters!
-
-
-```code
-public class Doubloon {
-
-    public static boolean isDoubloon(String s) {
-        // count the number of times each letter appears
-        int[] counts = new int[26];
-        String lower = s.toLowerCase();
-        for (char letter : lower.toCharArray()) {
-            int index = letter - 'a';
-            counts[index]++;
-        }
-        // determine whether the given word is a doubloon
-        for (int count : counts) {
-            if (count != 0 && count != 2) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(isDoubloon("Mama"));  // true
-        System.out.println(isDoubloon("Lama"));  // false
-    }
-}
-```

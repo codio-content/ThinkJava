@@ -1,7 +1,3 @@
-###  Validating input
-
-
-
 One of the most important tasks in any computer program is to **validate** input from the user.
 People often make mistakes while typing, especially on smartphones, and incorrect inputs may cause your program to fail.
 

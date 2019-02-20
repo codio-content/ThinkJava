@@ -1,6 +1,3 @@
-###  Unreachable code
-
-
 Sometimes it is convenient to write multiple `return` statements, for example, one in each branch of a conditional:
 
 ```code

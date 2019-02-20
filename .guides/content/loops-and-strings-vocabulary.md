@@ -1,8 +1,3 @@
-###  Vocabulary
-
-
-
-
 **loop**
 
 A statement that executes a sequence of statements repeatedly.

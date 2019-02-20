@@ -1,8 +1,3 @@
-###  Vocabulary
-
-
-
-
 **iterative**
 
 A method or algorithm that repeats steps using one or more loops.

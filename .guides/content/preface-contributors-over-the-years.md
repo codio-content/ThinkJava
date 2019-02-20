@@ -1,6 +1,3 @@
-###  Contributors over the years
-
-
 Many people have sent corrections and suggestions, and we appreciate their valuable feedback!
 This list begins with Version 4.0 of the open-source edition, so it omits those who contributed to earlier versions.
 

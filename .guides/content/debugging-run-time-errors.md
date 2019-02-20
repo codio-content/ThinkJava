@@ -1,6 +1,3 @@
-###  Run-time errors
-
-
 It's not always clear what causes a run-time error, but you can often figure things out by adding print statements to your program.
 
 
@@ -134,7 +131,7 @@ If either one is a parameter, go to the place where the method is invoked and se
 
 **StackOverflowError**
 
-See “Infinite recursion” on page in section **Run-time errors**.
+See “Infinite recursion” on page in section Run-time errors.
 
 
 

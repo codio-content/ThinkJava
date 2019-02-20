@@ -1,6 +1,3 @@
-###  Run-time errors
-
-
 It's not always clear what causes a run-time error, but you can often figure things out by adding print statements to your program.
 
 

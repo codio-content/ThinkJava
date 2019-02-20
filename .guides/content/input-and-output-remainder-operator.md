@@ -1,6 +1,3 @@
-###  Remainder operator
-
-
 Let's take the example one step further: suppose you have a measurement in inches and you want to convert to feet and inches.
 The goal is divide by 12 (the number of inches in a foot) and keep the remainder.
 

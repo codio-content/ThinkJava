@@ -1,7 +1,3 @@
-###  Logical operators
-
-
-
 In addition to the relational operators, Java also has three **logical operators**: `&&`, `||`, and `!`, which respectively stand for *and*, *or*, and *not*.
 The results of these operators are similar to their meanings in English.
 

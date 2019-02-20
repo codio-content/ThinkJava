@@ -1,7 +1,3 @@
-###  Logic errors
-
-
-
 ####  My program doesn't work.
 
 

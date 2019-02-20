@@ -1,8 +1,3 @@
-###  Vocabulary
-
-
-
-
 **AWT**
 
 The “Abstract Window Toolkit”, a Java package for creating graphical user interfaces.

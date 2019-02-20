@@ -1,7 +1,3 @@
-###  Compiler error messages
-
-
-
 Three kinds of errors can occur in a program: compile-time errors, run-time errors, and logic errors.
 It is useful to distinguish among them in order to track them down more quickly.
 
@@ -13,17 +9,9 @@ In the latter case, the program cannot be compiled, and the compiler displays an
 
 
 Error messages from the compiler usually indicate where in the program the error occurred, and sometimes they can tell you exactly what the error is.
-As an example, let's get back to the hello world program from Section **2.3**.
+As an example, let's get back to the hello world program from Section 0.3.
 
-```code
-public class Hello {
 
-    public static void main(String[] args) {
-        // generate some simple output
-        System.out.println("Hello, World!");
-    }
-}
-```
 
 
 If you forget the semicolon at the end of the print statement, you might get an error message like this:

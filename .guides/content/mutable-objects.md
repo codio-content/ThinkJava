@@ -1,7 +1,3 @@
-##  Mutable objects
-
-
-
 As you learned in the previous chapter, an object is a collection of data that provides a set of methods.
 For example, a `String` is a collection of characters that provides methods like `charAt` and `substring`.
 

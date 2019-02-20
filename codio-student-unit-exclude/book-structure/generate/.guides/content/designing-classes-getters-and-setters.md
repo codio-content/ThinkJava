@@ -1,6 +1,3 @@
-###  Getters and setters
-
-
 Recall that the instance variables of `Time` are `private`.
 We can access them from within the `Time` class, but if we try to access them from another class, the compiler reports an error.
 

@@ -1,8 +1,3 @@
-###  Defining new methods
-
-
-
-
 Some methods perform a computation and return a result.
 For example, `Math.sqrt(25)` returns the value `5.0`.
 Other methods (including `main`) carry out a sequence of actions, without returning a result.
@@ -10,20 +5,7 @@ Java uses the keyword `void` to define such methods.
 Here's a simple example:
 
 
-```code
-public class NewLine {
 
-    public static void newLine() {
-        System.out.println();
-    }
-
-    public static void main(String[] args) {
-        System.out.println("First line.");
-        newLine();
-        System.out.println("Second line.");
-    }
-}
-```
 
 
 The name of the class is `NewLine`.
@@ -53,24 +35,3 @@ Or we could write yet another method (named `threeLine`) that displays three bla
 
 In the following program, `main` invokes `threeLine`, and `threeLine` invokes `newLine` three times.
 Because `newLine` is in the same class as `threeLine`, we don't have to specify the class name like `NewLine.newLine()`.
-
-```code
-public class NewLine {
-
-    public static void newLine() {
-        System.out.println();
-    }
-
-    public static void threeLine() {
-        newLine();
-        newLine();
-        newLine();
-    }
-
-    public static void main(String[] args) {
-        System.out.println("First line.");
-        threeLine();
-        System.out.println("Second line.");
-    }
-}
-```

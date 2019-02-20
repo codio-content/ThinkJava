@@ -1,7 +1,3 @@
-###  Class variables
-
-
-
 So far we have seen local variables, which are declared inside a method, and instance variables, which are declared in a class definition, usually before the method definitions.
 Now it's time to learn about **class variables**.
 They are shared across all instances of the class.

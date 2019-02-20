@@ -1,6 +1,3 @@
-###  Adding recursion
-
-
 Now that we have a way to `merge` two decks, the real fun begins!
 The magical thing about merge sort is that it is inherently recursive.
 Take another look at the pseudocode for `almostMergeSort` in the previous section.
@@ -25,7 +22,7 @@ public Deck mergeSort() {
 ```
 
 
-As usual, there are two ways to think about recursive programs: you can think through the entire flow of execution, or you can make the “leap of faith” (see Section 9.4).
+As usual, there are two ways to think about recursive programs: you can think through the entire flow of execution, or you can make the “leap of faith” (see Section 0.4).
 This example should encourage you to make the leap of faith.
 
 When you used `selectionSort` to sort the subdecks, you didn't feel compelled to follow the flow of execution.

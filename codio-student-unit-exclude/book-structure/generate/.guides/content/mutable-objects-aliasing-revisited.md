@@ -1,10 +1,6 @@
-###  Aliasing revisited
-
-
-
 Remember that when you assign an object to a variable, you are assigning a *reference* to an object.
 It is possible to have multiple variables that refer to the same object.
-The memory diagram in Figure 11.5 shows the result.
+The memory diagram in Figure 0.5 shows the result.
 
 ```code
 Rectangle box1 = new Rectangle(0, 0, 100, 200);
@@ -28,7 +24,7 @@ System.out.println(box2.width);   // box2.width is 200
 
 The first line displays `100`, which is the width of the `Rectangle` referred to by `box2`.
 The second line invokes the `grow` method on `box1`, which stretches the `Rectangle` horizontally and vertically.
-The effect is shown in Figure 11.6.
+The effect is shown in Figure 0.6.
 
 ![Figure 11.6 Memory diagram showing the effect of invoking `grow`.](figs/aliasing2.jpg)
 

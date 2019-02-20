@@ -1,6 +1,3 @@
-###  Formatting source code
-
-
 In Java source code, some spaces are required.
 For example, you need at least one space between words, so this program is not legal:
 
@@ -15,31 +12,26 @@ publicclassGoodbye{
 ```
 
 But most other spaces are optional.
-For example, this program *is* legal:
+For example, the program in the top-left pane, `Goodbye2.java` *is* legal.
+To compile and run the code, press the "Run!"
+{Run!}(javac code/Goodbye2.java && java code/Goodbye2)
 
-```code
-public class Goodbye {
-public static void main(String[] args) {
-System.out.print("Goodbye, ");
-System.out.println("cruel world");
-}
-}
-```
+
+
 
 The newlines are optional, too.
-So we could just write:
+For example, we could write the same program like the example `Goodbye3.java` in the bottom-left pane.
+To compile and run the code, press the "Run!"
+{Run!}(javac code/Goodbye3.java && java code/Goodbye3)
 
-```code
-public class Goodbye { public static void main(String[] args)
-{ System.out.print("Goodbye, "); System.out.println
-("cruel world");}}
-```
+
+
 
 It still works, but the program is getting harder and harder to read.
 Newlines and spaces are important for organizing your program visually, making it easier to understand the program and find errors when they occur.
 
 Many editors will automatically format source code with consistent indenting and line breaks.
-For example, in DrJava (see Appendix 16.1) you can indent your code by selecting all text (**Ctrl+A**) and pressing the **Tab** key.
+For example, in DrJava (see Appendix 0.1) you can indent your code by selecting all text (**Ctrl+A**) and pressing the **Tab** key.
 
 
 

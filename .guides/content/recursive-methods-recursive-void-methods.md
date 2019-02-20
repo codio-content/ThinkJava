@@ -1,7 +1,3 @@
-###  Recursive void methods
-
-
-
 Consider the following example:
 
 ```code
@@ -48,7 +44,7 @@ So the total output looks like:
 Blastoff!
 ```
 
-As a second example, we'll rewrite the methods `newLine` and `threeLine` from Section **5.3**.
+As a second example, we'll rewrite the methods `newLine` and `threeLine` from Section 0.3.
 Here they are again:
 
 ```code

@@ -1,7 +1,3 @@
-##  Javadoc
-
-
-
 Java programs have three different types of comments:
 
 

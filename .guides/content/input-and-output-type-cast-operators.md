@@ -1,6 +1,3 @@
-###  Type cast operators
-
-
 Now suppose we have a measurement in centimeters, and we want to round it off to the nearest inch.
 It is tempting to write:
 

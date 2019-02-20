@@ -1,7 +1,3 @@
-###  Nested loops
-
-
-
 Like conditional statements, loops can be nested one inside the other.
 Nested loops allow you to iterate over two variables.
 For example, we can generate a “multiplication table” like this:

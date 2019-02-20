@@ -1,7 +1,3 @@
-###  Binary search
-
-
-
 When you look for a word in a dictionary, you don't just search page by page from front to back.
 Since the words are in alphabetical order, you probably use a **binary search** algorithm:
 

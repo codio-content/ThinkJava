@@ -1,7 +1,3 @@
-###  Tracing the code
-
-
-
 To see how binary search works, it's helpful to add the following print statement at the beginning of the loop:
 
 ```code

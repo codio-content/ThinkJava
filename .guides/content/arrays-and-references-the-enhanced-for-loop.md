@@ -1,6 +1,3 @@
-###  The enhanced for loop
-
-
 Since traversing arrays is so common, Java provides an alternative syntax that makes the code more compact.
 Consider a `for` loop that displays the elements of an array on separate lines:
 

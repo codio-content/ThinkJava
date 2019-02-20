@@ -1,7 +1,3 @@
-###  Subdecks
-
-
-
 The first step of merge sort is to split the deck into two subdecks, each with about half of the cards.
 So we need to write a method, `subdeck`, that takes a deck and a range of indexes.
 It returns a new deck that contains the specified subset of the cards.
@@ -26,7 +22,7 @@ Drawing a picture is usually the best way to avoid them.
 
 
 
-Figure 14.2 is a memory diagram of a subdeck with `low = 0` and `high = 4`.
+Figure 0.2 is a memory diagram of a subdeck with `low = 0` and `high = 4`.
 The result is a hand with five cards that are *shared* with the original deck; that is, they are aliased.
 
 ![Figure 14.2 Memory diagram showing the effect of `subdeck`.](figs/subdeck.jpg)

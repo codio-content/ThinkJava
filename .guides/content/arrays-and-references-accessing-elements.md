@@ -1,8 +1,5 @@
-###  Accessing elements
-
-
 When you create an array with the `new` operator, the elements are initialized to zero.
-Figure **8.1** shows a memory diagram of the `counts` array so far.
+Figure 0.1 shows a memory diagram of the `counts` array so far.
 
 ![Figure 8.1 Memory diagram of an `int` array.](figs/array.jpg)
 
@@ -34,7 +31,7 @@ counts[2]++;
 counts[3] -= 60;
 ```
 
-Figure **8.2** shows the result of these statements.
+Figure 0.2 shows the result of these statements.
 
 ![Figure 8.2 Memory diagram after several assignment statements.](figs/array2.jpg)
 

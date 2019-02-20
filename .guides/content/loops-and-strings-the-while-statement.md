@@ -1,7 +1,3 @@
-###  The while statement
-
-
-
 Using a `while` statement, we can repeat the same code multiple times:
 
 ```code
@@ -38,7 +34,7 @@ The flow of execution for a `while` statement is:
 
 
 This type of flow is called a **loop**, because the last step “loops back around” to the first.
-Figure **7.1** shows this idea using a flowchart.
+Figure 0.1 shows this idea using a flowchart.
 
 ![Figure 7.1 Flow of execution for a `while` loop.](figs/while.jpg)
 

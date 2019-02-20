@@ -1,6 +1,3 @@
-###  Inheritance
-
-
 At this point we have a class that represents a collection of cards.
 It provides functionality common to decks of cards, piles of cards, hands of cards, and potentially other collections.
 

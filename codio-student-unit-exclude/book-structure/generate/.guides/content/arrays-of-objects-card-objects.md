@@ -1,7 +1,3 @@
-###  Card objects
-
-
-
 If we want to define a class to represent a playing card, it is pretty obvious what the instance variables should be: `rank` and `suit`.
 It is not as obvious what types they should be.
 

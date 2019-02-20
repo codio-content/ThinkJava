@@ -1,6 +1,3 @@
-###  Installing DrJava
-
-
 The easiest way to start programming in Java is to use a website that compiles and runs Java code in the browser.
 Examples include [https://trinket.io/](trinket.io), [https://repl.it/](repl.it), [https://www.jdoodle.com/](jdoodle.com), and others.
 
@@ -18,7 +15,7 @@ But if you want to compile and run Java programs on your own computer, you will 
 
 
 The JDK we recommend is Java SE (Standard Edition), which Oracle makes available for free.
-The IDE we recommend is DrJava, which is an open-source development environment written in Java (see Figure **16.1**).
+The IDE we recommend is DrJava, which is an open-source development environment written in Java (see Figure 0.1).
 
 To install the JDK, search the web for “download JDK” which should take you to Oracle's website.
 Scroll down to “Java Platform, Standard Edition” and click the download button under JDK.

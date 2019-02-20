@@ -1,7 +1,3 @@
-###  Method composition
-
-
-
 Once you define a method, you can use it to build other methods.
 For example, suppose someone gave you two points -- the center of a circle and a point on the perimeter -- and asked for the area of the circle.
 

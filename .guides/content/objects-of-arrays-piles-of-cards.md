@@ -1,7 +1,3 @@
-###  Piles of cards
-
-
-
 Now that we have classes that represent cards and decks, let's use them to make a game.
 One of the simplest card games that children play is called “War” (see [https://en.wikipedia.org/wiki/War_(card_game)](https://en.wikipedia.org/wiki/War_(card_game))).
 

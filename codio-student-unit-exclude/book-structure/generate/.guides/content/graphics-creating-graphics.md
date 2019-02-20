@@ -1,7 +1,3 @@
-###  Creating graphics
-
-
-
 There are several ways to create graphics in Java; the simplest way is to use `java.awt.Canvas` and `java.awt.Graphics`.
 A `Canvas` is a blank rectangular area of the screen onto which the application can draw.
 The `Graphics` class provides basic drawing methods such as `drawLine`, `drawRect`, and `drawString`.

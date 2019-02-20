@@ -1,7 +1,3 @@
-###  Operators for strings
-
-
-
 In general, you cannot perform mathematical operations on strings, even if the strings look like numbers.
 The following expressions are illegal:
 

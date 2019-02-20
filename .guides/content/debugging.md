@@ -1,7 +1,3 @@
-##  Debugging
-
-
-
 Although there are debugging suggestions throughout the book, we thought it would be useful to organize them in an appendix.
 If you are having a hard time debugging, you might want to review this appendix from time to time.
 

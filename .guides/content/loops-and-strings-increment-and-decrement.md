@@ -1,6 +1,3 @@
-###  Increment and decrement
-
-
 Here is another `while` loop example; this one displays the numbers 1 to 5.
 
 ```code

@@ -1,6 +1,3 @@
-###  Writing documentation
-
-
 As you benefit from reading good documentation, you should “pay it forward” by writing good documentation.
 
 

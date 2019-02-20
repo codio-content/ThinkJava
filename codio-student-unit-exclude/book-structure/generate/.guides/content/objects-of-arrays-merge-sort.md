@@ -1,7 +1,3 @@
-###  Merge sort
-
-
-
 Selection sort is a simple algorithm, but it is not very efficient.
 To sort $n$ items, it has to traverse the array $n-1$ times.
 Each traversal takes an amount of time proportional to $n$.

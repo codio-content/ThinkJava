@@ -1,8 +1,3 @@
-###  Math methods
-
-
-
-
 The Java library includes a `Math` class that provides common mathematical operations.
 `Math` is in the `java.lang` package, so you don't have to import it.
 

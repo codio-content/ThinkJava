@@ -1,7 +1,3 @@
-###  The toString method
-
-
-
 Every object type has a method called `toString` that returns a string representation of the object.
 When you display an object using `print` or `println`, Java invokes the object's `toString` method.
 

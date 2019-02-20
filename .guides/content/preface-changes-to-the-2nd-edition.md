@@ -1,6 +1,3 @@
-###  Changes to the 2nd edition
-
-
 This new edition is three years in the making, with feedback from dozens of instructors and hundreds of students.
 A complete history of all changes is available on GitHub.
 Here are some of the highlights:
@@ -59,6 +56,6 @@ Chapters 15--16 are brand new in this edition, and they cover more advanced topi
 
 
 
-We added Appendix **17** to explain documentation comments and Javadoc in more detail.
+We added Appendix 0 to explain documentation comments and Javadoc in more detail.
 
 The other three appendixes that were present in the first edition have been revised for clarity and layout.

@@ -1,6 +1,3 @@
-###  Formatting output
-
-
 When you output a `double` using `print` or `println`, it displays up to 16 decimal places:
 
 ```code
@@ -55,7 +52,7 @@ The values are matched up with the format specifiers in order, so `inch` is disp
 
 Learning about format strings is like learning a sub-language within Java.
 There are many options, and the details can be overwhelming.
-Table **4.5** lists a few common uses, to give you an idea of how things work.
+Table 0.5 lists a few common uses, to give you an idea of how things work.
 
 |`%d`|decimal integer|12345 |
 |-|-|-|

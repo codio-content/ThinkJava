@@ -1,7 +1,3 @@
-###  Incremental development
-
-
-
 People often make the mistake of writing a lot of code before they try to compile and run it.
 Then they spend way too much time debugging.
 A better approach is what we call **incremental development**.

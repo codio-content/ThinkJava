@@ -1,7 +1,3 @@
-###  Class relationships
-
-
-
 This chapter demonstrates two common relationships between classes:
 
 
@@ -30,12 +26,12 @@ This vocabulary provides a concise way to talk about an object-oriented design.
 
 
 There is also a standard way to represent these relationships graphically in UML class diagrams.
-As we saw in Section **11.7**, the UML representation of a class is a box with three sections: the class name, the attributes, and the methods.
+As we saw in Section 0.7, the UML representation of a class is a box with three sections: the class name, the attributes, and the methods.
 The latter two sections are optional when showing relationships.
 
 
 Relationships between classes are represented by arrows: composition arrows have a standard arrow head, and inheritance arrows have a hollow triangle head (usually pointing up).
-Figure **15.1** shows the classes defined in this chapter and the relationships among them.
+Figure 0.1 shows the classes defined in this chapter and the relationships among them.
 
 
 ![Figure 15.1 UML diagram for the classes in this chapter.](figs/uml1.jpg)

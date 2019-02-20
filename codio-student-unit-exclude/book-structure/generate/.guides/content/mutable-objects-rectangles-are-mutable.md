@@ -1,7 +1,3 @@
-###  Rectangles are mutable
-
-
-
 You can change the contents of an object by making an assignment to one of its attributes.
 For example, to “move” a rectangle without changing its size, you can modify the `x` and `y` values:
 
@@ -11,7 +7,7 @@ box.x = box.x + 50;
 box.y = box.y + 100;
 ```
 
-The result is shown in Figure 11.4.
+The result is shown in Figure 0.4.
 
 ![Figure 11.4 Memory diagram showing updated attributes.](figs/rectangle2.jpg)
 

@@ -1,7 +1,3 @@
-###  The System class
-
-
-
 We have been using `System.out.println` for a while, but you might not have thought about what it means.
 `System` is a class that provides methods related to the “system” or environment where programs run.
 It also provides `System.out`, which is a special value that has additional methods (like `println`) for displaying output.
@@ -29,9 +25,9 @@ The address of a value is its location in the computer's memory, which might be 
 In this example the address is `685d72cd`, but if you run the same code you will likely get something else.
 
 
-As shown in Figure 4.1, `System` is defined in a file called `System.java`, and `PrintStream` is defined in `PrintStream.java`.
+As shown in Figure 0.1, `System` is defined in a file called `System.java`, and `PrintStream` is defined in `PrintStream.java`.
 These files are part of the Java **library**, which is an extensive collection of classes that you can use in your programs.
-The source code for these classes is usually included with the compiler (see Section 11.6).
+The source code for these classes is usually included with the compiler (see Section 0.6).
 
 ![Figure 4.1 `System.out.println` refers to the `out` variable of the `System` class, which is a `PrintStream` that provides a method called `println`.](figs/system.jpg)
 

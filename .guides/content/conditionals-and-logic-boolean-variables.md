@@ -1,7 +1,3 @@
-###  Boolean variables
-
-
-
 To store a `true` or `false` value, you need a `boolean` variable.
 You can declare and assign them like other variables.
 In this example, the first line is a variable declaration, the second is an assignment, and the third is both:

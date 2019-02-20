@@ -1,7 +1,3 @@
-###  Logic errors
-
-
-
 ####  My program doesn't work.
 
 
@@ -16,7 +12,7 @@ Here are some questions to ask yourself:
 
 *  Is there something the program was supposed to do, but doesn't seem to be happening?
 Find the section of the code that performs that function, and make sure it is executing when you think it should.
-See “Flow of execution” on page in section **Run-time errors**.
+See “Flow of execution” on page in section Run-time errors.
 
 *  Is something happening that shouldn't?
 Find code in your program that performs that function, and see if it is executing when it shouldn't.
@@ -55,7 +51,7 @@ If you meant to check equivalence, you should use the `equals` method instead.
 If you want a different notion of equivalence, you have to override it.
 
 *  Inheritance can lead to subtle logic errors, because you can run inherited code without realizing it.
-See “Flow of execution” on page in section **Run-time errors**.
+See “Flow of execution” on page in section Run-time errors.
 
 
 

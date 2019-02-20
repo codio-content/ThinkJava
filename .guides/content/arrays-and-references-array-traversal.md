@@ -1,7 +1,3 @@
-###  Array traversal
-
-
-
 Many computations can be implemented by looping through the elements of an array and performing an operation on each element.
 Looping through the elements of an array is called a **traversal**.
 

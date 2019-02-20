@@ -1,6 +1,3 @@
-###  Characters
-
-
 Some of the most interesting problems in computer science involve searching and manipulating text.
 In the next few sections, we'll discuss how to apply loops to strings.
 Although the examples are short, the techniques work the same whether you have one word or one million words.

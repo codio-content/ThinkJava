@@ -1,10 +1,6 @@
-###  Sequential search
-
-
-
 The next method we'll write is `search`, which takes an array of cards and a `Card` object as parameters.
 It returns the index where the `Card` appears in the array, or `-1` if it doesn't.
-This version of `search` uses the algorithm we saw in Section 8.5, which is called **sequential search**:
+This version of `search` uses the algorithm we saw in Section 0.5, which is called **sequential search**:
 
 
 ```code

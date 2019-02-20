@@ -259,30 +259,191 @@ sections:
     type: section
   - name: Exercises
     type: section
+#Chapter 3
   - name: Input and output
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: The System class
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: The Scanner class
     type: section
+    transformations:
+        - remove: 1
+          position: 106
+        - add:  |
+             
+             See the example java code in the top-left panel. This example reads two lines and repeats them back to the user.
+             To compile and run the code, press the "Run!"
+             {Run!}(javac code/Echo.java && java code/Echo)
+     
+          position: 108
+    configuration:
+      layout: 3-cell
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/Echo.java"
+            panel: 0
+            action: open
+          - path: "#terminal: "
+            panel: 1
+            action: open
   - name: Language elements
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Literals and constants
     type: section
+    transformations:
+        - add:  |
+             
+             Follow along in the top-left panel.
+             To compile and run the code, press the "Run!"
+             {Run!}(javac code/Literals.java && java code/Literals)
+     
+          position: 196
+        - add:  |
+             
+             {Run!}(javac code/Literals.java && java code/Literals)
+     
+          position: 216
+        - add:  |
+             
+             {Run!}(javac code/Literals.java && java code/Literals)
+     
+          position: 225
+        - add:  |
+             
+             {Run!}(javac code/Literals.java && java code/Literals)
+     
+          position: 250
+        - add:  |
+             
+             {Run!}(javac code/Literals.java && java code/Literals)
+     
+          position: 262
+    configuration:
+      layout: 3-cell
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/Literals.java"
+            panel: 0
+            action: open
+          - path: "#terminal: "
+            panel: 1
+            action: open
   - name: Formatting output
     type: section
+    transformations:
+        - add:  |
+             
+             Try it out in the top-left panel.
+             To compile and run the code, press the "Run!"
+             {Run!}(javac code/Formatting.java && java code/Formatting)
+     
+          position: 276
+        - add:  |
+             
+             Try it out in the top-left panel.
+             {Run!}(javac code/Formatting.java && java code/Formatting)
+     
+          position: 300
+        - add:  |
+             
+             Try it out in the top-left panel.
+             {Run!}(javac code/Formatting.java && java code/Formatting)
+     
+          position: 314
+    configuration:
+      layout: 3-cell-left
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/Formatting.java"
+            panel: 1
+            action: open
+          - path: "#terminal: "
+            panel: 2
+            action: open
   - name: Type cast operators
     type: section
+    transformations:
+        - add:  |
+             
+             Try it out in the top-left panel.
+             To compile and run the code, press the "Run!"
+             {Run!}(javac code/Casting.java && java code/Casting)
+     
+          position: 411
+        - add:  |
+             
+             Try it out in the top-left panel.
+             {Run!}(javac code/Casting.java && java code/Casting)
+     
+          position: 437
+        - add:  |
+             
+             Try it out in the top-left panel.
+             {Run!}(javac code/Casting.java && java code/Casting)
+     
+          position: 446
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/Casting.java"
+            panel: 1
+            action: open
   - name: Remainder operator
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Putting it all together
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: The Scanner bug
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Vocabulary
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Exercises
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+#Chapter 4
   - name: Methods and testing
     type: chapter
   - name: Math methods
@@ -603,7 +764,7 @@ sections:
     type: section
 #inserting exercises on seperate pages so that they are cherry-pick-able
 insert_sections:
-  - name: Exercises 2.1
+  - name: Exercises 1.1
     type: section
     chapter: Computer programming
     section: Exercises
@@ -621,7 +782,7 @@ insert_sections:
       The glossary at the end of each chapter is intended to highlight words and phrases that have special meanings in computer science.
       When you see familiar words, don't assume that you know what they mean!
       \end{exercise}
-  - name: Exercises 2.2
+  - name: Exercises 1.2
     type: section
     chapter: Computer programming
     section: Exercises
@@ -644,7 +805,7 @@ insert_sections:
       You might find yourself trying to debug one program while you are accidentally running another.
       Adding (and changing) print statements is a simple way to be sure that the program you are looking at is the program you are running.
       \end{exercise}
-  - name: Exercises 2.3
+  - name: Exercises 1.3
     type: section
     chapter: Computer programming
     section: Exercises

@@ -1,7 +1,3 @@
-###  The Time class
-
-
-
 One common reason to define a new class is to encapsulate related data in an object that can be treated as a single unit.
 That way, we can use objects as parameters and return values, rather than passing and returning multiple values.
 We have already seen two types that encapsulate data in this way: `Point` and `Rectangle`.
@@ -12,7 +8,7 @@ The data encapsulated in a `Time` object include an hour, a minute, and a number
 Because every `Time` object contains these data, we define attributes to hold them.
 
 
-Attributes are also called **instance variables**, because each instance has its own variables (as opposed to class variables, coming up in Section 13.3).
+Attributes are also called **instance variables**, because each instance has its own variables (as opposed to class variables, coming up in Section 0.3).
 
 The first step is to decide what type each variable should be.
 It seems clear that `hour` and `minute` should be integers.

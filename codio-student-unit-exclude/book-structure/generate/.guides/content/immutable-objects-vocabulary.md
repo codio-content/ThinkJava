@@ -1,8 +1,3 @@
-###  Vocabulary
-
-
-
-
 **object**
 
 A collection of related data that comes with a set of methods that operate on the data.

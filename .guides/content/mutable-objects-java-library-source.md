@@ -1,7 +1,3 @@
-###  Java library source
-
-
-
 Throughout the book, you have used classes from the Java library including `System`, `String`, `Scanner`, `Math`, `Random`, and others.
 You may not have realized that these classes are written in Java.
 In fact, you can take a look at the source code to see how they work.
@@ -31,7 +27,7 @@ It uses language features we haven't yet discussed, so you probably won't unders
 But you can get a sense of what professional Java source code looks like by browsing through the library.
 
 
-Notice how much of `Point.java` is documentation (see Appendix **17**).
+Notice how much of `Point.java` is documentation (see Appendix 0).
 Each method is thoroughly commented, including `@param`, `@return`, and other tags.
 Javadoc reads these comments and generates documentation in HTML.
 You can see the results by reading the documentation for the `Point` class, which you can find by doing a web search for “Java Point”.

@@ -1,12 +1,19 @@
-###  The hello world program
-
-
 Traditionally, the first program you write when learning a new programming language is called the hello world program.
 All it does is output the words “Hello, World!”\ to the screen.
+
+
+
+
 See the example java code in the top-left pane.
 To compile and run the code, press the "Run!"
-{Run!|terminal}(javac code/HelloWorld.java && java -cp code/ HelloWorld)
+{Run!}(javac code/HelloWorld.java && java code/HelloWorld)
 
+
+When this program runs it displays:
+
+```code
+Hello, World!
+```
 
 Notice that the output does not include the quotation marks.
 

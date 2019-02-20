@@ -1,7 +1,3 @@
-###  Running Checkstyle
-
-
-
 Checkstyle is a command-line tool that can be used to determine if your source code follows a set of style rules.
 It also checks for common programming mistakes, such as class and method design problems.
 

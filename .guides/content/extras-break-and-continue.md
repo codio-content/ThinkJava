@@ -1,6 +1,3 @@
-###  Break and continue
-
-
 Sometimes neither a pretest nor a posttest loop will provide exactly what you need.
 In the previous example, the “test” needed to happen in the middle of the loop.
 As a result, we used a flag variable and a nested `if`-`else` statement.

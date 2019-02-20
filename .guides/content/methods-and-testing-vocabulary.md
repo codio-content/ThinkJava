@@ -1,8 +1,3 @@
-###  Vocabulary
-
-
-
-
 **argument**
 
 A value that you provide when you call a method.

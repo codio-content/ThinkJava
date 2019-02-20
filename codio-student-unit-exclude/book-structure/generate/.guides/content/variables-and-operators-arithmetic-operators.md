@@ -1,8 +1,3 @@
-###  Arithmetic operators
-
-
-
-
 **Operators** are symbols that represent simple computations.
 For example, the addition operator is `+`, subtraction is `-`, multiplication is `*`, and division is `/`.
 

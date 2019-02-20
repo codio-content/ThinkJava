@@ -1,8 +1,3 @@
-###  Vocabulary
-
-
-
-
 **IDE**
 
 An “integrated development environment” that includes tools for editing, compiling, and debugging programs.

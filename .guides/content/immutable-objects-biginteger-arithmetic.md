@@ -1,6 +1,3 @@
-###  BigInteger arithmetic
-
-
 It might not be clear at this point why you would ever need an integer object when you can just use an `int` or `long`.
 One advantage is the variety of methods that `Integer` and `Long` provide.
 But there is another reason: when you need very large integers that exceed `Long.MAX_VALUE`.

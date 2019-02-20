@@ -1,6 +1,3 @@
-###  Wrapper classes
-
-
 Primitive values (like `int`s, `double`s, and `char`s) cannot be `null`, and they do not provide methods.
 For example, you can't invoke `equals` on an `int`:
 

@@ -1,7 +1,3 @@
-###  Selection sort
-
-
-
 Now that we have shuffled the deck, we need a way to put it back in order.
 There is an algorithm for sorting that is ironically similar to the algorithm for shuffling.
 It's called **selection sort**, because it works by traversing the array repeatedly and selecting the lowest (or highest) remaining card each time.

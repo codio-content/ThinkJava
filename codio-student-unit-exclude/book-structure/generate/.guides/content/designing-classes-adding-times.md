@@ -1,6 +1,3 @@
-###  Adding times
-
-
 Suppose you are going to a movie that starts at 18:50 (or 6:50 PM), and the running time is 2 hours 16 minutes.
 What time does the movie end?
 

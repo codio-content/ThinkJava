@@ -1,7 +1,3 @@
-###  Displaying arrays
-
-
-
 You can use `println` to display an array, but it probably doesn't do what you would like.
 For example, the following fragment (1) declares an array variable, (2) makes it refer to an array of four elements, and (3) attempts to display the contents of the array using `println`:
 

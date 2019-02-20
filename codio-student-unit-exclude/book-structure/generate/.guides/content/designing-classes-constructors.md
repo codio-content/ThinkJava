@@ -1,7 +1,3 @@
-###  Constructors
-
-
-
 After declaring instance variables, the next step is to define a **constructor**, which is a special method that initializes the object.
 The syntax for constructors is similar to that of other methods, except:
 
@@ -47,7 +43,7 @@ public static void main(String[] args) {
 When you use `new`, Java creates the object and invokes your constructor to initialize the instance variables.
 When the constructor is done, `new` returns a reference to the new object.
 In this example, the reference gets assigned to the variable `time`, which has type `Time`.
-Figure 12.1 shows the result.
+Figure 0.1 shows the result.
 
 
 ![Figure 12.1 Memory diagram of a `Time` object.](figs/time.jpg)

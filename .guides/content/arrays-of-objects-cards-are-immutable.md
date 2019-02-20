@@ -1,6 +1,3 @@
-###  Cards are immutable
-
-
 The instance variables of `Card` are `private`, so they can't be accessed from other classes.
 We can provide getters to allow other classes to read the `rank` and `suit` values:
 

@@ -1,6 +1,3 @@
-###  Binary number system
-
-
 Before introducing the next recursive example, we need to discuss how integers are represented by a computer.
 
 You are probably aware that computers can only store 1's and 0's.

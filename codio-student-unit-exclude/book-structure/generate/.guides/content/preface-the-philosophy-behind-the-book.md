@@ -1,6 +1,3 @@
-###  The philosophy behind the book
-
-
 Here are the guiding principles that make the book the way it is:
 
 

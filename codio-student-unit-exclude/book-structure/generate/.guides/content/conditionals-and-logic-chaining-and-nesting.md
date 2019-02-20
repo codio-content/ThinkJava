@@ -1,7 +1,3 @@
-###  Chaining and nesting
-
-
-
 Sometimes you want to check related conditions and choose one of several actions.
 One way to do this is by **chaining** a series of `if` and `else` blocks:
 

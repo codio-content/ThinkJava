@@ -1,8 +1,3 @@
-###  Vocabulary
-
-
-
-
 **documentation**
 
 Comments that describe the technical operation of a class or method.

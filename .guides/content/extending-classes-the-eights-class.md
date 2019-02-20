@@ -1,8 +1,4 @@
-###  The Eights class
-
-
-
-In Section **14.2** we introduced top-down development, which is a way of developing programs by identifying high-level goals, like shuffling a deck, and breaking them into smaller problems, like finding the lowest element in an array or swapping two elements.
+In Section 0.2 we introduced top-down development, which is a way of developing programs by identifying high-level goals, like shuffling a deck, and breaking them into smaller problems, like finding the lowest element in an array or swapping two elements.
 
 
 In this section we present **bottom-up design**, which goes the other way around: first we identify simple pieces we need, then we assemble them into more complex algorithms.
@@ -42,7 +38,7 @@ In this version, there are always two players.
 One of the exercises at the end of the chapter asks you to modify this code to handle more players.
 The `Eights` class also includes a draw pile, a discard pile, and a `Scanner`, which we will use to prompt the user after each turn.
 
-The constructor for `Eights` initializes the instance variables and deals the cards, similar to Section **15.3**.
+The constructor for `Eights` initializes the instance variables and deals the cards, similar to Section 0.3.
 The next piece we'll need is a method that checks whether the game is over.
 If either hand is empty, we're done:
 

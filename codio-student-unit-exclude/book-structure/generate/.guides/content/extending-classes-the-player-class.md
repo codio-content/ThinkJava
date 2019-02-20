@@ -1,6 +1,3 @@
-###  The Player class
-
-
 The `Deck` and `Hand` classes we have defined so far could be used for any card game; we have not yet implemented any of the rules specific to *Crazy Eights*.
 And that's probably a good thing, since it makes it easy to reuse these classes if we want to make another game in the future.
 

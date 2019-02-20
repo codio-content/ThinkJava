@@ -1,6 +1,3 @@
-###  What is computer science?
-
-
 This book intentionally omits some details about the Java language (such as the other escape sequences), because our main goal is learning how to think like a computer scientist.
 Being able to understand computation is much more valuable than just learning how to write code.
 

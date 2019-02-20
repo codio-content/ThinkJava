@@ -1,9 +1,6 @@
-###  Example source file
-
-
 Now let's take a look at a more complete example.
 The code for this section is in the `appb` directory of `ThinkJavaCode2`.
-See page in section **Using the code examples** for instructions on how to download the repository.
+See page in section Using the code examples for instructions on how to download the repository.
 
 Professional-grade source files often begin with a copyright statement.
 This text spans multiple lines, but it is not part of the documentation.
@@ -140,4 +137,4 @@ The IDE will then prompt you for a location to generate the HTML files.
 
 
 For more examples of what you can do with Javadoc comments, see the source code of any Java library class (e.g., `Scanner.java`).
-Section **11.6** explains how to find the source files for the Java library on your computer.
+Section 0.6 explains how to find the source files for the Java library on your computer.
