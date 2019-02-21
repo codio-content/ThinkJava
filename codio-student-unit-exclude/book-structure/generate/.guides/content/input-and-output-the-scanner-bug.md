@@ -27,6 +27,9 @@ System.out.printf("Hello %s, age %d\n", name, age);
 ```
 
 Try running this example code.
+
+{Run!}(javac code/ScannerBug.java && java code/ScannerBug)
+
 It doesn't let you input your name, and it immediately displays the output:
 
 ```code
@@ -34,7 +37,7 @@ What is your name? Hello , age 45
 ```
 
 To understand what is happening, you need to realize that `Scanner` doesn't see input as multiple lines like we do.
-Instead, it gets a “stream of characters” as shown in Figure 0.3.
+Instead, it gets a “stream of characters” as shown in Figure 3.3.
 
 ![Figure 4.3 A stream of characters as seen by a `Scanner`.](figs/hopper1.jpg)
 
@@ -43,7 +46,7 @@ Instead, it gets a “stream of characters” as shown in Figure 0.3.
 
 The arrow indicates the next character to be read by `Scanner`.
 When you call `nextInt`, it reads characters until it gets to a non-digit.
-Figure 0.4 shows the state of the stream after `nextInt` is called.
+Figure 3.4 shows the state of the stream after `nextInt` is called.
 
 ![Figure 4.4 A stream of characters after `nextInt` is called.](figs/hopper2.jpg)
 
@@ -63,6 +66,10 @@ System.out.print("What is your name? ");
 name = in.nextLine();
 System.out.printf("Hello %s, age %d\n", name, age);
 ```
+
+Fix the code on the left and try running it again.
+{Run!}(javac code/ScannerBug.java && java code/ScannerBug)
+
 
 This technique is common when reading `int` or `double` values that appear on their own line.
 First you read the number, and then you read the rest of the line, which is just a newline character.

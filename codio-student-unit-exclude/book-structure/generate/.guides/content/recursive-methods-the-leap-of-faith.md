@@ -7,7 +7,7 @@ When you invoke `Math.cos` or `System.out.println`, you don't examine or think a
 You just assume that they work properly.
 
 The same is true of other methods.
-For example, consider the method from Section 0.7 that determines whether an integer has only one digit:
+For example, consider the method from Section 5.7 that determines whether an integer has only one digit:
 
 ```code
 public static boolean isSingleDigit(int x) {

@@ -27,7 +27,7 @@ If you add a space there, there will be a space at the beginning of the second l
 |`\`|backslash |
 
 
-Java has a total of eight escape sequences, and the four most commonly used ones are listed in Table 0.7.
+Java has a total of eight escape sequences, and the four most commonly used ones are listed in Table 1.7.
 For example, to write quotation marks inside of strings, you need to escape them with a backslash.
 
 ```code

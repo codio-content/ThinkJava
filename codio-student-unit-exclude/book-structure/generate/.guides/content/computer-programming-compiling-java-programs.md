@@ -20,7 +20,7 @@ Low-level programs can only run on one kind of computer, and have to be rewritte
 Two kinds of programs translate high-level languages into low-level languages: interpreters and compilers.
 An **interpreter** reads a high-level program and executes it, meaning that it does what the program says.
 It processes the program a little at a time, alternately reading lines and performing computations.
-Figure 0.2 shows the structure of an interpreter.
+Figure 1.2 shows the structure of an interpreter.
 
 ![Figure 2.2 How interpreted languages are executed.](figs/interpreter.jpg)
 
@@ -40,7 +40,7 @@ But it is also portable, so it is possible to compile a Java program on one mach
 This ability is an advantage of Java over some other high-level languages.
 
 
-Figure 0.3 shows the steps of the development process.
+Figure 1.3 shows the steps of the development process.
 The Java compiler is a program named `javac`.
 It translates `.java` files into `.class` files that store the resulting byte code.
 The Java interpreter is a program named `java`, which is short for “Java Virtual Machine” (JVM).

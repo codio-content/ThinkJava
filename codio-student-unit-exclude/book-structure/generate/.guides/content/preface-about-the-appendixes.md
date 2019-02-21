@@ -29,7 +29,7 @@ This appendix explains how to read documentation, how to write documentation, an
 
 Java provides libraries for working with graphics and animation, and these topics can be engaging for students.
 
-The libraries require object-oriented features that students will not completely understand until after Chapter 0, but they can be used much earlier.
+The libraries require object-oriented features that students will not completely understand until after Chapter 10, but they can be used much earlier.
 
 
 

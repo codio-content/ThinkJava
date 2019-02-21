@@ -114,7 +114,7 @@ public void swapCards(int i, int j) {
 }
 ```
 
-We use `swapCards` to implement `shuffle`, which we described in Section 0.2:
+We use `swapCards` to implement `shuffle`, which we described in Section 13.2:
 
 ```code
 public void shuffle() {

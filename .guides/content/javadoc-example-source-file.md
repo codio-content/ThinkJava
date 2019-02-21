@@ -137,4 +137,4 @@ The IDE will then prompt you for a location to generate the HTML files.
 
 
 For more examples of what you can do with Javadoc comments, see the source code of any Java library class (e.g., `Scanner.java`).
-Section 0.6 explains how to find the source files for the Java library on your computer.
+Section 10.6 explains how to find the source files for the Java library on your computer.

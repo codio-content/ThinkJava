@@ -5,7 +5,7 @@ The following statement creates an array of 52 cards:
 Card[] cards = new Card[52];
 ```
 
-Figure 0.2 shows the memory diagram for this array.
+Figure 12.2 shows the memory diagram for this array.
 
 ![Figure 13.2 Memory diagram of an unpopulated `Card` array.](figs/cardarray.jpg)
 
@@ -49,7 +49,7 @@ Since the outer loop runs 4 times, and the inner loop runs 13 times for each sui
 
 
 We use a separate variable `index` to keep track of where in the array the next card should go.
-Figure 0.3 shows what the array looks like after the first two cards have been created.
+Figure 12.3 shows what the array looks like after the first two cards have been created.
 
 ![Figure 13.3 Memory diagram of a `Card` array with two cards.](figs/cardarray2.jpg)
 

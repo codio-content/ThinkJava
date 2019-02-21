@@ -1,6 +1,9 @@
 At this point, you have seen enough Java to write useful programs that solve everyday problems.
 You can (1) import Java library classes, (2) create a `Scanner`, (3) get input from the keyboard, (4) format output with `printf`, and (5) divide and mod integers.
-Now we will put everything together in a complete program:
+
+Look at the code in the left panel which puts everything together in a complete program.
+{Run!}(javac code/Convert.java && java code/Convert)
+
 
 
 
@@ -11,7 +14,7 @@ This practice makes it easier to find their types later on, and it helps the rea
 
 
 For readability, each major step of the algorithm is separated by a blank line and begins with a comment.
-The class also includes a documentation comment (`/**`), which you can learn more about in Appendix 0.
+The class also includes a documentation comment (`/**`), which you can learn more about in Appendix 16.
 
 Many algorithms, including the `Convert` program, perform division and modulo together.
 In both steps, you divide by the same number (`IN_PER_FOOT`).

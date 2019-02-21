@@ -22,7 +22,7 @@ public Deck mergeSort() {
 ```
 
 
-As usual, there are two ways to think about recursive programs: you can think through the entire flow of execution, or you can make the “leap of faith” (see Section 0.4).
+As usual, there are two ways to think about recursive programs: you can think through the entire flow of execution, or you can make the “leap of faith” (see Section 8.4).
 This example should encourage you to make the leap of faith.
 
 When you used `selectionSort` to sort the subdecks, you didn't feel compelled to follow the flow of execution.

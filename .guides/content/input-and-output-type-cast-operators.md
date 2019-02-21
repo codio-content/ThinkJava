@@ -16,6 +16,11 @@ Java doesn't perform this operation automatically in order to ensure that you ar
 The simplest way to convert a floating-point value to an integer is to use a **type cast**, so called because it molds or “casts” a value from one type to another.
 The syntax for type casting is to put the name of the type in parentheses and use it as an operator.
 
+
+Try it out in the left panel.
+To compile and run the code, press the "Run!"
+{Run!}(javac code/Casting.java && java code/Casting)
+
 ```code
 double pi = 3.14159;
 int x = (int) pi;
@@ -43,12 +48,20 @@ double x = (int) pi * 20.0;  // result is 60.0, not 62.0
 ```
 
 
+Try it out in the left panel.
+{Run!}(javac code/Casting.java && java code/Casting)
+
+
 Keeping that in mind, here's how we can convert centimeters to inches:
 
 ```code
 inch = (int) (cm / CM_PER_INCH);
 System.out.printf("%f cm = %d in\n", cent, inch);
 ```
+
+
+Try it out in the left panel.
+{Run!}(javac code/Casting.java && java code/Casting)
 
 The parentheses after the cast operator require the division to happen before the type cast.
 And the result is rounded toward zero.

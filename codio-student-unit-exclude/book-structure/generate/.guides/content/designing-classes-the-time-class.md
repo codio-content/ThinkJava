@@ -8,7 +8,7 @@ The data encapsulated in a `Time` object include an hour, a minute, and a number
 Because every `Time` object contains these data, we define attributes to hold them.
 
 
-Attributes are also called **instance variables**, because each instance has its own variables (as opposed to class variables, coming up in Section 0.3).
+Attributes are also called **instance variables**, because each instance has its own variables (as opposed to class variables, coming up in Section 12.3).
 
 The first step is to decide what type each variable should be.
 It seems clear that `hour` and `minute` should be integers.

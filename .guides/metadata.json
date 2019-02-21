@@ -392,38 +392,38 @@
     },
     {
       "chapter": false,
-      "content-file": ".guides/content/computer-programming-exercises-2-1.md",
+      "content-file": ".guides/content/computer-programming-exercises-1-1.md",
       "files": [],
-      "id": "computer-programming-exercises-2-1",
+      "id": "computer-programming-exercises-1-1",
       "learningObjectives": "",
       "path": [],
       "reset": [],
       "teacherOnly": false,
-      "title": "Exercises 2.1",
+      "title": "Exercises 1.1",
       "type": "markdown"
     },
     {
       "chapter": false,
-      "content-file": ".guides/content/computer-programming-exercises-2-2.md",
+      "content-file": ".guides/content/computer-programming-exercises-1-2.md",
       "files": [],
-      "id": "computer-programming-exercises-2-2",
+      "id": "computer-programming-exercises-1-2",
       "learningObjectives": "",
       "path": [],
       "reset": [],
       "teacherOnly": false,
-      "title": "Exercises 2.2",
+      "title": "Exercises 1.2",
       "type": "markdown"
     },
     {
       "chapter": false,
-      "content-file": ".guides/content/computer-programming-exercises-2-3.md",
+      "content-file": ".guides/content/computer-programming-exercises-1-3.md",
       "files": [],
-      "id": "computer-programming-exercises-2-3",
+      "id": "computer-programming-exercises-1-3",
       "learningObjectives": "",
       "path": [],
       "reset": [],
       "teacherOnly": false,
-      "title": "Exercises 2.3",
+      "title": "Exercises 1.3",
       "type": "markdown"
     },
     {
@@ -585,8 +585,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/input-and-output.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "input-and-output",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -597,8 +603,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-the-system-class.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "input-and-output-the-system-class",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -609,8 +621,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-the-scanner-class.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Echo.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "input-and-output-the-scanner-class",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -621,8 +649,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-language-elements.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "input-and-output-language-elements",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -633,8 +667,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-literals-and-constants.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Literals.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "input-and-output-literals-and-constants",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -645,8 +695,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-formatting-output.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/Formatting.java"
+        },
+        {
+          "action": "open",
+          "panel": 2,
+          "path": "#terminal: "
+        }
+      ],
       "id": "input-and-output-formatting-output",
+      "layout": "3-cell-left",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -657,8 +723,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-type-cast-operators.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/Casting.java"
+        }
+      ],
       "id": "input-and-output-type-cast-operators",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -669,8 +746,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-remainder-operator.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/Remainder.java"
+        }
+      ],
       "id": "input-and-output-remainder-operator",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -681,8 +769,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-putting-it-all-together.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/Convert.java"
+        }
+      ],
       "id": "input-and-output-putting-it-all-together",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -693,8 +792,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-the-scanner-bug.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/ScannerBug.java"
+        }
+      ],
       "id": "input-and-output-the-scanner-bug",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -705,8 +815,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "input-and-output-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -717,13 +833,67 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "input-and-output-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
       "teacherOnly": false,
       "title": "Exercises",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/input-and-output-exercises-3-1.md",
+      "files": [],
+      "id": "input-and-output-exercises-3-1",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 3.1",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/input-and-output-exercises-3-2.md",
+      "files": [],
+      "id": "input-and-output-exercises-3-2",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 3.2",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/input-and-output-exercises-3-3.md",
+      "files": [],
+      "id": "input-and-output-exercises-3-3",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 3.3",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/input-and-output-exercises-3-4.md",
+      "files": [],
+      "id": "input-and-output-exercises-3-4",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 3.4",
       "type": "markdown"
     },
     {

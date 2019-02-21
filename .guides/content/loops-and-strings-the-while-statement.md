@@ -34,7 +34,7 @@ The flow of execution for a `while` statement is:
 
 
 This type of flow is called a **loop**, because the last step “loops back around” to the first.
-Figure 0.1 shows this idea using a flowchart.
+Figure 6.1 shows this idea using a flowchart.
 
 ![Figure 7.1 Flow of execution for a `while` loop.](figs/while.jpg)
 

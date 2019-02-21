@@ -2,7 +2,7 @@ Up to this point, the only variables we have used were for individual values suc
 In this chapter, we'll learn how to store multiple values of the same type using a single variable.
 This language feature will enable you to write programs that manipulate larger amounts of data.
 
-For example, Exercise 0.5 asked you to check whether every letter in a string appears exactly twice.
+For example, Exercise 6.5 asked you to check whether every letter in a string appears exactly twice.
 One algorithm (which hopefully you already discovered) is to loop through the string 26 times, once for each lowercase letter:
 
 ```code

@@ -4,7 +4,7 @@ The following program shows how the individual code examples in the last section
 
 
 
-What started as five lines of code at the beginning of Section 0.8 is now a 30-line program.
+What started as five lines of code at the beginning of Section 5.8 is now a 30-line program.
 Making programs robust (and secure) often requires a lot of additional checking, as shown in this example.
 
 

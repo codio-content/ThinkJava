@@ -16,7 +16,7 @@ To find subsequent appearances, you can use another version of `indexOf`, which 
 int index = fruit.indexOf('a', 2);  // returns 3
 ```
 
-To visualize how `indexOf` and other `String` methods work, it helps to draw a picture like Figure 0.3.
+To visualize how `indexOf` and other `String` methods work, it helps to draw a picture like Figure 6.3.
 The previous code starts at index 2 (the first `'n'`) and finds the next `'a'`, which is at index 3.
 
 

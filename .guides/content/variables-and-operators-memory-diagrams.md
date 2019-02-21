@@ -20,7 +20,7 @@ The third line changes the value of `a`, but it does not change the value of `b`
 
 
 Taken together, the variables in a program and their current values make up the program's **state**.
-Figure 0.1 shows the state of the program after these assignment statements run.
+Figure 2.1 shows the state of the program after these assignment statements run.
 
 ![Figure 3.1 Memory diagram of the variables `a` and `b`.](figs/state.jpg)
 

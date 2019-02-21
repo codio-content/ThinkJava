@@ -31,7 +31,7 @@ It still works, but the program is getting harder and harder to read.
 Newlines and spaces are important for organizing your program visually, making it easier to understand the program and find errors when they occur.
 
 Many editors will automatically format source code with consistent indenting and line breaks.
-For example, in DrJava (see Appendix 0.1) you can indent your code by selecting all text (**Ctrl+A**) and pressing the **Tab** key.
+For example, in DrJava (see Appendix 15.1) you can indent your code by selecting all text (**Ctrl+A**) and pressing the **Tab** key.
 
 
 

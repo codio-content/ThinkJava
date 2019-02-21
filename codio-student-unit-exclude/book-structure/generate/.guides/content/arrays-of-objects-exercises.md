@@ -6,7 +6,7 @@ Before you start the exercises, we recommend that you compile and run the exampl
 
 **Exercise 13.1:**
 
-Encapsulate the deck-building code from Section 0.6 in a method called `makeDeck` that takes no parameters and returns a fully-populated array of `Card`s.
+Encapsulate the deck-building code from Section 12.6 in a method called `makeDeck` that takes no parameters and returns a fully-populated array of `Card`s.
 
 
 
@@ -39,7 +39,7 @@ Your solution should only traverse the array once.
 **Exercise 13.4:**
 
 Working with cards is more interesting if you can display them on the screen.
-If you have not already read Appendix 0 about 2D graphics, you should read it before working on this exercise.
+If you have not already read Appendix 17 about 2D graphics, you should read it before working on this exercise.
 In the code directory for this chapter, `ch12`, you will find:
 
 

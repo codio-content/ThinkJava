@@ -27,7 +27,7 @@ It uses language features we haven't yet discussed, so you probably won't unders
 But you can get a sense of what professional Java source code looks like by browsing through the library.
 
 
-Notice how much of `Point.java` is documentation (see Appendix 0).
+Notice how much of `Point.java` is documentation (see Appendix 16).
 Each method is thoroughly commented, including `@param`, `@return`, and other tags.
 Javadoc reads these comments and generates documentation in HTML.
 You can see the results by reading the documentation for the `Point` class, which you can find by doing a web search for “Java Point”.

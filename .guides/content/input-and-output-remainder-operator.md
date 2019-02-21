@@ -13,6 +13,10 @@ feet = 76 / 12;    // quotient
 inches = 76 % 12;  // remainder
 ```
 
+Try it out in the left panel.
+{Run!}(javac code/Remainder.java && java code/Remainder)
+
+
 The first line yields 6.
 The second line, which is pronounced “76 mod 12”, yields 4.
 So 76 inches is 6 feet, 4 inches.

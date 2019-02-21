@@ -1,7 +1,7 @@
 You are probably used to Cartesian **coordinates**, where $x$ and $y$ values can be positive or negative.
 In contrast, Java uses a coordinate system where the origin is in the upper-left corner.
 That way, $x$ and $y$ are always positive integers.
-Figure 0.1 shows these coordinate systems.
+Figure 17.1 shows these coordinate systems.
 
 Graphical coordinates are measured in **pixels**; each pixel corresponds to a dot on the screen.
 
@@ -25,7 +25,7 @@ public void fillOval(int x, int y, int width, int height)
 
 The four parameters specify a **bounding box**, which is the rectangle in which the oval is drawn.
 `x` and `y` specify the location of the upper-left corner of the bounding box.
-The bounding box itself is not drawn (see Figure 0.2).
+The bounding box itself is not drawn (see Figure 17.2).
 
 ![Figure 18.2 Diagram of an oval inside its bounding box.](figs/circle.jpg)
 

@@ -1,8 +1,8 @@
-In the Section 0.6, we used a stack diagram to represent the state of a program during a method invocation.
+In the Section 4.6, we used a stack diagram to represent the state of a program during a method invocation.
 The same kind of diagram can make it easier to interpret a recursive method.
 
 Remember that every time a method gets called, Java creates a new frame that contains the current method's parameters and variables.
-Figure 0.1 is a stack diagram for `countdown`, called with `n == 3`.
+Figure 8.1 is a stack diagram for `countdown`, called with `n == 3`.
 
 ![Figure 9.1 Stack diagram for the `countdown` program.](figs/stack2.jpg)
 

@@ -65,7 +65,7 @@ public static int factorial(int n) {
 To illustrate what is happening, we'll use the temporary variables `recurse` and `result`.
 In each method call, `recurse` stores the factorial of $n - 1$, and `result` stores the factorial of $n$.
 
-The flow of execution for this program is similar to `countdown` from Section 0.1.
+The flow of execution for this program is similar to `countdown` from Section 8.1.
 If we invoke `factorial` with the value 3:
 
 
@@ -86,7 +86,7 @@ The return value (2) gets multiplied by `n`, which is 3, and the result, 6, is r
 \end{quote}
 
 
-Figure 0.2 shows what the stack diagram looks like for this sequence of method invocations.
+Figure 8.2 shows what the stack diagram looks like for this sequence of method invocations.
 The return values are shown being passed up the stack.
 Notice that `recurse` and `result` do not exist in the last frame, because when `n == 0` the code that declares them does not execute.
 

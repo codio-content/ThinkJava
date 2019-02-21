@@ -7,7 +7,7 @@ Before you start the exercises, we recommend that you compile and run the exampl
 
 Write a `toString` method for the `Deck` class.
 It should return a single string that represents the cards in the deck.
-When it's printed, this string should display the same results as the `print` method in Section 0.1.
+When it's printed, this string should display the same results as the `print` method in Section 13.1.
 
 
 *Hint:* You can use the `+` operator to concatenate strings, but it is not very efficient.
@@ -26,13 +26,13 @@ The goal of this exercise is to implement the shuffling algorithm from this chap
 Check that you can compile it in your environment.
 
 1.  Implement the `randomInt` method.
-You can use the `nextInt` method provided by `java.util.Random`, which we saw in Section 0.6.
+You can use the `nextInt` method provided by `java.util.Random`, which we saw in Section 7.6.
 
 *Hint:* Avoid creating a `Random` object every time `randomInt` is invoked by defining a class variable.
 
 1.  Implement the `swapCards` method that takes two indexes and swaps the cards at the given locations.
 
-1.  Implement the `shuffle` method using the algorithm in Section 0.2.
+1.  Implement the `shuffle` method using the algorithm in Section 13.2.
 
 
 
@@ -48,9 +48,9 @@ Use the `Deck.java` file from the previous exercise, or create a new one from sc
 1.  Implement the `indexLowest` method.
 Use the `Card.compareTo` method to find the lowest card in a given range of the deck (from `lowIndex` to `highIndex`, including both).
 
-1.  Implement `selectionSort` using the algorithm in Section 0.3.
+1.  Implement `selectionSort` using the algorithm in Section 13.3.
 
-1.  Using the pseudocode in Section 0.4, implement the `merge` method.
+1.  Using the pseudocode in Section 13.4, implement the `merge` method.
 The best way to test it is to build and shuffle a deck.
 Then use `subdeck` to form two small subdecks, and use selection sort to sort them.
 Finally, pass the two halves to `merge` and see if it works.
@@ -105,7 +105,7 @@ If one pile does not have at least four cards, the game ends immediately.
 If a tie ends with a tie, flip a coin and give the cards to one of the players.
 
 Notice that this program depends on `Deck.shuffle`.
-If you haven't implemented the `shuffle` method (see Exercise 0.2), the game won't be that fun.
+If you haven't implemented the `shuffle` method (see Exercise 13.2), the game won't be that fun.
 Player 1 will have the Ace through King of the first two suits, and Player 2 will have the the Ace through King of the other two suits, all in the same order.
 
 

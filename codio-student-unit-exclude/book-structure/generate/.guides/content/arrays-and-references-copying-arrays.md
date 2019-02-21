@@ -1,4 +1,4 @@
-As explained in Section 0.2, array variables contain *references* to arrays.
+As explained in Section 7.2, array variables contain *references* to arrays.
 When you make an assignment to an array variable, it simply copies the reference.
 But it doesn't copy the array itself.
 For example:
@@ -8,7 +8,7 @@ double[] a = new double[3];
 double[] b = a;
 ```
 
-These statements create an array of three `double`s and make two different variables refer to it, as shown in Figure 0.3.
+These statements create an array of three `double`s and make two different variables refer to it, as shown in Figure 7.3.
 
 
 ![Figure 8.3 Memory diagram of two variables referring to the same array.](figs/array3.jpg)
@@ -38,7 +38,7 @@ double[] b = Arrays.copyOf(a, 3);
 ```
 
 The second parameter is the number of elements you want to copy, so `copyOf` can also be used to copy part of an array.
-Figure 0.4 shows the state of the array variables after invoking `Arrays.copyOf`.
+Figure 7.4 shows the state of the array variables after invoking `Arrays.copyOf`.
 
 ![Figure 8.4 Memory diagram of two variables referring to different arrays.](figs/array4.jpg)
 
@@ -66,7 +66,7 @@ The last time the loop gets executed, `i` is `a.length - 1`, which is the index 
 When `i` is equal to `a.length`, the condition fails and the body is not executed -- which is a good thing, because trying to access `a[a.length]` would throw an exception.
 
 Of course we can replace the loop altogether by using `Arrays.copyOf` and `a.length` for the second argument.
-The following line produces the same result shown in Figure 0.4.
+The following line produces the same result shown in Figure 7.4.
 
 ```code
 double[] b = Arrays.copyOf(a, a.length);

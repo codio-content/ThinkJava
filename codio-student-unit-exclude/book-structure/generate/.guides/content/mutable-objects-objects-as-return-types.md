@@ -12,7 +12,7 @@ The following example creates a `Rectangle` object and makes the variable `box` 
 Rectangle box = new Rectangle(0, 0, 100, 200);
 ```
 
-Figure 0.2 shows the effect of this assignment.
+Figure 10.2 shows the effect of this assignment.
 
 ![Figure 11.2 Memory diagram showing a `Rectangle` object.](figs/rectangle.jpg)
 
@@ -45,7 +45,7 @@ The last line creates a new `Point` object and returns a reference to it.
 You are probably used to Cartesian **coordinates**, where $x$ and $y$ values can be positive or negative.
 In contrast, Java uses a coordinate system where the origin is in the upper-left corner.
 That way, $x$ and $y$ are always positive integers.
-Figure 0.3 shows these coordinate systems side-by-side.
+Figure 10.3 shows these coordinate systems side-by-side.
 
 ![Figure 11.3 Diagram of the difference between Cartesian coordinates and Java graphical coordinates.](figs/coordinates.jpg)
 
@@ -53,7 +53,7 @@ Figure 0.3 shows these coordinate systems side-by-side.
 
 
 Graphical coordinates are measured in **pixels**; each pixel corresponds to a dot on the screen.
-You can learn more about Java 2D graphics in Appendix 0.
+You can learn more about Java 2D graphics in Appendix 17.
 
 The `Rectangle` we created using the arguments `(0, 0, 100, 200)` has its upper-left corner in the origin.
 The center of this rectangle is `(50, 100)`, which is 50 pixels to the right and 100 pixels down from the origin.

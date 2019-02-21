@@ -17,7 +17,7 @@ The steps are:
 1.  If it's appropriate, replace literal values with variables and parameters.
 
 
-Encapsulation and generalization is similar to “incremental development” (see Section 0.8), in the sense that you write a little code, test it, and repeat.
+Encapsulation and generalization is similar to “incremental development” (see Section 4.8), in the sense that you write a little code, test it, and repeat.
 But you don't need to begin with an exact method definition and stub.
 
 

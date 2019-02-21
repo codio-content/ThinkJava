@@ -1,5 +1,5 @@
 At this point, we have seen nearly all of the organizational units that make up Java programs.
-Figure 0.2 shows how these “language elements” are related.
+Figure 3.2 shows how these “language elements” are related.
 
 ![Figure 4.2 Elements of the Java language, from largest to smallest.](figs/package.jpg)
 
@@ -19,7 +19,7 @@ In the previous example, the tokens are `hours`, `=`, `minutes`, `/`, `60.0`, an
 Knowing this terminology is helpful, because error messages often say things like “not a statement” or “illegal start of expression” or “unexpected token”.
 Comparing Java to English, statements are complete sentences, expressions are phrases, and tokens are individual words and punctuation marks.
 
-Note there is a big difference between the Java *language*, which defines the elements in Figure 0.2, and the Java *library*, which provides the built-in classes that you can import.
+Note there is a big difference between the Java *language*, which defines the elements in Figure 3.2, and the Java *library*, which provides the built-in classes that you can import.
 For example, the keywords `public` and `class` are part of the Java language, but the names `PrintStream` and `Scanner` are not.
 
 The standard edition of Java comes with *several thousand* classes you can use, which can be both exciting and intimidating.

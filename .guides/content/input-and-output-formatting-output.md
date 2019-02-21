@@ -4,6 +4,11 @@ When you output a `double` using `print` or `println`, it displays up to 16 deci
 System.out.print(4.0 / 3.0);
 ```
 
+Try it out in the top-left panel.
+To compile and run the code, press the "Run!"
+{Run!}(javac code/Formatting.java && java code/Formatting)
+
+
 The result is:
 
 ```code
@@ -24,6 +29,10 @@ System.out.printf("Four thirds = %.3f", 4.0 / 3.0);
 The first value in the parentheses is a **format string** that specifies how the output should be displayed.
 This format string contains ordinary text followed by a **format specifier**, which is a special sequence that starts with a percent sign.
 The format specifier `%.3f` indicates that the following value should be displayed as floating-point, rounded to three decimal places.
+
+Try it out in the top-left panel.
+{Run!}(javac code/Formatting.java && java code/Formatting)
+
 The result is:
 
 ```code
@@ -37,6 +46,10 @@ int inch = 100;
 double cm = inch * CM_PER_INCH;
 System.out.printf("%d in = %f cm\n", inch, cm);
 ```
+
+
+Try it out in the top-left panel.
+{Run!}(javac code/Formatting.java && java code/Formatting)
 
 The result is:
 
@@ -52,7 +65,7 @@ The values are matched up with the format specifiers in order, so `inch` is disp
 
 Learning about format strings is like learning a sub-language within Java.
 There are many options, and the details can be overwhelming.
-Table 0.5 lists a few common uses, to give you an idea of how things work.
+Table 3.5 lists a few common uses, to give you an idea of how things work.
 
 |`%d`|decimal integer|12345 |
 |-|-|-|

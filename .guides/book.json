@@ -109,21 +109,21 @@
     {
      "children": [
       {
-       "id": "computer-programming-exercises-2-1",
-       "pageId": "computer-programming-exercises-2-1",
-       "title": "Exercises 2.1",
+       "id": "computer-programming-exercises-1-1",
+       "pageId": "computer-programming-exercises-1-1",
+       "title": "Exercises 1.1",
        "type": "page"
       },
       {
-       "id": "computer-programming-exercises-2-2",
-       "pageId": "computer-programming-exercises-2-2",
-       "title": "Exercises 2.2",
+       "id": "computer-programming-exercises-1-2",
+       "pageId": "computer-programming-exercises-1-2",
+       "title": "Exercises 1.2",
        "type": "page"
       },
       {
-       "id": "computer-programming-exercises-2-3",
-       "pageId": "computer-programming-exercises-2-3",
-       "title": "Exercises 2.3",
+       "id": "computer-programming-exercises-1-3",
+       "pageId": "computer-programming-exercises-1-3",
+       "title": "Exercises 1.3",
        "type": "page"
       }
      ],
@@ -281,10 +281,36 @@
      "type": "page"
     },
     {
+     "children": [
+      {
+       "id": "input-and-output-exercises-3-1",
+       "pageId": "input-and-output-exercises-3-1",
+       "title": "Exercises 3.1",
+       "type": "page"
+      },
+      {
+       "id": "input-and-output-exercises-3-2",
+       "pageId": "input-and-output-exercises-3-2",
+       "title": "Exercises 3.2",
+       "type": "page"
+      },
+      {
+       "id": "input-and-output-exercises-3-3",
+       "pageId": "input-and-output-exercises-3-3",
+       "title": "Exercises 3.3",
+       "type": "page"
+      },
+      {
+       "id": "input-and-output-exercises-3-4",
+       "pageId": "input-and-output-exercises-3-4",
+       "title": "Exercises 3.4",
+       "type": "page"
+      }
+     ],
      "id": "input-and-output-exercises",
      "pageId": "input-and-output-exercises",
      "title": "Exercises",
-     "type": "page"
+     "type": "section"
     }
    ],
    "id": "input-and-output",

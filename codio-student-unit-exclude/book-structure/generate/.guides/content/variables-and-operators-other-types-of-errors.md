@@ -41,7 +41,7 @@ World!
 ```
 
 Assuming that we wanted the output on one line, this is not correct.
-The problem is that the first line uses `println`, when we probably meant to use `print` (see the “goodbye world” example of Section 0.5).
+The problem is that the first line uses `println`, when we probably meant to use `print` (see the “goodbye world” example of Section 1.5).
 
 Identifying logic errors can be hard because you have to work backwards, looking at the output of the program, trying to figure out why it is doing the wrong thing, and how to make it do the right thing.
 Usually the compiler and the interpreter can't help you, since they don't know what the right thing is.

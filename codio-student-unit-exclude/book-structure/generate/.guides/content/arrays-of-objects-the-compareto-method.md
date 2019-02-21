@@ -1,4 +1,4 @@
-As we saw in Section 0.7, it's helpful to create an `equals` method to test whether two objects are equivalent.
+As we saw in Section 11.7, it's helpful to create an `equals` method to test whether two objects are equivalent.
 
 ```code
 public boolean equals(Card that) {
@@ -11,7 +11,7 @@ public boolean equals(Card that) {
 It would also be nice to have a method for comparing cards, so we can tell if one is higher or lower than another.
 For primitive types, we can use the comparison operators -- `<`, `>`, etc.\ -- to compare values.
 But these operators don't work for object types.
-For strings, Java provides a `compareTo` method, as we saw in Section 0.8.
+For strings, Java provides a `compareTo` method, as we saw in Section 6.8.
 We can write our own version of `compareTo` for the classes that we define, like we did for the `equals` method.
 
 

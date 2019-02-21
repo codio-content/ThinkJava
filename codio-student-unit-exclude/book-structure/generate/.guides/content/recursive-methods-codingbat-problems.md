@@ -91,7 +91,7 @@ You can run these solutions on CodingBat by pasting them into the provided metho
 But don't forget to paste both parts: the base case, and the recursive step.
 
 
-To see how these solutions actually work, you might need to step through them with a debugger (see Appendix 0.6) or Java Tutor ([http://pythontutor.com/java.html](http://pythontutor.com/java.html)).
+To see how these solutions actually work, you might need to step through them with a debugger (see Appendix 15.6) or Java Tutor ([http://pythontutor.com/java.html](http://pythontutor.com/java.html)).
 Then try to solve several CodingBat problems of your own.
 
 Learning to think recursively is an important aspect of learning to think like a computer scientist.

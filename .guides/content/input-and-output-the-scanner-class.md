@@ -24,7 +24,11 @@ Scanner in = new Scanner(System.in);
 ```
 
 The `Scanner` class provides a method called `nextLine` that reads a line of input from the keyboard and returns a `String`.
-The following example reads two lines and repeats them back to the user:
+
+
+See the example java code in the top-left panel. This example reads two lines and repeats them back to the user.
+To compile and run the code, press the "Run!"
+{Run! | terminal }(javac code/Echo.java && java -cp code Echo)
 
 
 

@@ -11,7 +11,7 @@ In practice, it's more convenient to look at high-level pictures than to examine
 **Figure 11.7 UML class diagrams for `Point` and `Rectangle`.**
 
 
-As shown in Figure 0.7, a **class diagram** is divided into two sections.
+As shown in Figure 10.7, a **class diagram** is divided into two sections.
 The top half lists the attributes, and the bottom half lists the methods.
 
 
