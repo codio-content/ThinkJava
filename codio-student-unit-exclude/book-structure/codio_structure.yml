@@ -383,20 +383,20 @@ sections:
     transformations:
         - add:  |
              
-             Try it out in the top-left panel.
+             Try it out in the left panel.
              To compile and run the code, press the "Run!"
              {Run!}(javac code/Casting.java && java code/Casting)
      
           position: 411
         - add:  |
              
-             Try it out in the top-left panel.
+             Try it out in the left panel.
              {Run!}(javac code/Casting.java && java code/Casting)
      
           position: 437
         - add:  |
              
-             Try it out in the top-left panel.
+             Try it out in the left panel.
              {Run!}(javac code/Casting.java && java code/Casting)
      
           position: 446
@@ -410,25 +410,62 @@ sections:
             action: open
   - name: Remainder operator
     type: section
+    transformations:
+        - add:  |
+             
+             Try it out in the left panel.
+             {Run!}(javac code/Remainder.java && java code/Remainder)
+     
+          position: 471
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/Remainder.java"
+            panel: 1
+            action: open
   - name: Putting it all together
     type: section
+    transformations:
+        - remove: 1
+          position: 501
+        - add:  |
+             
+             Look at the code in the left panel which puts everything together in a complete program.
+             {Run!}(javac code/Convert.java && java code/Convert)
+     
+          position: 502
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/Convert.java"
+            panel: 1
+            action: open
   - name: The Scanner bug
     type: section
+    transformations:
+        - add:  |
+             
+             {Run!}(javac code/ScannerBug.java && java code/ScannerBug)
+     
+          position: 583
+        - add:  |
+             
+             Fix the code on the left and try running it again.
+             {Run!}(javac code/ScannerBug.java && java code/ScannerBug)
+     
+          position: 628
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ScannerBug.java"
+            panel: 1
+            action: open
   - name: Vocabulary
     type: section
     configuration:
@@ -438,6 +475,12 @@ sections:
             action: close
   - name: Exercises
     type: section
+    codio_section: start
+    transformations:
+      - remove: 3
+        position: 717
+      - remove: 99
+        position: 724
     configuration:
       layout: 1-panel
       files:
@@ -830,4 +873,119 @@ insert_sections:
       \item Delete one of the parentheses.
       \item Add an extra parenthesis.
       \end{enumerate}
+      \end{exercise}
+  - name: Exercises 3.1
+    type: section
+    chapter: Input and output
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex3.1
+
+      When you use \java{printf}, the Java compiler does not check your format string.
+      See what happens if you try to display a value with type \java{int} using \java{\%f}.
+      And what happens if you display a \java{double} using \java{\%d}?
+      What if you use two format specifiers, but then only provide one value?
+
+      \end{exercise}
+  - name: Exercises 3.2
+    type: section
+    chapter: Input and output
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex3.2
+
+      Write a program that converts a temperature from Celsius to Fahrenheit.
+      It should (1) prompt the user for input, (2) read a \java{double} value from the keyboard, (3) calculate the result, and (4) format the output to one decimal place.
+      For example, it should display {\tt "24.0 C = 75.2 F"}.
+
+      Here is the formula.
+      Be careful not to use integer division!
+      %
+      \[ F = C \times \frac{9}{5} + 32 \]
+
+      \end{exercise}
+  - name: Exercises 3.3
+    type: section
+    chapter: Input and output
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex3.3
+
+      Write a program that converts a total number of seconds to hours, minutes, and seconds.
+      It should (1) prompt the user for input, (2) read an integer from the keyboard, (3) calculate the result, and (4) use \java{printf} to display the output.
+      For example, {\tt "5000 seconds = 1 hours, 23 minutes, and 20 seconds"}.
+
+      {\it Hint:} Use the remainder operator.
+
+      \end{exercise}
+  - name: Exercises 3.4
+    type: section
+    chapter: Input and output
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex3.4
+      \label{guess}
+
+      The goal of this exercise is to program a ``Guess My Number'' game.
+      When it's finished, it will work like this:
+
+      \begin{stdout}
+      I'm thinking of a number between 1 and 100
+      (including both). Can you guess what it is?
+      Type a number: 45
+      Your guess is: 45
+      The number I was thinking of is: 14
+      You were off by: 31
+      \end{stdout}
+
+      To choose a random number, you can use the \java{Random} class in \java{java.util}.
+      Here's how it works:
+
+      \index{GuessStarter.java}
+
+      \begin{trinket}{GuessStarter.java}
+      import java.util.Random;
+
+      public class GuessStarter {
+
+          public static void main(String[] args) {
+              // pick a random number
+              Random random = new Random();
+              int number = random.nextInt(100) + 1;
+              System.out.println(number);
+          }
+      }
+      \end{trinket}
+
+      \index{new}
+      \index{operator!new}
+
+      Like the \java{Scanner} class we saw in this chapter, \java{Random} has to be imported before we can use it.
+      And as we saw with \java{Scanner}, we have to use the \java{new} operator to create a \java{Random} (number generator).
+
+      Then we can use the method \java{nextInt} to generate a random number.
+      In this example, the result of \java{nextInt(100)} will be between 0 and 99, including both.
+      Adding 1 yields a number between 1 and 100, including both.
+
+      \begin{enumerate}
+
+      \item The definition of \java{GuessStarter} is in a file called {\tt GuessStarter.java}, in the directory called {\tt ch03}, in the repository for this book.
+      %Instructions for downloading this code are on page~\pageref{code}.
+
+      \item Compile and run this program.
+
+      \item Modify the program to prompt the user, then use a \java{Scanner} to read a line of user input.
+      Compile and test the program.
+
+      \item Read the user input as an integer and display the result.
+      Again, compile and test.
+
+      \item Compute and display the difference between the user's guess and the number that was generated.
+
+      \end{enumerate}
+
       \end{exercise}
