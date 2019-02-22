@@ -6,6 +6,7 @@ workspace:
 metadata:
   hideMenu: false
   protectLayout: false
+  suppressPageNumbering: true
 refs:
   #Offsets chapter numbering to match physical book
   chapter_counter_from: 0
@@ -283,7 +284,7 @@ sections:
              
              See the example java code in the top-left panel. This example reads two lines and repeats them back to the user.
              To compile and run the code, press the "Run!"
-             {Run!}(javac code/Echo.java && java code/Echo)
+             {Run!}(javac code/Echo.java && java -cp code/ Echo)
      
           position: 108
     configuration:
@@ -311,27 +312,27 @@ sections:
              
              Follow along in the top-left panel.
              To compile and run the code, press the "Run!"
-             {Run!}(javac code/Literals.java && java code/Literals)
+             {Run!}(javac code/Literals.java && java -cp code/ Literals)
      
           position: 196
         - add:  |
              
-             {Run!}(javac code/Literals.java && java code/Literals)
+             {Run!}(javac code/Literals.java && java -cp code/ Literals)
      
           position: 216
         - add:  |
              
-             {Run!}(javac code/Literals.java && java code/Literals)
+             {Run!}(javac code/Literals.java && java -cp code/ Literals)
      
           position: 225
         - add:  |
              
-             {Run!}(javac code/Literals.java && java code/Literals)
+             {Run!}(javac code/Literals.java && java -cp code/ Literals)
      
           position: 250
         - add:  |
              
-             {Run!}(javac code/Literals.java && java code/Literals)
+             {Run!}(javac code/Literals.java && java -cp code/ Literals)
      
           position: 262
     configuration:
@@ -352,19 +353,19 @@ sections:
              
              Try it out in the top-left panel.
              To compile and run the code, press the "Run!"
-             {Run!}(javac code/Formatting.java && java code/Formatting)
+             {Run!}(javac code/Formatting.java && java -cp code/ Formatting)
      
           position: 276
         - add:  |
              
              Try it out in the top-left panel.
-             {Run!}(javac code/Formatting.java && java code/Formatting)
+             {Run!}(javac code/Formatting.java && java -cp code/ Formatting)
      
           position: 300
         - add:  |
              
              Try it out in the top-left panel.
-             {Run!}(javac code/Formatting.java && java code/Formatting)
+             {Run!}(javac code/Formatting.java && java -cp code/ Formatting)
      
           position: 314
     configuration:
@@ -385,19 +386,19 @@ sections:
              
              Try it out in the left panel.
              To compile and run the code, press the "Run!"
-             {Run!}(javac code/Casting.java && java code/Casting)
+             {Run!}(sh code/bg.sh javac code/Casting.java java -cp code/ Casting )
      
           position: 411
         - add:  |
              
              Try it out in the left panel.
-             {Run!}(javac code/Casting.java && java code/Casting)
+             {Run!}(sh code/bg.sh javac code/Casting.java java -cp code/ Casting )
      
           position: 437
         - add:  |
              
              Try it out in the left panel.
-             {Run!}(javac code/Casting.java && java code/Casting)
+             {Run!}(sh code/bg.sh javac code/Casting.java java -cp code/ Casting )
      
           position: 446
     configuration:
@@ -406,7 +407,7 @@ sections:
           - path: "#tabs"
             action: close
           - path: "code/Casting.java"
-            panel: 1
+            panel: 0
             action: open
   - name: Remainder operator
     type: section
@@ -414,11 +415,11 @@ sections:
         - add:  |
              
              Try it out in the left panel.
-             {Run!}(javac code/Remainder.java && java code/Remainder)
+             {Run!}(sh code/bg.sh javac code/Remainder.java java -cp code/ Remainder )
      
           position: 471
     configuration:
-      layout: 2-panels
+      layout: 2-panels-left
       files:
           - path: "#tabs"
             action: close
@@ -433,7 +434,7 @@ sections:
         - add:  |
              
              Look at the code in the left panel which puts everything together in a complete program.
-             {Run!}(javac code/Convert.java && java code/Convert)
+             {Run!}(sh code/bg.sh javac code/Convert.java java -cp code/ Convert )
      
           position: 502
     configuration:
@@ -442,28 +443,31 @@ sections:
           - path: "#tabs"
             action: close
           - path: "code/Convert.java"
-            panel: 1
+            panel: 0
             action: open
   - name: The Scanner bug
     type: section
     transformations:
         - add:  |
              
-             {Run!}(javac code/ScannerBug.java && java code/ScannerBug)
+             {Run! | terminal}(javac code/ScannerBug.java && java -cp code/ ScannerBug)
      
           position: 583
         - add:  |
              
              Fix the code on the left and try running it again.
-             {Run!}(javac code/ScannerBug.java && java code/ScannerBug)
+             {Run! | terminal}(javac code/ScannerBug.java && java -cp code/ ScannerBug)
      
           position: 628
     configuration:
-      layout: 2-panels
+      layout: 3-cells
       files:
           - path: "#tabs"
             action: close
           - path: "code/ScannerBug.java"
+            panel: 0
+            action: open
+          - path: "#terminal: "
             panel: 1
             action: open
   - name: Vocabulary
@@ -511,6 +515,7 @@ sections:
     type: section
   - name: Exercises
     type: section
+#Chapter 5
   - name: Conditionals and logic
     type: chapter
   - name: Relational operators
@@ -535,6 +540,7 @@ sections:
     type: section
   - name: Exercises
     type: section
+#Chapter 6
   - name: Loops and strings
     type: chapter
   - name: The while statement
@@ -561,6 +567,7 @@ sections:
     type: section
   - name: Exercises
     type: section
+# Chapter 7
   - name: Arrays and references
     type: chapter
   - name: Creating arrays
@@ -585,6 +592,7 @@ sections:
     type: section
   - name: Exercises
     type: section
+# Chapter 8
   - name: Recursive methods
     type: chapter
   - name: Recursive void methods
@@ -605,6 +613,7 @@ sections:
     type: section
   - name: Exercises
     type: section
+# Chapter 9
   - name: Immutable objects
     type: chapter
   - name: Primitives vs objects
@@ -625,6 +634,7 @@ sections:
     type: section
   - name: Exercises
     type: section
+#Chapter 10
   - name: Mutable objects
     type: chapter
   - name: Point objects
@@ -649,6 +659,7 @@ sections:
     type: section
   - name: Exercises
     type: section
+#Chapter 11
   - name: Designing classes
     type: chapter
   - name: The Time class
@@ -673,6 +684,7 @@ sections:
     type: section
   - name: Exercises
     type: section
+#Chapter 12
   - name: Arrays of objects
     type: chapter
   - name: Card objects
@@ -699,6 +711,7 @@ sections:
     type: section
   - name: Exercises
     type: section
+#Chapter 13
   - name: Objects of arrays
     type: chapter
   - name: Decks of cards
@@ -723,6 +736,7 @@ sections:
     type: section
   - name: Exercises
     type: section
+#Chapter 14
   - name: Extending classes
     type: chapter
   - name: CardCollection
@@ -741,6 +755,7 @@ sections:
     type: section
   - name: Exercises
     type: section
+#Appendix A
   - name: Tools
     type: chapter
   - name: Installing DrJava
@@ -759,6 +774,7 @@ sections:
     type: section
   - name: Vocabulary
     type: section
+#Appendix B
   - name: Javadoc
     type: chapter
   - name: Reading documentation
@@ -771,6 +787,7 @@ sections:
     type: section
   - name: Vocabulary
     type: section
+#Appendix C
   - name: Graphics
     type: chapter
   - name: Creating graphics
@@ -783,6 +800,7 @@ sections:
     type: section
   - name: Exercises
     type: section
+#Appendix D
   - name: Debugging
     type: chapter
   - name: Compile-time errors
@@ -791,6 +809,7 @@ sections:
     type: section
   - name: Logic errors
     type: section
+#Appendix E
   - name: Extras
     type: chapter
   - name: Unreachable code
@@ -807,6 +826,7 @@ sections:
     type: section
 #inserting exercises on seperate pages so that they are cherry-pick-able
 insert_sections:
+#Chapter 1
   - name: Exercises 1.1
     type: section
     chapter: Computer programming
@@ -874,6 +894,9 @@ insert_sections:
       \item Add an extra parenthesis.
       \end{enumerate}
       \end{exercise}
+#Chapter 2
+      
+#Chapter 3
   - name: Exercises 3.1
     type: section
     chapter: Input and output

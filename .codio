@@ -1,16 +1,12 @@
 {
-// Configure your Run and Preview buttons here.
-
-// Run button configuration
-  "commands": {
+    "commands": {
         "Node version": "node --version"
-  },
-
-// Preview button configuration
-  "preview": {
+    },
+    "preview": {
+        "Virtual Desktop": "https://{{domain3000}}/",
         "Project Index (static)": "https://{{domain}}/{{index}}",
         "Current File (static)": "https://{{domain}}/{{filepath}}",
         "Box URL": "http://{{domain3000}}/",
         "Box URL SSL": "https://{{domain3000}}/"
-  }
+    }
 }

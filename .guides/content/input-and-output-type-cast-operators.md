@@ -61,7 +61,7 @@ System.out.printf("%f cm = %d in\n", cent, inch);
 
 
 Try it out in the left panel.
-{Run!}(javac code/Casting.java && java code/Casting)
+{Run!}(sh code/bg.sh javac code/Casting.java java -cp code/ Casting )
 
 The parentheses after the cast operator require the division to happen before the type cast.
 And the result is rounded toward zero.
