@@ -686,6 +686,7 @@ sections:
             action: close
   - name: Exercises
     type: section
+    codio_section: start
     transformations:
        - remove: 142
          position: 760

@@ -603,10 +603,60 @@
      "type": "page"
     },
     {
+     "children": [
+      {
+       "id": "arrays-and-references-exercises-7-1",
+       "pageId": "arrays-and-references-exercises-7-1",
+       "title": "Exercises 7.1",
+       "type": "page"
+      },
+      {
+       "id": "arrays-and-references-exercises-7-2",
+       "pageId": "arrays-and-references-exercises-7-2",
+       "title": "Exercises 7.2",
+       "type": "page"
+      },
+      {
+       "id": "arrays-and-references-exercises-7-3",
+       "pageId": "arrays-and-references-exercises-7-3",
+       "title": "Exercises 7.3",
+       "type": "page"
+      },
+      {
+       "id": "arrays-and-references-exercises-7-4",
+       "pageId": "arrays-and-references-exercises-7-4",
+       "title": "Exercises 7.4",
+       "type": "page"
+      },
+      {
+       "id": "arrays-and-references-exercises-7-5",
+       "pageId": "arrays-and-references-exercises-7-5",
+       "title": "Exercises 7.5",
+       "type": "page"
+      },
+      {
+       "id": "arrays-and-references-exercises-7-6",
+       "pageId": "arrays-and-references-exercises-7-6",
+       "title": "Exercises 7.6",
+       "type": "page"
+      },
+      {
+       "id": "arrays-and-references-exercises-7-7",
+       "pageId": "arrays-and-references-exercises-7-7",
+       "title": "Exercises 7.7",
+       "type": "page"
+      },
+      {
+       "id": "arrays-and-references-exercises-7-8",
+       "pageId": "arrays-and-references-exercises-7-8",
+       "title": "Exercises 7.8",
+       "type": "page"
+      }
+     ],
      "id": "arrays-and-references-exercises",
      "pageId": "arrays-and-references-exercises",
      "title": "Exercises",
-     "type": "page"
+     "type": "section"
     }
    ],
    "id": "arrays-and-references",
