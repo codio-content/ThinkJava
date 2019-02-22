@@ -573,28 +573,127 @@ sections:
 # Chapter 7
   - name: Arrays and references
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Creating arrays
     type: section
+    #transformation to add visualizer goes here....
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/CreatingArrays.java"
+            panel: 0
+            action: open
   - name: Accessing elements
     type: section
+    #transformation to add visualizer goes here....
+    configuration:
+      layout: 2-panels-guides-left
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/AccessingElements.java"
+            panel: 1
+            action: open
   - name: Displaying arrays
     type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/DisplayingArrays.java"
+            panel: 0
+            action: open
   - name: Copying arrays
     type: section
+        #transformation to add visualizer goes here....
+    configuration:
+      layout: 2-panels-guides-left
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/CopyingArrays.java"
+            panel: 1
+            action: open
   - name: Array traversal
     type: section
+        #transformation to add visualizer goes here....
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/TraversingArrays.java"
+            panel: 0
+            action: open
   - name: Random numbers
     type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/RandomNums.java"
+            panel: 0
+            action: open
   - name: Building a histogram
     type: section
+    configuration:
+      layout: 2-panels-guides-left
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/Histogram.java"
+            panel: 1
+            action: open
   - name: The enhanced for loop
     type: section
+        #transformation to add visualizer goes here....
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/Enhanced.java"
+            panel: 0
+            action: open
   - name: Counting characters
     type: section
+        #transformation to add visualizer goes here....
+    configuration:
+      layout: 3-cell
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/Counting.java"
+            panel: 0
+            action: open
+          - path: "code/Doubloon.java"
+            panel: 1
+            action: open
   - name: Vocabulary
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Exercises
     type: section
+    transformations:
+       - remove: 142
+         position: 760
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
 # Chapter 8
   - name: Recursive methods
     type: chapter
@@ -1015,3 +1114,184 @@ insert_sections:
       \end{enumerate}
 
       \end{exercise}
+
+#Chapter 7
+  - name: Exercises 7.1
+    type: section
+    chapter: Arrays and references
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex8.2
+      
+      The purpose of this exercise is to practice reading code and recognizing the traversal patterns in this chapter.
+      The following methods are hard to read, because instead of using meaningful names for the variables and methods, they use names of fruit.
+
+      For each method, write one sentence that describes what the method does, without getting into the details of how it works.
+      And for each variable, identify the role it plays.
+
+      \begin{code}
+      public static int banana(int[] a) {
+          int kiwi = 1;
+          int i = 0;
+          while (i < a.length) {
+              kiwi = kiwi * a[i];
+              i++;
+          }
+          return kiwi;
+      }
+      \end{code}
+
+      \begin{code}
+      public static int grapefruit(int[] a, int grape) {
+          for (int i = 0; i < a.length; i++) {
+              if (a[i] == grape) {
+                  return i;
+              }
+          }
+          return -1;
+      }
+      \end{code}
+
+      \begin{code}
+      public static int pineapple(int[] a, int apple) {
+          int pear = 0;
+          for (int pine: a) {
+              if (pine == apple) {
+                  pear++;
+              }
+          }
+          return pear;
+      }
+      \end{code}
+
+      \end{exercise}
+  - name: Exercises 7.2
+    type: section
+    chapter: Arrays and references
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex8.3
+
+      What is the output of the following program?
+      Describe in a few words what \java{mus} does.
+      Draw a stack diagram just before \java{mus} returns.
+      %that shows the state of the program
+
+      \begin{code}
+      public static int[] make(int n) {
+          int[] a = new int[n];
+          for (int i = 0; i < n; i++) {
+              a[i] = i + 1;
+          }
+          return a;
+      }
+      \end{code}
+
+      \begin{code}
+      public static void dub(int[] jub) {
+          for (int i = 0; i < jub.length; i++) {
+              jub[i] *= 2;
+          }
+      }
+      \end{code}
+
+      \begin{code}
+      public static int mus(int[] zoo) {
+          int fus = 0;
+          for (int i = 0; i < zoo.length; i++) {
+              fus += zoo[i];
+          }
+          return fus;
+      }
+      \end{code}
+
+      \begin{code}
+      public static void main(String[] args) {
+          int[] bob = make(5);
+          dub(bob);
+          System.out.println(mus(bob));
+      }
+      \end{code}
+
+      \end{exercise}
+  - name: Exercises 7.3
+    type: section
+    chapter: Arrays and references
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex8.4
+
+      Write a method called \java{indexOfMax} that takes an array of integers and returns the index of the largest element.
+      Can you write this method using an enhanced \java{for} loop?
+      Why or why not?
+
+      \end{exercise}
+  - name: Exercises 7.4
+    type: section
+    chapter: Arrays and references
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex8.5
+
+      The Sieve of Eratosthenes is ``a simple, ancient algorithm for finding all prime numbers up to any given limit,'' which you can read about at \url{https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes}.
+
+      Write a method called \java{sieve} that takes an integer parameter, \java{n}, and returns a \java{boolean} array that indicates, for each number from \java{0} to \java{n - 1}, whether the number is prime.
+
+      \end{exercise}
+  - name: Exercises 7.5
+    type: section
+    chapter: Arrays and references
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex8.6
+
+      Write a method named \java{areFactors} that takes an integer \java{n} and an array of integers, and that returns \java{true} if the numbers in the array are all factors of \java{n} (which is to say that \java{n} is divisible by all of them).
+
+      \end{exercise}
+  - name: Exercises 7.6
+    type: section
+    chapter: Arrays and references
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex8.7
+
+      Write a method named \java{arePrimeFactors} that takes an integer \java{n} and an array of integers, and that returns \java{true} if the numbers in the array are all prime {\it and} their product is \java{n}.
+
+      \end{exercise}
+  - name: Exercises 7.7
+    type: section
+    chapter: Arrays and references
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex9.2
+
+      Write a method called \java{letterHist} that takes a string as a parameter and returns a histogram of the letters in the string.
+      The zeroth element of the histogram should contain the number of a's in the string (upper- and lowercase); the 25th element should contain the number of z's.
+      Your solution should only traverse the string once.
+
+      \end{exercise}
+  - name: Exercises 7.8
+    type: section
+    chapter: Arrays and references
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex9.7
+
+      \index{anagram}
+
+      Two words are anagrams if they contain the same letters and the same number of each letter.
+      For example, ``stop'' is an anagram of ``pots'' and ``allen downey'' is an anagram of ``well annoyed''.
+      Write a method that takes two strings and checks whether they are anagrams of each other.
+
+      \end{exercise}
+
+      
+      

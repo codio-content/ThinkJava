@@ -1341,8 +1341,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/arrays-and-references.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-and-references",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1353,8 +1359,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-creating-arrays.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/CreatingArrays.java"
+        }
+      ],
       "id": "arrays-and-references-creating-arrays",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1365,8 +1382,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-accessing-elements.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/AccessingElements.java"
+        }
+      ],
       "id": "arrays-and-references-accessing-elements",
+      "layout": "2-panels-guides-left",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1377,8 +1405,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-displaying-arrays.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/DisplayingArrays.java"
+        }
+      ],
       "id": "arrays-and-references-displaying-arrays",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1389,8 +1428,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-copying-arrays.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/CopyingArrays.java"
+        }
+      ],
       "id": "arrays-and-references-copying-arrays",
+      "layout": "2-panels-guides-left",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1401,8 +1451,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-array-traversal.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/TraversingArrays.java"
+        }
+      ],
       "id": "arrays-and-references-array-traversal",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1413,8 +1474,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-random-numbers.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/RandomNums.java"
+        }
+      ],
       "id": "arrays-and-references-random-numbers",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1425,8 +1497,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-building-a-histogram.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/Histogram.java"
+        }
+      ],
       "id": "arrays-and-references-building-a-histogram",
+      "layout": "2-panels-guides-left",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1437,8 +1520,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-the-enhanced-for-loop.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Enhanced.java"
+        }
+      ],
       "id": "arrays-and-references-the-enhanced-for-loop",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1449,8 +1543,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-counting-characters.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Counting.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/Doubloon.java"
+        }
+      ],
       "id": "arrays-and-references-counting-characters",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1461,8 +1571,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-and-references-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1473,8 +1589,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-and-references-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
