@@ -284,7 +284,7 @@ sections:
              
              See the example java code in the top-left panel. This example reads two lines and repeats them back to the user.
              To compile and run the code, press the "Run!"
-             {Run!}(javac code/Echo.java && java -cp code/ Echo)
+             {Run! | terminal}(javac code/Echo.java && java -cp code/ Echo)
      
           position: 108
     configuration:
@@ -312,27 +312,27 @@ sections:
              
              Follow along in the top-left panel.
              To compile and run the code, press the "Run!"
-             {Run!}(javac code/Literals.java && java -cp code/ Literals)
+             {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals)
      
           position: 196
         - add:  |
              
-             {Run!}(javac code/Literals.java && java -cp code/ Literals)
+             {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals)
      
           position: 216
         - add:  |
              
-             {Run!}(javac code/Literals.java && java -cp code/ Literals)
+             {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals)
      
           position: 225
         - add:  |
              
-             {Run!}(javac code/Literals.java && java -cp code/ Literals)
+             {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals)
      
           position: 250
         - add:  |
              
-             {Run!}(javac code/Literals.java && java -cp code/ Literals)
+             {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals)
      
           position: 262
     configuration:
@@ -351,21 +351,21 @@ sections:
     transformations:
         - add:  |
              
-             Try it out in the top-left panel.
+             Try it out in the top-right panel.
              To compile and run the code, press the "Run!"
-             {Run!}(javac code/Formatting.java && java -cp code/ Formatting)
+             {Run! | terminal}(javac code/Formatting.java && java -cp code/ Formatting)
      
           position: 276
         - add:  |
              
-             Try it out in the top-left panel.
-             {Run!}(javac code/Formatting.java && java -cp code/ Formatting)
+             Try it out in the top-right panel.
+             {Run! | terminal}(javac code/Formatting.java && java -cp code/ Formatting)
      
           position: 300
         - add:  |
              
-             Try it out in the top-left panel.
-             {Run!}(javac code/Formatting.java && java -cp code/ Formatting)
+             Try it out in the top-right panel.
+             {Run! | terminal}(javac code/Formatting.java && java -cp code/ Formatting)
      
           position: 314
     configuration:
@@ -419,12 +419,12 @@ sections:
      
           position: 471
     configuration:
-      layout: 2-panels-left
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
           - path: "code/Remainder.java"
-            panel: 1
+            panel: 0
             action: open
   - name: Putting it all together
     type: section
@@ -434,16 +434,19 @@ sections:
         - add:  |
              
              Look at the code in the left panel which puts everything together in a complete program.
-             {Run!}(sh code/bg.sh javac code/Convert.java java -cp code/ Convert )
+             {Run! | terminal}(javac code/Convert.java && java -cp code/ Convert )
      
           position: 502
     configuration:
-      layout: 2-panels
+      layout: 3-cell
       files:
           - path: "#tabs"
             action: close
           - path: "code/Convert.java"
             panel: 0
+            action: open
+          - path: "#terminal: "
+            panel: 1
             action: open
   - name: The Scanner bug
     type: section
@@ -460,7 +463,7 @@ sections:
      
           position: 628
     configuration:
-      layout: 3-cells
+      layout: 3-cell
       files:
           - path: "#tabs"
             action: close

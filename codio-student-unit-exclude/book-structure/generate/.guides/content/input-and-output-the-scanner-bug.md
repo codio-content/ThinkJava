@@ -28,7 +28,7 @@ System.out.printf("Hello %s, age %d\n", name, age);
 
 Try running this example code.
 
-{Run!}(javac code/ScannerBug.java && java code/ScannerBug)
+{Run! | terminal}(javac code/ScannerBug.java && java -cp code/ ScannerBug)
 
 It doesn't let you input your name, and it immediately displays the output:
 
@@ -68,7 +68,7 @@ System.out.printf("Hello %s, age %d\n", name, age);
 ```
 
 Fix the code on the left and try running it again.
-{Run!}(javac code/ScannerBug.java && java code/ScannerBug)
+{Run! | terminal}(javac code/ScannerBug.java && java -cp code/ ScannerBug)
 
 
 This technique is common when reading `int` or `double` values that appear on their own line.

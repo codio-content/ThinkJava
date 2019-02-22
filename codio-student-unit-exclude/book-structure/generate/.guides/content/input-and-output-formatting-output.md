@@ -4,9 +4,9 @@ When you output a `double` using `print` or `println`, it displays up to 16 deci
 System.out.print(4.0 / 3.0);
 ```
 
-Try it out in the top-left panel.
+Try it out in the top-right panel.
 To compile and run the code, press the "Run!"
-{Run!}(javac code/Formatting.java && java code/Formatting)
+{Run! | terminal}(javac code/Formatting.java && java -cp code/ Formatting)
 
 
 The result is:
@@ -30,8 +30,8 @@ The first value in the parentheses is a **format string** that specifies how the
 This format string contains ordinary text followed by a **format specifier**, which is a special sequence that starts with a percent sign.
 The format specifier `%.3f` indicates that the following value should be displayed as floating-point, rounded to three decimal places.
 
-Try it out in the top-left panel.
-{Run!}(javac code/Formatting.java && java code/Formatting)
+Try it out in the top-right panel.
+{Run! | terminal}(javac code/Formatting.java && java -cp code/ Formatting)
 
 The result is:
 
@@ -48,8 +48,8 @@ System.out.printf("%d in = %f cm\n", inch, cm);
 ```
 
 
-Try it out in the top-left panel.
-{Run!}(javac code/Formatting.java && java code/Formatting)
+Try it out in the top-right panel.
+{Run! | terminal}(javac code/Formatting.java && java -cp code/ Formatting)
 
 The result is:
 

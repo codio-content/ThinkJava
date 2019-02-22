@@ -19,7 +19,7 @@ The syntax for type casting is to put the name of the type in parentheses and us
 
 Try it out in the left panel.
 To compile and run the code, press the "Run!"
-{Run!}(javac code/Casting.java && java code/Casting)
+{Run!}(sh code/bg.sh javac code/Casting.java java -cp code/ Casting )
 
 ```code
 double pi = 3.14159;
@@ -49,7 +49,7 @@ double x = (int) pi * 20.0;  // result is 60.0, not 62.0
 
 
 Try it out in the left panel.
-{Run!}(javac code/Casting.java && java code/Casting)
+{Run!}(sh code/bg.sh javac code/Casting.java java -cp code/ Casting )
 
 
 Keeping that in mind, here's how we can convert centimeters to inches:

@@ -14,7 +14,7 @@ inches = 76 % 12;  // remainder
 ```
 
 Try it out in the left panel.
-{Run!}(javac code/Remainder.java && java code/Remainder)
+{Run!}(sh code/bg.sh javac code/Remainder.java java -cp code/ Remainder )
 
 
 The first line yields 6.

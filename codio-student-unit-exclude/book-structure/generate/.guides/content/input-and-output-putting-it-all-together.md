@@ -2,7 +2,7 @@ At this point, you have seen enough Java to write useful programs that solve eve
 You can (1) import Java library classes, (2) create a `Scanner`, (3) get input from the keyboard, (4) format output with `printf`, and (5) divide and mod integers.
 
 Look at the code in the left panel which puts everything together in a complete program.
-{Run!}(javac code/Convert.java && java code/Convert)
+{Run! | terminal}(javac code/Convert.java && java -cp code/ Convert )
 
 
 

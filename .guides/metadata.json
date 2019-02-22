@@ -730,7 +730,7 @@
         },
         {
           "action": "open",
-          "panel": 1,
+          "panel": 0,
           "path": "code/Casting.java"
         }
       ],
@@ -753,7 +753,7 @@
         },
         {
           "action": "open",
-          "panel": 1,
+          "panel": 0,
           "path": "code/Remainder.java"
         }
       ],
@@ -776,12 +776,17 @@
         },
         {
           "action": "open",
-          "panel": 1,
+          "panel": 0,
           "path": "code/Convert.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
         }
       ],
       "id": "input-and-output-putting-it-all-together",
-      "layout": "2-panels",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -799,12 +804,17 @@
         },
         {
           "action": "open",
-          "panel": 1,
+          "panel": 0,
           "path": "code/ScannerBug.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
         }
       ],
       "id": "input-and-output-the-scanner-bug",
-      "layout": "2-panels",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2793,7 +2803,7 @@
       "type": "markdown"
     }
   ],
-  "suppressPageNumbering": false,
+  "suppressPageNumbering": true,
   "theme": "light",
   "useMarkAsComplete": true,
   "useSubmitButtons": true
