@@ -9,19 +9,9 @@ A directory of classes that are related to each other.
 The location of a value in computer memory, often represented as a hexadecimal integer.
 
 
-
 **library**
 
 A collection of packages and classes that are available for use in other programs.
-
-
-
-
-
-
-
-
-
 
 
 **import statement**
@@ -33,11 +23,6 @@ A statement that allows programs to use classes defined in other packages.
 **token**
 
 The smallest unit of source code, such as an individual word, literal value, or symbol.
-
-
-
-
-
 
 
 **literal**
