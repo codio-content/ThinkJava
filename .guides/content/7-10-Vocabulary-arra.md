@@ -6,9 +6,7 @@ A collection of values, where all the values have the same type, and each value 
 
 **element**
 
-One of the values in an array.
-
-The `[]` operator selects elements.
+One of the values in an array. The `[]` operator selects elements.
 
 
 
@@ -20,17 +18,13 @@ An integer variable or value used to indicate an element of an array.
 
 **allocate**
 
-To reserve memory for an array or other object.
-
-In Java, the `new` operator allocates memory.
+To reserve memory for an array or other object. In Java, the `new` operator allocates memory.
 
 
 
 **reference**
 
-A value that indicates a storage location.
-
-In a memory diagram, a reference appears as an arrow.
+A value that indicates a storage location. In a memory diagram, a reference appears as an arrow.
 
 
 

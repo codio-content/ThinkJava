@@ -1,3028 +1,3107 @@
 {
-  "allowGuideClose": false,
-  "collapsedOnStart": false,
-  "hideBackToDashboard": false,
-  "hideMenu": false,
-  "hideSectionsToggle": false,
-  "lexikonTopic": "",
-  "protectLayout": false,
-  "scripts": [],
-  "sections": [
-    {
-      "chapter": true,
-      "content-file": ".guides/content/preface.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "preface",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Preface",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/preface-the-philosophy-behind-the-book.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "preface-the-philosophy-behind-the-book",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The philosophy behind the book",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/preface-object-oriented-programming.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "preface-object-oriented-programming",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Object-oriented programming",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/preface-changes-to-the-2nd-edition.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "preface-changes-to-the-2nd-edition",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Changes to the 2nd edition",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/preface-about-the-appendixes.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "preface-about-the-appendixes",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "About the appendixes",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/preface-using-the-code-examples.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "preface-using-the-code-examples",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Using the code examples",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/preface-contributors-over-the-years.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "preface-contributors-over-the-years",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Contributors over the years",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/computer-programming.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "computer-programming",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Computer programming",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/computer-programming-what-is-a-computer-.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "computer-programming-what-is-a-computer-",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "What is a computer?",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/computer-programming-what-is-programming-.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "computer-programming-what-is-programming-",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "What is programming?",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/computer-programming-the-hello-world-program.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/Hello.java"
-        }
-      ],
-      "id": "computer-programming-the-hello-world-program",
-      "layout": "2-panels",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The hello world program",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/computer-programming-compiling-java-programs.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/Hello.java"
-        },
-        {
-          "action": "open",
-          "panel": 1,
-          "path": "#terminal: "
-        }
-      ],
-      "id": "computer-programming-compiling-java-programs",
-      "layout": "3-cell",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Compiling Java programs",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/computer-programming-displaying-two-messages.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/Hello2.java"
-        },
-        {
-          "action": "open",
-          "panel": 1,
-          "path": "code/Goodbye.java"
-        }
-      ],
-      "id": "computer-programming-displaying-two-messages",
-      "layout": "3-cell",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Displaying two messages",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/computer-programming-formatting-source-code.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/Goodbye2.java"
-        },
-        {
-          "action": "open",
-          "panel": 1,
-          "path": "code/Goodbye3.java"
-        }
-      ],
-      "id": "computer-programming-formatting-source-code",
-      "layout": "3-cell",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Formatting source code",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/computer-programming-escape-sequences.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/Hello3.java"
-        }
-      ],
-      "id": "computer-programming-escape-sequences",
-      "layout": "2-panels",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Escape sequences",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/computer-programming-what-is-computer-science-.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "computer-programming-what-is-computer-science-",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "What is computer science?",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/computer-programming-debugging-programs.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "computer-programming-debugging-programs",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Debugging programs",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/computer-programming-vocabulary.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "computer-programming-vocabulary",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Vocabulary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/computer-programming-exercises.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "computer-programming-exercises",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/computer-programming-exercises-1-1.md",
-      "files": [],
-      "id": "computer-programming-exercises-1-1",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises 1.1",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/computer-programming-exercises-1-2.md",
-      "files": [],
-      "id": "computer-programming-exercises-1-2",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises 1.2",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/computer-programming-exercises-1-3.md",
-      "files": [],
-      "id": "computer-programming-exercises-1-3",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises 1.3",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/variables-and-operators.md",
-      "files": [],
-      "id": "variables-and-operators",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Variables and operators",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-operators-declaring-variables.md",
-      "files": [],
-      "id": "variables-and-operators-declaring-variables",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Declaring variables",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-operators-assigning-variables.md",
-      "files": [],
-      "id": "variables-and-operators-assigning-variables",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Assigning variables",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-operators-memory-diagrams.md",
-      "files": [],
-      "id": "variables-and-operators-memory-diagrams",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Memory diagrams",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-operators-printing-variables.md",
-      "files": [],
-      "id": "variables-and-operators-printing-variables",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Printing variables",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-operators-arithmetic-operators.md",
-      "files": [],
-      "id": "variables-and-operators-arithmetic-operators",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Arithmetic operators",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-operators-floating-point-numbers.md",
-      "files": [],
-      "id": "variables-and-operators-floating-point-numbers",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Floating-point numbers",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-operators-rounding-errors.md",
-      "files": [],
-      "id": "variables-and-operators-rounding-errors",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Rounding errors",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-operators-operators-for-strings.md",
-      "files": [],
-      "id": "variables-and-operators-operators-for-strings",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Operators for strings",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-operators-compiler-error-messages.md",
-      "files": [],
-      "id": "variables-and-operators-compiler-error-messages",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Compiler error messages",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-operators-other-types-of-errors.md",
-      "files": [],
-      "id": "variables-and-operators-other-types-of-errors",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Other types of errors",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-operators-vocabulary.md",
-      "files": [],
-      "id": "variables-and-operators-vocabulary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Vocabulary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/variables-and-operators-exercises.md",
-      "files": [],
-      "id": "variables-and-operators-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/input-and-output.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "input-and-output",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Input and output",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/input-and-output-the-system-class.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "input-and-output-the-system-class",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The System class",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/input-and-output-the-scanner-class.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/Echo.java"
-        },
-        {
-          "action": "open",
-          "panel": 1,
-          "path": "#terminal: "
-        }
-      ],
-      "id": "input-and-output-the-scanner-class",
-      "layout": "3-cell",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The Scanner class",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/input-and-output-language-elements.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "input-and-output-language-elements",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Language elements",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/input-and-output-literals-and-constants.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/Literals.java"
-        },
-        {
-          "action": "open",
-          "panel": 1,
-          "path": "#terminal: "
-        }
-      ],
-      "id": "input-and-output-literals-and-constants",
-      "layout": "3-cell",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Literals and constants",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/input-and-output-formatting-output.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 1,
-          "path": "code/Formatting.java"
-        },
-        {
-          "action": "open",
-          "panel": 2,
-          "path": "#terminal: "
-        }
-      ],
-      "id": "input-and-output-formatting-output",
-      "layout": "3-cell-left",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Formatting output",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/input-and-output-type-cast-operators.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/Casting.java"
-        }
-      ],
-      "id": "input-and-output-type-cast-operators",
-      "layout": "2-panels",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Type cast operators",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/input-and-output-remainder-operator.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/Remainder.java"
-        }
-      ],
-      "id": "input-and-output-remainder-operator",
-      "layout": "2-panels",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Remainder operator",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/input-and-output-putting-it-all-together.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/Convert.java"
-        },
-        {
-          "action": "open",
-          "panel": 1,
-          "path": "#terminal: "
-        }
-      ],
-      "id": "input-and-output-putting-it-all-together",
-      "layout": "3-cell",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Putting it all together",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/input-and-output-the-scanner-bug.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/ScannerBug.java"
-        },
-        {
-          "action": "open",
-          "panel": 1,
-          "path": "#terminal: "
-        }
-      ],
-      "id": "input-and-output-the-scanner-bug",
-      "layout": "3-cell",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The Scanner bug",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/input-and-output-vocabulary.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "input-and-output-vocabulary",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Vocabulary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/input-and-output-exercises.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "input-and-output-exercises",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/input-and-output-exercises-3-1.md",
-      "files": [],
-      "id": "input-and-output-exercises-3-1",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises 3.1",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/input-and-output-exercises-3-2.md",
-      "files": [],
-      "id": "input-and-output-exercises-3-2",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises 3.2",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/input-and-output-exercises-3-3.md",
-      "files": [],
-      "id": "input-and-output-exercises-3-3",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises 3.3",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/input-and-output-exercises-3-4.md",
-      "files": [],
-      "id": "input-and-output-exercises-3-4",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises 3.4",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/methods-and-testing.md",
-      "files": [],
-      "id": "methods-and-testing",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Methods and testing",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/methods-and-testing-math-methods.md",
-      "files": [],
-      "id": "methods-and-testing-math-methods",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Math methods",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/methods-and-testing-composition.md",
-      "files": [],
-      "id": "methods-and-testing-composition",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Composition",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/methods-and-testing-defining-new-methods.md",
-      "files": [],
-      "id": "methods-and-testing-defining-new-methods",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Defining new methods",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/methods-and-testing-flow-of-execution.md",
-      "files": [],
-      "id": "methods-and-testing-flow-of-execution",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Flow of execution",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/methods-and-testing-parameters-and-arguments.md",
-      "files": [],
-      "id": "methods-and-testing-parameters-and-arguments",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Parameters and arguments",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/methods-and-testing-stack-diagrams.md",
-      "files": [],
-      "id": "methods-and-testing-stack-diagrams",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Stack diagrams",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/methods-and-testing-return-values.md",
-      "files": [],
-      "id": "methods-and-testing-return-values",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Return values",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/methods-and-testing-incremental-development.md",
-      "files": [],
-      "id": "methods-and-testing-incremental-development",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Incremental development",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/methods-and-testing-vocabulary.md",
-      "files": [],
-      "id": "methods-and-testing-vocabulary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Vocabulary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/methods-and-testing-exercises.md",
-      "files": [],
-      "id": "methods-and-testing-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/conditionals-and-logic.md",
-      "files": [],
-      "id": "conditionals-and-logic",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Conditionals and logic",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-logic-relational-operators.md",
-      "files": [],
-      "id": "conditionals-and-logic-relational-operators",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Relational operators",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-logic-the-if-else-statement.md",
-      "files": [],
-      "id": "conditionals-and-logic-the-if-else-statement",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The if-else statement",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-logic-chaining-and-nesting.md",
-      "files": [],
-      "id": "conditionals-and-logic-chaining-and-nesting",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Chaining and nesting",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-logic-logical-operators.md",
-      "files": [],
-      "id": "conditionals-and-logic-logical-operators",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Logical operators",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-logic-de-morgan-s-laws.md",
-      "files": [],
-      "id": "conditionals-and-logic-de-morgan-s-laws",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "De Morgan's laws",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-logic-boolean-variables.md",
-      "files": [],
-      "id": "conditionals-and-logic-boolean-variables",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Boolean variables",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-logic-boolean-methods.md",
-      "files": [],
-      "id": "conditionals-and-logic-boolean-methods",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Boolean methods",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-logic-validating-input.md",
-      "files": [],
-      "id": "conditionals-and-logic-validating-input",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Validating input",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-logic-example-program.md",
-      "files": [],
-      "id": "conditionals-and-logic-example-program",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Example program",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-logic-vocabulary.md",
-      "files": [],
-      "id": "conditionals-and-logic-vocabulary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Vocabulary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/conditionals-and-logic-exercises.md",
-      "files": [],
-      "id": "conditionals-and-logic-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/loops-and-strings.md",
-      "files": [],
-      "id": "loops-and-strings",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Loops and strings",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/loops-and-strings-the-while-statement.md",
-      "files": [],
-      "id": "loops-and-strings-the-while-statement",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The while statement",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/loops-and-strings-increment-and-decrement.md",
-      "files": [],
-      "id": "loops-and-strings-increment-and-decrement",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Increment and decrement",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/loops-and-strings-the-for-statement.md",
-      "files": [],
-      "id": "loops-and-strings-the-for-statement",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The for statement",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/loops-and-strings-nested-loops.md",
-      "files": [],
-      "id": "loops-and-strings-nested-loops",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Nested loops",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/loops-and-strings-characters.md",
-      "files": [],
-      "id": "loops-and-strings-characters",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Characters",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/loops-and-strings-string-iteration.md",
-      "files": [],
-      "id": "loops-and-strings-string-iteration",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "String iteration",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/loops-and-strings-the-indexof-method.md",
-      "files": [],
-      "id": "loops-and-strings-the-indexof-method",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The indexOf method",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/loops-and-strings-string-comparison.md",
-      "files": [],
-      "id": "loops-and-strings-string-comparison",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "String comparison",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/loops-and-strings-substrings.md",
-      "files": [],
-      "id": "loops-and-strings-substrings",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Substrings",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/loops-and-strings-string-formatting.md",
-      "files": [],
-      "id": "loops-and-strings-string-formatting",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "String formatting",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/loops-and-strings-vocabulary.md",
-      "files": [],
-      "id": "loops-and-strings-vocabulary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Vocabulary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/loops-and-strings-exercises.md",
-      "files": [],
-      "id": "loops-and-strings-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/arrays-and-references.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "arrays-and-references",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Arrays and references",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-and-references-creating-arrays.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/CreatingArrays.java"
-        }
-      ],
-      "id": "arrays-and-references-creating-arrays",
-      "layout": "2-panels",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Creating arrays",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-and-references-accessing-elements.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 1,
-          "path": "code/AccessingElements.java"
-        }
-      ],
-      "id": "arrays-and-references-accessing-elements",
-      "layout": "2-panels-guides-left",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Accessing elements",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-and-references-displaying-arrays.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/DisplayingArrays.java"
-        }
-      ],
-      "id": "arrays-and-references-displaying-arrays",
-      "layout": "2-panels",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Displaying arrays",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-and-references-copying-arrays.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 1,
-          "path": "code/CopyingArrays.java"
-        }
-      ],
-      "id": "arrays-and-references-copying-arrays",
-      "layout": "2-panels-guides-left",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Copying arrays",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-and-references-array-traversal.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/TraversingArrays.java"
-        }
-      ],
-      "id": "arrays-and-references-array-traversal",
-      "layout": "2-panels",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Array traversal",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-and-references-random-numbers.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/RandomNums.java"
-        }
-      ],
-      "id": "arrays-and-references-random-numbers",
-      "layout": "2-panels",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Random numbers",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-and-references-building-a-histogram.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 1,
-          "path": "code/Histogram.java"
-        }
-      ],
-      "id": "arrays-and-references-building-a-histogram",
-      "layout": "2-panels-guides-left",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Building a histogram",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-and-references-the-enhanced-for-loop.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/Enhanced.java"
-        }
-      ],
-      "id": "arrays-and-references-the-enhanced-for-loop",
-      "layout": "2-panels",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The enhanced for loop",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-and-references-counting-characters.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/Counting.java"
-        },
-        {
-          "action": "open",
-          "panel": 1,
-          "path": "code/Doubloon.java"
-        }
-      ],
-      "id": "arrays-and-references-counting-characters",
-      "layout": "3-cell",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Counting characters",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-and-references-vocabulary.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "arrays-and-references-vocabulary",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Vocabulary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-and-references-exercises.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        }
-      ],
-      "id": "arrays-and-references-exercises",
-      "layout": "1-panel",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-and-references-exercises-7-1.md",
-      "files": [],
-      "id": "arrays-and-references-exercises-7-1",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises 7.1",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-and-references-exercises-7-2.md",
-      "files": [],
-      "id": "arrays-and-references-exercises-7-2",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises 7.2",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-and-references-exercises-7-3.md",
-      "files": [],
-      "id": "arrays-and-references-exercises-7-3",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises 7.3",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-and-references-exercises-7-4.md",
-      "files": [],
-      "id": "arrays-and-references-exercises-7-4",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises 7.4",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-and-references-exercises-7-5.md",
-      "files": [],
-      "id": "arrays-and-references-exercises-7-5",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises 7.5",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-and-references-exercises-7-6.md",
-      "files": [],
-      "id": "arrays-and-references-exercises-7-6",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises 7.6",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-and-references-exercises-7-7.md",
-      "files": [],
-      "id": "arrays-and-references-exercises-7-7",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises 7.7",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-and-references-exercises-7-8.md",
-      "files": [],
-      "id": "arrays-and-references-exercises-7-8",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises 7.8",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/recursive-methods.md",
-      "files": [],
-      "id": "recursive-methods",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Recursive methods",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/recursive-methods-recursive-void-methods.md",
-      "files": [],
-      "id": "recursive-methods-recursive-void-methods",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Recursive void methods",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/recursive-methods-recursive-stack-diagrams.md",
-      "files": [],
-      "id": "recursive-methods-recursive-stack-diagrams",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Recursive stack diagrams",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/recursive-methods-value-returning-methods.md",
-      "files": [],
-      "id": "recursive-methods-value-returning-methods",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Value returning methods",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/recursive-methods-the-leap-of-faith.md",
-      "files": [],
-      "id": "recursive-methods-the-leap-of-faith",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The leap of faith",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/recursive-methods-binary-number-system.md",
-      "files": [],
-      "id": "recursive-methods-binary-number-system",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Binary number system",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/recursive-methods-recursive-binary-method.md",
-      "files": [],
-      "id": "recursive-methods-recursive-binary-method",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Recursive binary method",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/recursive-methods-codingbat-problems.md",
-      "files": [],
-      "id": "recursive-methods-codingbat-problems",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "CodingBat problems",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/recursive-methods-vocabulary.md",
-      "files": [],
-      "id": "recursive-methods-vocabulary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Vocabulary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/recursive-methods-exercises.md",
-      "files": [],
-      "id": "recursive-methods-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/immutable-objects.md",
-      "files": [],
-      "id": "immutable-objects",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Immutable objects",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/immutable-objects-primitives-vs-objects.md",
-      "files": [],
-      "id": "immutable-objects-primitives-vs-objects",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Primitives vs objects",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/immutable-objects-strings-are-immutable.md",
-      "files": [],
-      "id": "immutable-objects-strings-are-immutable",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Strings are immutable",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/immutable-objects-wrapper-classes.md",
-      "files": [],
-      "id": "immutable-objects-wrapper-classes",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Wrapper classes",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/immutable-objects-command-line-arguments.md",
-      "files": [],
-      "id": "immutable-objects-command-line-arguments",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Command-line arguments",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/immutable-objects-biginteger-arithmetic.md",
-      "files": [],
-      "id": "immutable-objects-biginteger-arithmetic",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "BigInteger arithmetic",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/immutable-objects-program-development.md",
-      "files": [],
-      "id": "immutable-objects-program-development",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Program development",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/immutable-objects-more-generalization.md",
-      "files": [],
-      "id": "immutable-objects-more-generalization",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "More generalization",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/immutable-objects-vocabulary.md",
-      "files": [],
-      "id": "immutable-objects-vocabulary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Vocabulary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/immutable-objects-exercises.md",
-      "files": [],
-      "id": "immutable-objects-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/mutable-objects.md",
-      "files": [],
-      "id": "mutable-objects",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Mutable objects",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/mutable-objects-point-objects.md",
-      "files": [],
-      "id": "mutable-objects-point-objects",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Point objects",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/mutable-objects-objects-as-parameters.md",
-      "files": [],
-      "id": "mutable-objects-objects-as-parameters",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Objects as parameters",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/mutable-objects-objects-as-return-types.md",
-      "files": [],
-      "id": "mutable-objects-objects-as-return-types",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Objects as return types",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/mutable-objects-rectangles-are-mutable.md",
-      "files": [],
-      "id": "mutable-objects-rectangles-are-mutable",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Rectangles are mutable",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/mutable-objects-aliasing-revisited.md",
-      "files": [],
-      "id": "mutable-objects-aliasing-revisited",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Aliasing revisited",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/mutable-objects-java-library-source.md",
-      "files": [],
-      "id": "mutable-objects-java-library-source",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Java library source",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/mutable-objects-class-diagrams.md",
-      "files": [],
-      "id": "mutable-objects-class-diagrams",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Class diagrams",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/mutable-objects-garbage-collection.md",
-      "files": [],
-      "id": "mutable-objects-garbage-collection",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Garbage collection",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/mutable-objects-mutable-vs-immutable.md",
-      "files": [],
-      "id": "mutable-objects-mutable-vs-immutable",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Mutable vs immutable",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/mutable-objects-vocabulary.md",
-      "files": [],
-      "id": "mutable-objects-vocabulary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Vocabulary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/mutable-objects-exercises.md",
-      "files": [],
-      "id": "mutable-objects-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/designing-classes.md",
-      "files": [],
-      "id": "designing-classes",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Designing classes",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/designing-classes-the-time-class.md",
-      "files": [],
-      "id": "designing-classes-the-time-class",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The Time class",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/designing-classes-constructors.md",
-      "files": [],
-      "id": "designing-classes-constructors",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Constructors",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/designing-classes-more-constructors.md",
-      "files": [],
-      "id": "designing-classes-more-constructors",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "More constructors",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/designing-classes-getters-and-setters.md",
-      "files": [],
-      "id": "designing-classes-getters-and-setters",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Getters and setters",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/designing-classes-displaying-objects.md",
-      "files": [],
-      "id": "designing-classes-displaying-objects",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Displaying objects",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/designing-classes-the-tostring-method.md",
-      "files": [],
-      "id": "designing-classes-the-tostring-method",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The toString method",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/designing-classes-the-equals-method.md",
-      "files": [],
-      "id": "designing-classes-the-equals-method",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The equals method",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/designing-classes-adding-times.md",
-      "files": [],
-      "id": "designing-classes-adding-times",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Adding times",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/designing-classes-pure-methods.md",
-      "files": [],
-      "id": "designing-classes-pure-methods",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Pure methods",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/designing-classes-vocabulary.md",
-      "files": [],
-      "id": "designing-classes-vocabulary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Vocabulary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/designing-classes-exercises.md",
-      "files": [],
-      "id": "designing-classes-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/arrays-of-objects.md",
-      "files": [],
-      "id": "arrays-of-objects",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Arrays of objects",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-of-objects-card-objects.md",
-      "files": [],
-      "id": "arrays-of-objects-card-objects",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Card objects",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-of-objects-card-tostring.md",
-      "files": [],
-      "id": "arrays-of-objects-card-tostring",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Card toString",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-of-objects-class-variables.md",
-      "files": [],
-      "id": "arrays-of-objects-class-variables",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Class variables",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-of-objects-the-compareto-method.md",
-      "files": [],
-      "id": "arrays-of-objects-the-compareto-method",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The compareTo method",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-of-objects-cards-are-immutable.md",
-      "files": [],
-      "id": "arrays-of-objects-cards-are-immutable",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Cards are immutable",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-of-objects-arrays-of-cards.md",
-      "files": [],
-      "id": "arrays-of-objects-arrays-of-cards",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Arrays of cards",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-of-objects-sequential-search.md",
-      "files": [],
-      "id": "arrays-of-objects-sequential-search",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Sequential search",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-of-objects-binary-search.md",
-      "files": [],
-      "id": "arrays-of-objects-binary-search",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Binary search",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-of-objects-tracing-the-code.md",
-      "files": [],
-      "id": "arrays-of-objects-tracing-the-code",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Tracing the code",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-of-objects-recursive-version.md",
-      "files": [],
-      "id": "arrays-of-objects-recursive-version",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Recursive version",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-of-objects-vocabulary.md",
-      "files": [],
-      "id": "arrays-of-objects-vocabulary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Vocabulary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-of-objects-exercises.md",
-      "files": [],
-      "id": "arrays-of-objects-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/objects-of-arrays.md",
-      "files": [],
-      "id": "objects-of-arrays",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Objects of arrays",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/objects-of-arrays-decks-of-cards.md",
-      "files": [],
-      "id": "objects-of-arrays-decks-of-cards",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Decks of cards",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/objects-of-arrays-shuffling-decks.md",
-      "files": [],
-      "id": "objects-of-arrays-shuffling-decks",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Shuffling decks",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/objects-of-arrays-selection-sort.md",
-      "files": [],
-      "id": "objects-of-arrays-selection-sort",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Selection sort",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/objects-of-arrays-merge-sort.md",
-      "files": [],
-      "id": "objects-of-arrays-merge-sort",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Merge sort",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/objects-of-arrays-subdecks.md",
-      "files": [],
-      "id": "objects-of-arrays-subdecks",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Subdecks",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/objects-of-arrays-merging-decks.md",
-      "files": [],
-      "id": "objects-of-arrays-merging-decks",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Merging decks",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/objects-of-arrays-adding-recursion.md",
-      "files": [],
-      "id": "objects-of-arrays-adding-recursion",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Adding recursion",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/objects-of-arrays-static-context.md",
-      "files": [],
-      "id": "objects-of-arrays-static-context",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Static context",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/objects-of-arrays-piles-of-cards.md",
-      "files": [],
-      "id": "objects-of-arrays-piles-of-cards",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Piles of cards",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/objects-of-arrays-vocabulary.md",
-      "files": [],
-      "id": "objects-of-arrays-vocabulary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Vocabulary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/objects-of-arrays-exercises.md",
-      "files": [],
-      "id": "objects-of-arrays-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/extending-classes.md",
-      "files": [],
-      "id": "extending-classes",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Extending classes",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/extending-classes-cardcollection.md",
-      "files": [],
-      "id": "extending-classes-cardcollection",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "CardCollection",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/extending-classes-inheritance.md",
-      "files": [],
-      "id": "extending-classes-inheritance",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Inheritance",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/extending-classes-dealing-cards.md",
-      "files": [],
-      "id": "extending-classes-dealing-cards",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Dealing cards",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/extending-classes-the-player-class.md",
-      "files": [],
-      "id": "extending-classes-the-player-class",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The Player class",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/extending-classes-the-eights-class.md",
-      "files": [],
-      "id": "extending-classes-the-eights-class",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The Eights class",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/extending-classes-class-relationships.md",
-      "files": [],
-      "id": "extending-classes-class-relationships",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Class relationships",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/extending-classes-vocabulary.md",
-      "files": [],
-      "id": "extending-classes-vocabulary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Vocabulary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/extending-classes-exercises.md",
-      "files": [],
-      "id": "extending-classes-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/tools.md",
-      "files": [],
-      "id": "tools",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Tools",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/tools-installing-drjava.md",
-      "files": [],
-      "id": "tools-installing-drjava",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Installing DrJava",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/tools-drjava-interactions.md",
-      "files": [],
-      "id": "tools-drjava-interactions",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "DrJava interactions",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/tools-command-line-interface.md",
-      "files": [],
-      "id": "tools-command-line-interface",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Command-line interface",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/tools-command-line-testing.md",
-      "files": [],
-      "id": "tools-command-line-testing",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Command-line testing",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/tools-running-checkstyle.md",
-      "files": [],
-      "id": "tools-running-checkstyle",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Running Checkstyle",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/tools-tracing-with-a-debugger.md",
-      "files": [],
-      "id": "tools-tracing-with-a-debugger",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Tracing with a debugger",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/tools-testing-with-junit.md",
-      "files": [],
-      "id": "tools-testing-with-junit",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Testing with JUnit",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/tools-vocabulary.md",
-      "files": [],
-      "id": "tools-vocabulary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Vocabulary",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/javadoc.md",
-      "files": [],
-      "id": "javadoc",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Javadoc",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/javadoc-reading-documentation.md",
-      "files": [],
-      "id": "javadoc-reading-documentation",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Reading documentation",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/javadoc-writing-documentation.md",
-      "files": [],
-      "id": "javadoc-writing-documentation",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Writing documentation",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/javadoc-javadoc-tags.md",
-      "files": [],
-      "id": "javadoc-javadoc-tags",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Javadoc tags",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/javadoc-example-source-file.md",
-      "files": [],
-      "id": "javadoc-example-source-file",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Example source file",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/javadoc-vocabulary.md",
-      "files": [],
-      "id": "javadoc-vocabulary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Vocabulary",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/graphics.md",
-      "files": [],
-      "id": "graphics",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Graphics",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/graphics-creating-graphics.md",
-      "files": [],
-      "id": "graphics-creating-graphics",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Creating graphics",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/graphics-graphics-methods.md",
-      "files": [],
-      "id": "graphics-graphics-methods",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Graphics methods",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/graphics-example-drawing.md",
-      "files": [],
-      "id": "graphics-example-drawing",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Example drawing",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/graphics-vocabulary.md",
-      "files": [],
-      "id": "graphics-vocabulary",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Vocabulary",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/graphics-exercises.md",
-      "files": [],
-      "id": "graphics-exercises",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/debugging.md",
-      "files": [],
-      "id": "debugging",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Debugging",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/debugging-compile-time-errors.md",
-      "files": [],
-      "id": "debugging-compile-time-errors",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Compile-time errors",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/debugging-run-time-errors.md",
-      "files": [],
-      "id": "debugging-run-time-errors",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Run-time errors",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/debugging-logic-errors.md",
-      "files": [],
-      "id": "debugging-logic-errors",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Logic errors",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/extras.md",
-      "files": [],
-      "id": "extras",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Extras",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/extras-unreachable-code.md",
-      "files": [],
-      "id": "extras-unreachable-code",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Unreachable code",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/extras-method-composition.md",
-      "files": [],
-      "id": "extras-method-composition",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Method composition",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/extras-overloading-methods.md",
-      "files": [],
-      "id": "extras-overloading-methods",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Overloading methods",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/extras-generating-tables.md",
-      "files": [],
-      "id": "extras-generating-tables",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Generating tables",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/extras-the-do-while-loop.md",
-      "files": [],
-      "id": "extras-the-do-while-loop",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "The do-while loop",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/extras-break-and-continue.md",
-      "files": [],
-      "id": "extras-break-and-continue",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Break and continue",
-      "type": "markdown"
+ "sections": [
+  {
+   "id": "preface",
+   "title": "Preface",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
     }
-  ],
-  "suppressPageNumbering": true,
-  "theme": "light",
-  "useMarkAsComplete": true,
-  "useSubmitButtons": true
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/preface.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "preface-the-philosophy-behind-the-book",
+   "title": "The philosophy behind the book",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/preface-the-philosophy-behind-the-book.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "preface-object-oriented-programming",
+   "title": "Object-oriented programming",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/preface-object-oriented-programming.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "preface-changes-to-the-2nd-edition",
+   "title": "Changes to the 2nd edition",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/preface-changes-to-the-2nd-edition.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "preface-about-the-appendixes",
+   "title": "About the appendixes",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/preface-about-the-appendixes.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "preface-using-the-code-examples",
+   "title": "Using the code examples",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/preface-using-the-code-examples.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "preface-contributors-over-the-years",
+   "title": "Contributors over the years",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/preface-contributors-over-the-years.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "computer-programming",
+   "title": "Computer programming",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/computer-programming.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "computer-programming-what-is-a-computer-",
+   "title": "What is a computer?",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/computer-programming-what-is-a-computer-.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "computer-programming-what-is-programming-",
+   "title": "What is programming?",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/computer-programming-what-is-programming-.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "computer-programming-the-hello-world-program",
+   "title": "The hello world program",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Hello.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/computer-programming-the-hello-world-program.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "computer-programming-compiling-java-programs",
+   "title": "Compiling Java programs",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Hello.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/computer-programming-compiling-java-programs.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "computer-programming-displaying-two-messages",
+   "title": "Displaying two messages",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Hello2.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "code/Goodbye.java",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/computer-programming-displaying-two-messages.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "computer-programming-formatting-source-code",
+   "title": "Formatting source code",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Goodbye2.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "code/Goodbye3.java",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/computer-programming-formatting-source-code.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "computer-programming-escape-sequences",
+   "title": "Escape sequences",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Hello3.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/computer-programming-escape-sequences.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "computer-programming-what-is-computer-science-",
+   "title": "What is computer science?",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/computer-programming-what-is-computer-science-.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "computer-programming-debugging-programs",
+   "title": "Debugging programs",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/computer-programming-debugging-programs.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "computer-programming-vocabulary",
+   "title": "Vocabulary",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/computer-programming-vocabulary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "computer-programming-exercises",
+   "title": "Exercises",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/computer-programming-exercises.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "computer-programming-exercises-1-1",
+   "title": "Exercises 1.1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/computer-programming-exercises-1-1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "computer-programming-exercises-1-2",
+   "title": "Exercises 1.2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/computer-programming-exercises-1-2.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "computer-programming-exercises-1-3",
+   "title": "Exercises 1.3",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/computer-programming-exercises-1-3.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-operators",
+   "title": "Variables and operators",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-operators.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-operators-declaring-variables",
+   "title": "Declaring variables",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-operators-declaring-variables.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-operators-assigning-variables",
+   "title": "Assigning variables",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-operators-assigning-variables.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-operators-memory-diagrams",
+   "title": "Memory diagrams",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-operators-memory-diagrams.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-operators-printing-variables",
+   "title": "Printing variables",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-operators-printing-variables.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-operators-arithmetic-operators",
+   "title": "Arithmetic operators",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-operators-arithmetic-operators.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-operators-floating-point-numbers",
+   "title": "Floating-point numbers",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-operators-floating-point-numbers.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-operators-rounding-errors",
+   "title": "Rounding errors",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-operators-rounding-errors.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-operators-operators-for-strings",
+   "title": "Operators for strings",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-operators-operators-for-strings.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-operators-compiler-error-messages",
+   "title": "Compiler error messages",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-operators-compiler-error-messages.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-operators-other-types-of-errors",
+   "title": "Other types of errors",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-operators-other-types-of-errors.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-operators-vocabulary",
+   "title": "Vocabulary",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-operators-vocabulary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "variables-and-operators-exercises",
+   "title": "Exercises",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/variables-and-operators-exercises.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "input-and-output",
+   "title": "3 Input and output",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/3-Input-and-output-inpu.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "input-and-output-the-system-class",
+   "title": "3.1 The System class",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/3-1-The-System-class-inpu.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "input-and-output-the-scanner-class",
+   "title": "3.2 The Scanner class",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Echo.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/3-2-The-Scanner-class-inpu.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "input-and-output-language-elements",
+   "title": "3.3 Language elements",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/3-3-Language-elements-inpu.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "input-and-output-literals-and-constants",
+   "title": "3.4 Literals and constants",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Literals.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/3-4-Literals-and-constants-inpu.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "input-and-output-formatting-output",
+   "title": "3.5 Formatting output",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Formatting.java",
+     "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 2,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell-left",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/3-5-Formatting-output-inpu.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "input-and-output-type-cast-operators",
+   "title": "3.6 Type cast operators",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Casting.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/3-6-Type-cast-operators-inpu.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "input-and-output-remainder-operator",
+   "title": "3.7 Remainder operator",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Remainder.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/3-7-Remainder-operator-inpu.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "input-and-output-putting-it-all-together",
+   "title": "3.8 Putting it all together",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Convert.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/3-8-Putting-it-all-together-inpu.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "input-and-output-the-scanner-bug",
+   "title": "3.9 The Scanner bug",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ScannerBug.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/3-9-The-Scanner-bug-inpu.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "input-and-output-vocabulary",
+   "title": "3.10 Vocabulary",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/3-10-Vocabulary-inpu.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "input-and-output-exercises",
+   "title": "Exercises",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/input-and-output-exercises.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "input-and-output-exercises-3-1",
+   "title": "Exercise 3.1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Ex3.java",
+     "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: clear;",
+     "panel": 2,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell-left",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-3-1-inpu.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "input-and-output-exercises-3-2",
+   "title": "Exercise 3.2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/CtoF.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: clear;",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-3-2-inpu.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "input-and-output-exercises-3-3",
+   "title": "Exercise 3.3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/TimeConv.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: clear;",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-3-3-inpu.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "input-and-output-exercises-3-4",
+   "title": "Exercise 3.4",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/ch03/GuessStarter.java",
+     "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: clear;",
+     "panel": 2,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell-left",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-3-4-inpu.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "methods-and-testing",
+   "title": "Methods and testing",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/methods-and-testing.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "methods-and-testing-math-methods",
+   "title": "Math methods",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/methods-and-testing-math-methods.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "methods-and-testing-composition",
+   "title": "Composition",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/methods-and-testing-composition.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "methods-and-testing-defining-new-methods",
+   "title": "Defining new methods",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/methods-and-testing-defining-new-methods.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "methods-and-testing-flow-of-execution",
+   "title": "Flow of execution",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/methods-and-testing-flow-of-execution.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "methods-and-testing-parameters-and-arguments",
+   "title": "Parameters and arguments",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/methods-and-testing-parameters-and-arguments.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "methods-and-testing-stack-diagrams",
+   "title": "Stack diagrams",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/methods-and-testing-stack-diagrams.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "methods-and-testing-return-values",
+   "title": "Return values",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/methods-and-testing-return-values.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "methods-and-testing-incremental-development",
+   "title": "Incremental development",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/methods-and-testing-incremental-development.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "methods-and-testing-vocabulary",
+   "title": "Vocabulary",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/methods-and-testing-vocabulary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "methods-and-testing-exercises",
+   "title": "Exercises",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/methods-and-testing-exercises.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-logic",
+   "title": "Conditionals and logic",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-logic.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-logic-relational-operators",
+   "title": "Relational operators",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-logic-relational-operators.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-logic-the-if-else-statement",
+   "title": "The if-else statement",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-logic-the-if-else-statement.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-logic-chaining-and-nesting",
+   "title": "Chaining and nesting",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-logic-chaining-and-nesting.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-logic-logical-operators",
+   "title": "Logical operators",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-logic-logical-operators.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-logic-de-morgan-s-laws",
+   "title": "De Morgan's laws",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-logic-de-morgan-s-laws.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-logic-boolean-variables",
+   "title": "Boolean variables",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-logic-boolean-variables.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-logic-boolean-methods",
+   "title": "Boolean methods",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-logic-boolean-methods.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-logic-validating-input",
+   "title": "Validating input",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-logic-validating-input.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-logic-example-program",
+   "title": "Example program",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-logic-example-program.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-logic-vocabulary",
+   "title": "Vocabulary",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-logic-vocabulary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "conditionals-and-logic-exercises",
+   "title": "Exercises",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/conditionals-and-logic-exercises.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "loops-and-strings",
+   "title": "Loops and strings",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/loops-and-strings.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "loops-and-strings-the-while-statement",
+   "title": "The while statement",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/loops-and-strings-the-while-statement.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "loops-and-strings-increment-and-decrement",
+   "title": "Increment and decrement",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/loops-and-strings-increment-and-decrement.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "loops-and-strings-the-for-statement",
+   "title": "The for statement",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/loops-and-strings-the-for-statement.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "loops-and-strings-nested-loops",
+   "title": "Nested loops",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/loops-and-strings-nested-loops.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "loops-and-strings-characters",
+   "title": "Characters",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/loops-and-strings-characters.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "loops-and-strings-string-iteration",
+   "title": "String iteration",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/loops-and-strings-string-iteration.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "loops-and-strings-the-indexof-method",
+   "title": "The indexOf method",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/loops-and-strings-the-indexof-method.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "loops-and-strings-string-comparison",
+   "title": "String comparison",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/loops-and-strings-string-comparison.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "loops-and-strings-substrings",
+   "title": "Substrings",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/loops-and-strings-substrings.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "loops-and-strings-string-formatting",
+   "title": "String formatting",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/loops-and-strings-string-formatting.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "loops-and-strings-vocabulary",
+   "title": "Vocabulary",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/loops-and-strings-vocabulary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "loops-and-strings-exercises",
+   "title": "Exercises",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/loops-and-strings-exercises.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references",
+   "title": "7 Arrays and references",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/7-Arrays-and-references-arra.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references-creating-arrays",
+   "title": "7.1 Creating arrays",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/CreatingArrays.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#tutor: code/CreatingArrays.java",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/7-1-Creating-arrays-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references-accessing-elements",
+   "title": "7.2 Accessing elements",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/AccessingElements.java",
+     "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "#tutor: code/AccessingElements.java",
+     "panel": 2,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell-left",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/7-2-Accessing-elements-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references-displaying-arrays",
+   "title": "7.3 Displaying arrays",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/DisplayingArrays.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/7-3-Displaying-arrays-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references-copying-arrays",
+   "title": "7.4 Copying arrays",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/CopyingArrays.java",
+     "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "#tutor: code/CopyingArrays.java",
+     "panel": 2,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell-left",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/7-4-Copying-arrays-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references-array-traversal",
+   "title": "7.5 Array traversal",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/TraversingArrays.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#tutor: code/TraversingArrays.java",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/7-5-Array-traversal-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references-random-numbers",
+   "title": "7.6 Random numbers",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/RandomNums.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/7-6-Random-numbers-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references-building-a-histogram",
+   "title": "7.7 Building a histogram",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Histogram.java",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-guides-left",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/7-7-Building-a-histogram-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references-the-enhanced-for-loop",
+   "title": "7.8 The enhanced for loop",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Enhanced.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/7-8-The-enhanced-for-loop-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references-counting-characters",
+   "title": "7.9 Counting characters",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Doubloon.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/7-9-Counting-characters-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references-vocabulary",
+   "title": "7.10 Vocabulary",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/7-10-Vocabulary-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references-exercises",
+   "title": "Exercises",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-and-references-exercises.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references-exercises-7-1",
+   "title": "Exercise 7.1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-7-1-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references-exercises-7-2",
+   "title": "Exercise 7.2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-7-2-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references-exercises-7-3",
+   "title": "Exercise 7.3",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-7-3-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references-exercises-7-4",
+   "title": "Exercise 7.4",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-7-4-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references-exercises-7-5",
+   "title": "Exercise 7.5",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-7-5-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references-exercises-7-6",
+   "title": "Exercise 7.6",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-7-6-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references-exercises-7-7",
+   "title": "Exercise 7.7",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-7-7-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-and-references-exercises-7-8",
+   "title": "Exercise 7.8",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercise-7-8-arra.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "recursive-methods",
+   "title": "Recursive methods",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/recursive-methods.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "recursive-methods-recursive-void-methods",
+   "title": "Recursive void methods",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/recursive-methods-recursive-void-methods.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "recursive-methods-recursive-stack-diagrams",
+   "title": "Recursive stack diagrams",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/recursive-methods-recursive-stack-diagrams.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "recursive-methods-value-returning-methods",
+   "title": "Value returning methods",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/recursive-methods-value-returning-methods.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "recursive-methods-the-leap-of-faith",
+   "title": "The leap of faith",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/recursive-methods-the-leap-of-faith.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "recursive-methods-binary-number-system",
+   "title": "Binary number system",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/recursive-methods-binary-number-system.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "recursive-methods-recursive-binary-method",
+   "title": "Recursive binary method",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/recursive-methods-recursive-binary-method.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "recursive-methods-codingbat-problems",
+   "title": "CodingBat problems",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/recursive-methods-codingbat-problems.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "recursive-methods-vocabulary",
+   "title": "Vocabulary",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/recursive-methods-vocabulary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "recursive-methods-exercises",
+   "title": "Exercises",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/recursive-methods-exercises.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "immutable-objects",
+   "title": "Immutable objects",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/immutable-objects.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "immutable-objects-primitives-vs-objects",
+   "title": "Primitives vs objects",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/immutable-objects-primitives-vs-objects.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "immutable-objects-strings-are-immutable",
+   "title": "Strings are immutable",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/immutable-objects-strings-are-immutable.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "immutable-objects-wrapper-classes",
+   "title": "Wrapper classes",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/immutable-objects-wrapper-classes.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "immutable-objects-command-line-arguments",
+   "title": "Command-line arguments",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/immutable-objects-command-line-arguments.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "immutable-objects-biginteger-arithmetic",
+   "title": "BigInteger arithmetic",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/immutable-objects-biginteger-arithmetic.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "immutable-objects-program-development",
+   "title": "Program development",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/immutable-objects-program-development.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "immutable-objects-more-generalization",
+   "title": "More generalization",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/immutable-objects-more-generalization.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "immutable-objects-vocabulary",
+   "title": "Vocabulary",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/immutable-objects-vocabulary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "immutable-objects-exercises",
+   "title": "Exercises",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/immutable-objects-exercises.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "mutable-objects",
+   "title": "Mutable objects",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/mutable-objects.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "mutable-objects-point-objects",
+   "title": "Point objects",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/mutable-objects-point-objects.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "mutable-objects-objects-as-parameters",
+   "title": "Objects as parameters",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/mutable-objects-objects-as-parameters.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "mutable-objects-objects-as-return-types",
+   "title": "Objects as return types",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/mutable-objects-objects-as-return-types.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "mutable-objects-rectangles-are-mutable",
+   "title": "Rectangles are mutable",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/mutable-objects-rectangles-are-mutable.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "mutable-objects-aliasing-revisited",
+   "title": "Aliasing revisited",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/mutable-objects-aliasing-revisited.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "mutable-objects-java-library-source",
+   "title": "Java library source",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/mutable-objects-java-library-source.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "mutable-objects-class-diagrams",
+   "title": "Class diagrams",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/mutable-objects-class-diagrams.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "mutable-objects-garbage-collection",
+   "title": "Garbage collection",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/mutable-objects-garbage-collection.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "mutable-objects-mutable-vs-immutable",
+   "title": "Mutable vs immutable",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/mutable-objects-mutable-vs-immutable.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "mutable-objects-vocabulary",
+   "title": "Vocabulary",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/mutable-objects-vocabulary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "mutable-objects-exercises",
+   "title": "Exercises",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/mutable-objects-exercises.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "designing-classes",
+   "title": "Designing classes",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/designing-classes.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "designing-classes-the-time-class",
+   "title": "The Time class",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/designing-classes-the-time-class.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "designing-classes-constructors",
+   "title": "Constructors",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/designing-classes-constructors.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "designing-classes-more-constructors",
+   "title": "More constructors",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/designing-classes-more-constructors.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "designing-classes-getters-and-setters",
+   "title": "Getters and setters",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/designing-classes-getters-and-setters.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "designing-classes-displaying-objects",
+   "title": "Displaying objects",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/designing-classes-displaying-objects.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "designing-classes-the-tostring-method",
+   "title": "The toString method",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/designing-classes-the-tostring-method.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "designing-classes-the-equals-method",
+   "title": "The equals method",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/designing-classes-the-equals-method.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "designing-classes-adding-times",
+   "title": "Adding times",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/designing-classes-adding-times.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "designing-classes-pure-methods",
+   "title": "Pure methods",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/designing-classes-pure-methods.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "designing-classes-vocabulary",
+   "title": "Vocabulary",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/designing-classes-vocabulary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "designing-classes-exercises",
+   "title": "Exercises",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/designing-classes-exercises.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-of-objects",
+   "title": "Arrays of objects",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-of-objects.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-of-objects-card-objects",
+   "title": "Card objects",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-of-objects-card-objects.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-of-objects-card-tostring",
+   "title": "Card toString",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-of-objects-card-tostring.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-of-objects-class-variables",
+   "title": "Class variables",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-of-objects-class-variables.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-of-objects-the-compareto-method",
+   "title": "The compareTo method",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-of-objects-the-compareto-method.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-of-objects-cards-are-immutable",
+   "title": "Cards are immutable",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-of-objects-cards-are-immutable.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-of-objects-arrays-of-cards",
+   "title": "Arrays of cards",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-of-objects-arrays-of-cards.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-of-objects-sequential-search",
+   "title": "Sequential search",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-of-objects-sequential-search.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-of-objects-binary-search",
+   "title": "Binary search",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-of-objects-binary-search.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-of-objects-tracing-the-code",
+   "title": "Tracing the code",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-of-objects-tracing-the-code.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-of-objects-recursive-version",
+   "title": "Recursive version",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-of-objects-recursive-version.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-of-objects-vocabulary",
+   "title": "Vocabulary",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-of-objects-vocabulary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "arrays-of-objects-exercises",
+   "title": "Exercises",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/arrays-of-objects-exercises.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "objects-of-arrays",
+   "title": "Objects of arrays",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/objects-of-arrays.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "objects-of-arrays-decks-of-cards",
+   "title": "Decks of cards",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/objects-of-arrays-decks-of-cards.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "objects-of-arrays-shuffling-decks",
+   "title": "Shuffling decks",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/objects-of-arrays-shuffling-decks.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "objects-of-arrays-selection-sort",
+   "title": "Selection sort",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/objects-of-arrays-selection-sort.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "objects-of-arrays-merge-sort",
+   "title": "Merge sort",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/objects-of-arrays-merge-sort.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "objects-of-arrays-subdecks",
+   "title": "Subdecks",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/objects-of-arrays-subdecks.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "objects-of-arrays-merging-decks",
+   "title": "Merging decks",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/objects-of-arrays-merging-decks.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "objects-of-arrays-adding-recursion",
+   "title": "Adding recursion",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/objects-of-arrays-adding-recursion.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "objects-of-arrays-static-context",
+   "title": "Static context",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/objects-of-arrays-static-context.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "objects-of-arrays-piles-of-cards",
+   "title": "Piles of cards",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/objects-of-arrays-piles-of-cards.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "objects-of-arrays-vocabulary",
+   "title": "Vocabulary",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/objects-of-arrays-vocabulary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "objects-of-arrays-exercises",
+   "title": "Exercises",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/objects-of-arrays-exercises.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "extending-classes",
+   "title": "Extending classes",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/extending-classes.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "extending-classes-cardcollection",
+   "title": "CardCollection",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/extending-classes-cardcollection.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "extending-classes-inheritance",
+   "title": "Inheritance",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/extending-classes-inheritance.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "extending-classes-dealing-cards",
+   "title": "Dealing cards",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/extending-classes-dealing-cards.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "extending-classes-the-player-class",
+   "title": "The Player class",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/extending-classes-the-player-class.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "extending-classes-the-eights-class",
+   "title": "The Eights class",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/extending-classes-the-eights-class.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "extending-classes-class-relationships",
+   "title": "Class relationships",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/extending-classes-class-relationships.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "extending-classes-vocabulary",
+   "title": "Vocabulary",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/extending-classes-vocabulary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "extending-classes-exercises",
+   "title": "Exercises",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/extending-classes-exercises.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "tools",
+   "title": "Tools",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/tools.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "tools-installing-drjava",
+   "title": "Installing DrJava",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/tools-installing-drjava.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "tools-drjava-interactions",
+   "title": "DrJava interactions",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/tools-drjava-interactions.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "tools-command-line-interface",
+   "title": "Command-line interface",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/tools-command-line-interface.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "tools-command-line-testing",
+   "title": "Command-line testing",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/tools-command-line-testing.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "tools-running-checkstyle",
+   "title": "Running Checkstyle",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/tools-running-checkstyle.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "tools-tracing-with-a-debugger",
+   "title": "Tracing with a debugger",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/tools-tracing-with-a-debugger.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "tools-testing-with-junit",
+   "title": "Testing with JUnit",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/tools-testing-with-junit.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "tools-vocabulary",
+   "title": "Vocabulary",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/tools-vocabulary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "javadoc",
+   "title": "Javadoc",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/javadoc.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "javadoc-reading-documentation",
+   "title": "Reading documentation",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/javadoc-reading-documentation.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "javadoc-writing-documentation",
+   "title": "Writing documentation",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/javadoc-writing-documentation.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "javadoc-javadoc-tags",
+   "title": "Javadoc tags",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/javadoc-javadoc-tags.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "javadoc-example-source-file",
+   "title": "Example source file",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/javadoc-example-source-file.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "javadoc-vocabulary",
+   "title": "Vocabulary",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/javadoc-vocabulary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "graphics",
+   "title": "Graphics",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/graphics.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "graphics-creating-graphics",
+   "title": "Creating graphics",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/graphics-creating-graphics.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "graphics-graphics-methods",
+   "title": "Graphics methods",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/graphics-graphics-methods.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "graphics-example-drawing",
+   "title": "Example drawing",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/graphics-example-drawing.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "graphics-vocabulary",
+   "title": "Vocabulary",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/graphics-vocabulary.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "graphics-exercises",
+   "title": "Exercises",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/graphics-exercises.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "debugging",
+   "title": "Debugging",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/debugging.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "debugging-compile-time-errors",
+   "title": "Compile-time errors",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/debugging-compile-time-errors.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "debugging-run-time-errors",
+   "title": "Run-time errors",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/debugging-run-time-errors.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "debugging-logic-errors",
+   "title": "Logic errors",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/debugging-logic-errors.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "extras",
+   "title": "Extras",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/extras.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "extras-unreachable-code",
+   "title": "Unreachable code",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/extras-unreachable-code.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "extras-method-composition",
+   "title": "Method composition",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/extras-method-composition.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "extras-overloading-methods",
+   "title": "Overloading methods",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/extras-overloading-methods.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "extras-generating-tables",
+   "title": "Generating tables",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/extras-generating-tables.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "extras-the-do-while-loop",
+   "title": "The do-while loop",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/extras-the-do-while-loop.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "extras-break-and-continue",
+   "title": "Break and continue",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/extras-break-and-continue.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": "",
+ "suppressPageNumbering": true,
+ "useSubmitButtons": true,
+ "useMarkAsComplete": true,
+ "hideMenu": false,
+ "allowGuideClose": false,
+ "collapsedOnStart": false,
+ "hideSectionsToggle": false,
+ "hideBackToDashboard": false,
+ "protectLayout": false
 }

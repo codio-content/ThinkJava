@@ -8,6 +8,7 @@ Based on the approach from Section 7.7, we will create an array of 26 integers t
 int[] counts = new int[26];
 String lower = s.toLowerCase();
 ```
+[Highlight in Code](open_file code/Doubloon.java ref="int[] counts" count=2)
 
 We can use a `for` loop to iterate each character in the string. To update the `counts` array, we need to compute the index that corresponds to each character. Fortunately, Java allows you to perform arithmetic on characters.
 
@@ -27,6 +28,7 @@ for (char letter : lower.toCharArray()) {
     counts[index]++;
 }
 ```
+[Highlight in Code](open_file code/Doubloon.java ref="char letter" count=4)
 
 After counting all the characters in the `lower` string, we need one last `for` loop to determine whether each letter appears 0 or 2 times.
 
@@ -38,6 +40,7 @@ for (int count : counts) {
 }
 return true;  // is a doubloon
 ```
+[Highlight in Code](open_file code/Doubloon.java ref="int count" count=6)
 
 Like in Section 7.5, we can return immediately if the inner condition is true (which, in this example, means that the word is not a doubloon). If we make it all the way through the `for` loop, we know that all counts are 0 or 2.
 

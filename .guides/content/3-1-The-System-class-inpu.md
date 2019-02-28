@@ -20,4 +20,4 @@ As shown in Figure 3.1, `System` is defined in a file called `System.java`, and 
 
 ![Figure 4.1 `System.out.println` refers to the `out` variable of the `System` class, which is a `PrintStream` that provides a method called `println`.](figs/system.jpg)
 
-**Figure 4.1 `System.out.println` refers to the `out` variable of the `System` class, which is a `PrintStream` that provides a method called `println`.**
+**Figure 3.1** `System.out.println` refers to the `out` variable of the `System` class, which is a `PrintStream` that provides a method called `println`.

@@ -9,7 +9,7 @@ These statements create an array of three `double`s and make two different varia
 
 ![Figure 8.3 Memory diagram of two variables referring to the same array.](figs/array3.jpg)
 
-**Figure 8.3 Memory diagram of two variables referring to the same array.**
+**Figure 7.3 Memory diagram of two variables referring to the same array.**
 
 Any changes made through either variable will be seen by the other. For example, if we set `a[0] = 17.0`, and then display `b[0]`, the result is `17.0`. Because `a` and `b` are different names for the same thing, they are sometimes called **aliases**.
 
@@ -32,7 +32,7 @@ The second parameter is the number of elements you want to copy, so `copyOf` can
 
 ![Figure 8.4 Memory diagram of two variables referring to different arrays.](figs/array4.jpg)
 
-**Figure 8.4 Memory diagram of two variables referring to different arrays.**
+**Figure 7.4 Memory diagram of two variables referring to different arrays.**
 
 
 

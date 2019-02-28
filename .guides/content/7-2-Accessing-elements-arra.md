@@ -2,7 +2,7 @@ When you create an array with the `new` operator, the elements are initialized t
 
 ![Figure 8.1 Memory diagram of an `int` array.](figs/array.jpg)
 
-**Figure 8.1 Memory diagram of an `int` array.**
+**Figure 7.1 Memory diagram of an `int` array.**
 
 
 The arrow indicates that the value of `counts` is a **reference** to the array. You should think of *the array* and *the variable* that refers to it as two different things. As we'll soon see, we can assign a different variable to refer to the same array, and we can change the value of `counts` to refer to a different array.
@@ -28,7 +28,7 @@ Figure 7.2 shows the result of these statements.
 
 ![Figure 8.2 Memory diagram after several assignment statements.](figs/array2.jpg)
 
-**Figure 8.2 Memory diagram after several assignment statements.**
+**Figure 7.2 Memory diagram after several assignment statements.**
 
 You can use any expression as an index, as long as it has type `int`. One of the most common ways to index an array is with a loop variable. For example:
 
@@ -42,6 +42,8 @@ while (i < 4) {
 
 This `while` loop counts up from 0 to 4. When `i` is 4, the condition fails and the loop terminates. So the body of the loop is only executed when `i` is 0, 1, 2, and 3. In this context, the variable name `i` is short for “index”.
 
+{Run!}(sh code/bg.sh javac code/AccessingElements.java java -cp code/ AccessingElements )
+
 Each time through the loop we use `i` as an index into the array, displaying the `i`th element. This type of array processing is usually written as a `for` loop.
 
 ```code
@@ -49,5 +51,7 @@ for (int i = 0; i < 4; i++) {
     System.out.println(counts[i]);
 }
 ```
+
+{Run!}(sh code/bg.sh javac code/AccessingElements.java java -cp code/ AccessingElements )
 
 For the `counts` array, the only legal indexes are 0, 1, 2, and 3. If the index is negative or greater than 3, the result is an `ArrayIndexOutOfBoundsException`.

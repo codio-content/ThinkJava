@@ -41,9 +41,7 @@ A brief message displayed in a print statement that asks the user for input.
 
 **magic number**
 
-A number that appears without explanation as part of an expression.
-
-It should generally be replaced with a constant.
+A number that appears without explanation as part of an expression. It should generally be replaced with a constant.
 
 
 
@@ -67,9 +65,7 @@ A special code that begins with a percent sign and specifies the data type and f
 
 **type cast**
 
-An operation that explicitly converts one data type into another.
-
-In Java it appears as a type name in parentheses, like `(int)`.
+An operation that explicitly converts one data type into another. In Java it appears as a type name in parentheses, like `(int)`.
 
 
 
@@ -77,14 +73,10 @@ In Java it appears as a type name in parentheses, like `(int)`.
 
 **modulo**
 
-An operation that yields the remainder when one integer is divided by another.
-
-In Java, it is denoted with a percent sign: `5 % 2` is `1`.
+An operation that yields the remainder when one integer is divided by another. In Java, it is denoted with a percent sign: `5 % 2` is `1`.
 
 
 
 **modulus**
 
-The value of `b` in the expression `a % b`.
-
-It often represents unit conversions, such as 24 hours in a day, 60 minutes in an hour, etc.
+The value of `b` in the expression `a % b`. It often represents unit conversions, such as 24 hours in a day, 60 minutes in an hour, etc.

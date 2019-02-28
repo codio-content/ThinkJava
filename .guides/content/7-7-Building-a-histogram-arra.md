@@ -15,6 +15,7 @@ public static int inRange(int[] a, int low, int high) {
     return count;
 }
 ```
+[Highlight in Code](open_file code/Histogram.java ref="public static int inRange" count=9)
 
 This pattern should look familiar: it is another reduce operation. Notice that `low` is included in the range (`>=`), but `high` is excluded (`<`). This design keeps us from counting any scores twice.
 
@@ -28,6 +29,13 @@ int c = inRange(scores, 70, 80);
 int d = inRange(scores, 60, 70);
 int f = inRange(scores, 0, 60);
 ```
+[Highlight in Code](open_file code/Histogram.java ref="int[] scores" count=6)
+
+{Run!}(sh code/bg.sh javac code/Histogram.java java -cp code/ Histogram )
+
+[Open Visualizer](open_tutor code/Histogram.java panel=1)
+
+[Close Visualizer](close_tutor code/Histogram.java panel=1)
 
 This code is repetitive, but it is acceptable as long as the number of ranges is small. Suppose we wanted to keep track of the number of times each individual score appears. Then we would have to write 100 lines of code:
 

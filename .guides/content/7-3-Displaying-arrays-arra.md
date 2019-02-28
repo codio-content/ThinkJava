@@ -5,6 +5,8 @@ int[] a = {1, 2, 3, 4};
 System.out.println(a);
 ```
 
+{Run!}(sh code/bg.sh javac code/DisplayingArrays.java java -cp code/ DisplayingArrays )
+
 Unfortunately, the output is something like:
 
 ```code
@@ -22,6 +24,7 @@ public static void printArray(int[] a) {
     System.out.println("}");
 }
 ```
+{Run!}(sh code/bg.sh javac code/DisplayingArrays.java java -cp code/ DisplayingArrays )
 
 Given the previous array, the output of `printArray` is:
 
@@ -35,6 +38,8 @@ The Java library provides a utility class `java.util.Arrays` that has methods fo
 ```code
 System.out.println(Arrays.toString(a));
 ```
+
+{Run!}(sh code/bg.sh javac code/DisplayingArrays.java java -cp code/ DisplayingArrays )
 
 And the output is:
 

@@ -9,6 +9,8 @@ for (int i = 0; i < a.length; i++) {
 
 This example traverses an array and squares each element. At the end of the loop, the array has the values `\{1, 4, 9, 16, 25\`}.
 
+{Run!}(sh code/bg.sh javac code/TraversingArrays.java java -cp code/ TraversingArrays )
+
 Another common pattern is a **search**, which involves traversing an array and “searching” for a particular element. For example, the following method takes an array and a value, and it returns the index where the value appears:
 
 ```code
@@ -31,6 +33,8 @@ double[] array = {3.14, -55.0, 1.23, -0.8};
 int index = search(array, 1.23);
 System.out.println(index);
 ```
+
+{Run!}(sh code/bg.sh javac code/TraversingArrays.java java -cp code/ TraversingArrays )
 
 Another common traversal is a **reduce** operation, which “reduces” an array of values down to a single value. Examples include the sum or product of the elements, the minimum, and the maximum. The following method takes an array and returns the sum of its elements:
 

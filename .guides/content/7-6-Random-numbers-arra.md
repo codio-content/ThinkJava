@@ -19,6 +19,8 @@ public static int[] randomArray(int size) {
 }
 ```
 
+[Highlight in Code](open_file code/RandomNums.java ref="public static int[] randomArray" count=8)
+
 The following `main` method generates an array and displays it using `printArray` from Section 7.3. We could have used `Arrays.toString`, but we like seeing curly braces instead of square brackets.
 
 ```code
@@ -27,6 +29,10 @@ public static void main(String[] args) {
     printArray(array);
 }
 ```
+
+[Highlight in Code](open_file code/RandomNums.java ref="public static void main" count=4)
+
+{Run!}(sh code/bg.sh javac code/RandomNums.java java -cp code/ RandomNums )
 
 Each time you run the program, you should get different values. The output will look something like this:
 

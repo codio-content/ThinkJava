@@ -1,5 +1,3 @@
-**Exercise 4.1:**
-
 The goal of this exercise is to program a “Guess My Number” game.
 When it's finished, it will work like this:
 
@@ -12,12 +10,10 @@ The number I was thinking of is: 14
 You were off by: 31
 ```
 
+{Test your code | terminal}(javac code/GuessStarter.java && java -cp code/ GuessStarter )
+
 To choose a random number, you can use the `Random` class in `java.util`.
 Here's how it works:
-
-
-
-
 
 Like the `Scanner` class we saw in this chapter, `Random` has to be imported before we can use it.
 And as we saw with `Scanner`, we have to use the `new` operator to create a `Random` (number generator).
@@ -39,3 +35,5 @@ Compile and test the program.
 Again, compile and test.
 
 1.  Compute and display the difference between the user's guess and the number that was generated.
+
+{Test your code | terminal}(javac code/GuessStarter.java && java -cp code/ GuessStarter )

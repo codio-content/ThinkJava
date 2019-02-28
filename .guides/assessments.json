@@ -1,0 +1,168 @@
+[
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-167464931",
+  "source": {
+   "name": "Exercise 3.2",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "javac CtoF.java",
+   "command": "java CtoF",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "When you are ready to submit your code, remove the prompt message and click the button below.",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "24\n",
+     "output": "24.0 C = 75.2 F"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4268363025",
+  "source": {
+   "name": "exercise-3-1a",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "See what happens if you try to display a value with type `int` using `%f`.",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "2ef4a7cb-0f65-f34f-6071-e5364813dbf8",
+     "correct": false,
+     "answer": "It works correctly"
+    },
+    {
+     "_id": "a4fd00c0-c000-2761-5c50-58892d48cb99",
+     "correct": true,
+     "answer": "It throws an error"
+    },
+    {
+     "_id": "f91acee5-f6f8-3b65-584f-6427c2d04aba",
+     "correct": false,
+     "answer": "It displays a warning but works correctly"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1183993682",
+  "source": {
+   "name": "exercise-3-1b",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "And what happens if you display a `double` using `%d`?",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "c00842d8-e550-1f56-2753-8cc609d06a53",
+     "correct": false,
+     "answer": "It works correctly"
+    },
+    {
+     "_id": "70d7cc32-38ce-2429-737f-acc887103279",
+     "correct": true,
+     "answer": "It throws an error"
+    },
+    {
+     "_id": "748b4562-eaca-8fb8-00a5-ef8f306e4686",
+     "correct": false,
+     "answer": "It displays a warning but works correctly"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4125459234",
+  "source": {
+   "name": "exercise-3-1c",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "What if you use two format specifiers, but then only provide one value?",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "fd63eeb4-0a30-092e-5dd7-58f12867f505",
+     "correct": false,
+     "answer": "It uses the first number for both"
+    },
+    {
+     "_id": "0043bbfc-84a1-0d6f-8bb2-38c7ba56a7dd",
+     "correct": true,
+     "answer": "It throws an error"
+    },
+    {
+     "_id": "c4cd3e4e-2fe4-2598-edb0-ab35582a1d4d",
+     "correct": false,
+     "answer": "It displays nothing for the second specifier"
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1034781984",
+  "source": {
+   "name": "exercise-3-3",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "javac TimeConv.java",
+   "command": "java TimeConv",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "When you are ready to submit your code, remove the prompt message and click the button below.",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "5000",
+     "output": "5000 seconds = 1 hours, 23 minutes, and 20 seconds"
+    }
+   ]
+  }
+ }
+]

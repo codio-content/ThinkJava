@@ -223,61 +223,61 @@
     {
      "id": "input-and-output-the-system-class",
      "pageId": "input-and-output-the-system-class",
-     "title": "The System class",
+     "title": "3.1 The System class",
      "type": "page"
     },
     {
      "id": "input-and-output-the-scanner-class",
      "pageId": "input-and-output-the-scanner-class",
-     "title": "The Scanner class",
+     "title": "3.2 The Scanner class",
      "type": "page"
     },
     {
      "id": "input-and-output-language-elements",
      "pageId": "input-and-output-language-elements",
-     "title": "Language elements",
+     "title": "3.3 Language elements",
      "type": "page"
     },
     {
      "id": "input-and-output-literals-and-constants",
      "pageId": "input-and-output-literals-and-constants",
-     "title": "Literals and constants",
+     "title": "3.4 Literals and constants",
      "type": "page"
     },
     {
      "id": "input-and-output-formatting-output",
      "pageId": "input-and-output-formatting-output",
-     "title": "Formatting output",
+     "title": "3.5 Formatting output",
      "type": "page"
     },
     {
      "id": "input-and-output-type-cast-operators",
      "pageId": "input-and-output-type-cast-operators",
-     "title": "Type cast operators",
+     "title": "3.6 Type cast operators",
      "type": "page"
     },
     {
      "id": "input-and-output-remainder-operator",
      "pageId": "input-and-output-remainder-operator",
-     "title": "Remainder operator",
+     "title": "3.7 Remainder operator",
      "type": "page"
     },
     {
      "id": "input-and-output-putting-it-all-together",
      "pageId": "input-and-output-putting-it-all-together",
-     "title": "Putting it all together",
+     "title": "3.8 Putting it all together",
      "type": "page"
     },
     {
      "id": "input-and-output-the-scanner-bug",
      "pageId": "input-and-output-the-scanner-bug",
-     "title": "The Scanner bug",
+     "title": "3.9 The Scanner bug",
      "type": "page"
     },
     {
      "id": "input-and-output-vocabulary",
      "pageId": "input-and-output-vocabulary",
-     "title": "Vocabulary",
+     "title": "3.10 Vocabulary",
      "type": "page"
     },
     {
@@ -285,25 +285,25 @@
       {
        "id": "input-and-output-exercises-3-1",
        "pageId": "input-and-output-exercises-3-1",
-       "title": "Exercises 3.1",
+       "title": "Exercise 3.1",
        "type": "page"
       },
       {
        "id": "input-and-output-exercises-3-2",
        "pageId": "input-and-output-exercises-3-2",
-       "title": "Exercises 3.2",
+       "title": "Exercise 3.2",
        "type": "page"
       },
       {
        "id": "input-and-output-exercises-3-3",
        "pageId": "input-and-output-exercises-3-3",
-       "title": "Exercises 3.3",
+       "title": "Exercise 3.3",
        "type": "page"
       },
       {
        "id": "input-and-output-exercises-3-4",
        "pageId": "input-and-output-exercises-3-4",
-       "title": "Exercises 3.4",
+       "title": "Exercise 3.4",
        "type": "page"
       }
      ],
@@ -315,7 +315,7 @@
    ],
    "id": "input-and-output",
    "pageId": "input-and-output",
-   "title": "Input and output",
+   "title": "3 Input and output",
    "type": "chapter"
   },
   {
@@ -545,61 +545,61 @@
     {
      "id": "arrays-and-references-creating-arrays",
      "pageId": "arrays-and-references-creating-arrays",
-     "title": "Creating arrays",
+     "title": "7.1 Creating arrays",
      "type": "page"
     },
     {
      "id": "arrays-and-references-accessing-elements",
      "pageId": "arrays-and-references-accessing-elements",
-     "title": "Accessing elements",
+     "title": "7.2 Accessing elements",
      "type": "page"
     },
     {
      "id": "arrays-and-references-displaying-arrays",
      "pageId": "arrays-and-references-displaying-arrays",
-     "title": "Displaying arrays",
+     "title": "7.3 Displaying arrays",
      "type": "page"
     },
     {
      "id": "arrays-and-references-copying-arrays",
      "pageId": "arrays-and-references-copying-arrays",
-     "title": "Copying arrays",
+     "title": "7.4 Copying arrays",
      "type": "page"
     },
     {
      "id": "arrays-and-references-array-traversal",
      "pageId": "arrays-and-references-array-traversal",
-     "title": "Array traversal",
+     "title": "7.5 Array traversal",
      "type": "page"
     },
     {
      "id": "arrays-and-references-random-numbers",
      "pageId": "arrays-and-references-random-numbers",
-     "title": "Random numbers",
+     "title": "7.6 Random numbers",
      "type": "page"
     },
     {
      "id": "arrays-and-references-building-a-histogram",
      "pageId": "arrays-and-references-building-a-histogram",
-     "title": "Building a histogram",
+     "title": "7.7 Building a histogram",
      "type": "page"
     },
     {
      "id": "arrays-and-references-the-enhanced-for-loop",
      "pageId": "arrays-and-references-the-enhanced-for-loop",
-     "title": "The enhanced for loop",
+     "title": "7.8 The enhanced for loop",
      "type": "page"
     },
     {
      "id": "arrays-and-references-counting-characters",
      "pageId": "arrays-and-references-counting-characters",
-     "title": "Counting characters",
+     "title": "7.9 Counting characters",
      "type": "page"
     },
     {
      "id": "arrays-and-references-vocabulary",
      "pageId": "arrays-and-references-vocabulary",
-     "title": "Vocabulary",
+     "title": "7.10 Vocabulary",
      "type": "page"
     },
     {
@@ -607,49 +607,49 @@
       {
        "id": "arrays-and-references-exercises-7-1",
        "pageId": "arrays-and-references-exercises-7-1",
-       "title": "Exercises 7.1",
+       "title": "Exercise 7.1",
        "type": "page"
       },
       {
        "id": "arrays-and-references-exercises-7-2",
        "pageId": "arrays-and-references-exercises-7-2",
-       "title": "Exercises 7.2",
+       "title": "Exercise 7.2",
        "type": "page"
       },
       {
        "id": "arrays-and-references-exercises-7-3",
        "pageId": "arrays-and-references-exercises-7-3",
-       "title": "Exercises 7.3",
+       "title": "Exercise 7.3",
        "type": "page"
       },
       {
        "id": "arrays-and-references-exercises-7-4",
        "pageId": "arrays-and-references-exercises-7-4",
-       "title": "Exercises 7.4",
+       "title": "Exercise 7.4",
        "type": "page"
       },
       {
        "id": "arrays-and-references-exercises-7-5",
        "pageId": "arrays-and-references-exercises-7-5",
-       "title": "Exercises 7.5",
+       "title": "Exercise 7.5",
        "type": "page"
       },
       {
        "id": "arrays-and-references-exercises-7-6",
        "pageId": "arrays-and-references-exercises-7-6",
-       "title": "Exercises 7.6",
+       "title": "Exercise 7.6",
        "type": "page"
       },
       {
        "id": "arrays-and-references-exercises-7-7",
        "pageId": "arrays-and-references-exercises-7-7",
-       "title": "Exercises 7.7",
+       "title": "Exercise 7.7",
        "type": "page"
       },
       {
        "id": "arrays-and-references-exercises-7-8",
        "pageId": "arrays-and-references-exercises-7-8",
-       "title": "Exercises 7.8",
+       "title": "Exercise 7.8",
        "type": "page"
       }
      ],
@@ -661,7 +661,7 @@
    ],
    "id": "arrays-and-references",
    "pageId": "arrays-and-references",
-   "title": "Arrays and references",
+   "title": "7 Arrays and references",
    "type": "chapter"
   },
   {

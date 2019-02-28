@@ -2,7 +2,7 @@ At this point, we have seen nearly all of the organizational units that make up 
 
 ![Figure 4.2 Elements of the Java language, from largest to smallest.](figs/package.jpg)
 
-**Figure 4.2 Elements of the Java language, from largest to smallest.**
+**Figure 3.2** Elements of the Java language, from largest to smallest.
 
 
 Java applications are typically organized into packages (like `java.io` and `java.util`) that include multiple classes (like `PrintStream` and `Scanner`). Each class defines its own methods (like `println` and `nextLine`), and each method is a sequence of statements.

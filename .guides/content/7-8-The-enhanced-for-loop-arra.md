@@ -15,6 +15,12 @@ for (int value : values) {
 }
 ```
 
+{Run!}(sh code/bg.sh javac code/Enhanced.java java -cp code/ Enhanced )
+
+[Open Visualizer](open_tutor code/Enhanced.java panel=0)
+
+[Close Visualizer](close_tutor code/Enhanced.java panel=0)
+
 This statement is called an **enhanced for loop**, also known as the “for each” loop. You can read the code as, “for each `value` in `values`”. It's conventional to use plural nouns for array variables and singular nouns for element variables.
 
 Notice how the single line `for (int value : values)` replaces the first two lines of the standard `for` loop. It hides the details of iterating each index of the array, and instead, focuses on the values themselves.
