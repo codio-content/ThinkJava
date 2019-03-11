@@ -31,6 +31,10 @@ If you can formulate a recursive definition of something, you can easily write a
 The first step is to decide what the parameters and return type are.
 Since factorial is defined for integers, the method takes an `int` as a parameter and returns an `int`.
 
+Follow along in the top-left pane.
+{Run!}(sh .guides/bg.sh javac code/ValueReturning.java java -cp code/ ValueReturning )
+
+
 ```code
 public static int factorial(int n) {
     return 0;  // stub
@@ -61,6 +65,9 @@ public static int factorial(int n) {
     return result;
 }
 ```
+
+{Run!}(sh .guides/bg.sh javac code/ValueReturning.java java -cp code/ ValueReturning 2 )
+
 
 To illustrate what is happening, we'll use the temporary variables `recurse` and `result`.
 In each method call, `recurse` stores the factorial of $n - 1$, and `result` stores the factorial of $n$.

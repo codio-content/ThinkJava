@@ -429,8 +429,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/variables-and-operators.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-operators",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -441,8 +447,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-declaring-variables.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-operators-declaring-variables",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -453,8 +465,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-assigning-variables.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-operators-assigning-variables",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -465,8 +483,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-memory-diagrams.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-operators-memory-diagrams",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -477,8 +501,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-printing-variables.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Printing.java"
+        }
+      ],
       "id": "variables-and-operators-printing-variables",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -489,8 +524,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-arithmetic-operators.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Arithmetic.java"
+        }
+      ],
       "id": "variables-and-operators-arithmetic-operators",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -501,8 +547,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-floating-point-numbers.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Floating.java"
+        }
+      ],
       "id": "variables-and-operators-floating-point-numbers",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -513,8 +570,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-rounding-errors.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-operators-rounding-errors",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -525,8 +588,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-operators-for-strings.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/StringOps.java"
+        }
+      ],
       "id": "variables-and-operators-operators-for-strings",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -537,8 +611,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-compiler-error-messages.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/1/Hello.java"
+        }
+      ],
       "id": "variables-and-operators-compiler-error-messages",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -549,8 +634,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-other-types-of-errors.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/2/Hello.java"
+        }
+      ],
       "id": "variables-and-operators-other-types-of-errors",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -561,8 +657,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-operators-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -573,13 +675,55 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-operators-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
       "teacherOnly": false,
       "title": "Exercises",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/variables-and-operators-exercises-2-1.md",
+      "files": [],
+      "id": "variables-and-operators-exercises-2-1",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 2.1",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/variables-and-operators-exercises-2-2.md",
+      "files": [],
+      "id": "variables-and-operators-exercises-2-2",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 2.2",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/variables-and-operators-exercises-2-3.md",
+      "files": [],
+      "id": "variables-and-operators-exercises-2-3",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 2.3",
       "type": "markdown"
     },
     {
@@ -909,8 +1053,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/methods-and-testing.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "methods-and-testing",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -921,8 +1071,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-math-methods.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MathFun.java"
+        }
+      ],
       "id": "methods-and-testing-math-methods",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -933,8 +1094,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-composition.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "methods-and-testing-composition",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -945,8 +1112,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-defining-new-methods.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/NewLine.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/1/NewLine.java"
+        }
+      ],
       "id": "methods-and-testing-defining-new-methods",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -957,8 +1140,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-flow-of-execution.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "methods-and-testing-flow-of-execution",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -969,8 +1158,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-parameters-and-arguments.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/PrintTwice.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/PrintTime.java"
+        }
+      ],
       "id": "methods-and-testing-parameters-and-arguments",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -981,8 +1186,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-stack-diagrams.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "methods-and-testing-stack-diagrams",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -993,8 +1204,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-return-values.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Return.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#visualizer: code/Return.java"
+        }
+      ],
       "id": "methods-and-testing-return-values",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1005,8 +1232,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-incremental-development.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "methods-and-testing-incremental-development",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1017,8 +1250,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "methods-and-testing-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1029,8 +1268,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "methods-and-testing-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1039,10 +1284,88 @@
       "type": "markdown"
     },
     {
+      "chapter": false,
+      "content-file": ".guides/content/methods-and-testing-exercises-4-1.md",
+      "files": [],
+      "id": "methods-and-testing-exercises-4-1",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 4.1",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/methods-and-testing-exercises-4-2.md",
+      "files": [],
+      "id": "methods-and-testing-exercises-4-2",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 4.2",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/methods-and-testing-exercises-4-3.md",
+      "files": [],
+      "id": "methods-and-testing-exercises-4-3",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 4.3",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/methods-and-testing-exercises-4-4.md",
+      "files": [],
+      "id": "methods-and-testing-exercises-4-4",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 4.4",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/methods-and-testing-exercises-4-5.md",
+      "files": [],
+      "id": "methods-and-testing-exercises-4-5",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 4.5",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/methods-and-testing-exercises-4-6.md",
+      "files": [],
+      "id": "methods-and-testing-exercises-4-6",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 4.6",
+      "type": "markdown"
+    },
+    {
       "chapter": true,
       "content-file": ".guides/content/conditionals-and-logic.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "conditionals-and-logic",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1053,8 +1376,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-relational-operators.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "conditionals-and-logic-relational-operators",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1065,8 +1394,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-the-if-else-statement.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/IfElse.java"
+        }
+      ],
       "id": "conditionals-and-logic-the-if-else-statement",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1077,8 +1417,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-chaining-and-nesting.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Chaining.java"
+        }
+      ],
       "id": "conditionals-and-logic-chaining-and-nesting",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1089,8 +1440,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-logical-operators.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/LogicalOps.java"
+        }
+      ],
       "id": "conditionals-and-logic-logical-operators",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1101,8 +1463,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-de-morgan-s-laws.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "conditionals-and-logic-de-morgan-s-laws",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1113,8 +1481,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-boolean-variables.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/BooleanVars.java"
+        }
+      ],
       "id": "conditionals-and-logic-boolean-variables",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1125,8 +1504,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-boolean-methods.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/BooleanMethods.java"
+        }
+      ],
       "id": "conditionals-and-logic-boolean-methods",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1137,8 +1527,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-validating-input.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ValidInput.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "conditionals-and-logic-validating-input",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1149,8 +1555,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-example-program.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Logarithm.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "conditionals-and-logic-example-program",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1161,8 +1583,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "conditionals-and-logic-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1173,8 +1601,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "conditionals-and-logic-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1183,10 +1617,100 @@
       "type": "markdown"
     },
     {
+      "chapter": false,
+      "content-file": ".guides/content/conditionals-and-logic-exercises-5-1.md",
+      "files": [],
+      "id": "conditionals-and-logic-exercises-5-1",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 5.1",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/conditionals-and-logic-exercises-5-2.md",
+      "files": [],
+      "id": "conditionals-and-logic-exercises-5-2",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 5.2",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/conditionals-and-logic-exercises-5-3.md",
+      "files": [],
+      "id": "conditionals-and-logic-exercises-5-3",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 5.3",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/conditionals-and-logic-exercises-5-4.md",
+      "files": [],
+      "id": "conditionals-and-logic-exercises-5-4",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 5.4",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/conditionals-and-logic-exercises-5-5.md",
+      "files": [],
+      "id": "conditionals-and-logic-exercises-5-5",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 5.5",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/conditionals-and-logic-exercises-5-6.md",
+      "files": [],
+      "id": "conditionals-and-logic-exercises-5-6",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 5.6",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/conditionals-and-logic-exercises-5-7.md",
+      "files": [],
+      "id": "conditionals-and-logic-exercises-5-7",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 5.7",
+      "type": "markdown"
+    },
+    {
       "chapter": true,
       "content-file": ".guides/content/loops-and-strings.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "loops-and-strings",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1197,8 +1721,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-the-while-statement.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/BlastOff.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#visualizer: code/BlastOff.java"
+        }
+      ],
       "id": "loops-and-strings-the-while-statement",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1209,8 +1749,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-increment-and-decrement.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Increment.java"
+        }
+      ],
       "id": "loops-and-strings-increment-and-decrement",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1221,8 +1772,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-the-for-statement.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/For.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#visualizer: code/For.java"
+        }
+      ],
       "id": "loops-and-strings-the-for-statement",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1233,8 +1800,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-nested-loops.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MultiplicationTable.java"
+        }
+      ],
       "id": "loops-and-strings-nested-loops",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1245,8 +1823,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-characters.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Characters.java"
+        }
+      ],
       "id": "loops-and-strings-characters",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1257,8 +1846,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-string-iteration.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/StringIteration.java"
+        }
+      ],
       "id": "loops-and-strings-string-iteration",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1269,8 +1869,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-the-indexof-method.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/IndexOf.java"
+        }
+      ],
       "id": "loops-and-strings-the-indexof-method",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1281,8 +1892,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-string-comparison.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/StringComp.java"
+        }
+      ],
       "id": "loops-and-strings-string-comparison",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1293,8 +1915,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-substrings.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Substring.java"
+        }
+      ],
       "id": "loops-and-strings-substrings",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1305,8 +1938,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-string-formatting.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/StringFormat.java"
+        }
+      ],
       "id": "loops-and-strings-string-formatting",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1317,8 +1961,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "loops-and-strings-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1329,13 +1979,91 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "loops-and-strings-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
       "teacherOnly": false,
       "title": "Exercises",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/loops-and-strings-exercises-6-1.md",
+      "files": [],
+      "id": "loops-and-strings-exercises-6-1",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 6.1",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/loops-and-strings-exercises-6-2.md",
+      "files": [],
+      "id": "loops-and-strings-exercises-6-2",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 6.2",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/loops-and-strings-exercises-6-3.md",
+      "files": [],
+      "id": "loops-and-strings-exercises-6-3",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 6.3",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/loops-and-strings-exercises-6-4.md",
+      "files": [],
+      "id": "loops-and-strings-exercises-6-4",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 6.4",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/loops-and-strings-exercises-6-5.md",
+      "files": [],
+      "id": "loops-and-strings-exercises-6-5",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 6.5",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/loops-and-strings-exercises-6-6.md",
+      "files": [],
+      "id": "loops-and-strings-exercises-6-6",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 6.6",
       "type": "markdown"
     },
     {
@@ -1703,8 +2431,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/recursive-methods.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "recursive-methods",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1715,8 +2449,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-recursive-void-methods.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Countdown.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#visualizer: code/Countdown.java"
+        }
+      ],
       "id": "recursive-methods-recursive-void-methods",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1727,8 +2477,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-recursive-stack-diagrams.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "recursive-methods-recursive-stack-diagrams",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1739,8 +2495,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-value-returning-methods.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ValueReturning.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#visualizer: code/ValueReturning.java"
+        }
+      ],
       "id": "recursive-methods-value-returning-methods",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1751,8 +2523,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-the-leap-of-faith.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Fibonacci.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#visualizer: code/Fibonacci.java"
+        }
+      ],
       "id": "recursive-methods-the-leap-of-faith",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1763,8 +2551,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-binary-number-system.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "recursive-methods-binary-number-system",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1775,8 +2569,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-recursive-binary-method.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/DisplayBinary.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#visualizer: code/DisplayBinary.java"
+        }
+      ],
       "id": "recursive-methods-recursive-binary-method",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1787,8 +2597,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-codingbat-problems.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#preview: https://codingbat.com/prob/p118230"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://codingbat.com/prob/p135988"
+        }
+      ],
       "id": "recursive-methods-codingbat-problems",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1799,8 +2625,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "recursive-methods-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1811,8 +2643,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "recursive-methods-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1821,10 +2659,100 @@
       "type": "markdown"
     },
     {
+      "chapter": false,
+      "content-file": ".guides/content/recursive-methods-exercises-8-1.md",
+      "files": [],
+      "id": "recursive-methods-exercises-8-1",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 8.1",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/recursive-methods-exercises-8-2.md",
+      "files": [],
+      "id": "recursive-methods-exercises-8-2",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 8.2",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/recursive-methods-exercises-8-3.md",
+      "files": [],
+      "id": "recursive-methods-exercises-8-3",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 8.3",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/recursive-methods-exercises-8-4.md",
+      "files": [],
+      "id": "recursive-methods-exercises-8-4",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 8.4",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/recursive-methods-exercises-8-5.md",
+      "files": [],
+      "id": "recursive-methods-exercises-8-5",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 8.5",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/recursive-methods-exercises-8-6.md",
+      "files": [],
+      "id": "recursive-methods-exercises-8-6",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 8.6",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/recursive-methods-exercises-8-7.md",
+      "files": [],
+      "id": "recursive-methods-exercises-8-7",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 8.7",
+      "type": "markdown"
+    },
+    {
       "chapter": true,
       "content-file": ".guides/content/immutable-objects.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "immutable-objects",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1919,8 +2847,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/immutable-objects-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "immutable-objects-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1931,8 +2865,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/immutable-objects-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "immutable-objects-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1941,10 +2881,88 @@
       "type": "markdown"
     },
     {
+      "chapter": false,
+      "content-file": ".guides/content/immutable-objects-exercises-9-1.md",
+      "files": [],
+      "id": "immutable-objects-exercises-9-1",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 9.1",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/immutable-objects-exercises-9-2.md",
+      "files": [],
+      "id": "immutable-objects-exercises-9-2",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 9.2",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/immutable-objects-exercises-9-3.md",
+      "files": [],
+      "id": "immutable-objects-exercises-9-3",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 9.3",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/immutable-objects-exercises-9-4.md",
+      "files": [],
+      "id": "immutable-objects-exercises-9-4",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 9.4",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/immutable-objects-exercises-9-5.md",
+      "files": [],
+      "id": "immutable-objects-exercises-9-5",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 9.5",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/immutable-objects-exercises-9-6.md",
+      "files": [],
+      "id": "immutable-objects-exercises-9-6",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 9.6",
+      "type": "markdown"
+    },
+    {
       "chapter": true,
       "content-file": ".guides/content/mutable-objects.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2063,8 +3081,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2075,8 +3099,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2085,10 +3115,52 @@
       "type": "markdown"
     },
     {
+      "chapter": false,
+      "content-file": ".guides/content/mutable-objects-exercises-10-1.md",
+      "files": [],
+      "id": "mutable-objects-exercises-10-1",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 10.1",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/mutable-objects-exercises-10-2.md",
+      "files": [],
+      "id": "mutable-objects-exercises-10-2",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 10.2",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/mutable-objects-exercises-10-3.md",
+      "files": [],
+      "id": "mutable-objects-exercises-10-3",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 10.3",
+      "type": "markdown"
+    },
+    {
       "chapter": true,
       "content-file": ".guides/content/designing-classes.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "designing-classes",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2207,8 +3279,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/designing-classes-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "designing-classes-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2219,8 +3297,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/designing-classes-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "designing-classes-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2229,10 +3313,76 @@
       "type": "markdown"
     },
     {
+      "chapter": false,
+      "content-file": ".guides/content/designing-classes-exercises-11-1.md",
+      "files": [],
+      "id": "designing-classes-exercises-11-1",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 11.1",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/designing-classes-exercises-11-2.md",
+      "files": [],
+      "id": "designing-classes-exercises-11-2",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 11.2",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/designing-classes-exercises-11-3.md",
+      "files": [],
+      "id": "designing-classes-exercises-11-3",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 11.3",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/designing-classes-exercises-11-4.md",
+      "files": [],
+      "id": "designing-classes-exercises-11-4",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 11.4",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/designing-classes-exercises-11-5.md",
+      "files": [],
+      "id": "designing-classes-exercises-11-5",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 11.5",
+      "type": "markdown"
+    },
+    {
       "chapter": true,
       "content-file": ".guides/content/arrays-of-objects.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-of-objects",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2363,8 +3513,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-of-objects-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-of-objects-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2375,8 +3531,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-of-objects-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-of-objects-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2385,10 +3547,64 @@
       "type": "markdown"
     },
     {
+      "chapter": false,
+      "content-file": ".guides/content/arrays-of-objects-exercises-12-1.md",
+      "files": [],
+      "id": "arrays-of-objects-exercises-12-1",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 12.1",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/arrays-of-objects-exercises-12-2.md",
+      "files": [],
+      "id": "arrays-of-objects-exercises-12-2",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 12.2",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/arrays-of-objects-exercises-12-3.md",
+      "files": [],
+      "id": "arrays-of-objects-exercises-12-3",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 12.3",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/arrays-of-objects-exercises-12-4.md",
+      "files": [],
+      "id": "arrays-of-objects-exercises-12-4",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 12.4",
+      "type": "markdown"
+    },
+    {
       "chapter": true,
       "content-file": ".guides/content/objects-of-arrays.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "objects-of-arrays",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2507,8 +3723,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/objects-of-arrays-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "objects-of-arrays-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2519,8 +3741,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/objects-of-arrays-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "objects-of-arrays-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2529,10 +3757,88 @@
       "type": "markdown"
     },
     {
+      "chapter": false,
+      "content-file": ".guides/content/objects-of-arrays-exercises-13-1.md",
+      "files": [],
+      "id": "objects-of-arrays-exercises-13-1",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 13.1",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/objects-of-arrays-exercises-13-2.md",
+      "files": [],
+      "id": "objects-of-arrays-exercises-13-2",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 13.2",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/objects-of-arrays-exercises-13-3.md",
+      "files": [],
+      "id": "objects-of-arrays-exercises-13-3",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 13.3",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/objects-of-arrays-exercises-13-4.md",
+      "files": [],
+      "id": "objects-of-arrays-exercises-13-4",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 13.4",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/objects-of-arrays-exercises-13-5.md",
+      "files": [],
+      "id": "objects-of-arrays-exercises-13-5",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 13.5",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/objects-of-arrays-exercises-13-6.md",
+      "files": [],
+      "id": "objects-of-arrays-exercises-13-6",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 13.6",
+      "type": "markdown"
+    },
+    {
       "chapter": true,
       "content-file": ".guides/content/extending-classes.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "extending-classes",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2615,8 +3921,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/extending-classes-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "extending-classes-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2627,13 +3939,67 @@
     {
       "chapter": false,
       "content-file": ".guides/content/extending-classes-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "extending-classes-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
       "teacherOnly": false,
       "title": "Exercises",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/extending-classes-exercises-14-1.md",
+      "files": [],
+      "id": "extending-classes-exercises-14-1",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 14.1",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/extending-classes-exercises-14-2.md",
+      "files": [],
+      "id": "extending-classes-exercises-14-2",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 14.2",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/extending-classes-exercises-14-3.md",
+      "files": [],
+      "id": "extending-classes-exercises-14-3",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 14.3",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/extending-classes-exercises-14-4.md",
+      "files": [],
+      "id": "extending-classes-exercises-14-4",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercises 14.4",
       "type": "markdown"
     },
     {

@@ -25,6 +25,10 @@ Java does not recognize `Pi`, `pi`, or `pie`.
 Also, `PI` is the name of a variable, not a method, so it doesn't have parentheses.
 The same is true for the constant `Math.E`, which approximates Euler's number.
 
+Try out some of these Math functions in the panel to the left.
+{Run!}(sh .guides/bg.sh javac code/MathFun.java java -cp code/ MathFun )
+
+
 Converting to and from radians is a common operation, so the `Math` class provides methods that do that for you.
 
 ```code
@@ -39,6 +43,9 @@ The following result is 63 (rounded up from 62.8319).
 ```code
 long x = Math.round(Math.PI * 20.0);
 ```
+
+{Run!}(sh .guides/bg.sh javac code/MathFun.java java -cp code/ MathFun 2 )
+
 
 A `long` is like an `int`, but bigger.
 More specifically, an `int` uses 32 bits of memory; the largest value it can hold is $2^{31}-1$, which is about 2 billion.

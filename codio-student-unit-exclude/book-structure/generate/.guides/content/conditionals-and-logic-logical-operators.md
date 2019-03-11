@@ -26,6 +26,9 @@ if (x == 0 && y == 0) {
     System.out.println("Both x and y are zero");
 }
 ```
+Try it out in the left pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/LogicalOps.java java -cp code/ LogicalOps )
+
 
 Likewise, the `||` operator can simplify chained `if` statements.
 Since the branches are the same, there is no need to duplicate that code.
@@ -44,6 +47,8 @@ if (x == 0 || y == 0) {
     System.out.println("Either x or y is zero");
 }
 ```
+{Run!}(sh .guides/bg.sh javac code/LogicalOps.java java -cp code/ LogicalOps 2 )
+
 
 Of course if the statements in the branches were different, we could not combine them into one block.
 But it's useful to explore different ways of representing the same logic, especially when it's complex.

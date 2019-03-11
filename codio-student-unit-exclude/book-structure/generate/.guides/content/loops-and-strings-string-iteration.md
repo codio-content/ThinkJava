@@ -29,6 +29,9 @@ To get the last character, you have to subtract 1 from `length`.
 int length = fruit.length();
 char last = fruit.charAt(length - 1);  // correct
 ```
+Try it out in the left pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/StringIteration.java java -cp code/ StringIteration )
+
 
 Many string algorithms involve reading one string and building another.
 For example, to reverse a string, we can add one character at a time:

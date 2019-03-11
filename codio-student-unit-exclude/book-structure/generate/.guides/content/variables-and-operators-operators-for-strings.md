@@ -21,6 +21,10 @@ System.out.println(1 + 2 + "Hello");
 System.out.println("Hello" + 1 + 2);
 // the output is Hello12
 ```
+See the example java code in the left panel.
+To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/StringOps.java java -cp code/ StringOps )
+
 
 Java executes these operations from left to right.
 In the first line, `1 + 2` is `3`, and `3 + "Hello"` is `"3Hello"`.

@@ -62,5 +62,8 @@ public static int fibonacci(int n) {
 }
 ```
 
+{Run!}(sh .guides/bg.sh javac code/Fibonacci.java java -cp code/ Fibonacci )
+
+
 If you try to follow the flow of execution here, even for small values of `n`, your head will explode.
 But if we take a leap of faith and assume that the two recursive invocations work correctly, then it is clear, looking at the definition, that our implementation is correct.

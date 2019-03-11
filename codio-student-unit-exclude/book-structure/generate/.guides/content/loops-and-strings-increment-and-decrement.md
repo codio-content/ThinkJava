@@ -8,6 +8,9 @@ while (i <= 5) {
 }
 ```
 
+Try it out using the left pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/Increment.java java -cp code/ Increment )
+
 
 Assignments like `i = i + 1` don't often appear in loops, because Java provides a more concise way to add and subtract by one.
 Specifically, `++` is the **increment** operator; it has the same effect as `i = i + 1`.
@@ -24,6 +27,8 @@ while (i <= 8) {
     i += 2;  // add 2 to i
 }
 System.out.println("Who do we appreciate?");
+{Run!}(sh .guides/bg.sh javac code/Increment.java java -cp code/ Increment 2 )
+
 ```
 
 And the output is:

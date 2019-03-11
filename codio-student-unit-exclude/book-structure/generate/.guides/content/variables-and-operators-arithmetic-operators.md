@@ -9,6 +9,10 @@ int minute = 59;
 System.out.print("Number of minutes since midnight: ");
 System.out.println(hour * 60 + minute);
 ```
+See the example java code in the left panel.
+To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/Arithmetic.java java -cp code/ Arithmetic )
+
 
 The output is:
 
@@ -37,6 +41,9 @@ For example, the following fragment tries to compute the fraction of an hour tha
 System.out.print("Fraction of the hour that has passed: ");
 System.out.println(minute / 60);
 ```
+
+{Run!}(sh .guides/bg.sh javac code/Arithmetic.java java -cp code/ Arithmetic 2 )
+
 
 The output is:
 

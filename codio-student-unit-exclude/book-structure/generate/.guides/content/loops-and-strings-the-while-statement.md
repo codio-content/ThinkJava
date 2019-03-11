@@ -8,6 +8,8 @@ while (n > 0) {
 }
 System.out.println("Blastoff!");
 ```
+{Run!}(sh .guides/bg.sh javac code/BlastOff.java java -cp code/ BlastOff )
+
 
 Reading the code in English sounds like: “Start with `n` set to 3.
 While `n` is greater than zero, print the value of `n`, and reduce the value of `n` by 1.
@@ -69,6 +71,8 @@ while (n != 1) {
     }
 }
 ```
+{Run!}(sh .guides/bg.sh javac code/BlastOff.java java -cp code/ BlastOff )
+
 
 Each time through the loop, the program displays the value of `n` and then checks whether it is even or odd.
 If it is even, the value of `n` is divided by two.

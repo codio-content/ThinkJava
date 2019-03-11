@@ -28,7 +28,7 @@ System.out.print("How many inches? ");
 inch = in.nextInt();
 ```
 
-{Run! | terminal}(javac code/Literals.java && java -cp code/ Literals)
+{Run! | terminal}(javac code/Literals.java && java -cp code/ Literals )
 
 
 Next we multiply the number of inches by 2.54, since that's how many centimeters there are per inch, and display the results:
@@ -40,7 +40,7 @@ System.out.println(cm + " cm");
 ```
 
 
-{Run! | terminal}(javac code/Literals.java && java -cp code/ Literals)
+{Run! | terminal}(javac code/Literals.java && java -cp code/ Literals )
 
 This code works correctly, but it has a minor problem.
 If another programmer reads this code, they might wonder where 2.54 comes from.
@@ -64,7 +64,7 @@ cm = inch * cmPerInch;
 ```
 
 
-{Run! | terminal}(javac code/Literals.java && java -cp code/ Literals)
+{Run! | terminal}(javac code/Literals.java && java -cp code/ Literals )
 
 This version is easier to read and less error-prone, but it still has a problem.
 Variables can vary (hence the term), but the number of centimeters in an inch does not.
@@ -77,7 +77,7 @@ final double CM_PER_INCH = 2.54;
 
 
 
-{Run! | terminal}(javac code/Literals.java && java -cp code/ Literals)
+{Run! | terminal}(javac code/Literals.java && java -cp code/ Literals )
 
 Declaring that a variable is `final` means that it cannot be reassigned once it has been initialized.
 If you try, the compiler gives an error.

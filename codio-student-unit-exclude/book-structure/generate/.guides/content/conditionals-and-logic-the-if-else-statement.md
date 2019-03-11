@@ -8,6 +8,9 @@ if (x > 0) {
 }
 ```
 
+Try it out in the panel to the left. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/IfElse.java java -cp code/ IfElse )
+
 
 The expression in parentheses is called the condition.
 If it is true, the statements in braces get executed.
@@ -48,6 +51,9 @@ if (x > 0)
     System.out.println("x is positive");
     System.out.println("x is not zero");
 ```
+
+{Run!}(sh .guides/bg.sh javac code/IfElse.java java -cp code/ IfElse 2 )
+
 
 Since there are no braces, only the first `println` is part of the `if` statement.
 Here is what the compiler actually sees:

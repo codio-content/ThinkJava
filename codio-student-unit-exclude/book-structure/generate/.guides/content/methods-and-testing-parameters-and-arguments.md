@@ -8,7 +8,10 @@ To display a message, you have to provide the message: `System.out.println("Hell
 
 When you invoke a method, you provide the arguments.
 When you define a method, you name the **parameters**, which are variables that indicate what arguments are required.
-The following class shows an example:
+
+The class in the top-left pane shows an example.
+{Run!}(sh .guides/bg.sh javac code/PrintTwice.java java -cp code/ PrintTwice )
+
 
 
 
@@ -105,4 +108,6 @@ You wouldn't declare the types of the arguments if they were simply integers:
 printTime(int 11, int 59);  // syntax error
 ```
 
-Pulling together the code fragments, here is the complete program:
+
+You can see the pulled together code fragments in the bottom-left pane.
+{Run!}(sh .guides/bg.sh javac code/PrintTime.java java -cp code/ PrintTime )

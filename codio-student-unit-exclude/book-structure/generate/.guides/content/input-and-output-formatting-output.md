@@ -31,7 +31,7 @@ This format string contains ordinary text followed by a **format specifier**, wh
 The format specifier `%.3f` indicates that the following value should be displayed as floating-point, rounded to three decimal places.
 
 Try it out in the top-right panel.
-{Run! | terminal}(javac code/Formatting.java && java -cp code/ Formatting)
+{Run! | terminal}(javac code/Formatting.java && java -cp code/ Formatting )
 
 The result is:
 
@@ -49,7 +49,7 @@ System.out.printf("%d in = %f cm\n", inch, cm);
 
 
 Try it out in the top-right panel.
-{Run! | terminal}(javac code/Formatting.java && java -cp code/ Formatting)
+{Run! | terminal}(javac code/Formatting.java && java -cp code/ Formatting )
 
 The result is:
 

@@ -7,6 +7,10 @@ Here's a simple example:
 
 
 
+See the example java code in the top-left pane.
+To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/NewLine.java java -cp code/ NewLine )
+
 
 The name of the class is `NewLine`.
 By convention, class names begin with a capital letter.
@@ -35,3 +39,7 @@ Or we could write yet another method (named `threeLine`) that displays three bla
 
 In the following program, `main` invokes `threeLine`, and `threeLine` invokes `newLine` three times.
 Because `newLine` is in the same class as `threeLine`, we don't have to specify the class name like `NewLine.newLine()`.
+
+See the example java code in the bottom-left pane.
+To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/1/NewLine.java java -cp code/1/ NewLine 2 )

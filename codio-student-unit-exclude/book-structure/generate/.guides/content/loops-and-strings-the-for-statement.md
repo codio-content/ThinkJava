@@ -13,6 +13,9 @@ for (int i = 2; i <= 8; i += 2) {
 System.out.println("Who do we appreciate?");
 ```
 
+{Run!}(sh .guides/bg.sh javac code/For.java java -cp code/ For )
+
+
 `for` loops have three components in parentheses, separated by semicolons: the initializer, the condition, and the update.
 
 
@@ -44,6 +47,9 @@ for (int n = 3; n > 0; n--) {
 }
 System.out.println("n is now " + n);  // compiler error
 ```
+
+{Run!}(sh .guides/bg.sh javac code/For.java java -cp code/ For )
+
 
 The last line tries to display `n` (for no reason other than demonstration) but it won't work.
 If you need to use a loop variable outside the loop, you have to declare it *outside* the loop, like this:

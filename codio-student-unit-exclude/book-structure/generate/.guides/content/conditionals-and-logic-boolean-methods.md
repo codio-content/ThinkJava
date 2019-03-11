@@ -23,6 +23,9 @@ public static boolean isSingleDigit(int x) {
     return x > -10 && x < 10;
 }
 ```
+Try it out in the left pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/BooleanMethods.java java -cp code/ BooleanMethods )
+
 
 In `main`, you can invoke the method in the usual ways:
 
@@ -43,6 +46,8 @@ if (isSingleDigit(z)) {
     System.out.println("z is big");
 }
 ```
+{Run!}(sh .guides/bg.sh javac code/BooleanMethods.java java -cp code/ BooleanMethods 2 )
+
 
 Examples like this one almost read like English:
 “If is single digit z, print ... else print ...”.

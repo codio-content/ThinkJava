@@ -10,6 +10,9 @@ if (x > 0) {
     System.out.println("x is zero");
 }
 ```
+Try it out in the pane to the left. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/Chaining.java java -cp code/ Chaining )
+
 
 These chains can be as long as you want, although they can be difficult to read if they get out of hand.
 One way to make them easier to read is to use standard indentation, as demonstrated in these examples.
@@ -34,6 +37,8 @@ if (x > 0) {
     }
 }
 ```
+{Run!}(sh .guides/bg.sh javac code/Chaining.java java -cp code/ Chaining 2 )
+
 
 The outer conditional has two branches.
 The first branch contains a `print` statement, and the second branch contains another conditional statement, which has two branches of its own.

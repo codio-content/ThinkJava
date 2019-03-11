@@ -271,7 +271,7 @@ sections:
              {Run!}(sh .guides/bg.sh javac code/Printing.java java -cp code/ Printing )
      
           position: 211
-          - add:  |
+        - add:  |
              {Run!}(sh .guides/bg.sh javac code/Printing.java java -cp code/ Printing 2 )
      
           position: 225
@@ -292,7 +292,7 @@ sections:
              {Run!}(sh .guides/bg.sh javac code/Arithmetic.java java -cp code/ Arithmetic )
      
           position: 278
-          - add:  |
+        - add:  |
 
              {Run!}(sh .guides/bg.sh javac code/Arithmetic.java java -cp code/ Arithmetic 2 )
      
@@ -314,7 +314,7 @@ sections:
              {Run!}(sh .guides/bg.sh javac code/Floating.java java -cp code/ Floating )
      
           position: 364
-          - add:  |
+        - add:  |
 
              {Run!}(sh .guides/bg.sh javac code/Floating.java java -cp code/ Floating 2 )
      
@@ -648,16 +648,16 @@ sections:
     type: section
     transformations:
         - add:  |
-              
+
              Try out some of these Math functions in the panel to the left.
              {Run!}(sh .guides/bg.sh javac code/MathFun.java java -cp code/ MathFun )
  
-         position: 48
-       - add:  |
-           
+          position: 48
+        - add:  |
+
             {Run!}(sh .guides/bg.sh javac code/MathFun.java java -cp code/ MathFun 2 )
  
-        position: 65
+          position: 65
     configuration:
       layout: 2-panels
       files:
@@ -680,14 +680,14 @@ sections:
              See the example java code in the top-left pane.
              To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/NewLine.java java -cp code/ NewLine )
-
-        position: 162
-       - add:  |
+  
+          position: 162
+        - add:  |
              See the example java code in the bottom-left pane.
              To compile and run the code, press the "Run!"
-            {Run!}(sh .guides/bg.sh javac code/1/NewLine.java java -cp code/1/ NewLine 2 )
+             {Run!}(sh .guides/bg.sh javac code/1/NewLine.java java -cp code/1/ NewLine 2 )
    
-        position: 200
+          position: 200
     configuration:
       layout: 3-cell
       files:
@@ -803,12 +803,12 @@ sections:
              Try it out in the panel to the left. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/IfElse.java java -cp code/ IfElse )
   
-         position: 82
-       - add:  |
+          position: 82
+        - add:  |
 
-            {Run!}(sh .guides/bg.sh javac code/IfElse.java java -cp code/ IfElse 2 )
+             {Run!}(sh .guides/bg.sh javac code/IfElse.java java -cp code/ IfElse 2 )
   
-        position: 124
+          position: 124
     configuration:
       layout: 2-panels
       files:
@@ -824,11 +824,11 @@ sections:
              Try it out in the pane to the left. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/Chaining.java java -cp code/ Chaining )
   
-         position: 187
-       - add:  |
-            {Run!}(sh .guides/bg.sh javac code/Chaining.java java -cp code/ Chaining 2 )
+          position: 187
+        - add:  |
+             {Run!}(sh .guides/bg.sh javac code/Chaining.java java -cp code/ Chaining 2 )
   
-        position: 212
+          position: 212
     configuration:
       layout: 2-panels
       files:
@@ -844,11 +844,11 @@ sections:
              Try it out in the left pane. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/LogicalOps.java java -cp code/ LogicalOps )
   
-         position: 259
-       - add:  |
-            {Run!}(sh .guides/bg.sh javac code/LogicalOps.java java -cp code/ LogicalOps 2 )
+          position: 259
+        - add:  |
+             {Run!}(sh .guides/bg.sh javac code/LogicalOps.java java -cp code/ LogicalOps 2 )
   
-        position: 277
+          position: 277
     configuration:
       layout: 2-panels
       files:
@@ -870,12 +870,12 @@ sections:
         - add:  |
              Try it out in the left pane. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/BooleanVars.java java -cp code/ BooleanVars )
-
-         position: 364
-       - add:  |
-            {Run!}(sh .guides/bg.sh javac code/BooleanVars.java java -cp code/ BooleanVars 2 )
-
-        position: 388
+  
+          position: 364
+        - add:  |
+             {Run!}(sh .guides/bg.sh javac code/BooleanVars.java java -cp code/ BooleanVars 2 )
+  
+          position: 388
     configuration:
       layout: 2-panels
       files:
@@ -890,12 +890,12 @@ sections:
         - add:  |
              Try it out in the left pane. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/BooleanMethods.java java -cp code/ BooleanMethods )
-
-         position: 421
-       - add:  |
-            {Run!}(sh .guides/bg.sh javac code/BooleanMethods.java java -cp code/ BooleanMethods 2 )
-
-        position: 441
+  
+          position: 421
+        - add:  |
+             {Run!}(sh .guides/bg.sh javac code/BooleanMethods.java java -cp code/ BooleanMethods 2 )
+  
+          position: 441
     configuration:
       layout: 2-panels
       files:
@@ -909,18 +909,18 @@ sections:
     transformations:
         - add: |
           
-          Try it out by clicking the button below:
-          {Run! | terminal}(javac code/ValidInput.java && java -cp code/ ValidInput)
+             Try it out by clicking the button below:
+             {Run! | terminal}(javac code/ValidInput.java && java -cp code/ ValidInput)
   
           position: 470
         - add: |
           
-          {Run! | terminal}(javac code/ValidInput.java && java -cp code/ ValidInput)
+             {Run! | terminal}(javac code/ValidInput.java && java -cp code/ ValidInput)
   
           position: 485
         - add: |
           
-          {Run! | terminal}(javac code/ValidInput.java && java -cp code/ ValidInput)
+             {Run! | terminal}(javac code/ValidInput.java && java -cp code/ ValidInput)
   
           position: 515
     configuration:
@@ -941,8 +941,8 @@ sections:
           position: 539
         - add: | 
 
-          The program on the left shows how the individual code examples in the last section fit together.
-          {Run! | terminal}(javac code/Logarithm.java && java -cp code/ Logarithm)
+              The program on the left shows how the individual code examples in the last section fit together.
+              {Run! | terminal}(javac code/Logarithm.java && java -cp code/ Logarithm)
   
           position: 251
     configuration:
@@ -985,9 +985,13 @@ sections:
   - name: The while statement
     type: section
     transformations:
-        - add: {Run!}(sh .guides/bg.sh javac code/BlastOff.java java -cp code/ BlastOff )
+        - add:  |
+             {Run!}(sh .guides/bg.sh javac code/BlastOff.java java -cp code/ BlastOff )
+  
           position: 30
-        - add: {Run!}(sh .guides/bg.sh javac code/BlastOff.java java -cp code/ BlastOff )
+        - add:  |
+             {Run!}(sh .guides/bg.sh javac code/BlastOff.java java -cp code/ BlastOff )
+  
           position: 100
     configuration:
       layout: 3-cell
@@ -1006,12 +1010,12 @@ sections:
         - add:  |
              Try it out using the left pane. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/Increment.java java -cp code/ Increment )
-
-         position: 130
-       - add:  |
+  
+          position: 130
+        - add:  |
             {Run!}(sh .guides/bg.sh javac code/Increment.java java -cp code/ Increment 2 )
-
-        position: 148
+  
+          position: 148
     configuration:
       layout: 2-panels
       files:
@@ -1025,12 +1029,12 @@ sections:
     transformations:
         - add: |
           
-          {Run!}(sh .guides/bg.sh javac code/For.java java -cp code/ For )
+              {Run!}(sh .guides/bg.sh javac code/For.java java -cp code/ For )
   
           position: 178
         - add: |
           
-          {Run!}(sh .guides/bg.sh javac code/For.java java -cp code/ For )
+              {Run!}(sh .guides/bg.sh javac code/For.java java -cp code/ For )
   
           position: 215
     configuration:
@@ -1050,8 +1054,8 @@ sections:
         - add:  |
              See the example java code in the left pane. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/MultiplicationTable.java java -cp code/ MultiplicationTable )
-
-         position: 253
+  
+          position: 253
     configuration:
       layout: 2-panels
       files:
@@ -1070,16 +1074,16 @@ sections:
              Try it out in the left pane. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/Characters.java java -cp code/ Characters )
   
-         position: 303
-       - add:  |
-            {Run!}(sh .guides/bg.sh javac code/Characters.java java -cp code/ Characters 2 )
+          position: 303
+        - add:  |
+             {Run!}(sh .guides/bg.sh javac code/Characters.java java -cp code/ Characters 2 )
   
-        position: 327
-      - add:  |
+          position: 327
+        - add:  |
 
-            {Run!}(sh .guides/bg.sh javac code/Characters.java java -cp code/ Characters 3 )
+             {Run!}(sh .guides/bg.sh javac code/Characters.java java -cp code/ Characters 3 )
   
-        position: 360
+          position: 360
     configuration:
       layout: 2-panels
       files:
@@ -1097,7 +1101,7 @@ sections:
              Try it out in the left pane. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/StringIteration.java java -cp code/ StringIteration )
   
-         position: 404
+          position: 404
     configuration:
       layout: 2-panels
       files:
@@ -1113,7 +1117,7 @@ sections:
              Try it out in the left pane. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/IndexOf.java java -cp code/ IndexOf )
   
-         position: 438
+          position: 438
     configuration:
       layout: 2-panels
       files:
@@ -1130,12 +1134,12 @@ sections:
              Try it out in the left pane. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/StringComp.java java -cp code/ StringComp )
   
-         position: 497
-       - add:  |
+          position: 497
+        - add:  |
 
-            {Run!}(sh .guides/bg.sh javac code/StringComp.java java -cp code/ StringComp 2 )
+              {Run!}(sh .guides/bg.sh javac code/StringComp.java java -cp code/ StringComp 2 )
   
-        position: 529
+          position: 529
     configuration:
       layout: 2-panels
       files:
@@ -1152,7 +1156,7 @@ sections:
              Try it out in the left pane. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/Substring.java java -cp code/ Substring )
   
-         position: 559
+          position: 559
     configuration:
       layout: 2-panels
       files:
@@ -1169,7 +1173,7 @@ sections:
              Try it out in the left pane. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/StringFormat.java java -cp code/ StringFormat )
   
-         position: 601
+          position: 601
     configuration:
       layout: 2-panels
       files:
@@ -1334,7 +1338,7 @@ sections:
     transformations:
         - add: |
 
-         {Run!}(sh .guides/bg.sh javac code/Countdown.java java -cp code/ Countdown )
+             {Run!}(sh .guides/bg.sh javac code/Countdown.java java -cp code/ Countdown )
   
           position: 31
     configuration:
@@ -1360,13 +1364,13 @@ sections:
     transformations:
         - add: |
 
-          Follow along in the top-left pane.
-          {Run!}(sh .guides/bg.sh javac code/ValueReturning.java java -cp code/ ValueReturning )
+              Follow along in the top-left pane.
+              {Run!}(sh .guides/bg.sh javac code/ValueReturning.java java -cp code/ ValueReturning )
  
           position: 203
         - add: |
 
-          {Run!}(sh .guides/bg.sh javac code/ValueReturning.java java -cp code/ ValueReturning 2 )
+              {Run!}(sh .guides/bg.sh javac code/ValueReturning.java java -cp code/ ValueReturning 2 )
  
           position: 234
     configuration:
@@ -1385,7 +1389,7 @@ sections:
     transformations:
         - add: |
 
-          {Run!}(sh .guides/bg.sh javac code/Fibonacci.java java -cp code/ Fibonacci )
+              {Run!}(sh .guides/bg.sh javac code/Fibonacci.java java -cp code/ Fibonacci )
         
           position: 351
     configuration:
@@ -1411,7 +1415,7 @@ sections:
     transformations:
         - add: |
 
-          {Run!}(sh .guides/bg.sh javac code/DisplayBinary.java java -cp code/ DisplayBinary )
+              {Run!}(sh .guides/bg.sh javac code/DisplayBinary.java java -cp code/ DisplayBinary )
         
           position: 492
     configuration:
@@ -2430,7 +2434,7 @@ insert_sections:
       \end{code}
 
       \end{exercise}
-    - name: Exercises 5.4
+  - name: Exercises 5.4
     type: section
     chapter: Conditionals and logic
     section: Exercises
