@@ -1124,11 +1124,60 @@ sections:
           action: open
   - name: String comparison
     type: section
-    
+    transformations:
+        - add:  |
+
+             Try it out in the left pane. To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/StringComp.java java -cp code/ StringComp )
+  
+         position: 497
+       - add:  |
+
+            {Run!}(sh .guides/bg.sh javac code/StringComp.java java -cp code/ StringComp 2 )
+  
+        position: 529
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/StringComp.java"
+          panel: 0
+          action: open
   - name: Substrings
     type: section
+    transformations:
+        - add:  |
+
+             Try it out in the left pane. To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/Substring.java java -cp code/ Substring )
+  
+         position: 559
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Substring.java"
+          panel: 0
+          action: open
   - name: String formatting
     type: section
+    transformations:
+        - add:  |
+
+             Try it out in the left pane. To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/StringFormat.java java -cp code/ StringFormat )
+  
+         position: 601
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/StringFormat.java"
+          panel: 0
+          action: open
   - name: Vocabulary
     type: section
     configuration:
@@ -1275,22 +1324,127 @@ sections:
 # Chapter 8
   - name: Recursive methods
     type: chapter
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Recursive void methods
     type: section
+    transformations:
+        - add: |
+
+         {Run!}(sh .guides/bg.sh javac code/Countdown.java java -cp code/ Countdown )
+  
+          position: 31
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Countdown.java"
+          panel: 0
+          action: open
+        - path: "#visualizer: code/Countdown.java"
+          panel: 1
+          action: open
   - name: Recursive stack diagrams
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Value returning methods
     type: section
+    transformations:
+        - add: |
+
+          Follow along in the top-left pane.
+          {Run!}(sh .guides/bg.sh javac code/ValueReturning.java java -cp code/ ValueReturning )
+ 
+          position: 203
+        - add: |
+
+          {Run!}(sh .guides/bg.sh javac code/ValueReturning.java java -cp code/ ValueReturning 2 )
+ 
+          position: 234
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/ValueReturning.java"
+          panel: 0
+          action: open
+        - path: "#visualizer: code/ValueReturning.java"
+          panel: 1
+          action: open
   - name: The leap of faith
     type: section
+    transformations:
+        - add: |
+
+          {Run!}(sh .guides/bg.sh javac code/Fibonacci.java java -cp code/ Fibonacci )
+        
+          position: 351
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Fibonacci.java"
+          panel: 0
+          action: open
+        - path: "#visualizer: code/Fibonacci.java"
+          panel: 1
+          action: open
   - name: Binary number system
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Recursive binary method
     type: section
+    transformations:
+        - add: |
+
+          {Run!}(sh .guides/bg.sh javac code/DisplayBinary.java java -cp code/ DisplayBinary )
+        
+          position: 492
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/DisplayBinary.java"
+          panel: 0
+          action: open
+        - path: "#visualizer: code/DisplayBinary.java"
+          panel: 1
+          action: open
   - name: CodingBat problems
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#preview: https://codingbat.com/prob/p118230"
+          panel: 0
+          action: open
+        - path: "#preview: https://codingbat.com/prob/p135988"
+          panel: 1
+          action: open
   - name: Vocabulary
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Exercises
     type: section
     codio_section: start
@@ -1305,6 +1459,11 @@ sections:
 # Chapter 9
   - name: Immutable objects
     type: chapter
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Primitives vs objects
     type: section
   - name: Strings are immutable
@@ -1321,6 +1480,11 @@ sections:
     type: section
   - name: Vocabulary
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Exercises
     type: section
     codio_section: start
@@ -1335,6 +1499,11 @@ sections:
 #Chapter 10
   - name: Mutable objects
     type: chapter
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Point objects
     type: section
   - name: Objects as parameters
@@ -1355,6 +1524,11 @@ sections:
     type: section
   - name: Vocabulary
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Exercises
     type: section
     codio_section: start
@@ -1369,6 +1543,11 @@ sections:
 #Chapter 11
   - name: Designing classes
     type: chapter
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: The Time class
     type: section
   - name: Constructors
@@ -1389,6 +1568,11 @@ sections:
     type: section
   - name: Vocabulary
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Exercises
     type: section
     codio_section: start
@@ -1403,6 +1587,11 @@ sections:
 #Chapter 12
   - name: Arrays of objects
     type: chapter
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Card objects
     type: section
   - name: Card toString
@@ -1425,6 +1614,11 @@ sections:
     type: section
   - name: Vocabulary
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Exercises
     type: section
     codio_section: start
@@ -1439,6 +1633,11 @@ sections:
 #Chapter 13
   - name: Objects of arrays
     type: chapter
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Decks of cards
     type: section
   - name: Shuffling decks
@@ -1459,6 +1658,11 @@ sections:
     type: section
   - name: Vocabulary
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Exercises
     type: section
     codio_section: start
@@ -1473,6 +1677,11 @@ sections:
 #Chapter 14
   - name: Extending classes
     type: chapter
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: CardCollection
     type: section
   - name: Inheritance
@@ -1487,6 +1696,11 @@ sections:
     type: section
   - name: Vocabulary
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Exercises
     type: section
     codio_section: start
