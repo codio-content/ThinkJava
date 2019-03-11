@@ -1449,8 +1449,8 @@ sections:
     type: section
     codio_section: start
     transformations:
-      - remove: 
-        position: 
+      - remove: 221
+        position: 670
     configuration:
       layout: 1-panel
       files:
@@ -1489,8 +1489,8 @@ sections:
     type: section
     codio_section: start
     transformations:
-      - remove: 
-        position: 
+      - remove: 203
+        position: 696
     configuration:
       layout: 1-panel
       files:
@@ -1533,8 +1533,8 @@ sections:
     type: section
     codio_section: start
     transformations:
-      - remove: 
-        position: 
+      - remove: 102
+        position: 613
     configuration:
       layout: 1-panel
       files:
@@ -1577,8 +1577,8 @@ sections:
     type: section
     codio_section: start
     transformations:
-      - remove: 
-        position: 
+      - remove: 117
+        position: 771
     configuration:
       layout: 1-panel
       files:
@@ -1623,8 +1623,8 @@ sections:
     type: section
     codio_section: start
     transformations:
-      - remove: 
-        position: 
+      - remove: 98
+        position: 713
     configuration:
       layout: 1-panel
       files:
@@ -1667,8 +1667,8 @@ sections:
     type: section
     codio_section: start
     transformations:
-      - remove: 
-        position: 
+      - remove: 124
+        position: 647
     configuration:
       layout: 1-panel
       files:
@@ -1705,8 +1705,8 @@ sections:
     type: section
     codio_section: start
     transformations:
-      - remove: 
-        position: 
+      - remove: 47
+        position: 748
     configuration:
       layout: 1-panel
       files:
@@ -2853,17 +2853,1074 @@ insert_sections:
       \end{exercise}
 
 #Chapter 8
+  - name: Exercises 8.1
+    type: section
+    chapter: Recursive methods
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex5.5
+
+      The purpose of this exercise is to take a problem and break it into smaller problems, and to solve the smaller problems by writing simple methods.
+      Consider the first verse of the song ``99 Bottles of Beer'':
+
+      \begin{quote}
+      99 bottles of beer on the wall,\\
+      99 bottles of beer,\\
+      ya' take one down, ya' pass it around,\\
+      98 bottles of beer on the wall.
+      \end{quote}
+
+      Subsequent verses are identical except that the number of bottles gets smaller by one in each verse, until the last verse:
+
+      \begin{quote}
+      No bottles of beer on the wall,\\
+      no bottles of beer,\\
+      ya' can't take one down, ya' can't pass it around,\\
+      'cause there are no more bottles of beer on the wall!
+      \end{quote}
+
+      And then the song (finally) ends.
+
+      Write a program that displays the entire lyrics of ``99 Bottles of Beer''.
+      Your program should include a recursive method that does the hard part, but you might want to write additional methods to separate other parts of the program.
+      As you develop your code, test it with a small number of verses, like \java{3}.
+
+      \end{exercise}
+  - name: Exercises 8.2
+    type: section
+    chapter: Recursive methods
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex6.7
+
+      Write a recursive method named \java{oddSum} that takes a positive odd integer \java{n} and returns the sum of odd integers from 1 to n.
+      Start with a base case, and use temporary variables to debug your solution.
+      You might find it helpful to print the value of \java{n} each time \java{oddSum} is invoked.
+
+      \end{exercise}
+  - name: Exercises 8.3
+    type: section
+    chapter: Recursive methods
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex6.6
+
+      In this exercise, you will use a stack diagram to understand the execution of the following recursive method.
+
+      \begin{code}
+      public static void main(String[] args) {
+          System.out.println(prod(1, 4));
+      }
+
+      public static int prod(int m, int n) {
+          if (m == n) {
+              return n;
+          } else {
+              int recurse = prod(m, n - 1);
+              int result = n * recurse;
+              return result;
+          }
+      }
+      \end{code}
+
+      \begin{enumerate}
+
+      \item Draw a stack diagram showing the state of the program just before the last invocation of \java{prod} completes.
+
+      \item What is the output of this program?
+      (Try to answer this question on paper first, then run the code to check your answer.)
+
+      \item Explain in a few words what \java{prod} does (without getting into the details of how it works).
+
+      \item Rewrite \java{prod} without the temporary variables \java{recurse} and \java{result}.
+      {\it Hint:} You only need one line for the \java{else} branch.
+
+      \end{enumerate}
+
+      \end{exercise}
+  - name: Exercises 8.4
+    type: section
+    chapter: Recursive methods
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex6.8
+
+      The goal of this exercise is to translate a recursive definition into a Java method.
+      The Ackermann function is defined for non-negative integers as follows:
+      \begin{eqnarray*}
+      A(m, n) = \begin{cases}
+                    n+1 & \mbox{if } m = 0 \\
+              A(m-1, 1) & \mbox{if } m > 0 \mbox{ and } n = 0 \\
+      A(m-1, A(m, n-1)) & \mbox{if } m > 0 \mbox{ and } n > 0
+      \end{cases}
+      \end{eqnarray*}
+
+      Write a recursive method called \java{ack} that takes two \java{int}s as parameters and that computes and returns the value of the Ackermann function.
+
+      Test your implementation of Ackermann by invoking it from \java{main} and displaying the return value.
+      Note the return value gets very big very quickly.
+      You should try it only for small values of $m$ and $n$ (not bigger than 3).
+
+      \end{exercise}
+  - name: Exercises 8.5
+    type: section
+    chapter: Recursive methods
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex6.9
+      \label{ex.power}
+
+      Write a recursive method called \java{power} that takes a double \java{x} and an integer \java{n} and returns $x^n$.
+
+      {\it Hint:} A recursive definition of this operation is $x^n = x \cdot x^{n-1}$.
+      Also, remember that anything raised to the zeroth power is 1.
+
+      Optional challenge: you can make this method more efficient, when \java{n} is even, using $x^n = \left( x^{n/2} \right)^2$.
+
+      \end{exercise}
+  - name: Exercises 8.6
+    type: section
+    chapter: Recursive methods
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex8.8
+
+      Many of the patterns we have seen for traversing arrays can also be written recursively.
+      It is not common, but it is a useful exercise.
+
+      \begin{enumerate}
+
+      \item Write a method called \java{maxInRange} that takes an array of integers and two indexes, \java{lowIndex} and \java{highIndex}, and finds the maximum value in the array, but only considering the elements between \java{lowIndex} and \java{highIndex}, including both.
+
+      This method should be recursive.
+      If the length of the range is 1, that is, if \java{lowIndex == highIndex}, we know immediately that the sole element in the range must be the maximum.
+      So that's the base case.
+
+      If there is more than one element in the range, we can break the array into two pieces, find the maximum in each of the pieces, and then find the maximum of the maxima.
+
+      \item Methods like \java{maxInRange} can be awkward to use.
+      To find the largest element in an array, we have to provide the range for the entire array.
+
+      \begin{code}
+      double max = maxInRange(a, 0, a.length - 1);
+      \end{code}
+
+      Write a method called \java{max} that takes an array and uses \java{maxInRange} to find and return the largest element.
+
+      \end{enumerate}
+
+      \end{exercise}
+  - name: Exercises 8.7
+    type: section
+    chapter: Recursive methods
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex9.4
+
+      Create a program called {\tt Recurse.java} and type in the following methods:
+
+      \begin{code}
+      /**
+       * Returns the first character of the given String.
+       */
+      public static char first(String s) {
+          return s.charAt(0);
+      }
+      \end{code}
+
+      \begin{code}
+      /**
+       * Returns all but the first letter of the given String.
+       */
+      public static String rest(String s) {
+          return s.substring(1);
+      }
+      \end{code}
+
+      \begin{code}
+      /**
+       * Returns all but the first and last letter of the String.
+       */
+      public static String middle(String s) {
+          return s.substring(1, s.length() - 1);
+      }
+      \end{code}
+
+      \begin{code}
+      /**
+       * Returns the length of the given String.
+       */
+      public static int length(String s) {
+          return s.length();
+      }
+      \end{code}
+
+      \begin{enumerate}
+
+      \item Write some code in \java{main} that tests each of these methods.
+      Make sure they work, and you understand what they do.
+
+      \item Using these methods, and without using any other \java{String} methods, write a method called \java{printString} that takes a string as a parameter and that displays the letters of the string, one on each line.
+      It should be a void method.
+
+      \item Again using only these methods, write a method called \java{printBackward} that does the same thing as \java{printString} but that displays the string backward (again, one character per line).
+
+      \item Now write a method called \java{reverseString} that takes a string as a parameter and that returns a new string as a return value.
+      The new string should contain the same letters as the parameter, but in reverse order.
+
+      \begin{code}
+      String backwards = reverseString("coffee");
+      System.out.println(backwards);
+      \end{code}
+
+      The output of this example code should be:
+
+      \begin{stdout}
+      eeffoc
+      \end{stdout}
+
+      \index{palindrome}
+
+      \item A palindrome is a word that reads the same both forward and backward, like ``otto'' and ``palindromeemordnilap''.
+      Here's one way to test whether a string is a palindrome:
+
+      \begin{quotation}
+      \noindent
+      A single letter is a palindrome, a two-letter word is a palindrome if the letters are the same, and any other word is a palindrome if the first letter is the same as the last and the middle is a palindrome.
+      \end{quotation}
+
+      Write a recursive method named \java{isPalindrome} that takes a \java{String} and returns a \java{boolean} indicating whether the word is a palindrome.
+
+      \end{enumerate}
+
+      \end{exercise}
 
 #Chapter 9
+  - name: Exercises 9.1
+    type: section
+    chapter: Immutable objects
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex9.1
 
+      The point of this exercise is to explore Java types and fill in some of the details that aren't covered in the chapter.
+
+      \index{concatenate}
+
+      \begin{enumerate}
+
+      \item Create a new program named {\tt Test.java} and write a \java{main} method that contains expressions that combine various types using the \java{+} operator.
+      For example, what happens when you ``add'' a \java{String} and a \java{char}?
+      Does it perform character addition or string concatenation?
+      What is the type of the result?
+      (How can you determine the type of the result?)
+
+      \item Make a bigger copy of the following table and fill it in.
+      At the intersection of each pair of types, you should indicate whether it is legal to use the \java{+} operator with these types, what operation is performed (addition or concatenation), and what the type of the result is.
+
+      \begin{center}
+      \begin{tabular}{|l|l|l|l|l|l|} \hline
+              &  boolean  &  ~char~  &  ~~int~~  &  double  &  String \\ \hline
+      boolean &           &          &           &          &         \\ \hline
+      char    &           &          &           &          &         \\ \hline
+      int     &           &          &           &          &         \\ \hline
+      double  &           &          &           &          &         \\ \hline
+      String  &           &          &           &          &         \\ \hline
+      \end{tabular}
+      \end{center}
+
+      \item Think about some of the choices the designers of Java made, based on this table.
+      How many of the entries seem unavoidable, as if there was no other choice?
+      How many seem like arbitrary choices from several equally reasonable possibilities?
+      Which entries seem most problematic?
+
+      \item Here's a puzzler: normally, the statement \java{x++} is exactly equivalent to \java{x = x + 1}.
+      But if \java{x} is a \java{char}, it's not exactly the same!
+      In that case, \java{x++} is legal, but \java{x = x + 1} causes an error.
+      Try it out and see what the error message is, then see if you can figure out what is going on.
+
+      \item What happens when you add \java{""} (the empty string) to the other types, for example, \java{"" + 5}?
+
+      %\item For each data type, what types of values can you assign to it?
+      %For example, you can assign an \java{int} to a \java{double} but not vice versa.
+
+      \end{enumerate}
+
+      \end{exercise}
+  - name: Exercises 9.2
+    type: section
+    chapter: Immutable objects
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex8.1
+
+      The goal of this exercise is to practice encapsulation and generalization using some of the examples in previous chapters.
+
+      \begin{enumerate}
+
+      \item Starting with the code in Section~\ref{traversal}, write a method called \java{powArray} that takes a \java{double} array, \java{a}, and returns a new array that contains the elements of \java{a} squared.
+      Generalize it to take a second argument and raise the elements of \java{a} to the given power.
+
+      \item Starting with the code in Section~\ref{enhanced}, write a method called \java{histogram} that takes an \java{int} array of scores from 0 to (but not including) 100, and returns a histogram of 100 counters.
+      Generalize it to take the number of counters as an argument.
+
+      \end{enumerate}
+
+      \end{exercise}
+  - name: Exercises 9.3
+    type: section
+    chapter: Immutable objects
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex10.4
+
+      \index{factorial}
+
+      You might be sick of the factorial method by now, but we're going to do one more version.
+
+      \begin{enumerate}
+
+      \item Create a new program called {\tt Big.java} and write an iterative version of \java{factorial} (using a \java{for} loop).
+
+      \item Display a table of the integers from 0 to 30 along with their factorials.
+      At some point around 15, you will probably see that the answers are not correct anymore.
+      Why not?
+
+      \item Convert \java{factorial} so that it performs its calculation using BigIntegers and returns a \java{BigInteger} as a result.
+      You can leave the parameter alone; it will still be an integer.
+
+      \item Try displaying the table again with your modified factorial method.
+      Is it correct up to 30?
+      How high can you make it go?
+
+      \end{enumerate}
+
+      \end{exercise}
+  - name: Exercises 9.4
+    type: section
+    chapter: Immutable objects
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex10.5
+
+      Many encryption algorithms depend on the ability to raise large integers to a power.
+      Here is a method that implements an efficient algorithm for integer exponentiation:
+
+      \begin{code}
+      public static int pow(int x, int n) {
+          if (n == 0) return 1;
+
+          // find x to the n/2 recursively
+          int t = pow(x, n / 2);
+
+          // if n is even, the result is t squared
+          // if n is odd, the result is t squared times x
+          if (n % 2 == 0) {
+              return t * t;
+          } else {
+              return t * t * x;
+          }
+      }
+      \end{code}
+
+      The problem with this method is that it only works if the result is small enough to be represented by an \java{int}.
+      Rewrite it so that the result is a \java{BigInteger}.
+      The parameters should still be integers, though.
+
+      You should use the \java{BigInteger} methods \java{add} and \java{multiply}.
+      But don't use \java{BigInteger.pow}; that would spoil the fun.
+
+      \end{exercise}
+  - name: Exercises 9.5
+    type: section
+    chapter: Immutable objects
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex7.5
+
+      %The purpose of this exercise is to practice using \java{BigInteger} and \java{BigDecimal}.
+
+      One way to calculate $e^x$ is to use the following infinite series expansion.
+      The $i$th term in the series is $x^i / i!$.
+      %
+      \[ e^x = 1 + x + x^2 / 2! + x^3 / 3! + x^4 / 4! + \ldots \]
+      %
+      \begin{enumerate}
+
+      \item Write a method called \java{myexp} that takes \java{x} and \java{n} as parameters and estimates $e^x$ by adding the first \java{n} terms of this series.
+      You can use the \java{factorial} method from Section~\ref{factorial} or your iterative version from the previous exercise.
+
+      \index{efficiency}
+
+      \item You can make this method more efficient by observing that the numerator of each term is the same as its predecessor multiplied by \java{x}, and the denominator is the same as its predecessor multiplied by \java{i}.
+
+      Use this observation to eliminate the use of \java{Math.pow} and \java{factorial}, and check that you get the same result.
+
+      \item Write a method called \java{check} that takes a parameter, \java{x}, and displays \java{x}, \java{myexp(x)}, and \java{Math.exp(x)}.
+      The output should look something like:
+
+      \begin{stdout}
+      1.0     2.708333333333333     2.718281828459045
+      \end{stdout}
+
+      You can use the escape sequence \java{"\\t"} to put a tab character between columns of a table.
+
+      \item Vary the number of terms in the series (the second argument that \java{check} sends to \java{myexp}) and see the effect on the accuracy of the result.
+      Adjust this value until the estimated value agrees with the correct answer when \java{x} is 1.
+
+      \item Write a loop in \java{main} that invokes \java{check} with the values 0.1, 1.0, 10.0, and 100.0.
+      How does the accuracy of the result vary as \java{x} varies?
+      Compare the number of digits of agreement rather than the difference between the actual and estimated values.
+
+      \item Add a loop in \java{main} that checks \java{myexp} with the values -0.1, -1.0, -10.0, and -100.0.
+      Comment on the accuracy.
+
+      \end{enumerate}
+
+      \end{exercise}
+  - name: Exercises 9.6
+    type: section
+    chapter: Immutable objects
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex9.3
+
+      \index{encapsulation}
+      \index{generalization}
+
+      %The purpose of this exercise is to review encapsulation and generalization (see Section~\ref{encapsulation}).
+      The following code fragment traverses a string and checks whether it has the same number of open and close parentheses:
+
+      \begin{code}
+      String s = "((3 + 7) * 2)";
+      int count = 0;
+
+      for (int i = 0; i < s.length(); i++) {
+          char c = s.charAt(i);
+          if (c == '(') {
+              count++;
+          } else if (c == ')') {
+              count--;
+          }
+      }
+
+      System.out.println(count);
+      \end{code}
+
+      \begin{enumerate}
+
+      \item Encapsulate this fragment in a method that takes a string argument and returns the final value of \java{count}.
+
+      \item Test your method with multiple strings, including some that are balanced and some that are not.
+
+      \item Generalize the code so that it works on any string. What could you do to generalize it more?
+
+      \end{enumerate}
+
+      \end{exercise}
+    
 #Chapter 10 
+  - name: Exercises 10.1
+    type: section
+    chapter: Mutable objects
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex10.1
+
+      The point of this exercise is to make sure you understand the mechanism for passing objects as parameters.
+
+      \begin{enumerate}
+
+      \item For the following program, draw a stack diagram showing the local variables and parameters of \java{main} and \java{riddle} just before \java{riddle} returns.
+      Use arrows to show which objects each variable references.
+
+      \item What is the output of the program?
+
+      \item Is the \java{blank} object mutable or immutable?
+      How can you tell?
+
+      \end{enumerate}
+
+      \begin{code}
+      public static int riddle(int x, Point p) {
+          x = x + 7;
+          return x + p.x + p.y;
+      }
+      \end{code}
+
+      \begin{code}
+      public static void main(String[] args) {
+          int x = 5;
+          Point blank = new Point(1, 2);
+
+          System.out.println(riddle(x, blank));
+          System.out.println(x);
+          System.out.println(blank.x);
+          System.out.println(blank.y);
+      }
+      \end{code}
+
+      \end{exercise}
+  - name: Exercises 10.2
+    type: section
+    chapter: Mutable objects
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex10.2
+
+      The point of this exercise is to make sure you understand the mechanism for returning new objects from methods.
+      The following code uses \java{findCenter} and \java{distance} as defined in this chapter.
+
+      \begin{enumerate}
+
+      \item Draw a stack diagram showing the state of the program just before \java{findCenter} returns.
+      Include all variables and parameters, and show the objects those variables refer to.
+
+      \item Draw a stack diagram showing the state of the program just before \java{distance} returns.
+      Show all variables, parameters, and objects.
+
+      \item What is the output of this program?
+      (Can you tell without running it?)
+
+      \end{enumerate}
+
+      \begin{code}
+      public static void main(String[] args) {
+          Point blank = new Point(5, 8);
+
+          Rectangle rect = new Rectangle(0, 2, 4, 4);
+          Point center = findCenter(rect);
+
+          double dist = distance(center, blank);
+          System.out.println(dist);
+      }
+      \end{code}
+
+      \end{exercise}
+  - name: Exercises 10.3
+    type: section
+    chapter: Mutable objects
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex10.3
+
+      This exercise is about aliasing.
+      Recall that aliases are two variables that refer to the same object.
+      The following code uses \java{findCenter} and \java{printPoint} as defined in this chapter.
+
+      \begin{enumerate}
+
+      \item Draw a diagram that shows the state of the program just before the end of \java{main}.
+      Include all local variables and the objects they refer to.
+
+      \item What is the output of the program?
+
+      \item At the end of \java{main}, are \java{p1} and \java{p2} aliased?
+      Why or why not?
+
+      \end{enumerate}
+
+      \begin{code}
+      public static void main(String[] args) {
+          Rectangle box1 = new Rectangle(2, 4, 7, 9);
+          Point p1 = findCenter(box1);
+          printPoint(p1);
+
+          box1.grow(1, 1);
+          Point p2 = findCenter(box1);
+          printPoint(p2);
+      }
+      \end{code}
+
+      \end{exercise}
 
 #Chapter 11
+  - name: Exercises 11.1
+    type: section
+    chapter: Designing classes
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex11.1
+
+      Review the documentation of \java{java.awt.Rectangle}.
+      Which methods are pure?
+      Which are modifiers?
+
+      If you review the documentation of \java{java.lang.String}, you should see that there are no modifiers, because strings are immutable.
+
+      \end{exercise}
+  - name: Exercises 11.2
+    type: section
+    chapter: Designing classes
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex11.2
+
+      The implementation of \java{increment} in this chapter is not very efficient.
+      Can you rewrite it so it doesn't use any loops?
+
+      {\it Hint:} Remember the remainder operator. And yes, it works with \java{double}s too.
+
+      \end{exercise}
+  - name: Exercises 11.3
+    type: section
+    chapter: Designing classes
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex11.3
+      \index{Scrabble}
+
+      In the board game Scrabble, each tile contains a letter, which is used to spell words in rows and columns, and a score, which is used to determine the value of words.
+
+      \begin{enumerate}
+
+      \item Write a definition for a class named \java{Tile} that represents Scrabble tiles.
+      The instance variables should include a character named \java{letter} and an integer named \java{value}.
+
+      \item Write a constructor that takes parameters named \java{letter} and \java{value} and initializes the instance variables.
+
+      \item Write a method named \java{printTile} that takes a \java{Tile} object as a parameter and displays the instance variables in a reader-friendly format.
+
+      \item Write a method named \java{testTile} that creates a \java{Tile} object with the letter \java{Z} and the value \java{10}, and then uses \java{printTile} to display the state of the object.
+
+      \item Implement the \java{toString} and \java{equals} methods for a \java{Tile}.
+
+      \item Create getters and setters for each of the attributes.
+
+      \end{enumerate}
+
+      The point of this exercise is to practice the mechanical part of creating a new class definition.
+      \end{exercise}
+  - name: Exercises 11.4
+    type: section
+    chapter: Designing classes
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex11.4
+
+      Write a class definition for \java{Date}, an object type that contains three integers: \java{year}, \java{month}, and \java{day}.
+      This class should provide two constructors.
+      The first should take no parameters and initialize a default date.
+      The second should take parameters named \java{year}, \java{month} and \java{day}, and use them to initialize the instance variables.
+
+      Write a \java{main} method that creates a new \java{Date} object named \java{birthday}.
+      The new object should contain your birth date.
+      You can use either constructor.
+      %Compare your implementation to \java{java.util.Date}.
+
+      \end{exercise}
+  - name: Exercises 11.5
+    type: section
+    chapter: Designing classes
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex11.5
+
+      \index{rational number}
+
+      A rational number is a number that can be represented as the ratio of two integers.
+      For example, $2/3$ is a rational number, and you can think of 7 as a rational number with an implicit 1 in the denominator.
+      %The goal of this exercise is to write a class definition for rational numbers.
+
+      \begin{enumerate}
+
+      \item Define a class called \java{Rational}.
+      A \java{Rational} object should have two integer instance variables that store the numerator and denominator.
+
+      \item Write a constructor that takes no arguments and that sets the numerator to 0 and denominator to 1.
+
+      \item Write an instance method called \java{printRational} that displays a \java{Rational} in some reasonable format.
+
+      \item Write a \java{main} method that creates a new object with type \java{Rational}, sets its instance variables to some values, and displays the object.
+
+      \item At this stage, you have a minimal testable program.
+      Test it and, if necessary, debug it.
+
+      \item Write a \java{toString} method for \java{Rational} and test it using \java{println}.
+
+      \item Write a second constructor that takes two arguments and uses them to initialize the instance variables.
+
+      \item Write an instance method called \java{negate} that reverses the sign of a rational number.
+      This method should be a modifier, so it should be void.
+      Add lines to \java{main} to test the new method.
+
+      \item Write an instance method called \java{invert} that inverts the number by swapping the numerator and denominator.
+      It should be a modifier.
+      Add lines to \java{main} to test the new method.
+
+      \item Write an instance method called \java{toDouble} that converts the rational number to a \java{double} (floating-point number) and returns the result.
+      This method is a pure method; it does not modify the object.
+      As always, test the new method.
+
+      \item Write an instance method named \java{reduce} that reduces a rational number to its lowest terms by finding the greatest common divisor (GCD) of the numerator and denominator and dividing through.
+      This method should be a pure method; it should not modify the instance variables of the object on which it is invoked.
+
+      {\it Hint:} Finding the GCD only takes a few lines of code.
+      Search the web for ``Euclidean algorithm''.
+
+      \item Write an instance method called \java{add} that takes a \java{Rational} number as an argument, adds it to \java{this}, and returns a new \java{Rational} object.
+
+      There are several ways to add fractions.
+      You can use any one you want, but you should make sure that the result of the operation is reduced so that the numerator and denominator have no common divisor (other than 1).
+
+      \end{enumerate}
+
+      The purpose of this exercise is to write a class definition that includes a variety of methods, including constructors, static methods, instance methods, modifiers, and pure methods.
+
+      \end{exercise}
 
 #Chapter 12
+  - name: Exercises 12.1
+    type: section
+    chapter: Arrays of objects
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex12.1
+
+      Encapsulate the deck-building code from Section~\ref{cardarray} in a method called \java{makeDeck} that takes no parameters and returns a fully-populated array of \java{Card}s.
+
+      \end{exercise}
+  - name: Exercises 12.2
+    type: section
+    chapter: Arrays of objects
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex12.2
+
+      In some card games, Aces are ranked higher than Kings.
+      Modify the \java{compareTo} method to implement this ordering.
+
+      \end{exercise}
+  - name: Exercises 12.3
+    type: section
+    chapter: Arrays of objects
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex12.3
+
+      In Poker a ``flush'' is a hand that contains five or more cards of the same suit.
+      A hand can contain any number of cards.
+
+      \index{histogram}
+
+      \begin{enumerate}
+
+      \item Write a method called \java{suitHist} that takes an array of cards as a parameter and that returns a histogram of the suits in the hand.
+      Your solution should only traverse the array once.
+
+      \item Write a method called \java{hasFlush} that takes an array of cards as a parameter and returns \java{true} if the hand contains a flush (and \java{false} otherwise).
+
+      \end{enumerate}
+
+      \end{exercise}
+  - name: Exercises 12.4
+    type: section
+    chapter: Arrays of objects
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex12.4
+
+      Working with cards is more interesting if you can display them on the screen.
+      If you have not already read Appendix~\ref{graphics} about 2D graphics, you should read it before working on this exercise.
+      In the code directory for this chapter, {\tt ch12}, you will find:
+
+      \begin{itemize}
+
+      \item {\tt cardset-oxymoron}: A directory containing images of playing cards.
+
+      \item {\tt CardTable.java}: A sample program that demonstrates how to read and display images.
+
+      \end{itemize}
+
+      \index{array!2D}
+
+      This code demonstrates the use of a 2D array, specifically an array of images.
+      The declaration looks like this:
+
+      \begin{code}
+      private Image[][] images;
+      \end{code}
+
+      The variable \java{images} refers to a 2D array of \java{Image} objects, which are defined in the \java{java.awt} package.
+      Here's the code that creates the array itself:
+
+      \begin{code}
+      images = new Image[14][4];
+      \end{code}
+
+      The array has 14 rows (one for each rank plus an unused row for rank 0) and 4 columns (one for each suit).
+      Here's the loop that populates the array:
+
+      \begin{code}
+      String cardset = "cardset-oxymoron";
+      String suits = "cdhs";
+
+      for (int suit = 0; suit <= 3; suit++) {
+          char c = suits.charAt(suit);
+
+          for (int rank = 1; rank <= 13; rank++) {
+              String s = String.format("%s/%02d%c.gif",
+                                       cardset, rank, c);
+              images[rank][suit] = new ImageIcon(s).getImage();
+          }
+      }
+      \end{code}
+
+      The variable \java{cardset} contains the name of the directory that contains the image files.
+      \java{suits} is a string that contains the single-letter abbreviations for the suits.
+      These strings are used to assemble \java{s}, which contains the filename for each image.
+      For example, when \java{rank=1} and \java{suit=2}, the value of \java{s} is \java{"cardset-oxymoron/01h.gif"}, which is an image of the Ace of Hearts.
+
+      The last line of the loop reads the image file, extracts an \java{Image} object, and assigns it to a location in the array, as specified by the indexes \java{rank} and \java{suit}.
+      For example, the image of the Ace of Hearts is stored in row 1, column 2.
+
+      If you compile and run {\tt CardTable.java}, you should see images of a deck of cards laid out on a green table.
+      You can use this class as a starting place to implement your own card games.
+
+      %TODO: We should make an actual exercise out of this.
+      % Maybe take an array of cards and display them in a row at a given location?
+      % Or we could make this a new section and emphasize the use of 2D arrays more.
+
+      \end{exercise}
 
 #Chapter 13
+  - name: Exercises 13.1
+    type: section
+    chapter: Objects of arrays
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex13.5
 
-#Chapter 14 
+      Write a \java{toString} method for the \java{Deck} class.
+      It should return a single string that represents the cards in the deck.
+      When it's printed, this string should display the same results as the \java{print} method in Section~\ref{deck}.
 
-      
+      \index{StringBuilder}
+      \index{efficiency}
+
+      {\it Hint:} You can use the \java{+} operator to concatenate strings, but it is not very efficient.
+      Consider using \java{java.lang.StringBuilder} instead; you can review the documentation by doing a web search for ``Java StringBuilder''.
+
+      \end{exercise}
+  - name: Exercises 13.2
+    type: section
+    chapter: Objects of arrays
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex13.2
+      \label{ex.shuffle}
+
+      The goal of this exercise is to implement the shuffling algorithm from this chapter.
+
+      \begin{enumerate}
+
+      \item In the repository for this book, you should find the file named {\tt Deck.java}.
+      Check that you can compile it in your environment.
+
+      \item Implement the \java{randomInt} method.
+      You can use the \java{nextInt} method provided by \java{java.util.Random}, which we saw in Section~\ref{random}.
+
+      {\it Hint:} Avoid creating a \java{Random} object every time \java{randomInt} is invoked by defining a class variable.
+
+      \item Implement the \java{swapCards} method that takes two indexes and swaps the cards at the given locations.
+
+      \item Implement the \java{shuffle} method using the algorithm in Section~\ref{shuffle}.
+
+      \end{enumerate}
+
+      \end{exercise}
+  - name: Exercises 13.3
+    type: section
+    chapter: Objects of arrays
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex13.3
+
+      The goal of this exercise is to implement the sorting algorithms from this chapter.
+      Use the {\tt Deck.java} file from the previous exercise, or create a new one from scratch.
+
+      \begin{enumerate}
+
+      \item Implement the \java{indexLowest} method.
+      Use the \java{Card.compareTo} method to find the lowest card in a given range of the deck (from \java{lowIndex} to \java{highIndex}, including both).
+
+      \item Implement \java{selectionSort} using the algorithm in Section~\ref{sorting}.
+
+      \item Using the pseudocode in Section~\ref{mergesort}, implement the \java{merge} method.
+      The best way to test it is to build and shuffle a deck.
+      Then use \java{subdeck} to form two small subdecks, and use selection sort to sort them.
+      Finally, pass the two halves to \java{merge} and see if it works.
+      \index{testing}
+
+      \item Implement \java{almostMergeSort}, the one that divides the deck in half, uses \java{selectionSort} to sort the two halves, and uses \java{merge} to create a new, sorted deck.
+      You should be able to reuse code from the previous step.
+
+      \item Implement \java{mergeSort} recursively.
+      Remember that \java{selectionSort} is a modifier and \java{mergeSort} is a pure method, which means that they get invoked differently:
+
+      \begin{code}
+      deck.selectionSort();      // modifies an existing deck
+      deck = deck.mergeSort();   // replaces old deck with new
+      \end{code}
+
+      \end{enumerate}
+
+      \end{exercise}
+  - name: Exercises 13.4
+    type: section
+    chapter: Objects of arrays
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}
+
+      %%V6 Ex13.1
+      You can learn more about the sorting algorithms in this chapter, and others, at \href{http://www.sorting-algorithms.com/}{sorting-algorithms.com}.
+      This site provides explanations of the algorithms and animations that show how they work.
+      It also includes an analysis of their efficiency.
+
+      %%V6 Ex13.4
+      For example, ``insertion sort'' is an algorithm that inserts elements into place, one at a time.
+      Read about it at \url{http://www.sorting-algorithms.com/insertion-sort}.
+      Then write a method named \java{insertionSort} that implements this algorithm.
+
+      One goal of this exercise is to practice top-down design.
+      Your solution should use a helper method, named \java{insert}, that implements the inner loop of the algorithm.
+      \java{insertionSort} should invoke this method $n-1$ times.
+
+
+      \end{exercise}
+  - name: Exercises 13.5
+    type: section
+    chapter: Objects of arrays
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6.5 NEW
+
+      Find and open the file \java{War.java} in the repository.
+      The \java{main} method contains all the code from the last section of this chapter.
+      Check that you can compile and run this code before proceeding.
+
+      The program is incomplete; it does not handle the case when two cards have the same rank.
+      Finish implementing the \java{main} method beginning at the line that says: \java{// it's a tie...draw four more cards}.
+
+      When there's a tie, draw three cards from each pile and store them in a collection, along with the original two.
+      Then draw one more card from each pile and compare them.
+      Whoever wins the tie will take all ten of these cards.
+
+      If one pile does not have at least four cards, the game ends immediately.
+      If a tie ends with a tie, flip a coin and give the cards to one of the players.
+
+      Notice that this program depends on \java{Deck.shuffle}.
+      If you haven't implemented the \java{shuffle} method (see Exercise~\ref{ex.shuffle}), the game won't be that fun.
+      Player 1 will have the Ace through King of the first two suits, and Player 2 will have the the Ace through King of the other two suits, all in the same order.
+
+      \end{exercise}
+  - name: Exercises 13.6
+    type: section
+    chapter: Objects of arrays
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6.5 NEW
+
+      Extend your program from the previous exercise to handle the case when a tie ends with a tie.
+      In other words, when the fourth cards have the same rank, add three more cards to the collection and try again.
+      You will need to wrap your code in a loop, for example: \java{while (diff == 0)}.
+
+      \end{exercise}
+
+#Chapter 14
+  - name: Exercises 14.1
+    type: section
+    chapter: Extending classes
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex14.1
+
+      Design a better strategy for the \java{Player.play} method.
+      For example, if there are multiple cards you can play, and one of them is an eight, you might want to play the eight.
+
+      \index{override}
+
+      Think of other ways you can minimize penalty points, such as playing the highest-ranking cards first.
+      Write a new class that extends \java{Player} and overrides \java{play} to implement your strategy.
+
+      \end{exercise}
+  - name: Exercises 14.2
+    type: section
+    chapter: Extending classes
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex14.2
+
+      Write a loop that plays the game 100 times and keeps track of how many times each player wins.
+      If you implemented multiple strategies in the previous exercise, you can play them against each other to evaluate which one works best.
+
+      {\it Hint:} Design a \java{Genius} class that extends \java{Player} and overrides the \java{play} method, and then replace one of the players with a \java{Genius} object.
+
+      \end{exercise}
+  - name: Exercises 14.3
+    type: section
+    chapter: Extending classes
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex14.3
+
+      One limitation of the program we wrote in this chapter is that it only handles two players.
+      Modify the \java{Eights} class to create an \java{ArrayList} of players, and modify \java{nextPlayer} to select the next player.
+
+      \end{exercise}
+  - name: Exercises 14.4
+    type: section
+    chapter: Extending classes
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex14.4
+
+      When we designed the program for this chapter, we tried to minimize the number of classes.
+      As a result, we ended up with a few awkward methods.
+      For example, \java{cardMatches} is a static method in \java{Player}, but it would be more natural if it were an instance method in \java{Card}.
+
+      The problem is that \java{Card} is supposed to be useful for any card game, not just {\it Crazy Eights}.
+      You can solve this problem by adding a new class, \java{EightsCard}, that extends \java{Card} and provides a method, \java{match}, that checks whether two cards match according to the rules of {\it Crazy Eights}.
+
+      At the same time, you could create a new class, \java{EightsHand}, that extends \java{Hand} and provides a method, \java{scoreHand}, that adds up the scores of the cards in the hand.
+      And while you're at it, you could add a method named \java{scoreCard} to \java{EightsCard}.
+
+      Whether or not you actually make these changes, draw a UML class diagram that shows this alternative object hierarchy.
+
+      \end{exercise}
