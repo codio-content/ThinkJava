@@ -6,7 +6,7 @@ All it does is output the words “Hello, World!”\ to the screen.
 
 See the example java code in the top-left pane.
 To compile and run the code, press the "Run!"
-{Run!}(javac code/HelloWorld.java && java code/HelloWorld)
+{Run!}(sh .guides/bg.sh javac code/Hello.java java -cp code/ Hello )
 
 
 When this program runs it displays:

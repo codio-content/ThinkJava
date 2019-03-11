@@ -8,6 +8,10 @@ if (name1 == name2) {                 // wrong!
 }
 ```
 
+Try it out in the left pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/StringComp.java java -cp code/ StringComp )
+
+
 This code compiles and runs, and sometimes it gets the answer right.
 But sometimes it gets the answer wrong.
 If you give it two different strings that contain the same letters, the condition will be `false`.
@@ -38,6 +42,9 @@ if (diff == 0) {
     System.out.println("name2 comes before name1.");
 }
 ```
+
+{Run!}(sh .guides/bg.sh javac code/StringComp.java java -cp code/ StringComp 2 )
+
 
 The return value from `compareTo` is the difference between the first characters in the strings that are not the same.
 In the preceding code, `compareTo` returns positive 8, because the second letter of `"Ada"` comes before the second letter of `"Alan"` by 8 letters.

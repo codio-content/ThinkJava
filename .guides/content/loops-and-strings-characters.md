@@ -11,6 +11,10 @@ String fruit = "banana";
 char letter = fruit.charAt(0);
 ```
 
+Try it out in the left pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/Characters.java java -cp code/ Characters )
+
+
 The argument `0` means that we want the character at **index** 0.
 String indexes range from 0 to $n-1$, where $n$ is the length of the string.
 So the character assigned to `letter` is `b`.
@@ -29,6 +33,8 @@ if (letter == 'a') {
     System.out.println('?');
 }
 ```
+
+{Run!}(sh .guides/bg.sh javac code/Characters.java java -cp code/ Characters 2 )
 
 
 Character literals, like `'a'`, appear in single quotes.
@@ -60,6 +66,9 @@ for (int i = 913; i <= 937; i++) {
 }
 System.out.println();
 ```
+
+{Run!}(sh .guides/bg.sh javac code/Characters.java java -cp code/ Characters 3 )
+
 
 This example uses a type cast to convert each integer (in the range) to the corresponding character.
 Try running the code and see what happens.

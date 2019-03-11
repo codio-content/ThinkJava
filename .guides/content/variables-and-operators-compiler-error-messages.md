@@ -13,6 +13,10 @@ As an example, let's get back to the hello world program from Section 1.3.
 
 
 
+See the example java code in the left panel.
+To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/1/Hello.java java -cp code/1/ Hello )
+
 
 If you forget the semicolon at the end of the print statement, you might get an error message like this:
 

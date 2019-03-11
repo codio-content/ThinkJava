@@ -16,6 +16,10 @@ System.out.println("The log is " + y);
 
 In mathematics, the natural logarithm (base $e$) is undefined when $x < 0$.
 If you ask for `Math.log(-1)`, it will return **NaN** which stands for “not a number”.
+
+Try it out by clicking the button below:
+{Run! | terminal}(javac code/ValidInput.java && java -cp code/ ValidInput)
+
 Many users are confused when they see NaN; it often looks like a bug.
 We can use an `if` statement to make the output more user friendly.
 
@@ -31,6 +35,9 @@ if (x >= 0) {
 The output is better now, but there is another problem.
 What if the user doesn't enter a number at all?
 What would happen if they typed the word “hello”, either on accident or on purpose?
+
+{Run! | terminal}(javac code/ValidInput.java && java -cp code/ ValidInput)
+
 
 
 
@@ -57,6 +64,9 @@ if (!in.hasNextDouble()) {
     return;
 }
 ```
+
+{Run! | terminal}(javac code/ValidInput.java && java -cp code/ ValidInput)
+
 
 
 In contrast to `in.nextLine`, which returns an entire line of input, the `in.next` method returns only the next token of input.

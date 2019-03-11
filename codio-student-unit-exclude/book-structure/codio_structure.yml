@@ -111,7 +111,7 @@ sections:
     transformations:
         - add: Try it out by typing `javac code/HelloWorld.java` into the terminal in the bottom-left pane and pressing Enter.
           position: 251
-        - add: Try it out by typing `java code/HelloWorld` into the terminal in the bottom-left pane and pressing Enter.
+        - add: Try it out by typing `java -cp code/ HelloWorld` into the terminal in the bottom-left pane and pressing Enter.
           position: 264
     configuration:
       layout: 3-cell
@@ -160,17 +160,17 @@ sections:
         - remove: 1
           position: 338
         - add: |
-               For example, the program in the top-left pane, `Goodbye2.java` *is* legal.
+               For example, the program in the top-left pane, `Goodbye.java` *is* legal.
                To compile and run the code, press the "Run!"
-               {Run!}(sh .guides/bg.sh javac code/Goodbye2.java java -cp code/ Goodbye2 )
+               {Run!}(sh .guides/bg.sh javac code/1/Goodbye.java java -cp code/1/ Goodbye )
     
           position: 339
         - remove: 1
           position: 350
         - add: |
-               For example, we could write the same program like the example `Goodbye3.java` in the bottom-left pane.
+               For example, we could write the same program like the example `Goodbye.java` in the bottom-left pane.
                To compile and run the code, press the "Run!"
-               {Run!}(sh .guides/bg.sh javac code/Goodbye3.java java -cp code/ Goodbye3 )
+               {Run!}(sh .guides/bg.sh javac code/2/Goodbye.java java -cp code/2/ Goodbye )
     
           position: 351
     configuration:
@@ -178,10 +178,10 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "code/Goodbye2.java"
+          - path: "code/1/Goodbye.java"
             panel: 0
             action: open
-          - path: "code/Goodbye3.java"
+          - path: "code/2/Goodbye.java"
             panel: 1
             action: open
   - name: Escape sequences
@@ -944,7 +944,7 @@ sections:
               The program on the left shows how the individual code examples in the last section fit together.
               {Run! | terminal}(javac code/Logarithm.java && java -cp code/ Logarithm)
   
-          position: 251
+          position: 540
     configuration:
       layout: 3-cell
       files:

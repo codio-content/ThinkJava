@@ -14,7 +14,7 @@ publicclassGoodbye{
 But most other spaces are optional.
 For example, the program in the top-left pane, `Goodbye2.java` *is* legal.
 To compile and run the code, press the "Run!"
-{Run!}(javac code/Goodbye2.java && java code/Goodbye2)
+{Run!}(sh .guides/bg.sh javac code/Goodbye2.java java -cp code/ Goodbye2 )
 
 
 
@@ -22,7 +22,7 @@ To compile and run the code, press the "Run!"
 The newlines are optional, too.
 For example, we could write the same program like the example `Goodbye3.java` in the bottom-left pane.
 To compile and run the code, press the "Run!"
-{Run!}(javac code/Goodbye3.java && java code/Goodbye3)
+{Run!}(sh .guides/bg.sh javac code/Goodbye3.java java -cp code/ Goodbye3 )
 
 
 

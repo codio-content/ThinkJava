@@ -1,5 +1,4 @@
 In this chapter we have seen relational and logical operators, `if` statements, the `Math` class, and validating input.
-The following program shows how the individual code examples in the last section fit together.
 
 
 

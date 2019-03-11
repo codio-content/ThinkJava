@@ -11,6 +11,10 @@ The first example returns a copy of the entire string.
 The second example returns all but the first two characters.
 As the last example shows, `substring` returns the empty string if the argument is the length of the string.
 
+Try it out in the left pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/Substring.java java -cp code/ Substring )
+
+
 Like most string methods, `substring` is overloaded.
 That is, there are other versions of `substring` that have different parameters.
 If it's invoked with two arguments, they are treated as a start and end index:

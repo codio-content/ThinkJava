@@ -5,6 +5,9 @@ However, the `String` class already provides a method for doing just that.
 String fruit = "banana";
 int index = fruit.indexOf('a');     // returns 1
 ```
+Try it out in the left pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/IndexOf.java java -cp code/ IndexOf )
+
 
 This example finds the index of `'a'` in the string.
 But the letter appears three times, so it's not obvious what `indexOf` should do.

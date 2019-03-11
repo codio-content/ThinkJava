@@ -19,6 +19,10 @@ public static String timeString(int hour, int minute) {
 ```
 
 
+Try it out in the left pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/StringFormat.java java -cp code/ StringFormat )
+
+
 `String.format` takes the same arguments as `System.out.printf`: a format specifier followed by a sequence of values.
 The main difference is that `System.out.printf` displays the result on the screen.
 `String.format` creates a new string, but does not display anything.

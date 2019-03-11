@@ -16,6 +16,9 @@ boolean evenFlag = (n % 2 == 0);    // true if n is even
 boolean positiveFlag = (x > 0);     // true if x is positive
 ```
 
+Try it out in the left pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/BooleanVars.java java -cp code/ BooleanVars )
+
 
 The parentheses are unnecessary, but they make the code easier to understand.
 A variable defined in this way is called a **flag**, because it signals or “flags” the presence or absence of a condition.
@@ -40,3 +43,4 @@ if (!evenFlag) {
     System.out.println("n was odd when I checked it");
 }
 ```
+{Run!}(sh .guides/bg.sh javac code/BooleanVars.java java -cp code/ BooleanVars 2 )

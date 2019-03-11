@@ -38,6 +38,9 @@ public static void displayBinary(int value) {
 }
 ```
 
+{Run!}(sh .guides/bg.sh javac code/DisplayBinary.java java -cp code/ DisplayBinary )
+
+
 If `value` is zero, `displayBinary` does nothing (that's the base case).
 If the argument is positive, the method divides it by two and calls `displayBinary` recursively.
 When the recursive call returns, the method displays one digit of the result and returns (again).

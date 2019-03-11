@@ -32,6 +32,10 @@ For example, here is a version of the hello world program with a logic error:
 
 
 
+See the example java code in the left panel.
+To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/2/Hello.java java -cp code/2/ Hello )
+
 
 This program compiles and runs just fine, but the output is:
 

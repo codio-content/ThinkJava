@@ -11,6 +11,9 @@ for (int x = 1; x <= 10; x++) {
 }
 ```
 
+See the example java code in the left pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/MultiplicationTable.java java -cp code/ MultiplicationTable )
+
 
 Variables like `x` and `y` are called **loop variables**, because they control the execution of a loop.
 In this example, the first loop (`for x`) is known as the “outer loop”, and the second loop (`for y`) is known as the “inner loop”.
