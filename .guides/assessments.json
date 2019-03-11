@@ -164,5 +164,119 @@
     }
    ]
   }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-392795339",
+  "source": {
+   "name": "exercise-7-1",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "For each method, write one sentence that describes what the method does, without getting into the details of how it works. And for each variable, identify the role it plays.\n\n```code\npublic static int banana(int[] a) {\n    int kiwi = 1;\n    int i = 0;\n    while (i < a.length) {\n        kiwi = kiwi * a[i];\n        i++;\n    }\n    return kiwi;\n}\n```",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-261081027",
+  "source": {
+   "name": "exercise-7-1b",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "For each method, write one sentence that describes what the method does, without getting into the details of how it works. And for each variable, identify the role it plays.\n\n```code\npublic static int grapefruit(int[] a, int grape) {\n    for (int i = 0; i < a.length; i++) {\n        if (a[i] == grape) {\n            return i;\n        }\n    }\n    return -1;\n}\n```",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2731721699",
+  "source": {
+   "name": "exercise-7-1c",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "For each method, write one sentence that describes what the method does, without getting into the details of how it works. And for each variable, identify the role it plays.\n\n```code\npublic static int pineapple(int[] a, int apple) {\n    int pear = 0;\n    for (int pine: a) {\n        if (pine == apple) {\n            pear++;\n        }\n    }\n    return pear;\n}\n```",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3840556776",
+  "source": {
+   "name": "exercise-7-2",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "What is the output of the following program? \n\nDescribe in a few words what `mus` does.\n\n\nDraw a stack diagram just before `mus` returns.\n\n```code\npublic static int[] make(int n) {\n    int[] a = new int[n];\n    for (int i = 0; i < n; i++) {\n        a[i] = i + 1;\n    }\n    return a;\n}\n```\n\n```code\npublic static void dub(int[] jub) {\n    for (int i = 0; i < jub.length; i++) {\n        jub[i] *= 2;\n    }\n}\n```\n\n```code\npublic static int mus(int[] zoo) {\n    int fus = 0;\n    for (int i = 0; i < zoo.length; i++) {\n        fus += zoo[i];\n    }\n    return fus;\n}\n```\n\n```code\npublic static void main(String[] args) {\n    int[] bob = make(5);\n    dub(bob);\n    System.out.println(mus(bob));\n}\n```",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3241266919",
+  "source": {
+   "name": "exercise7-3a",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "Can you write this method using an enhanced `for` loop?",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "e35eac5a-5759-69aa-c769-eb4b7a0bb841",
+     "correct": false,
+     "answer": "Yes"
+    },
+    {
+     "_id": "aa74d081-3f26-afd2-c07d-13b3b2587df2",
+     "correct": true,
+     "answer": "No"
+    }
+   ]
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3730081442",
+  "source": {
+   "name": "exercise7-3b",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "Why or why not?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
  }
 ]

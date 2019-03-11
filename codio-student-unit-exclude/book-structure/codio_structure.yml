@@ -95,7 +95,7 @@ sections:
         - add:  |
              See the example java code in the top-left pane.
              To compile and run the code, press the "Run!"
-             {Run!}(javac code/HelloWorld.java && java code/HelloWorld)
+             {Run!}(sh .guides/bg.sh javac code/Hello.java java -cp code/ Hello )
      
           position: 105
     configuration:
@@ -132,7 +132,7 @@ sections:
         - add: |
                For example, take a look at Hello2.java in the top-left pane which displays more than one line of output.
                To compile and run the code, press the "Run!"
-               {Run!}(javac code/Hello2.java && java code/Hello2)
+               {Run!}(sh .guides/bg.sh javac code/Hello2.java java -cp code/ Hello2 )
        
           position: 274
         - remove: 1
@@ -140,7 +140,7 @@ sections:
         - add: |
                For example, take a look at Goodbye.java in the bottom-left pane which uses `print` instead of `println` to avoid the newling at the end.
                To compile and run the code, press the "Run!"
-               {Run!}(javac code/Goodbye.java && java code/Goodbye)
+               {Run!}(sh .guides/bg.sh javac code/Goodbye.java java -cp code/ Goodbye )
        
           position: 302
     configuration:
@@ -162,7 +162,7 @@ sections:
         - add: |
                For example, the program in the top-left pane, `Goodbye2.java` *is* legal.
                To compile and run the code, press the "Run!"
-               {Run!}(javac code/Goodbye2.java && java code/Goodbye2)
+               {Run!}(sh .guides/bg.sh javac code/Goodbye2.java java -cp code/ Goodbye2 )
     
           position: 339
         - remove: 1
@@ -170,7 +170,7 @@ sections:
         - add: |
                For example, we could write the same program like the example `Goodbye3.java` in the bottom-left pane.
                To compile and run the code, press the "Run!"
-               {Run!}(javac code/Goodbye3.java && java code/Goodbye3)
+               {Run!}(sh .guides/bg.sh javac code/Goodbye3.java java -cp code/ Goodbye3 )
     
           position: 351
     configuration:
@@ -190,7 +190,7 @@ sections:
         - add:  |
              See the example java code in the left panel.
              To compile and run the code, press the "Run!"
-             {Run!}(javac code/Hello3.java && java code/Hello3)
+             {Run!}(sh .guides/bg.sh javac code/Hello3.java java -cp code/ Hello3 )
      
           position: 395
     configuration:
@@ -236,30 +236,173 @@ sections:
 # Chapter 2
   - name: Variables and operators
     type: chapter
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Declaring variables
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Assigning variables
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Memory diagrams
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Printing variables
     type: section
+    transformations:
+        - add:  |
+             See the example java code in the left panel.
+             To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/Printing.java java -cp code/ Printing )
+     
+          position: 211
+          - add:  |
+             {Run!}(sh .guides/bg.sh javac code/Printing.java java -cp code/ Printing 2 )
+     
+          position: 225
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Printing.java"
+          panel: 0
+          action: open
   - name: Arithmetic operators
     type: section
+    transformations:
+        - add:  |
+             See the example java code in the left panel.
+             To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/Arithmetic.java java -cp code/ Arithmetic )
+     
+          position: 278
+          - add:  |
+
+             {Run!}(sh .guides/bg.sh javac code/Arithmetic.java java -cp code/ Arithmetic 2 )
+     
+          position: 308
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Arithmetic.java"
+          panel: 0
+          action: open
   - name: Floating-point numbers
     type: section
+    transformations:
+        - add:  |
+             See the example java code in the left panel.
+             To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/Floating.java java -cp code/ Floating )
+     
+          position: 364
+          - add:  |
+
+             {Run!}(sh .guides/bg.sh javac code/Floating.java java -cp code/ Floating 2 )
+     
+          position: 397
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Floating.java"
+          panel: 0
+          action: open
   - name: Rounding errors
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Operators for strings
     type: section
+    transformations:
+        - add:  |
+             See the example java code in the left panel.
+             To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/StringOps.java java -cp code/ StringOps )
+     
+          position: 505
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/StringOps.java"
+          panel: 0
+          action: open
   - name: Compiler error messages
     type: section
+    transformations:
+        - add:  |
+             See the example java code in the left panel.
+             To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/1/Hello.java java -cp code/1/ Hello )
+     
+          position: 575
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/1/Hello.java"
+          panel: 0
+          action: open
   - name: Other types of errors
     type: section
+    transformations:
+        - add:  |
+             See the example java code in the left panel.
+             To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/2/Hello.java java -cp code/2/ Hello )
+     
+          position: 666
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/2/Hello.java"
+          panel: 0
+          action: open
   - name: Vocabulary
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Exercises
     type: section
+    codio_section: start
+    transformations:
+      - remove: 
+        position: 
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
 #Chapter 3
   - name: Input and output
     type: chapter
@@ -317,22 +460,22 @@ sections:
           position: 196
         - add:  |
              
-             {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals)
+             {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals )
      
           position: 216
         - add:  |
              
-             {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals)
+             {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals )
      
           position: 225
         - add:  |
              
-             {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals)
+             {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals )
      
           position: 250
         - add:  |
              
-             {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals)
+             {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals )
      
           position: 262
     configuration:
@@ -359,13 +502,13 @@ sections:
         - add:  |
              
              Try it out in the top-right panel.
-             {Run! | terminal}(javac code/Formatting.java && java -cp code/ Formatting)
+             {Run! | terminal}(javac code/Formatting.java && java -cp code/ Formatting )
      
           position: 300
         - add:  |
              
              Try it out in the top-right panel.
-             {Run! | terminal}(javac code/Formatting.java && java -cp code/ Formatting)
+             {Run! | terminal}(javac code/Formatting.java && java -cp code/ Formatting )
      
           position: 314
     configuration:
@@ -386,19 +529,19 @@ sections:
              
              Try it out in the left panel.
              To compile and run the code, press the "Run!"
-             {Run!}(sh code/bg.sh javac code/Casting.java java -cp code/ Casting )
+             {Run!}(sh .guides/bg.sh javac code/Casting.java java -cp code/ Casting )
      
           position: 411
         - add:  |
              
              Try it out in the left panel.
-             {Run!}(sh code/bg.sh javac code/Casting.java java -cp code/ Casting )
+             {Run!}(sh .guides/bg.sh javac code/Casting.java java -cp code/ Casting 2 )
      
           position: 437
         - add:  |
              
              Try it out in the left panel.
-             {Run!}(sh code/bg.sh javac code/Casting.java java -cp code/ Casting )
+             {Run!}(sh .guides/bg.sh javac code/Casting.java java -cp code/ Casting 3 )
      
           position: 446
     configuration:
@@ -415,7 +558,7 @@ sections:
         - add:  |
              
              Try it out in the left panel.
-             {Run!}(sh code/bg.sh javac code/Remainder.java java -cp code/ Remainder )
+             {Run!}(sh .guides/bg.sh javac code/Remainder.java java -cp code/ Remainder )
      
           position: 471
     configuration:
@@ -496,80 +639,514 @@ sections:
 #Chapter 4
   - name: Methods and testing
     type: chapter
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Math methods
     type: section
+    transformations:
+        - add:  |
+              
+             Try out some of these Math functions in the panel to the left.
+             {Run!}(sh .guides/bg.sh javac code/MathFun.java java -cp code/ MathFun )
+ 
+         position: 48
+       - add:  |
+           
+            {Run!}(sh .guides/bg.sh javac code/MathFun.java java -cp code/ MathFun 2 )
+ 
+        position: 65
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MathFun.java"
+          panel: 0
+          action: open
   - name: Composition
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Defining new methods
     type: section
+    transformations:
+        - add:  |
+             See the example java code in the top-left pane.
+             To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/NewLine.java java -cp code/ NewLine )
+
+        position: 162
+       - add:  |
+             See the example java code in the bottom-left pane.
+             To compile and run the code, press the "Run!"
+            {Run!}(sh .guides/bg.sh javac code/1/NewLine.java java -cp code/1/ NewLine 2 )
+   
+        position: 200
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/NewLine.java"
+          panel: 0
+          action: open
+        - path: "code/1/NewLine.java"
+          panel: 1
+          action: open
   - name: Flow of execution
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Parameters and arguments
     type: section
-  - name: Multiple parameters
-    type: section
+    transformations:
+        - remove: 1
+          position: 284
+        - add: | 
+          
+             The class in the top-left pane shows an example.
+             {Run!}(sh .guides/bg.sh javac code/PrintTwice.java java -cp code/ PrintTwice )
+  
+          position: 285
+        - remove: 1
+          position: 402
+        - add: | 
+             
+             You can see the pulled together code fragments in the bottom-left pane.
+             {Run!}(sh .guides/bg.sh javac code/PrintTime.java java -cp code/ PrintTime )
+   
+          position: 403
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/PrintTwice.java"
+          panel: 0
+          action: open
+        - path: "code/PrintTime.java"
+          panel: 1
+          action: open
   - name: Stack diagrams
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Return values
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Return.java"
+          panel: 0
+          action: open
+        - path: "#visualizer: code/Return.java"
+          panel: 1
+          action: open
   - name: Incremental development
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Vocabulary
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Exercises
     type: section
+    codio_section: start
+    transformations:
+      - remove: 
+        position: 
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
 #Chapter 5
   - name: Conditionals and logic
     type: chapter
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Relational operators
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: The if-else statement
     type: section
+    transformations:
+        - add:  |
+             Try it out in the panel to the left. To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/IfElse.java java -cp code/ IfElse )
+  
+         position: 82
+       - add:  |
+
+            {Run!}(sh .guides/bg.sh javac code/IfElse.java java -cp code/ IfElse 2 )
+  
+        position: 124
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/IfElse.java"
+          panel: 0
+          action: open
   - name: Chaining and nesting
     type: section
+    transformations:
+        - add:  |
+             Try it out in the pane to the left. To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/Chaining.java java -cp code/ Chaining )
+  
+         position: 187
+       - add:  |
+            {Run!}(sh .guides/bg.sh javac code/Chaining.java java -cp code/ Chaining 2 )
+  
+        position: 212
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Chaining.java"
+          panel: 0
+          action: open
   - name: Logical operators
     type: section
+    transformations:
+        - add:  |
+             Try it out in the left pane. To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/LogicalOps.java java -cp code/ LogicalOps )
+  
+         position: 259
+       - add:  |
+            {Run!}(sh .guides/bg.sh javac code/LogicalOps.java java -cp code/ LogicalOps 2 )
+  
+        position: 277
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/LogicalOps.java"
+          panel: 0
+          action: open
   - name: De Morgan's laws
     type: section
+    configuration:
+            layout: 1-panel
+            files:
+                - path: "#tabs"
+                  action: close
   - name: Boolean variables
     type: section
+    transformations:
+        - add:  |
+             Try it out in the left pane. To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/BooleanVars.java java -cp code/ BooleanVars )
+
+         position: 364
+       - add:  |
+            {Run!}(sh .guides/bg.sh javac code/BooleanVars.java java -cp code/ BooleanVars 2 )
+
+        position: 388
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/BooleanVars.java"
+          panel: 0
+          action: open
   - name: Boolean methods
     type: section
+    transformations:
+        - add:  |
+             Try it out in the left pane. To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/BooleanMethods.java java -cp code/ BooleanMethods )
+
+         position: 421
+       - add:  |
+            {Run!}(sh .guides/bg.sh javac code/BooleanMethods.java java -cp code/ BooleanMethods 2 )
+
+        position: 441
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/BooleanMethods.java"
+          panel: 0
+          action: open
   - name: Validating input
     type: section
+    transformations:
+        - add: |
+          
+          Try it out by clicking the button below:
+          {Run! | terminal}(javac code/ValidInput.java && java -cp code/ ValidInput)
+  
+          position: 470
+        - add: |
+          
+          {Run! | terminal}(javac code/ValidInput.java && java -cp code/ ValidInput)
+  
+          position: 485
+        - add: |
+          
+          {Run! | terminal}(javac code/ValidInput.java && java -cp code/ ValidInput)
+  
+          position: 515
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/ValidInput.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
   - name: Example program
     type: section
+    transformations:
+        - remove: 1
+          position: 539
+        - add: | 
+
+          The program on the left shows how the individual code examples in the last section fit together.
+          {Run! | terminal}(javac code/Logarithm.java && java -cp code/ Logarithm)
+  
+          position: 251
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Logarithm.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
   - name: Vocabulary
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Exercises
     type: section
+    codio_section: start
+    transformations:
+      - remove: 
+        position: 
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
 #Chapter 6
   - name: Loops and strings
     type: chapter
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: The while statement
     type: section
+    transformations:
+        - add: {Run!}(sh .guides/bg.sh javac code/BlastOff.java java -cp code/ BlastOff )
+          position: 30
+        - add: {Run!}(sh .guides/bg.sh javac code/BlastOff.java java -cp code/ BlastOff )
+          position: 100
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/BlastOff.java"
+          panel: 0
+          action: open
+        - path: "#visualizer: code/BlastOff.java"
+          panel: 1
+          action: open
   - name: Increment and decrement
     type: section
+    transformations:
+        - add:  |
+             Try it out using the left pane. To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/Increment.java java -cp code/ Increment )
+
+         position: 130
+       - add:  |
+            {Run!}(sh .guides/bg.sh javac code/Increment.java java -cp code/ Increment 2 )
+
+        position: 148
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Increment.java"
+          panel: 0
+          action: open
   - name: The for statement
     type: section
+    transformations:
+        - add: |
+          
+          {Run!}(sh .guides/bg.sh javac code/For.java java -cp code/ For )
+  
+          position: 178
+        - add: |
+          
+          {Run!}(sh .guides/bg.sh javac code/For.java java -cp code/ For )
+  
+          position: 215
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/For.java"
+          panel: 0
+          action: open
+        - path: "#visualizer: code/For.java"
+          panel: 1
+          action: open
   - name: Nested loops
     type: section
+    transformations:
+        - add:  |
+             See the example java code in the left pane. To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/MultiplicationTable.java java -cp code/ MultiplicationTable )
+
+         position: 253
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MultiplicationTable.java"
+          panel: 0
+          action: open
   - name: Characters
     type: section
+    transformations:
+        - remove: 1
+          position: 87
+        - add:  |
+
+             Try it out in the left pane. To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/Characters.java java -cp code/ Characters )
+  
+         position: 303
+       - add:  |
+            {Run!}(sh .guides/bg.sh javac code/Characters.java java -cp code/ Characters 2 )
+  
+        position: 327
+      - add:  |
+
+            {Run!}(sh .guides/bg.sh javac code/Characters.java java -cp code/ Characters 3 )
+  
+        position: 360
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Characters.java"
+          panel: 0
+          action: open
   - name: String iteration
     type: section
+    transformations:
+        - remove: 1
+          position: 87
+        - add:  |
+             Try it out in the left pane. To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/StringIteration.java java -cp code/ StringIteration )
+  
+         position: 404
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/StringIteration.java"
+          panel: 0
+          action: open
   - name: The indexOf method
     type: section
+    transformations:
+        - add:  |
+             Try it out in the left pane. To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/IndexOf.java java -cp code/ IndexOf )
+  
+         position: 438
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/IndexOf.java"
+          panel: 0
+          action: open
   - name: String comparison
     type: section
+    
   - name: Substrings
     type: section
   - name: String formatting
     type: section
   - name: Vocabulary
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Exercises
     type: section
+    codio_section: start
+    transformations:
+      - remove: 
+        position: 
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
 # Chapter 7
   - name: Arrays and references
     type: chapter
@@ -716,6 +1293,15 @@ sections:
     type: section
   - name: Exercises
     type: section
+    codio_section: start
+    transformations:
+      - remove: 
+        position: 
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
 # Chapter 9
   - name: Immutable objects
     type: chapter
@@ -737,6 +1323,15 @@ sections:
     type: section
   - name: Exercises
     type: section
+    codio_section: start
+    transformations:
+      - remove: 
+        position: 
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
 #Chapter 10
   - name: Mutable objects
     type: chapter
@@ -762,6 +1357,15 @@ sections:
     type: section
   - name: Exercises
     type: section
+    codio_section: start
+    transformations:
+      - remove: 
+        position: 
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
 #Chapter 11
   - name: Designing classes
     type: chapter
@@ -787,6 +1391,15 @@ sections:
     type: section
   - name: Exercises
     type: section
+    codio_section: start
+    transformations:
+      - remove: 
+        position: 
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
 #Chapter 12
   - name: Arrays of objects
     type: chapter
@@ -814,6 +1427,15 @@ sections:
     type: section
   - name: Exercises
     type: section
+    codio_section: start
+    transformations:
+      - remove: 
+        position: 
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
 #Chapter 13
   - name: Objects of arrays
     type: chapter
@@ -839,6 +1461,15 @@ sections:
     type: section
   - name: Exercises
     type: section
+    codio_section: start
+    transformations:
+      - remove: 
+        position: 
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
 #Chapter 14
   - name: Extending classes
     type: chapter
@@ -858,6 +1489,15 @@ sections:
     type: section
   - name: Exercises
     type: section
+    codio_section: start
+    transformations:
+      - remove: 
+        position: 
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
 #Appendix A
   - name: Tools
     type: chapter

@@ -13,7 +13,7 @@ The simplest way to convert a floating-point value to an integer is to use a **t
 
 
 Try it out in the left panel. To compile and run the code, press the "Run!"
-{Run!}(sh code/bg.sh javac code/Casting.java java -cp code/ Casting )
+{Run!}(sh code/bg.sh javac code/Casting.java java -cp code/ Casting 2 )
 
 ```code
 double pi = 3.14159;
@@ -35,11 +35,6 @@ Type casting takes precedence over arithmetic operations. In the following examp
 double pi = 3.14159;
 double x = (int) pi * 20.0;  // result is 60.0, not 62.0
 ```
-
-
-Try it out in the left panel.
-{Run!}(sh code/bg.sh javac code/Casting.java java -cp code/ Casting )
-
 
 Keeping that in mind, here's how we can convert centimeters to inches:
 

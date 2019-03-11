@@ -1702,7 +1702,23 @@
   {
    "id": "arrays-and-references-exercises-7-3",
    "title": "Exercise 7.3",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/IndexOfMax.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-7-3-arra.md",
@@ -1714,7 +1730,23 @@
   {
    "id": "arrays-and-references-exercises-7-4",
    "title": "Exercise 7.4",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Sieve.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-7-4-arra.md",
@@ -1726,7 +1758,23 @@
   {
    "id": "arrays-and-references-exercises-7-5",
    "title": "Exercise 7.5",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Factors.java",
+     "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 2,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell-left",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-7-5-arra.md",
@@ -1750,7 +1798,23 @@
   {
    "id": "arrays-and-references-exercises-7-7",
    "title": "Exercise 7.7",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/LetterHist.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-7-7-arra.md",
@@ -1762,7 +1826,23 @@
   {
    "id": "arrays-and-references-exercises-7-8",
    "title": "Exercise 7.8",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/Anagrams.java",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-7-8-arra.md",
