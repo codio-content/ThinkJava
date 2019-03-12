@@ -753,7 +753,7 @@ sections:
         - path: "code/Return.java"
           panel: 0
           action: open
-        - path: "#visualizer: code/Return.java"
+        - path: "#tutor: code/Return.java"
           panel: 1
           action: open
   - name: Incremental development
@@ -1001,7 +1001,7 @@ sections:
         - path: "code/BlastOff.java"
           panel: 0
           action: open
-        - path: "#visualizer: code/BlastOff.java"
+        - path: "#tutor: code/BlastOff.java"
           panel: 1
           action: open
   - name: Increment and decrement
@@ -1045,7 +1045,7 @@ sections:
         - path: "code/For.java"
           panel: 0
           action: open
-        - path: "#visualizer: code/For.java"
+        - path: "#tutor: code/For.java"
           panel: 1
           action: open
   - name: Nested loops
@@ -1349,7 +1349,7 @@ sections:
         - path: "code/Countdown.java"
           panel: 0
           action: open
-        - path: "#visualizer: code/Countdown.java"
+        - path: "#tutor: code/Countdown.java"
           panel: 1
           action: open
   - name: Recursive stack diagrams
@@ -1381,7 +1381,7 @@ sections:
         - path: "code/ValueReturning.java"
           panel: 0
           action: open
-        - path: "#visualizer: code/ValueReturning.java"
+        - path: "#tutor: code/ValueReturning.java"
           panel: 1
           action: open
   - name: The leap of faith
@@ -1400,7 +1400,7 @@ sections:
         - path: "code/Fibonacci.java"
           panel: 0
           action: open
-        - path: "#visualizer: code/Fibonacci.java"
+        - path: "#tutor: code/Fibonacci.java"
           panel: 1
           action: open
   - name: Binary number system
@@ -1426,7 +1426,7 @@ sections:
         - path: "code/DisplayBinary.java"
           panel: 0
           action: open
-        - path: "#visualizer: code/DisplayBinary.java"
+        - path: "#tutor: code/DisplayBinary.java"
           panel: 1
           action: open
   - name: CodingBat problems
@@ -1808,6 +1808,17 @@ insert_sections:
       \end{exercise}
   - name: Exercises 1.2
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise-1-2.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
     chapter: Computer programming
     section: Exercises
     before: false
