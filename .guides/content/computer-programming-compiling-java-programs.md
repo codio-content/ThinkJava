@@ -54,7 +54,7 @@ The programmer writes source code in the file `Hello.java` and uses `javac` to c
 If there are no errors, the compiler saves the byte code in the file `Hello.class`.
 To run the program, the programmer uses `java` to interpret the byte code.
 The result of the program is then displayed on the screen.
-Try it out by typing `java code/HelloWorld` into the terminal in the bottom-left pane and pressing Enter.
+Try it out by typing `java -cp code/ HelloWorld` into the terminal in the bottom-left pane and pressing Enter.
 
 Although it might seem complicated, these steps are automated for you in most program development environments.
 Usually you only have to press a button or type a single command to compile and run your program.

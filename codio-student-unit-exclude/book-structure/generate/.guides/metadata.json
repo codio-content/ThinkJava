@@ -278,12 +278,12 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/Goodbye2.java"
+          "path": "code/1/Goodbye.java"
         },
         {
           "action": "open",
           "panel": 1,
-          "path": "code/Goodbye3.java"
+          "path": "code/2/Goodbye.java"
         }
       ],
       "id": "computer-programming-formatting-source-code",
@@ -1217,7 +1217,7 @@
         {
           "action": "open",
           "panel": 1,
-          "path": "#visualizer: code/Return.java"
+          "path": "#tutor: code/Return.java"
         }
       ],
       "id": "methods-and-testing-return-values",
@@ -1734,7 +1734,7 @@
         {
           "action": "open",
           "panel": 1,
-          "path": "#visualizer: code/BlastOff.java"
+          "path": "#tutor: code/BlastOff.java"
         }
       ],
       "id": "loops-and-strings-the-while-statement",
@@ -1785,7 +1785,7 @@
         {
           "action": "open",
           "panel": 1,
-          "path": "#visualizer: code/For.java"
+          "path": "#tutor: code/For.java"
         }
       ],
       "id": "loops-and-strings-the-for-statement",
@@ -2462,7 +2462,7 @@
         {
           "action": "open",
           "panel": 1,
-          "path": "#visualizer: code/Countdown.java"
+          "path": "#tutor: code/Countdown.java"
         }
       ],
       "id": "recursive-methods-recursive-void-methods",
@@ -2508,7 +2508,7 @@
         {
           "action": "open",
           "panel": 1,
-          "path": "#visualizer: code/ValueReturning.java"
+          "path": "#tutor: code/ValueReturning.java"
         }
       ],
       "id": "recursive-methods-value-returning-methods",
@@ -2536,7 +2536,7 @@
         {
           "action": "open",
           "panel": 1,
-          "path": "#visualizer: code/Fibonacci.java"
+          "path": "#tutor: code/Fibonacci.java"
         }
       ],
       "id": "recursive-methods-the-leap-of-faith",
@@ -2582,7 +2582,7 @@
         {
           "action": "open",
           "panel": 1,
-          "path": "#visualizer: code/DisplayBinary.java"
+          "path": "#tutor: code/DisplayBinary.java"
         }
       ],
       "id": "recursive-methods-recursive-binary-method",

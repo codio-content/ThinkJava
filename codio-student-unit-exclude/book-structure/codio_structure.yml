@@ -1470,18 +1470,151 @@ sections:
               action: close
   - name: Primitives vs objects
     type: section
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Strings are immutable
     type: section
+    transformations:
+        - add:  |
+             Try it out in the panel to the left. To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/ImmutableStrings.java java -cp code/ ImmutableStrings )
+  
+          position: 152
+        - add:  |
+              {Run!}(sh .guides/bg.sh javac code/Remainder.java java -cp code/ Remainder 2 )
+ 
+          position: 173
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/ImmutableStrings.java"
+          panel: 0
+          action: open
   - name: Wrapper classes
     type: section
+    transformations:
+        - add:  |
+              Try it out in the panel to the left. To compile and run the code, press the "Run!"
+              {Run!}(sh .guides/bg.sh javac code/Wrapper.java java -cp code/ Wrapper )
+  
+          position: 236
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Wrapper.java java -cp code/ Wrapper 2 )
+ 
+          position: 261
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Wrapper.java"
+          panel: 0
+          action: open
   - name: Command-line arguments
     type: section
+    transformations:
+        - remove: 5
+          position: 296
+        - add:  |
+
+              You can compile the example code by either typing `javac code/Max.java` into the command line in the bottom-left pane or clicking the button below.
+              {Compile | terminal}(javac code/Max.java)
+              
+              You can run this program from the command line in the bottom-left pane by typing `java -cp code/ Max`
+  
+          position: 295
+        - remove: 3
+          position: 313
+        - add:  |
+              `java -cp code/ Max 10 -3 55 0 14`
+ 
+          position: 316
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Max.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
   - name: BigInteger arithmetic
     type: section
+    transformations:
+        - add:  |
+
+             Try it out yourself in the pane to the left. To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/BigInt.java java -cp code/ BigInt )
+  
+          position: 391
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/BigInt.java"
+          panel: 0
+          action: open
   - name: Program development
     type: section
+    transformations:
+        - add:  |
+             Try it out yourself in the pane to the left. To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev )
+  
+          position: 455
+        - add:  |
+             {Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev 2 )
+ 
+          position: 488
+        - add:  |
+             {Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev 3 )
+ 
+          position: 502
+        - add:  |
+             {Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev 4 )
+ 
+          position: 526
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/ProgramDev.java"
+          panel: 0
+          action: open
   - name: More generalization
     type: section
+    transformations:
+        - add:  |
+             Try it out yourself in the pane to the left. To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev )
+  
+          position: 569
+        - add:  |
+             {Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev 2 )
+ 
+          position: 595
+        - add:  |
+             {Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev 3 )
+ 
+          position: 631
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/ProgramDev.java"
+          panel: 0
+          action: open
   - name: Vocabulary
     type: section
     configuration:
@@ -1510,6 +1643,7 @@ sections:
               action: close
   - name: Point objects
     type: section
+    
   - name: Objects as parameters
     type: section
   - name: Objects as return types
@@ -1808,17 +1942,6 @@ insert_sections:
       \end{exercise}
   - name: Exercises 1.2
     type: section
-    configuration:
-      layout: 3-cell
-      files:
-        - path: "#tabs"
-          action: close
-        - path: "code/Exercise-1-2.java"
-          panel: 0
-          action: open
-        - path: "#terminal: "
-          panel: 1
-          action: open
     chapter: Computer programming
     section: Exercises
     before: false

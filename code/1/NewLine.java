@@ -1,3 +1,4 @@
+
 public class NewLine {
 
     public static void newLine() {

@@ -1,5 +1,9 @@
 In this chapter we have seen relational and logical operators, `if` statements, the `Math` class, and validating input.
 
+The program on the left shows how the individual code examples in the last section fit together.
+{Run! | terminal}(javac code/Logarithm.java && java -cp code/ Logarithm)
+
+
 
 
 
