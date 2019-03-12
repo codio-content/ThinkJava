@@ -233,6 +233,26 @@ sections:
       files:
           - path: "#tabs"
             action: close
+  - name: Exercise 1.1
+    type: section
+    chapter: Computer programming
+    section: Exercises
+  - name: Exercise 1.2
+    type: section
+    chapter: Computer programming
+    section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise-1-2.java"
+          panel: 0
+          action: open
+  - name: Exercise 1.3
+    type: section
+    chapter: Computer programming
+    section: Exercises
 # Chapter 2
   - name: Variables and operators
     type: chapter
@@ -403,6 +423,18 @@ sections:
       files:
           - path: "#tabs"
             action: close
+  - name: Exercise 2.1
+    type: section
+    chapter: Variables and operators
+    section: Exercises
+  - name: Exercise 2.2
+    type: section
+    chapter: Variables and operators
+    section: Exercises
+  - name: Exercise 2.3
+    type: section
+    chapter: Variables and operators
+    section: Exercises
 #Chapter 3
   - name: Input and output
     type: chapter
@@ -636,6 +668,22 @@ sections:
       files:
           - path: "#tabs"
             action: close
+  - name: Exercise 3.1
+    type: section
+    chapter: Input and output
+    section: Exercises
+  - name: Exercise 3.2
+    type: section
+    chapter: Input and output
+    section: Exercises
+  - name: Exercise 3.3
+    type: section
+    chapter: Input and output
+    section: Exercises
+  - name: Exercise 3.4
+    type: section
+    chapter: Input and output
+    section: Exercises
 #Chapter 4
   - name: Methods and testing
     type: chapter
@@ -781,6 +829,30 @@ sections:
       files:
           - path: "#tabs"
             action: close
+  - name: Exercise 4.1
+    type: section
+    chapter: Methods and testing
+    section: Exercises
+  - name: Exercise 4.2
+    type: section
+    chapter: Methods and testing
+    section: Exercises
+  - name: Exercise 4.3
+    type: section
+    chapter: Methods and testing
+    section: Exercises
+  - name: Exercise 4.4
+    type: section
+    chapter: Methods and testing
+    section: Exercises
+  - name: Exercise 4.5
+    type: section
+    chapter: Methods and testing
+    section: Exercises
+  - name: Exercise 4.6
+    type: section
+    chapter: Methods and testing
+    section: Exercises
 #Chapter 5
   - name: Conditionals and logic
     type: chapter
@@ -974,6 +1046,34 @@ sections:
       files:
           - path: "#tabs"
             action: close
+  - name: Exercise 5.1
+    type: section
+    chapter: Conditionals and logic
+    section: Exercises
+  - name: Exercise 5.2
+    type: section
+    chapter: Conditionals and logic
+    section: Exercises
+  - name: Exercise 5.3
+    type: section
+    chapter: Conditionals and logic
+    section: Exercises
+  - name: Exercise 5.4
+    type: section
+    chapter: Conditionals and logic
+    section: Exercises
+  - name: Exercise 5.5
+    type: section
+    chapter: Conditionals and logic
+    section: Exercises
+  - name: Exercise 5.6
+    type: section
+    chapter: Conditionals and logic
+    section: Exercises
+  - name: Exercise 5.7
+    type: section
+    chapter: Conditionals and logic
+    section: Exercises
 #Chapter 6
   - name: Loops and strings
     type: chapter
@@ -1200,6 +1300,30 @@ sections:
       files:
           - path: "#tabs"
             action: close
+  - name: Exercise 6.1
+    type: section
+    chapter: Loops and strings
+    section: Exercises
+  - name: Exercise 6.2
+    type: section
+    chapter: Loops and strings
+    section: Exercises
+  - name: Exercise 6.3
+    type: section
+    chapter: Loops and strings
+    section: Exercises
+  - name: Exercise 6.4
+    type: section
+    chapter: Loops and strings
+    section: Exercises
+  - name: Exercise 6.5
+    type: section
+    chapter: Loops and strings
+    section: Exercises
+  - name: Exercise 6.6
+    type: section
+    chapter: Loops and strings
+    section: Exercises
 # Chapter 7
   - name: Arrays and references
     type: chapter
@@ -1325,6 +1449,38 @@ sections:
       files:
           - path: "#tabs"
             action: close
+  - name: Exercise 7.1
+    type: section
+    chapter: Arrays and references
+    section: Exercises
+  - name: Exercise 7.2
+    type: section
+    chapter: Arrays and references
+    section: Exercises
+  - name: Exercise 7.3
+    type: section
+    chapter: Arrays and references
+    section: Exercises
+  - name: Exercise 7.4
+    type: section
+    chapter: Arrays and references
+    section: Exercises
+  - name: Exercise 7.5
+    type: section
+    chapter: Arrays and references
+    section: Exercises
+  - name: Exercise 7.6
+    type: section
+    chapter: Arrays and references
+    section: Exercises
+  - name: Exercise 7.7
+    type: section
+    chapter: Arrays and references
+    section: Exercises
+  - name: Exercise 7.8
+    type: section
+    chapter: Arrays and references
+    section: Exercises
 # Chapter 8
   - name: Recursive methods
     type: chapter
@@ -1460,6 +1616,34 @@ sections:
       files:
           - path: "#tabs"
             action: close
+  - name: Exercise 8.1
+    type: section
+    chapter: Recursive methods
+    section: Exercises
+  - name: Exercise 8.2
+    type: section
+    chapter: Recursive methods
+    section: Exercises
+  - name: Exercise 8.3
+    type: section
+    chapter: Recursive methods
+    section: Exercises
+  - name: Exercise 8.4
+    type: section
+    chapter: Recursive methods
+    section: Exercises
+  - name: Exercise 8.5
+    type: section
+    chapter: Recursive methods
+    section: Exercises
+  - name: Exercise 8.6
+    type: section
+    chapter: Recursive methods
+    section: Exercises
+  - name: Exercise 8.7
+    type: section
+    chapter: Recursive methods
+    section: Exercises
 # Chapter 9
   - name: Immutable objects
     type: chapter
@@ -1633,6 +1817,30 @@ sections:
       files:
           - path: "#tabs"
             action: close
+  - name: Exercise 9.1
+    type: section
+    chapter: Immutable objects
+    section: Exercises
+  - name: Exercise 9.2
+    type: section
+    chapter: Immutable objects
+    section: Exercises
+  - name: Exercise 9.3
+    type: section
+    chapter: Immutable objects
+    section: Exercises
+  - name: Exercise 9.4
+    type: section
+    chapter: Immutable objects
+    section: Exercises
+  - name: Exercise 9.5
+    type: section
+    chapter: Immutable objects
+    section: Exercises
+  - name: Exercise 9.6
+    type: section
+    chapter: Immutable objects
+    section: Exercises
 #Chapter 10
   - name: Mutable objects
     type: chapter
@@ -1643,7 +1851,24 @@ sections:
               action: close
   - name: Point objects
     type: section
-    
+    transformations:
+        - add:  |
+             Try it out in the pane to the left. To compile and run the code, press the "Run!"
+             {Run!}(sh .guides/bg.sh javac code/PointObjs.java java -cp code/ PointObjs )
+  
+          position: 105
+        - add:  |
+             {Run!}(sh .guides/bg.sh javac code/PointObjs.java java -cp code/ PointObjs 2 )
+ 
+          position: 105
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/PointObjs.java"
+          panel: 0
+          action: open
   - name: Objects as parameters
     type: section
   - name: Objects as return types
@@ -1678,6 +1903,18 @@ sections:
       files:
           - path: "#tabs"
             action: close
+  - name: Exercise 10.1
+    type: section
+    chapter: Mutable objects
+    section: Exercises
+  - name: Exercise 10.2
+    type: section
+    chapter: Mutable objects
+    section: Exercises
+  - name: Exercise 10.3
+    type: section
+    chapter: Mutable objects
+    section: Exercises
 #Chapter 11
   - name: Designing classes
     type: chapter
@@ -1722,6 +1959,26 @@ sections:
       files:
           - path: "#tabs"
             action: close
+  - name: Exercise 11.1
+    type: section
+    chapter: Designing classes
+    section: Exercises
+  - name: Exercise 11.2
+    type: section
+    chapter: Designing classes
+    section: Exercises
+  - name: Exercise 11.3
+    type: section
+    chapter: Designing classes
+    section: Exercises
+  - name: Exercise 11.4
+    type: section
+    chapter: Designing classes
+    section: Exercises
+  - name: Exercise 11.5
+    type: section
+    chapter: Designing classes
+    section: Exercises
 #Chapter 12
   - name: Arrays of objects
     type: chapter
@@ -1768,6 +2025,22 @@ sections:
       files:
           - path: "#tabs"
             action: close
+  - name: Exercise 12.1
+    type: section
+    chapter: Arrays of objects
+    section: Exercises
+  - name: Exercise 12.2
+    type: section
+    chapter: Arrays of objects
+    section: Exercises
+  - name: Exercise 12.3
+    type: section
+    chapter: Arrays of objects
+    section: Exercises
+  - name: Exercise 12.4
+    type: section
+    chapter: Arrays of objects
+    section: Exercises
 #Chapter 13
   - name: Objects of arrays
     type: chapter
@@ -1812,6 +2085,30 @@ sections:
       files:
           - path: "#tabs"
             action: close
+  - name: Exercise 13.1
+    type: section
+    chapter: Objects of arrays
+    section: Exercises
+  - name: Exercise 13.2
+    type: section
+    chapter: Objects of arrays
+    section: Exercises
+  - name: Exercise 13.3
+    type: section
+    chapter: Objects of arrays
+    section: Exercises
+  - name: Exercise 13.4
+    type: section
+    chapter: Objects of arrays
+    section: Exercises
+  - name: Exercise 13.5
+    type: section
+    chapter: Objects of arrays
+    section: Exercises
+  - name: Exercise 13.6
+    type: section
+    chapter: Objects of arrays
+    section: Exercises
 #Chapter 14
   - name: Extending classes
     type: chapter
@@ -1850,6 +2147,22 @@ sections:
       files:
           - path: "#tabs"
             action: close
+  - name: Exercise 14.1
+    type: section
+    chapter: Extending classes
+    section: Exercises
+  - name: Exercise 14.2
+    type: section
+    chapter: Extending classes
+    section: Exercises
+  - name: Exercise 14.3
+    type: section
+    chapter: Extending classes
+    section: Exercises
+  - name: Exercise 14.4
+    type: section
+    chapter: Extending classes
+    section: Exercises
 #Appendix A
   - name: Tools
     type: chapter
@@ -1922,7 +2235,7 @@ sections:
 #inserting exercises on seperate pages so that they are cherry-pick-able
 insert_sections:
 #Chapter 1
-  - name: Exercises 1.1
+  - name: Exercise 1.1
     type: section
     chapter: Computer programming
     section: Exercises
@@ -1940,10 +2253,18 @@ insert_sections:
       The glossary at the end of each chapter is intended to highlight words and phrases that have special meanings in computer science.
       When you see familiar words, don't assume that you know what they mean!
       \end{exercise}
-  - name: Exercises 1.2
+  - name: Exercise 1.2
     type: section
     chapter: Computer programming
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise-1-2.java"
+          panel: 0
+          action: open
     before: false
     latex: |
       \begin{exercise}  %%V6 Ex1.2
@@ -1963,7 +2284,15 @@ insert_sections:
       You might find yourself trying to debug one program while you are accidentally running another.
       Adding (and changing) print statements is a simple way to be sure that the program you are looking at is the program you are running.
       \end{exercise}
-  - name: Exercises 1.3
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise-1-2.java"
+          panel: 0
+          action: open
+  - name: Exercise 1.3
     type: section
     chapter: Computer programming
     section: Exercises
@@ -1990,7 +2319,7 @@ insert_sections:
       \end{enumerate}
       \end{exercise}
 #Chapter 2
-  - name: Exercises 2.1
+  - name: Exercise 2.1
     type: section
     chapter: Variables and operators
     section: Exercises
@@ -2007,7 +2336,7 @@ insert_sections:
       You get two points if you find the error without compiling the program, one point if you find it using the compiler, and your opponent gets a point if you don't find it.
 
       \end{exercise}
-  - name: Exercises 2.2
+  - name: Exercise 2.2
     type: section
     chapter: Variables and operators
     section: Exercises
@@ -2048,7 +2377,7 @@ insert_sections:
       \end{enumerate}
 
       \end{exercise}
-  - name: Exercises 2.3
+  - name: Exercise 2.3
     type: section
     chapter: Variables and operators
     section: Exercises
@@ -2084,7 +2413,7 @@ insert_sections:
 
       \end{exercise}
 #Chapter 3
-  - name: Exercises 3.1
+  - name: Exercise 3.1
     type: section
     chapter: Input and output
     section: Exercises
@@ -2098,7 +2427,7 @@ insert_sections:
       What if you use two format specifiers, but then only provide one value?
 
       \end{exercise}
-  - name: Exercises 3.2
+  - name: Exercise 3.2
     type: section
     chapter: Input and output
     section: Exercises
@@ -2116,7 +2445,7 @@ insert_sections:
       \[ F = C \times \frac{9}{5} + 32 \]
 
       \end{exercise}
-  - name: Exercises 3.3
+  - name: Exercise 3.3
     type: section
     chapter: Input and output
     section: Exercises
@@ -2131,7 +2460,7 @@ insert_sections:
       {\it Hint:} Use the remainder operator.
 
       \end{exercise}
-  - name: Exercises 3.4
+  - name: Exercise 3.4
     type: section
     chapter: Input and output
     section: Exercises
@@ -2200,7 +2529,7 @@ insert_sections:
 
       \end{exercise}
 #Chapter 4
-  - name: Exercises 4.1
+  - name: Exercise 4.1
     type: section
     chapter: Methods and testing
     section: Exercises
@@ -2227,7 +2556,7 @@ insert_sections:
       \end{enumerate}
 
       \end{exercise}
-  - name: Exercises 4.2
+  - name: Exercise 4.2
     type: section
     chapter: Methods and testing
     section: Exercises
@@ -2277,7 +2606,7 @@ insert_sections:
       \end{enumerate}
 
       \end{exercise}
-  - name: Exercises 4.3
+  - name: Exercise 4.3
     type: section
     chapter: Methods and testing
     section: Exercises
@@ -2332,7 +2661,7 @@ insert_sections:
       \end{code}
 
       \end{exercise}
-  - name: Exercises 4.4
+  - name: Exercise 4.4
     type: section
     chapter: Methods and testing
     section: Exercises
@@ -2353,7 +2682,7 @@ insert_sections:
       \end{enumerate}
 
       \end{exercise}
-  - name: Exercises 4.5
+  - name: Exercise 4.5
     type: section
     chapter: Methods and testing
     section: Exercises
@@ -2398,7 +2727,7 @@ insert_sections:
       \end{code}
 
       \end{exercise}
-  - name: Exercises 4.6
+  - name: Exercise 4.6
     type: section
     chapter: Methods and testing
     section: Exercises
@@ -2443,7 +2772,7 @@ insert_sections:
       \end{exercise}
 
 #Chapter 5
-  - name: Exercises 5.1
+  - name: Exercise 5.1
     type: section
     chapter: Conditionals and logic
     section: Exercises
@@ -2496,7 +2825,7 @@ insert_sections:
       \end{center}
 
       \end{exercise}
-  - name: Exercises 5.2
+  - name: Exercise 5.2
     type: section
     chapter: Conditionals and logic
     section: Exercises
@@ -2549,7 +2878,7 @@ insert_sections:
       The purpose of this exercise is to make sure you understand logical operators and the flow of execution through methods.
 
       \end{exercise}
-  - name: Exercises 5.3
+  - name: Exercise 5.3
     type: section
     chapter: Conditionals and logic
     section: Exercises
@@ -2568,7 +2897,7 @@ insert_sections:
       \end{code}
 
       \end{exercise}
-  - name: Exercises 5.4
+  - name: Exercise 5.4
     type: section
     chapter: Conditionals and logic
     section: Exercises
@@ -2585,7 +2914,7 @@ insert_sections:
       {\it Hint:} You may want to use \java{Math.pow}.
 
       \end{exercise}
-  - name: Exercises 5.5
+  - name: Exercise 5.5
     type: section
     chapter: Conditionals and logic
     section: Exercises
@@ -2603,7 +2932,7 @@ insert_sections:
       If the user guesses the correct number, display a message and terminate the program.
 
       \end{exercise}
-  - name: Exercises 5.6
+  - name: Exercise 5.6
     type: section
     chapter: Conditionals and logic
     section: Exercises
@@ -2624,7 +2953,7 @@ insert_sections:
       Display specific error messages that include the invalid input.
 
       \end{exercise}
-  - name: Exercises 5.7
+  - name: Exercise 5.7
     type: section
     chapter: Conditionals and logic
     section: Exercises
@@ -2649,7 +2978,7 @@ insert_sections:
       \end{exercise}
       
 #Chapter 6 
-  - name: Exercises 6.1
+  - name: Exercise 6.1
     type: section
     chapter: Loops and strings
     section: Exercises
@@ -2703,7 +3032,7 @@ insert_sections:
       \end{enumerate}
 
       \end{exercise}
-  - name: Exercises 6.2
+  - name: Exercise 6.2
     type: section
     chapter: Loops and strings
     section: Exercises
@@ -2730,7 +3059,7 @@ insert_sections:
       You can use \java{Math.abs} to calculate the absolute value of the difference.
 
       \end{exercise}
-  - name: Exercises 6.3
+  - name: Exercise 6.3
     type: section
     chapter: Loops and strings
     section: Exercises
@@ -2747,7 +3076,7 @@ insert_sections:
       You should not use \java{factorial} or \java{pow}.
 
       \end{exercise}
-  - name: Exercises 6.4
+  - name: Exercise 6.4
     type: section
     chapter: Loops and strings
     section: Exercises
@@ -2770,7 +3099,7 @@ insert_sections:
       %Your method can be iterative or recursive.
 
       \end{exercise}
-  - name: Exercises 6.5
+  - name: Exercise 6.5
     type: section
     chapter: Loops and strings
     section: Exercises
@@ -2791,7 +3120,7 @@ insert_sections:
       Write a method called \java{isDoubloon} that takes a string and checks whether it is a doubloon.
       To ignore case, invoke the \java{toLowerCase} method before checking.
       \end{exercise}
-  - name: Exercises 6.6
+  - name: Exercise 6.6
     type: section
     chapter: Loops and strings
     section: Exercises
@@ -2813,7 +3142,7 @@ insert_sections:
       \end{exercise}
 
 #Chapter 7
-  - name: Exercises 7.1
+  - name: Exercise 7.1
     type: section
     chapter: Arrays and references
     section: Exercises
@@ -2863,7 +3192,7 @@ insert_sections:
       \end{code}
 
       \end{exercise}
-  - name: Exercises 7.2
+  - name: Exercise 7.2
     type: section
     chapter: Arrays and references
     section: Exercises
@@ -2913,7 +3242,7 @@ insert_sections:
       \end{code}
 
       \end{exercise}
-  - name: Exercises 7.3
+  - name: Exercise 7.3
     type: section
     chapter: Arrays and references
     section: Exercises
@@ -2926,7 +3255,7 @@ insert_sections:
       Why or why not?
 
       \end{exercise}
-  - name: Exercises 7.4
+  - name: Exercise 7.4
     type: section
     chapter: Arrays and references
     section: Exercises
@@ -2939,7 +3268,7 @@ insert_sections:
       Write a method called \java{sieve} that takes an integer parameter, \java{n}, and returns a \java{boolean} array that indicates, for each number from \java{0} to \java{n - 1}, whether the number is prime.
 
       \end{exercise}
-  - name: Exercises 7.5
+  - name: Exercise 7.5
     type: section
     chapter: Arrays and references
     section: Exercises
@@ -2950,7 +3279,7 @@ insert_sections:
       Write a method named \java{areFactors} that takes an integer \java{n} and an array of integers, and that returns \java{true} if the numbers in the array are all factors of \java{n} (which is to say that \java{n} is divisible by all of them).
 
       \end{exercise}
-  - name: Exercises 7.6
+  - name: Exercise 7.6
     type: section
     chapter: Arrays and references
     section: Exercises
@@ -2961,7 +3290,7 @@ insert_sections:
       Write a method named \java{arePrimeFactors} that takes an integer \java{n} and an array of integers, and that returns \java{true} if the numbers in the array are all prime {\it and} their product is \java{n}.
 
       \end{exercise}
-  - name: Exercises 7.7
+  - name: Exercise 7.7
     type: section
     chapter: Arrays and references
     section: Exercises
@@ -2974,7 +3303,7 @@ insert_sections:
       Your solution should only traverse the string once.
 
       \end{exercise}
-  - name: Exercises 7.8
+  - name: Exercise 7.8
     type: section
     chapter: Arrays and references
     section: Exercises
@@ -2991,7 +3320,7 @@ insert_sections:
       \end{exercise}
 
 #Chapter 8
-  - name: Exercises 8.1
+  - name: Exercise 8.1
     type: section
     chapter: Recursive methods
     section: Exercises
@@ -3025,7 +3354,7 @@ insert_sections:
       As you develop your code, test it with a small number of verses, like \java{3}.
 
       \end{exercise}
-  - name: Exercises 8.2
+  - name: Exercise 8.2
     type: section
     chapter: Recursive methods
     section: Exercises
@@ -3038,7 +3367,7 @@ insert_sections:
       You might find it helpful to print the value of \java{n} each time \java{oddSum} is invoked.
 
       \end{exercise}
-  - name: Exercises 8.3
+  - name: Exercise 8.3
     type: section
     chapter: Recursive methods
     section: Exercises
@@ -3079,7 +3408,7 @@ insert_sections:
       \end{enumerate}
 
       \end{exercise}
-  - name: Exercises 8.4
+  - name: Exercise 8.4
     type: section
     chapter: Recursive methods
     section: Exercises
@@ -3104,7 +3433,7 @@ insert_sections:
       You should try it only for small values of $m$ and $n$ (not bigger than 3).
 
       \end{exercise}
-  - name: Exercises 8.5
+  - name: Exercise 8.5
     type: section
     chapter: Recursive methods
     section: Exercises
@@ -3121,7 +3450,7 @@ insert_sections:
       Optional challenge: you can make this method more efficient, when \java{n} is even, using $x^n = \left( x^{n/2} \right)^2$.
 
       \end{exercise}
-  - name: Exercises 8.6
+  - name: Exercise 8.6
     type: section
     chapter: Recursive methods
     section: Exercises
@@ -3154,7 +3483,7 @@ insert_sections:
       \end{enumerate}
 
       \end{exercise}
-  - name: Exercises 8.7
+  - name: Exercise 8.7
     type: section
     chapter: Recursive methods
     section: Exercises
@@ -3241,7 +3570,7 @@ insert_sections:
       \end{exercise}
 
 #Chapter 9
-  - name: Exercises 9.1
+  - name: Exercise 9.1
     type: section
     chapter: Immutable objects
     section: Exercises
@@ -3293,7 +3622,7 @@ insert_sections:
       \end{enumerate}
 
       \end{exercise}
-  - name: Exercises 9.2
+  - name: Exercise 9.2
     type: section
     chapter: Immutable objects
     section: Exercises
@@ -3314,7 +3643,7 @@ insert_sections:
       \end{enumerate}
 
       \end{exercise}
-  - name: Exercises 9.3
+  - name: Exercise 9.3
     type: section
     chapter: Immutable objects
     section: Exercises
@@ -3344,7 +3673,7 @@ insert_sections:
       \end{enumerate}
 
       \end{exercise}
-  - name: Exercises 9.4
+  - name: Exercise 9.4
     type: section
     chapter: Immutable objects
     section: Exercises
@@ -3380,7 +3709,7 @@ insert_sections:
       But don't use \java{BigInteger.pow}; that would spoil the fun.
 
       \end{exercise}
-  - name: Exercises 9.5
+  - name: Exercise 9.5
     type: section
     chapter: Immutable objects
     section: Exercises
@@ -3428,7 +3757,7 @@ insert_sections:
       \end{enumerate}
 
       \end{exercise}
-  - name: Exercises 9.6
+  - name: Exercise 9.6
     type: section
     chapter: Immutable objects
     section: Exercises
@@ -3471,7 +3800,7 @@ insert_sections:
       \end{exercise}
     
 #Chapter 10 
-  - name: Exercises 10.1
+  - name: Exercise 10.1
     type: section
     chapter: Mutable objects
     section: Exercises
@@ -3513,7 +3842,7 @@ insert_sections:
       \end{code}
 
       \end{exercise}
-  - name: Exercises 10.2
+  - name: Exercise 10.2
     type: section
     chapter: Mutable objects
     section: Exercises
@@ -3550,7 +3879,7 @@ insert_sections:
       \end{code}
 
       \end{exercise}
-  - name: Exercises 10.3
+  - name: Exercise 10.3
     type: section
     chapter: Mutable objects
     section: Exercises
@@ -3589,7 +3918,7 @@ insert_sections:
       \end{exercise}
 
 #Chapter 11
-  - name: Exercises 11.1
+  - name: Exercise 11.1
     type: section
     chapter: Designing classes
     section: Exercises
@@ -3604,7 +3933,7 @@ insert_sections:
       If you review the documentation of \java{java.lang.String}, you should see that there are no modifiers, because strings are immutable.
 
       \end{exercise}
-  - name: Exercises 11.2
+  - name: Exercise 11.2
     type: section
     chapter: Designing classes
     section: Exercises
@@ -3618,7 +3947,7 @@ insert_sections:
       {\it Hint:} Remember the remainder operator. And yes, it works with \java{double}s too.
 
       \end{exercise}
-  - name: Exercises 11.3
+  - name: Exercise 11.3
     type: section
     chapter: Designing classes
     section: Exercises
@@ -3648,7 +3977,7 @@ insert_sections:
 
       The point of this exercise is to practice the mechanical part of creating a new class definition.
       \end{exercise}
-  - name: Exercises 11.4
+  - name: Exercise 11.4
     type: section
     chapter: Designing classes
     section: Exercises
@@ -3667,7 +3996,7 @@ insert_sections:
       %Compare your implementation to \java{java.util.Date}.
 
       \end{exercise}
-  - name: Exercises 11.5
+  - name: Exercise 11.5
     type: section
     chapter: Designing classes
     section: Exercises
@@ -3729,7 +4058,7 @@ insert_sections:
       \end{exercise}
 
 #Chapter 12
-  - name: Exercises 12.1
+  - name: Exercise 12.1
     type: section
     chapter: Arrays of objects
     section: Exercises
@@ -3740,7 +4069,7 @@ insert_sections:
       Encapsulate the deck-building code from Section~\ref{cardarray} in a method called \java{makeDeck} that takes no parameters and returns a fully-populated array of \java{Card}s.
 
       \end{exercise}
-  - name: Exercises 12.2
+  - name: Exercise 12.2
     type: section
     chapter: Arrays of objects
     section: Exercises
@@ -3752,7 +4081,7 @@ insert_sections:
       Modify the \java{compareTo} method to implement this ordering.
 
       \end{exercise}
-  - name: Exercises 12.3
+  - name: Exercise 12.3
     type: section
     chapter: Arrays of objects
     section: Exercises
@@ -3775,7 +4104,7 @@ insert_sections:
       \end{enumerate}
 
       \end{exercise}
-  - name: Exercises 12.4
+  - name: Exercise 12.4
     type: section
     chapter: Arrays of objects
     section: Exercises
@@ -3847,7 +4176,7 @@ insert_sections:
       \end{exercise}
 
 #Chapter 13
-  - name: Exercises 13.1
+  - name: Exercise 13.1
     type: section
     chapter: Objects of arrays
     section: Exercises
@@ -3866,7 +4195,7 @@ insert_sections:
       Consider using \java{java.lang.StringBuilder} instead; you can review the documentation by doing a web search for ``Java StringBuilder''.
 
       \end{exercise}
-  - name: Exercises 13.2
+  - name: Exercise 13.2
     type: section
     chapter: Objects of arrays
     section: Exercises
@@ -3894,7 +4223,7 @@ insert_sections:
       \end{enumerate}
 
       \end{exercise}
-  - name: Exercises 13.3
+  - name: Exercise 13.3
     type: section
     chapter: Objects of arrays
     section: Exercises
@@ -3932,7 +4261,7 @@ insert_sections:
       \end{enumerate}
 
       \end{exercise}
-  - name: Exercises 13.4
+  - name: Exercise 13.4
     type: section
     chapter: Objects of arrays
     section: Exercises
@@ -3956,7 +4285,7 @@ insert_sections:
 
 
       \end{exercise}
-  - name: Exercises 13.5
+  - name: Exercise 13.5
     type: section
     chapter: Objects of arrays
     section: Exercises
@@ -3983,7 +4312,7 @@ insert_sections:
       Player 1 will have the Ace through King of the first two suits, and Player 2 will have the the Ace through King of the other two suits, all in the same order.
 
       \end{exercise}
-  - name: Exercises 13.6
+  - name: Exercise 13.6
     type: section
     chapter: Objects of arrays
     section: Exercises
@@ -3998,7 +4327,7 @@ insert_sections:
       \end{exercise}
 
 #Chapter 14
-  - name: Exercises 14.1
+  - name: Exercise 14.1
     type: section
     chapter: Extending classes
     section: Exercises
@@ -4015,7 +4344,7 @@ insert_sections:
       Write a new class that extends \java{Player} and overrides \java{play} to implement your strategy.
 
       \end{exercise}
-  - name: Exercises 14.2
+  - name: Exercise 14.2
     type: section
     chapter: Extending classes
     section: Exercises
@@ -4029,7 +4358,7 @@ insert_sections:
       {\it Hint:} Design a \java{Genius} class that extends \java{Player} and overrides the \java{play} method, and then replace one of the players with a \java{Genius} object.
 
       \end{exercise}
-  - name: Exercises 14.3
+  - name: Exercise 14.3
     type: section
     chapter: Extending classes
     section: Exercises
@@ -4041,7 +4370,7 @@ insert_sections:
       Modify the \java{Eights} class to create an \java{ArrayList} of players, and modify \java{nextPlayer} to select the next player.
 
       \end{exercise}
-  - name: Exercises 14.4
+  - name: Exercise 14.4
     type: section
     chapter: Extending classes
     section: Exercises

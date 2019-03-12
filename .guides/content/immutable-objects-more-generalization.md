@@ -24,6 +24,9 @@ public static void printTable(int rows) {
     }
 }
 ```
+Try it out yourself in the pane to the left. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev )
+
 
 Here is the output of `printTable(7)`:
 
@@ -50,6 +53,8 @@ public static void printRow(int n, int cols) {
     System.out.println();
 }
 ```
+{Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev 2 )
+
 
 Now `printRow` takes two parameters: `n` is the value whose multiples should be displayed, and `cols` is the number of columns.
 Since we added a parameter to `printRow`, we also have to change the line in `printTable` where it is invoked:
@@ -77,6 +82,8 @@ You could save ink by printing half of the table, and you would only have to cha
 ```code
 printRow(i, i);  // using i for both n and cols
 ```
+{Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev 3 )
+
 
 In English, the length of each row is the same as its row number.
 The result is a triangular multiplication table.

@@ -15,6 +15,9 @@ String name = "Alan Turing";
 String upperName = name.toUpperCase();
 ```
 
+Try it out in the panel to the left. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ImmutableStrings.java java -cp code/ ImmutableStrings )
+
 
 After these statements run, `upperName` refers to the string `"ALAN TURING"`.
 But `name` still refers to `"Alan Turing"`.
@@ -34,6 +37,8 @@ String name = "Alan Turing";
 name = name.toUpperCase();    // references the new string
 System.out.println(name);
 ```
+
+{Run!}(sh .guides/bg.sh javac code/Remainder.java java -cp code/ Remainder 2 )
 
 
 A similar method is `replace`, which finds and replaces instances of one string within another.

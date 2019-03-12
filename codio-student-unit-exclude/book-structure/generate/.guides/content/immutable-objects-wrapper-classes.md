@@ -31,6 +31,9 @@ if (x.equals(y)) {                      // true
     System.out.println("x and y have the same value");
 }
 ```
+Try it out in the panel to the left. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/Wrapper.java java -cp code/ Wrapper )
+
 
 Because `x` and `y` refer to different `Integer` objects, the code only displays “x and y have the same value”.
 
@@ -55,6 +58,9 @@ They also each provide `toString`, which returns a string representation of a va
 int num = 12345;
 String str = Integer.toString(num);
 ```
+
+{Run!}(sh .guides/bg.sh javac code/Wrapper.java java -cp code/ Wrapper 2 )
+
 
 The result is the string `"12345"`, which as you now understand, is stored internally in a character array `\{'1', '2', '3', '4', '5'\`}.
 

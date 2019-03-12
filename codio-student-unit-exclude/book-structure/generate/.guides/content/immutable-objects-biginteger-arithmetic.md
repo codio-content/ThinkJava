@@ -27,6 +27,10 @@ BigInteger bigger = new BigInteger(s);
 
 Notice the difference in the previous two examples: you use `valueOf` to convert integers, and `new BigInteger` to convert strings.
 
+Try it out yourself in the pane to the left. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/BigInt.java java -cp code/ BigInt )
+
+
 Since BigIntegers are not primitive types, the usual math operators don't work.
 Instead, we have to use methods like `add`.
 To add two BigIntegers, we invoke `add` on one and pass the other as an argument.

@@ -405,8 +405,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-exercises-1-2.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise-1-2.java"
+        }
+      ],
       "id": "computer-programming-exercises-1-2",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2763,8 +2774,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/immutable-objects-primitives-vs-objects.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "immutable-objects-primitives-vs-objects",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2775,8 +2792,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/immutable-objects-strings-are-immutable.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ImmutableStrings.java"
+        }
+      ],
       "id": "immutable-objects-strings-are-immutable",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2787,8 +2815,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/immutable-objects-wrapper-classes.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Wrapper.java"
+        }
+      ],
       "id": "immutable-objects-wrapper-classes",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2799,8 +2838,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/immutable-objects-command-line-arguments.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Max.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "immutable-objects-command-line-arguments",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2811,8 +2866,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/immutable-objects-biginteger-arithmetic.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/BigInt.java"
+        }
+      ],
       "id": "immutable-objects-biginteger-arithmetic",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2823,8 +2889,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/immutable-objects-program-development.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ProgramDev.java"
+        }
+      ],
       "id": "immutable-objects-program-development",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2835,8 +2912,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/immutable-objects-more-generalization.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ProgramDev.java"
+        }
+      ],
       "id": "immutable-objects-more-generalization",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2973,8 +3061,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-point-objects.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/PointObjs.java"
+        }
+      ],
       "id": "mutable-objects-point-objects",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],

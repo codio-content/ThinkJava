@@ -33,6 +33,9 @@ while (i <= 6) {
 System.out.println();
 ```
 
+Try it out yourself in the pane to the left. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev )
+
 
 The first line initializes a variable named `i`, which is going to act as the loop variable.
 As the loop executes, the value of `i` increases from 1 to 6; when `i` is 7, the loop terminates.
@@ -64,6 +67,8 @@ public static void printRow() {
 }
 ```
 
+{Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev 2 )
+
 
 Next, we **generalize** the method by replacing the constant value, `2`, with a parameter, `n`.
 This step is called “generalization” because it makes the method more general (less specific).
@@ -78,6 +83,8 @@ public static void printRow(int n) {
     System.out.println();
 }
 ```
+{Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev 3 )
+
 
 Invoking this method with the argument 2 yields the same output as before.
 With the argument 3, the output is:
@@ -97,6 +104,8 @@ while (i <= 6) {
     i = i + 1;
 }
 ```
+{Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev 4 )
+
 
 And the output looks like this:
 

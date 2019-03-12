@@ -13,11 +13,12 @@ public class Max {
 }
 ```
 
-You can run this program from the command line by typing:
+You can compile the example code by either typing `javac code/Max.java` into the command line in the bottom-left pane or clicking the button below.
+{Compile | terminal}(javac code/Max.java)
 
-```code
-java Max
-```
+You can run this program from the command line in the bottom-left pane by typing `java -cp code/ Max`
+
+
 
 
 The output indicates that `args` is an **empty array**; that is, it has no elements:
@@ -29,9 +30,8 @@ The output indicates that `args` is an **empty array**; that is, it has no eleme
 If you provide additional values on the command line, they are passed as arguments to `main`.
 For example, if you run the program like this:
 
-```code
-java Max 10 -3 55 0 14
-```
+`java -cp code/ Max 10 -3 55 0 14`
+
 
 The output is:
 
