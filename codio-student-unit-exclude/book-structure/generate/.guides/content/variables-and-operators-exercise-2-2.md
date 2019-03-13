@@ -1,4 +1,4 @@
-**Exercise 3.1:**
+**Exercise 2.2:**
 
 The point of this exercise is (1) to use string concatenation to display values with different types (`int` and `String`), and (2) to practice developing programs gradually by adding a few statements at a time.
 

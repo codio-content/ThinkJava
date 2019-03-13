@@ -1,6 +1,4 @@
-This new edition is three years in the making, with feedback from dozens of instructors and hundreds of students.
-A complete history of all changes is available on GitHub.
-Here are some of the highlights:
+This new edition is three years in the making, with feedback from dozens of instructors and hundreds of students. A complete history of all changes is available on GitHub. Here are some of the highlights:
 
 
 

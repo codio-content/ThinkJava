@@ -1,6 +1,4 @@
-There are several ways to create graphics in Java; the simplest way is to use `java.awt.Canvas` and `java.awt.Graphics`.
-A `Canvas` is a blank rectangular area of the screen onto which the application can draw.
-The `Graphics` class provides basic drawing methods such as `drawLine`, `drawRect`, and `drawString`.
+There are several ways to create graphics in Java; the simplest way is to use `java.awt.Canvas` and `java.awt.Graphics`. A `Canvas` is a blank rectangular area of the screen onto which the application can draw. The `Graphics` class provides basic drawing methods such as `drawLine`, `drawRect`, and `drawString`.
 
 Here is an example program that draws a circle using the `fillOval` method:
 
@@ -28,8 +26,7 @@ public class Drawing extends Canvas {
 }
 ```
 
-The `Drawing` class extends `Canvas`, so it has all the methods provided by `Canvas`, including `setSize`.
-You can read about the other methods in the documentation, which you can find by doing a web search for “Java Canvas”.
+The `Drawing` class extends `Canvas`, so it has all the methods provided by `Canvas`, including `setSize`. You can read about the other methods in the documentation, which you can find by doing a web search for “Java Canvas”.
 
 
 In the `main` method, we:
@@ -44,6 +41,4 @@ In the `main` method, we:
 
 
 
-Once the frame is visible, the `paint` method is called whenever the canvas needs to be drawn; for example, when the window is moved or resized.
-The application doesn't end after the `main` method returns; instead, it waits for the `JFrame` to close.
-If you run this code, you should see a black circle on a gray background.
+Once the frame is visible, the `paint` method is called whenever the canvas needs to be drawn; for example, when the window is moved or resized. The application doesn't end after the `main` method returns; instead, it waits for the `JFrame` to close. If you run this code, you should see a black circle on a gray background.

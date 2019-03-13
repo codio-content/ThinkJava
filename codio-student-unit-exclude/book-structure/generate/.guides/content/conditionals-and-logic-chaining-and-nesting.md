@@ -1,5 +1,4 @@
-Sometimes you want to check related conditions and choose one of several actions.
-One way to do this is by **chaining** a series of `if` and `else` blocks:
+Sometimes you want to check related conditions and choose one of several actions. One way to do this is by **chaining** a series of `if` and `else` blocks:
 
 ```code
 if (x > 0) {
@@ -14,17 +13,12 @@ Try it out in the pane to the left. To compile and run the code, press the "Run!
 {Run!}(sh .guides/bg.sh javac code/Chaining.java java -cp code/ Chaining )
 
 
-These chains can be as long as you want, although they can be difficult to read if they get out of hand.
-One way to make them easier to read is to use standard indentation, as demonstrated in these examples.
-If you keep all the statements and braces lined up, you are less likely to make syntax errors.
+These chains can be as long as you want, although they can be difficult to read if they get out of hand. One way to make them easier to read is to use standard indentation, as demonstrated in these examples. If you keep all the statements and braces lined up, you are less likely to make syntax errors.
 
-Notice that the last branch is simply `else`, not `else if (x == 0)`.
-At this point in the chain, we know that `x` is not positive and `x` is not negative.
-There is no need to test whether `x` is zero, because there is no other possibility.
+Notice that the last branch is simply `else`, not `else if (x == 0)`. At this point in the chain, we know that `x` is not positive and `x` is not negative. There is no need to test whether `x` is zero, because there is no other possibility.
 
 
-In addition to chaining, you can also make complex decisions by **nesting** one conditional statement inside another.
-We could have written the previous example as:
+In addition to chaining, you can also make complex decisions by **nesting** one conditional statement inside another. We could have written the previous example as:
 
 ```code
 if (x > 0) {
@@ -40,10 +34,7 @@ if (x > 0) {
 {Run!}(sh .guides/bg.sh javac code/Chaining.java java -cp code/ Chaining 2 )
 
 
-The outer conditional has two branches.
-The first branch contains a `print` statement, and the second branch contains another conditional statement, which has two branches of its own.
-These two branches are also `print` statements, but they could have been conditional statements as well.
+The outer conditional has two branches. The first branch contains a `print` statement, and the second branch contains another conditional statement, which has two branches of its own. These two branches are also `print` statements, but they could have been conditional statements as well.
 
 
-These kinds of nested structures are common, but they can become difficult to read very quickly.
-Good indentation is essential to make the structure (or intended structure) apparent to the reader.
+These kinds of nested structures are common, but they can become difficult to read very quickly. Good indentation is essential to make the structure (or intended structure) apparent to the reader.

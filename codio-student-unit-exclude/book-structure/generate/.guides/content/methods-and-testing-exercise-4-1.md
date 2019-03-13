@@ -1,4 +1,4 @@
-**Exercise 5.1:**
+**Exercise 4.1:**
 
 The purpose of this exercise is to take code from a previous exercise and redesign it as a method that takes parameters.
 You should start with a working solution to Exercise 2.2.

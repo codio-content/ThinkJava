@@ -1,4 +1,4 @@
-**Exercise 6.1:**
+**Exercise 5.4:**
 
 Fermat's Last Theorem says that there are no integers $a$, $b$, and $c$ such that $a^n + b^n = c^n$, except when $n \leq 2$.
 

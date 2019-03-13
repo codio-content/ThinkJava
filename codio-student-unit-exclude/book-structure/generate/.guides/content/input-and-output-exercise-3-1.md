@@ -1,4 +1,4 @@
-**Exercise 4.1:**
+**Exercise 3.1:**
 
 When you use `printf`, the Java compiler does not check your format string.
 See what happens if you try to display a value with type `int` using `%f`.

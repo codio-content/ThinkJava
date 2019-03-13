@@ -1,5 +1,4 @@
-Many people have sent corrections and suggestions, and we appreciate their valuable feedback!
-This list begins with Version 4.0 of the open-source edition, so it omits those who contributed to earlier versions.
+Many people have sent corrections and suggestions, and we appreciate their valuable feedback! This list begins with Version 4.0 of the open-source edition, so it omits those who contributed to earlier versions.
 
 
 
@@ -36,8 +35,7 @@ She has also worked on a Ruby version of the book.
 *  Waldo Ribeiro submitted a pull request that corrected a dozen typos.
 
 
-We are especially grateful to the technical reviewers of the O'Reilly Media first edition: Blythe Samuels, David Wisneski, and Stephen Rose.
-They found errors, made many great suggestions, and helped make the book much better.
+We are especially grateful to the technical reviewers of the O'Reilly Media first edition: Blythe Samuels, David Wisneski, and Stephen Rose. They found errors, made many great suggestions, and helped make the book much better.
 
 Many students have given exceptional feedback, including Ian Staton, Tanner Wernecke, Jacob Green, Rasha Abuhantash, Nick Duncan, Kylie Davidson, Shirley Jiang, Elena Trafton, Jennifer Gregorio, and Azeem Mufti.
 

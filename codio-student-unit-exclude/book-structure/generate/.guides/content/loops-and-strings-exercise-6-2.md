@@ -1,4 +1,4 @@
-**Exercise 7.1:**
+**Exercise 6.2:**
 
 Let's say you are given a number, $a$, and you want to find its square root.
 One way to do that is to start with a rough guess about the answer, $x_0$, and then improve the guess using this formula:

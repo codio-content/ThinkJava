@@ -1,4 +1,4 @@
-**Exercise 9.1:**
+**Exercise 8.5:**
 
 Write a recursive method called `power` that takes a double `x` and an integer `n` and returns $x^n$.
 

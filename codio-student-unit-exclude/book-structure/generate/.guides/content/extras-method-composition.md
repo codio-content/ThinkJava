@@ -1,16 +1,12 @@
-Once you define a method, you can use it to build other methods.
-For example, suppose someone gave you two points -- the center of a circle and a point on the perimeter -- and asked for the area of the circle.
+Once you define a method, you can use it to build other methods. For example, suppose someone gave you two points -- the center of a circle and a point on the perimeter -- and asked for the area of the circle.
 
-Let's say the center point is stored in the variables `xc` and `yc`, and the perimeter point is in `xp` and `yp`.
-The first step is to find the radius of the circle, which is the distance between the two points.
-Fortunately, we have a method that does just that.
+Let's say the center point is stored in the variables `xc` and `yc`, and the perimeter point is in `xp` and `yp`. The first step is to find the radius of the circle, which is the distance between the two points. Fortunately, we have a method that does just that.
 
 ```code
 double radius = distance(xc, yc, xp, yp);
 ```
 
-The second step is to find the area of a circle with that radius.
-We have a method for that computation too.
+The second step is to find the area of a circle with that radius. We have a method for that computation too.
 
 ```code
 double area = calculateArea(radius);
@@ -37,8 +33,7 @@ public static double circleArea
 ```
 
 
-This example demonstrates a process known as **functional decomposition**.
-We broke a complex computation into simple methods, tested the methods in isolation, and then composed the methods to perform the final computation.
+This example demonstrates a process known as **functional decomposition**. We broke a complex computation into simple methods, tested the methods in isolation, and then composed the methods to perform the final computation.
 
 
 

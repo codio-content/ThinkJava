@@ -1,4 +1,4 @@
-**Exercise 9.1:**
+**Exercise 8.4:**
 
 The goal of this exercise is to translate a recursive definition into a Java method.
 The Ackermann function is defined for non-negative integers as follows:
@@ -12,6 +12,4 @@ $$
 
 Write a recursive method called `ack` that takes two `int`s as parameters and that computes and returns the value of the Ackermann function.
 
-Test your implementation of Ackermann by invoking it from `main` and displaying the return value.
-Note the return value gets very big very quickly.
-You should try it only for small values of $m$ and $n$ (not bigger than 3).
+Test your implementation of Ackermann by invoking it from `main` and displaying the return value. Note the return value gets very big very quickly. You should try it only for small values of $m$ and $n$ (not bigger than 3).

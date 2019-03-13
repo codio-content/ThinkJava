@@ -20,8 +20,7 @@ Looking at the rules of *Crazy Eights*, we can identify some of the methods we'l
 *  Display the state of the game, and wait for the user before running the next turn. (`displayState`)
 
 
-Now we can start implementing the pieces.
-Here is the beginning of the class definition for `Eights`, which encapsulates the state of the game:
+Now we can start implementing the pieces. Here is the beginning of the class definition for `Eights`, which encapsulates the state of the game:
 
 
 ```code
@@ -34,13 +33,9 @@ public class Eights {
     private Scanner in;
 ```
 
-In this version, there are always two players.
-One of the exercises at the end of the chapter asks you to modify this code to handle more players.
-The `Eights` class also includes a draw pile, a discard pile, and a `Scanner`, which we will use to prompt the user after each turn.
+In this version, there are always two players. One of the exercises at the end of the chapter asks you to modify this code to handle more players. The `Eights` class also includes a draw pile, a discard pile, and a `Scanner`, which we will use to prompt the user after each turn.
 
-The constructor for `Eights` initializes the instance variables and deals the cards, similar to Section 14.3.
-The next piece we'll need is a method that checks whether the game is over.
-If either hand is empty, we're done:
+The constructor for `Eights` initializes the instance variables and deals the cards, similar to Section 14.3. The next piece we'll need is a method that checks whether the game is over. If either hand is empty, we're done:
 
 ```code
 public boolean isDone() {
@@ -48,8 +43,7 @@ public boolean isDone() {
 }
 ```
 
-When the draw pile is empty, we have to shuffle the discard pile.
-Here is a method for that:
+When the draw pile is empty, we have to shuffle the discard pile. Here is a method for that:
 
 ```code
 public void reshuffle() {
@@ -63,10 +57,7 @@ public void reshuffle() {
 {Run!}(sh .guides/bg.sh javac code/Eights.java java -cp code/ Eights )
 
 
-The first line saves the top card from `discardPile`.
-The next line transfers the rest of the cards to `drawPile`.
-Then we put the saved card back into `discardPile` and shuffle `drawPile`.
-We can use `reshuffle` as part of the `draw` method:
+The first line saves the top card from `discardPile`. The next line transfers the rest of the cards to `drawPile`. Then we put the saved card back into `discardPile` and shuffle `drawPile`. We can use `reshuffle` as part of the `draw` method:
 
 ```code
 public Card drawCard() {
@@ -92,14 +83,10 @@ public Player nextPlayer(Player current) {
 {Run!}(sh .guides/bg.sh javac code/Eights.java java -cp code/ Eights 2 )
 
 
-The last method from our bottom-up design is `displayState`.
-It displays the hand of each player, the contents of the discard pile, and how many cards are in the draw pile.
-Finally, it waits for the user to press the **Enter** key.
+The last method from our bottom-up design is `displayState`. It displays the hand of each player, the contents of the discard pile, and how many cards are in the draw pile. Finally, it waits for the user to press the **Enter** key.
 
 
-Using these pieces, we can write `takeTurn`, which executes one player's turn.
-It reads the top card off the discard pile and passes it to `player.play`, which we saw in the previous section.
-The result is the card the player chose, which is added to the discard pile.
+Using these pieces, we can write `takeTurn`, which executes one player's turn. It reads the top card off the discard pile and passes it to `player.play`, which we saw in the previous section. The result is the card the player chose, which is added to the discard pile.
 
 ```code
 public void takeTurn(Player player) {
@@ -134,6 +121,4 @@ public void playGame() {
 {Run!}(sh .guides/bg.sh javac code/Eights.java java -cp code/ Eights 3)
 
 
-Done!
-Notice the result of bottom-up design is similar to top-down: we have a high-level method that calls helper methods.
-The main difference is the order we used to arrive at this solution.
+Done! Notice the result of bottom-up design is similar to top-down: we have a high-level method that calls helper methods. The main difference is the order we used to arrive at this solution.

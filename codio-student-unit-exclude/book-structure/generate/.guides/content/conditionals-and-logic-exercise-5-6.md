@@ -1,4 +1,4 @@
-**Exercise 6.1:**
+**Exercise 5.6:**
 
 Write a program named `Quadratic.java` that finds the roots of $ax^2 + bx + c = 0$ using the quadratic formula:
 $$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$

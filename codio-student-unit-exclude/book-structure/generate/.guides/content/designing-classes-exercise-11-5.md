@@ -1,4 +1,4 @@
-**Exercise 12.1:**
+**Exercise 11.5:**
 
 
 A rational number is a number that can be represented as the ratio of two integers.

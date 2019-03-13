@@ -1,4 +1,4 @@
-**Exercise 10.1:**
+**Exercise 9.2:**
 
 The goal of this exercise is to practice encapsulation and generalization using some of the examples in previous chapters.
 

@@ -1,7 +1,4 @@
-In this chapter, we will present a comprehensive example of object-oriented programming.
-*Crazy Eights* is a classic card game for two or more players.
-The main objective is to be the first player to get rid of all your cards.
-Here's how to play:
+In this chapter, we will present a comprehensive example of object-oriented programming. *Crazy Eights* is a classic card game for two or more players. The main objective is to be the first player to get rid of all your cards. Here's how to play:
 
 
 

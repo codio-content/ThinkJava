@@ -1,4 +1,4 @@
-**Exercise 14.1:**
+**Exercise 13.2:**
 
 The goal of this exercise is to implement the shuffling algorithm from this chapter.
 

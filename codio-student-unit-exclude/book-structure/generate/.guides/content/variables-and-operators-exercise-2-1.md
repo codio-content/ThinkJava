@@ -1,4 +1,4 @@
-**Exercise 3.1:**
+**Exercise 2.1:**
 
 If you are using this book in a class, you might enjoy this exercise.
 Find a partner and play “Stump the Chump”:

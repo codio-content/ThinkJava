@@ -1,4 +1,4 @@
-**Exercise 3.1:**
+**Exercise 2.3:**
 
 The point of this exercise is to (1) use some of the arithmetic operators, and (2) start thinking about compound entities (like time of day) that are represented with multiple values.
 
@@ -22,5 +22,4 @@ You might run into problems when computing percentages with integers, so conside
 Then write code to compute the elapsed time since you started working on this exercise.
 
 
-*Hint:* You might want to use additional variables to hold values during the computation.
-Variables that are used in a computation but never displayed are sometimes called “intermediate” or “temporary” variables.
+*Hint:* You might want to use additional variables to hold values during the computation. Variables that are used in a computation but never displayed are sometimes called “intermediate” or “temporary” variables.

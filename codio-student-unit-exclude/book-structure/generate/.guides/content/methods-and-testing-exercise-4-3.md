@@ -1,4 +1,4 @@
-**Exercise 5.1:**
+**Exercise 4.3:**
 
 Answer the following questions without running the program on a computer.
 

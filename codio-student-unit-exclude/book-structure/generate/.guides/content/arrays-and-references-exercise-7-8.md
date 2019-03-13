@@ -1,4 +1,4 @@
-**Exercise 8.1:**
+**Exercise 7.8:**
 
 
 Two words are anagrams if they contain the same letters and the same number of each letter.

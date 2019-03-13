@@ -1,4 +1,4 @@
-**Exercise 5.1:**
+**Exercise 4.4:**
 
 If you have a question about whether something is legal, and what happens if it is not, a good way to find out is to ask the compiler.
 Answer the following questions by trying them out.

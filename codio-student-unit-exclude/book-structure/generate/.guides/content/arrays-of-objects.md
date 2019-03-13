@@ -1,5 +1,4 @@
-During the next three chapters, we will develop programs that work with playing cards and decks of cards.
-Here is an outline of the road ahead:
+During the next three chapters, we will develop programs that work with playing cards and decks of cards. Here is an outline of the road ahead:
 
 
 
@@ -14,9 +13,6 @@ We then use `Card`, `Deck`, and other classes to implement the game *Crazy Eight
 
 
 
-There are 52 cards in a standard deck.
-Each card belongs to one of four suits and one of 13 ranks.
-The suits are Clubs, Diamonds, Hearts, and Spades.
-The ranks are Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, and King.
+There are 52 cards in a standard deck. Each card belongs to one of four suits and one of 13 ranks. The suits are Clubs, Diamonds, Hearts, and Spades. The ranks are Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, and King.
 
 If you are unfamiliar with traditional playing cards, now would be a good time to get a deck or read through [https://en.wikipedia.org/wiki/Standard_52-card_deck](https://en.wikipedia.org/wiki/Standard_52-card_deck).

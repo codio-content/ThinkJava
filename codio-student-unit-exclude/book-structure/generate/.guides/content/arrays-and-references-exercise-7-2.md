@@ -1,4 +1,4 @@
-**Exercise 8.1:**
+**Exercise 7.2:**
 
 What is the output of the following program?
 Describe in a few words what `mus` does.

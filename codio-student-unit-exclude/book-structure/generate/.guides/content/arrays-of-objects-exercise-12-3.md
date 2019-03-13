@@ -1,4 +1,4 @@
-**Exercise 13.1:**
+**Exercise 12.3:**
 
 In Poker a “flush” is a hand that contains five or more cards of the same suit.
 A hand can contain any number of cards.

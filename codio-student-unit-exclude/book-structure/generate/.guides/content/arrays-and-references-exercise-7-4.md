@@ -1,4 +1,4 @@
-**Exercise 8.1:**
+**Exercise 7.4:**
 
 The Sieve of Eratosthenes is “a simple, ancient algorithm for finding all prime numbers up to any given limit,” which you can read about at [https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes).
 

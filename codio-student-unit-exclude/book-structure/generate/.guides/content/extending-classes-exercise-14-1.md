@@ -1,4 +1,4 @@
-**Exercise 15.1:**
+**Exercise 14.1:**
 
 Design a better strategy for the `Player.play` method.
 For example, if there are multiple cards you can play, and one of them is an eight, you might want to play the eight.

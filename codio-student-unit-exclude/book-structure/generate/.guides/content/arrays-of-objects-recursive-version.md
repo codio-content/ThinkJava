@@ -1,6 +1,4 @@
-Another way to write a binary search is with a recursive method.
-The trick is to write a method that takes `low` and `high` as parameters, and turn steps 3 and 4 into recursive invocations.
-Here's what that code looks like:
+Another way to write a binary search is with a recursive method. The trick is to write a method that takes `low` and `high` as parameters, and turn steps 3 and 4 into recursive invocations. Here's what that code looks like:
 
 ```code
 public static int binarySearch(Card[] cards, Card target,
@@ -24,10 +22,7 @@ public static int binarySearch(Card[] cards, Card target,
 {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
 
 
-Instead of a `while` loop, we have an `if` statement to terminate the recursion.
-We call this `if` statement the base case.
-If `high` is less than `low`, there are no cards between them, and we conclude that the card is not in the array.
+Instead of a `while` loop, we have an `if` statement to terminate the recursion. We call this `if` statement the base case. If `high` is less than `low`, there are no cards between them, and we conclude that the card is not in the array.
 
 
-Two common errors in recursive methods are (1) forgetting to include a base case, and (2) writing the recursive call so that the base case is never reached.
-Either error causes infinite recursion and a `StackOverflowError`.
+Two common errors in recursive methods are (1) forgetting to include a base case, and (2) writing the recursive call so that the base case is never reached. Either error causes infinite recursion and a `StackOverflowError`.

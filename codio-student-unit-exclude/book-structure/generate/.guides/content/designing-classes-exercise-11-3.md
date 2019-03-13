@@ -1,4 +1,4 @@
-**Exercise 12.1:**
+**Exercise 11.3:**
 
 In the board game Scrabble, each tile contains a letter, which is used to spell words in rows and columns, and a score, which is used to determine the value of words.
 

@@ -1,4 +1,4 @@
-**Exercise 14.1:**
+**Exercise 13.4:**
 
 You can learn more about the sorting algorithms in this chapter, and others, at [http://www.sorting-algorithms.com/](sorting-algorithms.com).
 This site provides explanations of the algorithms and animations that show how they work.

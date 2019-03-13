@@ -1,4 +1,4 @@
-**Exercise 5.1:**
+**Exercise 4.2:**
 
 This exercise reviews the flow of execution through a program with multiple methods.
 Read the following code and answer the questions.

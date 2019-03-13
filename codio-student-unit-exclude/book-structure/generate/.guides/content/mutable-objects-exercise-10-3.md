@@ -1,4 +1,4 @@
-**Exercise 11.1:**
+**Exercise 10.3:**
 
 This exercise is about aliasing.
 Recall that aliases are two variables that refer to the same object.

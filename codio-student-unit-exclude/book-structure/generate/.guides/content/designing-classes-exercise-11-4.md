@@ -1,4 +1,4 @@
-**Exercise 12.1:**
+**Exercise 11.4:**
 
 Write a class definition for `Date`, an object type that contains three integers: `year`, `month`, and `day`.
 This class should provide two constructors.

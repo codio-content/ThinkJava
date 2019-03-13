@@ -1,4 +1,4 @@
-**Exercise 6.1:**
+**Exercise 5.5:**
 
 Now that we have conditional statements, we can get back to the “Guess My Number” game from Exercise 3.4.
 

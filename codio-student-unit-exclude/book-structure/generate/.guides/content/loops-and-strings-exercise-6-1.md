@@ -1,4 +1,4 @@
-**Exercise 7.1:**
+**Exercise 6.1:**
 
 Consider the following methods:
 

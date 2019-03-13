@@ -1,4 +1,4 @@
-**Exercise 9.1:**
+**Exercise 8.3:**
 
 In this exercise, you will use a stack diagram to understand the execution of the following recursive method.
 

@@ -1,4 +1,4 @@
-**Exercise 9.1:**
+**Exercise 8.6:**
 
 Many of the patterns we have seen for traversing arrays can also be written recursively.
 It is not common, but it is a useful exercise.

@@ -1,4 +1,4 @@
-**Exercise 11.1:**
+**Exercise 10.2:**
 
 The point of this exercise is to make sure you understand the mechanism for returning new objects from methods.
 The following code uses `findCenter` and `distance` as defined in this chapter.

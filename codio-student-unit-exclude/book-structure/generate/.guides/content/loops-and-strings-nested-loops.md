@@ -1,6 +1,4 @@
-Like conditional statements, loops can be nested one inside the other.
-Nested loops allow you to iterate over two variables.
-For example, we can generate a “multiplication table” like this:
+Like conditional statements, loops can be nested one inside the other. Nested loops allow you to iterate over two variables. For example, we can generate a “multiplication table” like this:
 
 ```code
 for (int x = 1; x <= 10; x++) {
@@ -15,16 +13,12 @@ See the example java code in the left pane. To compile and run the code, press t
 {Run!}(sh .guides/bg.sh javac code/MultiplicationTable.java java -cp code/ MultiplicationTable )
 
 
-Variables like `x` and `y` are called **loop variables**, because they control the execution of a loop.
-In this example, the first loop (`for x`) is known as the “outer loop”, and the second loop (`for y`) is known as the “inner loop”.
+Variables like `x` and `y` are called **loop variables**, because they control the execution of a loop. In this example, the first loop (`for x`) is known as the “outer loop”, and the second loop (`for y`) is known as the “inner loop”.
 
-Each loop repeats their corresponding statements 10 times.
-The outer loop iterates from 1 to 10 only once, but the inner loop iterates from 1 to 10 each of those 10 times.
-As a result, the `printf` method is invoked 100 times.
+Each loop repeats their corresponding statements 10 times. The outer loop iterates from 1 to 10 only once, but the inner loop iterates from 1 to 10 each of those 10 times. As a result, the `printf` method is invoked 100 times.
 
 
-The format specifier `%4d` displays the value of `x * y` padded with spaces so it's four characters wide.
-Doing so causes the output to align vertically, regardless of how many digits the numbers have:
+The format specifier `%4d` displays the value of `x * y` padded with spaces so it's four characters wide. Doing so causes the output to align vertically, regardless of how many digits the numbers have:
 
 ```code
    1   2   3   4   5   6   7   8   9  10
@@ -39,7 +33,4 @@ Doing so causes the output to align vertically, regardless of how many digits th
   10  20  30  40  50  60  70  80  90 100
 ```
 
-It's important to realize that the output is displayed row by row.
-The inner loop displays a single row of output, followed by a newline.
-The outer loop iterates over the rows themselves.
-Another way to read nested loops, like the ones in this example, is “for each row `x`, and for each column `y`, \ldots”
+It's important to realize that the output is displayed row by row. The inner loop displays a single row of output, followed by a newline. The outer loop iterates over the rows themselves. Another way to read nested loops, like the ones in this example, is “for each row `x`, and for each column `y`, \ldots”

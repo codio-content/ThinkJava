@@ -1,4 +1,4 @@
-**Exercise 7.1:**
+**Exercise 6.4:**
 
 
 A word is said to be “abecedarian” if the letters in the word appear in alphabetical order.

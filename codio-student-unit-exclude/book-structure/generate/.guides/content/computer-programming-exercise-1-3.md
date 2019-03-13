@@ -1,4 +1,4 @@
-**Exercise 2.1:**
+**Exercise 1.3:**
 It is a good idea to commit as many errors as you can think of, so that you see what error messages the compiler produces.
 Sometimes the compiler tells you exactly what is wrong, and all you have to do is fix it.
 But sometimes the error messages are misleading.

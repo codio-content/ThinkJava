@@ -1,4 +1,4 @@
-**Exercise 6.1:**
+**Exercise 5.2:**
 
 What is the output of the following program?
 Determine the answer without using a computer.

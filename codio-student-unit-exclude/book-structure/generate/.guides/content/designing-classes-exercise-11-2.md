@@ -1,4 +1,4 @@
-**Exercise 12.1:**
+**Exercise 11.2:**
 
 The implementation of `increment` in this chapter is not very efficient.
 Can you rewrite it so it doesn't use any loops?

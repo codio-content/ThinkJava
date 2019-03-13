@@ -1,4 +1,4 @@
-**Exercise 10.1:**
+**Exercise 9.6:**
 
 
 The following code fragment traverses a string and checks whether it has the same number of open and close parentheses:

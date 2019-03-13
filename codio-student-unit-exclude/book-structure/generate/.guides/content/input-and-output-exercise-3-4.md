@@ -1,4 +1,4 @@
-**Exercise 4.1:**
+**Exercise 3.4:**
 
 The goal of this exercise is to program a “Guess My Number” game.
 When it's finished, it will work like this:
@@ -12,19 +12,15 @@ The number I was thinking of is: 14
 You were off by: 31
 ```
 
-To choose a random number, you can use the `Random` class in `java.util`.
-Here's how it works:
+To choose a random number, you can use the `Random` class in `java.util`. Here's how it works:
 
 
 
 
 
-Like the `Scanner` class we saw in this chapter, `Random` has to be imported before we can use it.
-And as we saw with `Scanner`, we have to use the `new` operator to create a `Random` (number generator).
+Like the `Scanner` class we saw in this chapter, `Random` has to be imported before we can use it. And as we saw with `Scanner`, we have to use the `new` operator to create a `Random` (number generator).
 
-Then we can use the method `nextInt` to generate a random number.
-In this example, the result of `nextInt(100)` will be between 0 and 99, including both.
-Adding 1 yields a number between 1 and 100, including both.
+Then we can use the method `nextInt` to generate a random number. In this example, the result of `nextInt(100)` will be between 0 and 99, including both. Adding 1 yields a number between 1 and 100, including both.
 
 
 

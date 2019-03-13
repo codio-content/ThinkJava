@@ -1,4 +1,4 @@
-**Exercise 8.1:**
+**Exercise 7.1:**
 
 The purpose of this exercise is to practice reading code and recognizing the traversal patterns in this chapter.
 The following methods are hard to read, because instead of using meaningful names for the variables and methods, they use names of fruit.

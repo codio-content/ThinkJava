@@ -1,4 +1,4 @@
-**Exercise 11.1:**
+**Exercise 10.1:**
 
 The point of this exercise is to make sure you understand the mechanism for passing objects as parameters.
 

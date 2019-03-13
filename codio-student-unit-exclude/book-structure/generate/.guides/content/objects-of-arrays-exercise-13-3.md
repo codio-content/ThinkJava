@@ -1,4 +1,4 @@
-**Exercise 14.1:**
+**Exercise 13.3:**
 
 The goal of this exercise is to implement the sorting algorithms from this chapter.
 Use the `Deck.java` file from the previous exercise, or create a new one from scratch.

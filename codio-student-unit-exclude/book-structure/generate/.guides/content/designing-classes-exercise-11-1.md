@@ -1,4 +1,4 @@
-**Exercise 12.1:**
+**Exercise 11.1:**
 
 Review the documentation of `java.awt.Rectangle`.
 Which methods are pure?

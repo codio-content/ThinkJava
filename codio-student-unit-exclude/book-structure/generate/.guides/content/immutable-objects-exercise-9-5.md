@@ -1,4 +1,4 @@
-**Exercise 10.1:**
+**Exercise 9.5:**
 
 
 One way to calculate $e^x$ is to use the following infinite series expansion.
@@ -23,12 +23,8 @@ The output should look something like:
 
 You can use the escape sequence `"<br/>t"` to put a tab character between columns of a table.
 
-1.  Vary the number of terms in the series (the second argument that `check` sends to `myexp`) and see the effect on the accuracy of the result.
-Adjust this value until the estimated value agrees with the correct answer when `x` is 1.
+1.  Vary the number of terms in the series (the second argument that `check` sends to `myexp`) and see the effect on the accuracy of the result. Adjust this value until the estimated value agrees with the correct answer when `x` is 1.
 
-1.  Write a loop in `main` that invokes `check` with the values 0.1, 1.0, 10.0, and 100.0.
-How does the accuracy of the result vary as `x` varies?
-Compare the number of digits of agreement rather than the difference between the actual and estimated values.
+1.  Write a loop in `main` that invokes `check` with the values 0.1, 1.0, 10.0, and 100.0. How does the accuracy of the result vary as `x` varies? Compare the number of digits of agreement rather than the difference between the actual and estimated values.
 
-1.  Add a loop in `main` that checks `myexp` with the values -0.1, -1.0, -10.0, and -100.0.
-Comment on the accuracy.
+1.  Add a loop in `main` that checks `myexp` with the values -0.1, -1.0, -10.0, and -100.0. Comment on the accuracy.

@@ -1,11 +1,6 @@
-Now let's take a look at a more complete example.
-The code for this section is in the `appb` directory of `ThinkJavaCode2`.
-See page in section Using the code examples for instructions on how to download the repository.
+Now let's take a look at a more complete example. The code for this section is in the `appb` directory of `ThinkJavaCode2`. See page in section Using the code examples for instructions on how to download the repository.
 
-Professional-grade source files often begin with a copyright statement.
-This text spans multiple lines, but it is not part of the documentation.
-So we use a multi-line comment (`/*`).
-Our example source file, `Convert.java`, includes the MIT License ([https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)).
+Professional-grade source files often begin with a copyright statement. This text spans multiple lines, but it is not part of the documentation. So we use a multi-line comment (`/*`). Our example source file, `Convert.java`, includes the MIT License ([https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)).
 
 
 \begin{scriptsize}
@@ -34,8 +29,7 @@ Our example source file, `Convert.java`, includes the MIT License ([https://open
 ```
 \end{scriptsize}
 
-Import statements generally follow the copyright text.
-After that, we can define the class itself and begin writing the documentation (`/**`).
+Import statements generally follow the copyright text. After that, we can define the class itself and begin writing the documentation (`/**`).
 
 ```code
 import java.util.Scanner;
@@ -50,13 +44,10 @@ import java.util.Scanner;
 public class Convert {
 ```
 
-A common mistake that beginners make is to put `import` statements between the documentation and the `public class` line.
-Doing so separates the documentation from the class itself.
-To avoid this issue, always make the end of the comment (the \textcolor{comment}`*/`) “touch” the word `public`.
+A common mistake that beginners make is to put `import` statements between the documentation and the `public class` line. Doing so separates the documentation from the class itself. To avoid this issue, always make the end of the comment (the \textcolor{comment}`*/`) “touch” the word `public`.
 
 
-This class has two constants and three methods.
-The constants are self-explanatory, so there is no need to write documentation for them.
+This class has two constants and three methods. The constants are self-explanatory, so there is no need to write documentation for them.
 
 ```code
 public static final double CM_PER_INCH = 2.54;
@@ -64,8 +55,7 @@ public static final double CM_PER_INCH = 2.54;
 public static final int IN_PER_FOOT = 12;
 ```
 
-The methods, on the other hand, could use some explanation.
-Each documentation comment includes a description, followed by a blank line, followed by a `@param` tag for each parameter, followed by a `@return` tag.
+The methods, on the other hand, could use some explanation. Each documentation comment includes a description, followed by a blank line, followed by a `@param` tag for each parameter, followed by a `@return` tag.
 
 ```code
 /**
@@ -132,9 +122,7 @@ The `-d` option of `javadoc` indicates where to generate the HTML files.
 javadoc -d doc Convert.java
 ```
 
-1.  From DrJava, click the **Javadoc** button on the toolbar.
-The IDE will then prompt you for a location to generate the HTML files.
+1.  From DrJava, click the **Javadoc** button on the toolbar. The IDE will then prompt you for a location to generate the HTML files.
 
 
-For more examples of what you can do with Javadoc comments, see the source code of any Java library class (e.g., `Scanner.java`).
-Section 10.6 explains how to find the source files for the Java library on your computer.
+For more examples of what you can do with Javadoc comments, see the source code of any Java library class (e.g., `Scanner.java`). Section 10.6 explains how to find the source files for the Java library on your computer.

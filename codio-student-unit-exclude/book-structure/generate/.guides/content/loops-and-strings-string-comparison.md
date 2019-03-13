@@ -12,13 +12,9 @@ Try it out in the left pane. To compile and run the code, press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/StringComp.java java -cp code/ StringComp )
 
 
-This code compiles and runs, and sometimes it gets the answer right.
-But sometimes it gets the answer wrong.
-If you give it two different strings that contain the same letters, the condition will be `false`.
+This code compiles and runs, and sometimes it gets the answer right. But sometimes it gets the answer wrong. If you give it two different strings that contain the same letters, the condition will be `false`.
 
-The problem is that the `==` operator checks whether the two variables refer to the *same object* by comparing the references.
-We'll learn more about references in the next chapter.
-The correct way to compare strings is with the `equals` method, like this:
+The problem is that the `==` operator checks whether the two variables refer to the *same object* by comparing the references. We'll learn more about references in the next chapter. The correct way to compare strings is with the `equals` method, like this:
 
 ```code
 if (name1.equals(name2)) {
@@ -26,8 +22,7 @@ if (name1.equals(name2)) {
 }
 ```
 
-This example invokes `equals` on `name1` and passes `name2` as an argument.
-The `equals` method returns `true` if the strings contain the same characters; otherwise it returns `false`.
+This example invokes `equals` on `name1` and passes `name2` as an argument. The `equals` method returns `true` if the strings contain the same characters; otherwise it returns `false`.
 
 
 If the strings differ, we can use `compareTo` to see which comes first in alphabetical order:
@@ -46,14 +41,9 @@ if (diff == 0) {
 {Run!}(sh .guides/bg.sh javac code/StringComp.java java -cp code/ StringComp 2 )
 
 
-The return value from `compareTo` is the difference between the first characters in the strings that are not the same.
-In the preceding code, `compareTo` returns positive 8, because the second letter of `"Ada"` comes before the second letter of `"Alan"` by 8 letters.
+The return value from `compareTo` is the difference between the first characters in the strings that are not the same. In the preceding code, `compareTo` returns positive 8, because the second letter of `"Ada"` comes before the second letter of `"Alan"` by 8 letters.
 
-If the strings are equal, their difference is zero.
-If the first string (the one on which the method is invoked) comes first in the alphabet, the difference is negative.
-Otherwise, the difference is positive.
+If the strings are equal, their difference is zero. If the first string (the one on which the method is invoked) comes first in the alphabet, the difference is negative. Otherwise, the difference is positive.
 
 
-Both `equals` and `compareTo` are case-sensitive.
-In Unicode, uppercase letters come before lowercase letters.
-So `"Ada"` comes before `"ada"`.
+Both `equals` and `compareTo` are case-sensitive. In Unicode, uppercase letters come before lowercase letters. So `"Ada"` comes before `"ada"`.

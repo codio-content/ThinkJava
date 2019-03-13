@@ -1,4 +1,4 @@
-**Exercise 10.1:**
+**Exercise 9.3:**
 
 
 You might be sick of the factorial method by now, but we're going to do one more version.

@@ -1,4 +1,4 @@
-**Exercise 15.1:**
+**Exercise 14.2:**
 
 Write a loop that plays the game 100 times and keeps track of how many times each player wins.
 If you implemented multiple strategies in the previous exercise, you can play them against each other to evaluate which one works best.

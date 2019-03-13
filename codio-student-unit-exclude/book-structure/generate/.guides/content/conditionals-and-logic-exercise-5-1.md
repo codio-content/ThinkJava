@@ -1,4 +1,4 @@
-**Exercise 6.1:**
+**Exercise 5.1:**
 
 Using the following variables, evaluate the logic expressions in the table below.
 Write your answers as true, false, or error.

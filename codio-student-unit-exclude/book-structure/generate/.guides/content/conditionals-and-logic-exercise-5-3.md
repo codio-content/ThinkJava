@@ -1,4 +1,4 @@
-**Exercise 6.1:**
+**Exercise 5.3:**
 
 Rewrite the following code using a single `if` statement.
 

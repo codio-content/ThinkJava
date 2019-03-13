@@ -1,4 +1,4 @@
-**Exercise 14.1:**
+**Exercise 13.1:**
 
 Write a `toString` method for the `Deck` class.
 It should return a single string that represents the cards in the deck.

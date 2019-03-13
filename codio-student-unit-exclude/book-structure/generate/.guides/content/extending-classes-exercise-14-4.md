@@ -1,4 +1,4 @@
-**Exercise 15.1:**
+**Exercise 14.4:**
 
 When we designed the program for this chapter, we tried to minimize the number of classes.
 As a result, we ended up with a few awkward methods.

@@ -1,6 +1,6 @@
 ```bash
 python3 converter.py
-usage: converter.py [-h] [--generate GENERATE] [-l LOG] [-y] PATH [PATH ...]
+usage: converter.py [-h] [--generate GENERATE] [-l LOG] [-y] [-r] PATH [PATH ...]
 ```
 
 ## Usage
@@ -21,6 +21,7 @@ Generated config will be placed to `example` folder
 * **directory** base directory of book
 * **tex** book name
 * **removeTrinket** remove trinket entries
+* **removeExercise** remove exercise headers
 
 Examples
 ```yaml
@@ -138,6 +139,13 @@ Available options:
 3\. execute terminal, `panel` - panel number
 ```yaml
         - path: "#terminal: echo \"hello\""
+          panel: 0
+          action: open
+```
+
+3\. python tutor visualizer, `panel` - panel number
+```yaml
+        - path: "#tutor: code/example.java"
           panel: 0
           action: open
 ```

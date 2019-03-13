@@ -1,4 +1,4 @@
-**Exercise 9.1:**
+**Exercise 8.7:**
 
 Create a program called `Recurse.java` and type in the following methods:
 
@@ -63,8 +63,7 @@ eeffoc
 ```
 
 
-1.  A palindrome is a word that reads the same both forward and backward, like “otto” and “palindromeemordnilap”.
-Here's one way to test whether a string is a palindrome:
+1.  A palindrome is a word that reads the same both forward and backward, like “otto” and “palindromeemordnilap”. Here's one way to test whether a string is a palindrome:
 
 
 

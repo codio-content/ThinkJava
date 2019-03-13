@@ -1,13 +1,9 @@
-In the past several chapters of this book, you've seen conditions, methods, loops, strings, arrays, and recursion.
-A great resource for practicing all of these concepts is [http://codingbat.com/java](CodingBat.com).
+In the past several chapters of this book, you've seen conditions, methods, loops, strings, arrays, and recursion. A great resource for practicing all of these concepts is [http://codingbat.com/java](CodingBat.com).
 
 
-CodingBat is a free website of live programming problems developed by Nick Parlante, a Computer Science lecturer at Stanford.
-As you work on these problems, CodingBat will save your progress (if you create an account).
+CodingBat is a free website of live programming problems developed by Nick Parlante, a Computer Science lecturer at Stanford. As you work on these problems, CodingBat will save your progress (if you create an account).
 
-To conclude this chapter, we will look at two problems in the **Recursion-1** section of CodingBat.
-One of them deals with strings, and the other deals with arrays.
-Both of them have the same recursive idea: check the base case, look at the current index, and recursively handle the rest.
+To conclude this chapter, we will look at two problems in the **Recursion-1** section of CodingBat. One of them deals with strings, and the other deals with arrays. Both of them have the same recursive idea: check the base case, look at the current index, and recursively handle the rest.
 
 The first problem is available at [http://codingbat.com/prob/p118230](http://codingbat.com/prob/p118230):
 
@@ -22,9 +18,7 @@ The first problem is available at [http://codingbat.com/prob/p118230](http://cod
 > noX("xx") $\rightarrow$ ""
 
 
-When solving recursive problems, it helps to think about the base case first.
-The base case is the easiest version of the problem; for noX, it's when you're given the empty string.
-If the string is empty, there are no x's to be removed.
+When solving recursive problems, it helps to think about the base case first. The base case is the easiest version of the problem; for noX, it's when you're given the empty string. If the string is empty, there are no x's to be removed.
 
 ```code
 if (str.length() == 0) {
@@ -32,13 +26,9 @@ if (str.length() == 0) {
 }
 ```
 
-Next comes the more difficult part.
-To solve a problem recursively, you need to think of a simper instance of the same problem.
-For noX, it's removing all the x's from a shorter string.
+Next comes the more difficult part. To solve a problem recursively, you need to think of a simper instance of the same problem. For noX, it's removing all the x's from a shorter string.
 
-To find an x, we only need to look at one character.
-So we can recursively call noX on the rest of the string (the substring at index 1).
-Here is the solution:
+To find an x, we only need to look at one character. So we can recursively call noX on the rest of the string (the substring at index 1). Here is the solution:
 
 ```code
 char c = str.charAt(0);
@@ -49,8 +39,7 @@ if (c == 'x') {
 }
 ```
 
-The `else` block “saves” the character if it's not an x.
-Otherwise, the x is “removed” by the first `return` statement.
+The `else` block “saves” the character if it's not an x. Otherwise, the x is “removed” by the first `return` statement.
 
 The second problem is available at [http://codingbat.com/prob/p135988](http://codingbat.com/prob/p135988):
 
@@ -65,9 +54,7 @@ The second problem is available at [http://codingbat.com/prob/p135988](http://co
 > array11([1, 2, 3, 4], 0) $\rightarrow$ 0
 
 
-This problem uses the convention of passing the index as an argument.
-So the base case is when we've reached the end of the array.
-At that point, we know there are no more 11's.
+This problem uses the convention of passing the index as an argument. So the base case is when we've reached the end of the array. At that point, we know there are no more 11's.
 
 ```code
 if (index >= nums.length) {
@@ -75,9 +62,7 @@ if (index >= nums.length) {
 }
 ```
 
-Next we look at the current number (based on the given index), and check if it's an 11.
-After that, we can recursively check the rest of the array.
-Similar to the noX problem, we only look at one integer per method call.
+Next we look at the current number (based on the given index), and check if it's an 11. After that, we can recursively check the rest of the array. Similar to the noX problem, we only look at one integer per method call.
 
 ```code
 if (nums[index] == 11) {
@@ -87,12 +72,9 @@ if (nums[index] == 11) {
 }
 ```
 
-You can run these solutions on CodingBat by pasting them into the provided method definition.
-But don't forget to paste both parts: the base case, and the recursive step.
+You can run these solutions on CodingBat by pasting them into the provided method definition. But don't forget to paste both parts: the base case, and the recursive step.
 
 
-To see how these solutions actually work, you might need to step through them with a debugger (see Appendix 15.6) or Java Tutor ([http://pythontutor.com/java.html](http://pythontutor.com/java.html)).
-Then try to solve several CodingBat problems of your own.
+To see how these solutions actually work, you might need to step through them with a debugger (see Appendix 15.6) or Java Tutor ([http://pythontutor.com/java.html](http://pythontutor.com/java.html)). Then try to solve several CodingBat problems of your own.
 
-Learning to think recursively is an important aspect of learning to think like a computer scientist.
-Many algorithms can be written concisely with recursive methods that perform computations on the way down, on the way up, or both.
+Learning to think recursively is an important aspect of learning to think like a computer scientist. Many algorithms can be written concisely with recursive methods that perform computations on the way down, on the way up, or both.
