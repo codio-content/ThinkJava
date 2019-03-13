@@ -1853,14 +1853,14 @@ sections:
     type: section
     transformations:
         - add:  |
-             Try it out in the pane to the left. To compile and run the code, press the "Run!"
-             {Run!}(sh .guides/bg.sh javac code/PointObjs.java java -cp code/ PointObjs )
+              Try it out in the pane to the left. To compile and run the code, press the "Run!"
+              {Run!}(sh .guides/bg.sh javac code/PointObjs.java java -cp code/ PointObjs )
   
-          position: 105
+          position: 47
         - add:  |
-             {Run!}(sh .guides/bg.sh javac code/PointObjs.java java -cp code/ PointObjs 2 )
+              {Run!}(sh .guides/bg.sh javac code/PointObjs.java java -cp code/ PointObjs 2 )
  
-          position: 105
+          position: 82
     configuration:
       layout: 2-panels
       files:
@@ -1871,20 +1871,127 @@ sections:
           action: open
   - name: Objects as parameters
     type: section
+    transformations:
+        - add:  |
+              Try it out in the pane to the left. To compile and run the code, press the "Run!"
+              {Run!}(sh .guides/bg.sh javac code/PointObjs.java java -cp code/ PointObjs )
+  
+          position: 114
+        - add:  |
+              {Run!}(sh .guides/bg.sh javac code/PointObjs.java java -cp code/ PointObjs 2 )
+ 
+          position: 138
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/PointObjs.java"
+          panel: 0
+          action: open
   - name: Objects as return types
     type: section
+    transformations:
+        - add:  |
+              Try it out in the pane to the left. To compile and run the code, press the "Run!"
+              {Run!}(sh .guides/bg.sh javac code/ReturnObjs.java java -cp code/ ReturnObjs )
+  
+          position: 171
+        - add:  |
+              {Run!}(sh .guides/bg.sh javac code/ReturnObjs.java java -cp code/ ReturnObjs 2 )
+ 
+          position: 203
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/ReturnObjs.java"
+          panel: 0
+          action: open
   - name: Rectangles are mutable
     type: section
+    transformations:
+        - add:  |
+              Try it out in the pane to the left. To compile and run the code, press the "Run!"
+              {Run!}(sh .guides/bg.sh javac code/ReturnObjs.java java -cp code/ ReturnObjs )
+  
+          position: 244
+        - add:  |
+              {Run!}(sh .guides/bg.sh javac code/ReturnObjs.java java -cp code/ ReturnObjs 2 )
+ 
+          position: 274
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/ReturnObjs.java"
+          panel: 0
+          action: open
   - name: Aliasing revisited
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Java library source
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Class diagrams
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Garbage collection
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Mutable vs immutable
     type: section
+    transformations:
+        - remove: 1
+          position: 491
+        - add:  |
+
+              The Java compiler automatically detecets this situation. See the example in the top-left panel. To run the example, click the "Run!" button below.
+              {Run!}(sh .guides/bg.sh javac code/Surprise.java java -cp code/ Surprise )
+  
+          position: 492
+        - remove: 1
+          position: 521
+        - add:  |
+
+              Consider the program in the bottom-left panel that inputs ten lines from `System.in` and concatenates them into a single `String`. To run the example, click the "Run!" button below.
+              {Run!}(sh .guides/bg.sh javac code/Append.java java -cp code/ Append )
+  
+          position: 522
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Append.java java -cp code/ Append )
+  
+          position: 562
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Surprise.java"
+          panel: 0
+          action: open
+        - path: "code/Append.java"
+          panel: 1
+          action: open
   - name: Vocabulary
     type: section
     configuration:
@@ -1925,22 +2032,168 @@ sections:
               action: close
   - name: The Time class
     type: section
+    transformations:
+        - add:  |
+             [Highlight in Code](open_file code/Time.java panel=0 ref="public class Time" count=5)
+  
+          position: 78
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Time.java"
+          panel: 0
+          action: open
   - name: Constructors
     type: section
+    transformations:
+        - add:  |
+             [Highlight in Code](open_file code/Time.java panel=0 ref="public Time()" count=5)
+  
+          position: 118
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+ 
+          position: 143
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Time.java"
+          panel: 0
+          action: open
   - name: More constructors
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+ 
+          position: 213
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Time.java"
+          panel: 0
+          action: open
   - name: Getters and setters
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Time.java"
+          panel: 0
+          action: open
+        - path: "code/TimeClient.java"
+          panel: 1
+          action: open
   - name: Displaying objects
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+ 
+          position: 351
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+ 
+          position: 394
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Time.java"
+          panel: 0
+          action: open
   - name: The toString method
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+ 
+          position: 451
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Time.java"
+          panel: 0
+          action: open
   - name: The equals method
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+ 
+          position: 521
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+ 
+          position: 543
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Time.java"
+          panel: 0
+          action: open
   - name: Adding times
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+ 
+          position: 591
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+ 
+          position: 623
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+ 
+          position: 649
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Time.java"
+          panel: 0
+          action: open
   - name: Pure methods
     type: section
+  transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+ 
+          position: 679
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Time.java"
+          panel: 0
+          action: open
   - name: Vocabulary
     type: section
     configuration:
