@@ -2670,16 +2670,127 @@ sections:
               action: close
   - name: CardCollection
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/CardCollection.java java -cp code/ CardCollection )
+ 
+          position: 99
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/CardCollection.java java -cp code/ CardCollection 2 )
+ 
+          position: 138
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/CardCollection.java java -cp code/ CardCollection 3)
+ 
+          position: 173
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/CardCollection.java"
+          panel: 0
+          action: open
   - name: Inheritance
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+ 
+          position: 206
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Hand.java java -cp code/ Hand )
+ 
+          position: 263
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Deck.java"
+          panel: 0
+          action: open
+        - path: "code/Hand.java"
   - name: Dealing cards
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/CardCollection.java java -cp code/ CardCollection )
+ 
+          position: 316
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/CardCollection.java"
+          panel: 0
+          action: open
   - name: The Player class
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Player.java java -cp code/ Player )
+ 
+          position: 394
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Player.java java -cp code/ Player 2 )
+ 
+          position: 432
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Player.java java -cp code/ Player )
+ 
+          position: 455
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Player.java"
+          panel: 0
+          action: open
   - name: The Eights class
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Eights.java java -cp code/ Eights )
+ 
+          position: 570
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Eights.java java -cp code/ Eights 2 )
+ 
+          position: 597
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Eights.java java -cp code/ Eights 3)
+ 
+          position: 646
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Eights.java"
+          panel: 0
+          action: open
   - name: Class relationships
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Vocabulary
     type: section
     configuration:
@@ -2717,72 +2828,232 @@ sections:
 #Appendix A
   - name: Tools
     type: chapter
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Installing DrJava
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: DrJava interactions
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Command-line interface
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Command-line testing
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Running Checkstyle
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Tracing with a debugger
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Testing with JUnit
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Vocabulary
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
 #Appendix B
   - name: Javadoc
     type: chapter
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Reading documentation
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Writing documentation
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Javadoc tags
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Example source file
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Vocabulary
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
 #Appendix C
   - name: Graphics
     type: chapter
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Creating graphics
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Graphics methods
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Example drawing
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Vocabulary
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Exercises
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
 #Appendix D
   - name: Debugging
     type: chapter
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Compile-time errors
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Run-time errors
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Logic errors
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
 #Appendix E
   - name: Extras
     type: chapter
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Unreachable code
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Method composition
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Overloading methods
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Generating tables
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: The do-while loop
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Break and continue
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
 #inserting exercises on seperate pages so that they are cherry-pick-able
 insert_sections:
 #Chapter 1
