@@ -1978,7 +1978,7 @@ sections:
           position: 522
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Append.java java -cp code/ Append )
+              {Run!}(sh .guides/bg.sh javac code/Append.java java -cp code/ Append 2 )
   
           position: 562
     configuration:
@@ -2104,7 +2104,7 @@ sections:
           position: 351
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 2 )
  
           position: 394
     configuration:
@@ -2141,7 +2141,7 @@ sections:
           position: 521
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 2 )
  
           position: 543
     configuration:
@@ -2162,12 +2162,12 @@ sections:
           position: 591
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 2 )
  
           position: 623
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 3 )
  
           position: 649
     configuration:
@@ -2242,24 +2242,190 @@ sections:
               action: close
   - name: Card objects
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+ 
+          position: 103
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Card.java"
+          panel: 0
+          action: open
   - name: Card toString
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+ 
+          position: 190
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Card.java"
+          panel: 0
+          action: open
   - name: Class variables
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+ 
+          position: 233
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Card.java"
+          panel: 0
+          action: open
   - name: The compareTo method
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+ 
+          position: 267
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 2 )
+ 
+          position: 317
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Card.java"
+          panel: 0
+          action: open
   - name: Cards are immutable
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+ 
+          position: 338
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 2 )
+ 
+          position: 360
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Card.java"
+          panel: 0
+          action: open
   - name: Arrays of cards
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+ 
+          position: 387
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 2 )
+ 
+          position: 434
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 3 )
+ 
+          position: 464
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Card.java"
+          panel: 0
+          action: open
   - name: Sequential search
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+ 
+          position: 499
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Card.java"
+          panel: 0
+          action: open
   - name: Binary search
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+ 
+          position: 562
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Card.java"
+          panel: 0
+          action: open
   - name: Tracing the code
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+ 
+          position: 601
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Card.java"
+          panel: 0
+          action: open
+        - path: "#tutor: code/Card.java"
+          panel: 1
+          action: open
   - name: Recursive version
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+ 
+          position: 670
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Card.java"
+          panel: 0
+          action: open
+        - path: "#tutor: code/Card.java"
+          panel: 1
+          action: open
   - name: Vocabulary
     type: section
     configuration:
@@ -2304,22 +2470,154 @@ sections:
               action: close
   - name: Decks of cards
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+ 
+          position: 72
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Deck.java"
+          panel: 0
+          action: open
   - name: Shuffling decks
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+ 
+          position: 153
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Deck.java"
+          panel: 0
+          action: open
   - name: Selection sort
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+ 
+          position: 201
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Deck.java"
+          panel: 0
+          action: open
   - name: Merge sort
     type: section
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Subdecks
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+ 
+          position: 263
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Deck.java"
+          panel: 0
+          action: open
   - name: Merging decks
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+ 
+          position: 335
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Deck.java"
+          panel: 0
+          action: open
   - name: Adding recursion
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+ 
+          position: 374
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Deck.java"
+          panel: 0
+          action: open
   - name: Static context
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+ 
+          position: 430
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Deck.java"
+          panel: 0
+          action: open
   - name: Piles of cards
     type: section
+    transformations:
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Pile.java java -cp code/ Pile )
+ 
+          position: 501
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Pile.java java -cp code/ Pile 2 )
+ 
+          position: 542
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Pile.java java -cp code/ Pile 3 )
+ 
+          position: 568
+        - add:  |
+
+              {Run!}(sh .guides/bg.sh javac code/Pile.java java -cp code/ Pile 4 )
+ 
+          position: 588
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Pile.java"
+          panel: 0
+          action: open
   - name: Vocabulary
     type: section
     configuration:
