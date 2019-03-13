@@ -1,12 +1,9 @@
 ####  My program doesn't work.
 
 
-Logic errors are hard to find because the compiler and interpreter provide no information about what is wrong.
-Only you know what the program is supposed to do, and only you know that it isn't doing it.
+Logic errors are hard to find because the compiler and interpreter provide no information about what is wrong. Only you know what the program is supposed to do, and only you know that it isn't doing it.
 
-The first step is to make a connection between the code and the behavior you get.
-You need a hypothesis about what the program is actually doing.
-Here are some questions to ask yourself:
+The first step is to make a connection between the code and the behavior you get. You need a hypothesis about what the program is actually doing. Here are some questions to ask yourself:
 
 
 
@@ -23,12 +20,10 @@ Read the documentation for those methods, and try them out with simple test case
 They might not do what you think they do.
 
 
-To program, you need a mental model of what your code does.
-If it doesn't do what you expect, the problem might not actually be the program; it might be in your head.
+To program, you need a mental model of what your code does. If it doesn't do what you expect, the problem might not actually be the program; it might be in your head.
 
 
-The best way to correct your mental model is to break the program into components (usually the classes and methods) and test them independently.
-Once you find the discrepancy between your model and reality, you can solve the problem.
+The best way to correct your mental model is to break the program into components (usually the classes and methods) and test them independently. Once you find the discrepancy between your model and reality, you can solve the problem.
 
 Here are some common logic errors to check for:
 
@@ -59,8 +54,7 @@ See “Flow of execution” on page in section Run-time errors.
 
 
 
-Writing complex expressions is fine as long as they are readable, but they can be hard to debug.
-It is often a good idea to break a complex expression into a series of assignments to temporary variables.
+Writing complex expressions is fine as long as they are readable, but they can be hard to debug. It is often a good idea to break a complex expression into a series of assignments to temporary variables.
 
 ```code
 rect.setLocation(rect.getLocation().translate(
@@ -77,19 +71,16 @@ Point newLocation = location.translate(dx, dy);
 rect.setLocation(newLocation);
 ```
 
-The second version is easier to read, partly because the variable names provide additional documentation.
-It's also easier to debug, because you can check the types of the temporary variables and display their values.
+The second version is easier to read, partly because the variable names provide additional documentation. It's also easier to debug, because you can check the types of the temporary variables and display their values.
 
 
-Another problem that can occur with big expressions is that the order of operations may not be what you expect.
-For example, to evaluate $\frac{x}{2 \pi}$, you might write:
+Another problem that can occur with big expressions is that the order of operations may not be what you expect. For example, to evaluate $\frac{x}{2 \pi}$, you might write:
 
 ```code
 double y = x / 2 * Math.PI;
 ```
 
-That is not correct, because multiplication and division have the same precedence, and they are evaluated from left to right.
-This code computes $\frac{x}{2}\pi$.
+That is not correct, because multiplication and division have the same precedence, and they are evaluated from left to right. This code computes $\frac{x}{2}\pi$.
 
 If you are not sure of the order of operations, check the documentation, or use parentheses to make it explicit.
 
@@ -130,24 +121,20 @@ public Rectangle intersection(Rectangle a, Rectangle b) {
 }
 ```
 
-Now you have the opportunity to display any of the intermediate variables before returning.
-And by reusing `x1` and `y1`, you made the code smaller, too.
+Now you have the opportunity to display any of the intermediate variables before returning. And by reusing `x1` and `y1`, you made the code smaller, too.
 
 
 ####  My print statement isn't doing anything.
 
 
 
-If you use the `println` method, the output is displayed immediately, but if you use `print` (at least in some environments), the output gets stored without being displayed until the next newline.
-If the program terminates without displaying a newline, you may never see the stored output.
-If you suspect that this is happening, change some or all of the `print` statements to `println`.
+If you use the `println` method, the output is displayed immediately, but if you use `print` (at least in some environments), the output gets stored without being displayed until the next newline. If the program terminates without displaying a newline, you may never see the stored output. If you suspect that this is happening, change some or all of the `print` statements to `println`.
 
 
 ####  I'm really, really stuck and I need help.
 
 
-First, get away from the computer for a few minutes.
-Computers emit waves that affect the brain, causing the following symptoms:
+First, get away from the computer for a few minutes. Computers emit waves that affect the brain, causing the following symptoms:
 
 
 
@@ -158,29 +145,19 @@ Computers emit waves that affect the brain, causing the following symptoms:
 *  Sour grapes (“this program is lame anyway”).
 
 
-If you suffer from any of these symptoms, get up and go for a walk.
-When you are calm, think about the program.
-What is it doing?
-What are possible causes of that behavior?
-When was the last time you had a working program, and what did you do next?
+If you suffer from any of these symptoms, get up and go for a walk. When you are calm, think about the program. What is it doing? What are possible causes of that behavior? When was the last time you had a working program, and what did you do next?
 
-Sometimes it just takes time to find a bug.
-People often find bugs when they let their mind wander.
-Good places to find bugs are buses, showers, and bed.
+Sometimes it just takes time to find a bug. People often find bugs when they let their mind wander. Good places to find bugs are buses, showers, and bed.
 
 
 ####  No, I really need help.
 
 
-It happens.
-Even the best programmers get stuck.
-Sometimes you need another pair of eyes.
+It happens. Even the best programmers get stuck. Sometimes you need another pair of eyes.
 
 Before you bring someone else in, make sure you have tried the techniques described in this appendix.
 
-Your program should be as simple as possible, and you should be working on the smallest input that causes the error.
-You should have print statements in the appropriate places (and the output they produce should be comprehensible).
-You should understand the problem well enough to describe it concisely.
+Your program should be as simple as possible, and you should be working on the smallest input that causes the error. You should have print statements in the appropriate places (and the output they produce should be comprehensible). You should understand the problem well enough to describe it concisely.
 
 When you bring someone in to help, give them the information they need:
 
@@ -197,9 +174,7 @@ What were the last lines of code that you wrote, or what is the test case that f
 *  What have you tried, and what have you learned?
 
 
-By the time you explain the problem to someone, you might see the answer.
-This phenomenon is so common that some people recommend a debugging technique called “rubber ducking”.
-Here's how it works:
+By the time you explain the problem to someone, you might see the answer. This phenomenon is so common that some people recommend a debugging technique called “rubber ducking”. Here's how it works:
 
 
 
@@ -216,20 +191,12 @@ Here's what's happening...”
 1.  Thank the rubber duck.
 
 
-We're not kidding, it works!
-See [https://en.wikipedia.org/wiki/Rubber_duck_debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging).
+We're not kidding, it works! See [https://en.wikipedia.org/wiki/Rubber_duck_debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging).
 
 
 ####  I found the bug!
 
 
-When you find the bug, it is usually obvious how to fix it.
-But not always.
-Sometimes what seems to be a bug is really an indication that you don't understand the program, or there is an error in your algorithm.
-In these cases, you might have to rethink the algorithm, or adjust your mental model.
-Take some time away from the computer to think, work through test cases by hand, or draw diagrams to represent the computation.
+When you find the bug, it is usually obvious how to fix it. But not always. Sometimes what seems to be a bug is really an indication that you don't understand the program, or there is an error in your algorithm. In these cases, you might have to rethink the algorithm, or adjust your mental model. Take some time away from the computer to think, work through test cases by hand, or draw diagrams to represent the computation.
 
-After you fix the bug, don't just start in making new errors.
-Take a minute to think about what kind of bug it was, why you made the error, how the error manifested itself, and what you could have done to find it faster.
-Next time you see something similar, you will be able to find the bug more quickly.
-Or even better, you will learn to avoid that type of bug for good.
+After you fix the bug, don't just start in making new errors. Take a minute to think about what kind of bug it was, why you made the error, how the error manifested itself, and what you could have done to find it faster. Next time you see something similar, you will be able to find the bug more quickly. Or even better, you will learn to avoid that type of bug for good.

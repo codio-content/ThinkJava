@@ -12,13 +12,10 @@ Try it out using the left pane. To compile and run the code, press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/Increment.java java -cp code/ Increment )
 
 
-Assignments like `i = i + 1` don't often appear in loops, because Java provides a more concise way to add and subtract by one.
-Specifically, `++` is the **increment** operator; it has the same effect as `i = i + 1`.
-And `--` is the **decrement** operator; it has the same effect as `i = i - 1`.
+Assignments like `i = i + 1` don't often appear in loops, because Java provides a more concise way to add and subtract by one. Specifically, `++` is the **increment** operator; it has the same effect as `i = i + 1`. And `--` is the **decrement** operator; it has the same effect as `i = i - 1`.
 
 
-If you want to increment or decrement a variable by an amount other than `1`, you can use `+=` and `-=`.
-For example, `i += 2` increments `i` by `2`.
+If you want to increment or decrement a variable by an amount other than `1`, you can use `+=` and `-=`. For example, `i += 2` increments `i` by `2`.
 
 ```code
 int i = 2;

@@ -1,13 +1,8 @@
-Whenever you create a new class, you are creating a new object type with the same name.
-So way back in Section 1.3, when we had the class `Hello`, we also had an object type named `Hello`.
-We didn't declare any variables with type `Hello`, and we didn't use `new` to create a `Hello` object.
-It wouldn't have done much good if we had -- but we could have!
+Whenever you create a new class, you are creating a new object type with the same name. So way back in Section 1.3, when we had the class `Hello`, we also had an object type named `Hello`. We didn't declare any variables with type `Hello`, and we didn't use `new` to create a `Hello` object. It wouldn't have done much good if we had -- but we could have!
 
-In this chapter, you will learn to design classes that represent *useful* objects.
-Think of a class like a blueprint for a house: you can use the same blueprint to build any number of houses.
+In this chapter, you will learn to design classes that represent *useful* objects. Think of a class like a blueprint for a house: you can use the same blueprint to build any number of houses.
 
-Beginners often confuse the difference between classes and objects.
-Here are the main ideas:
+Beginners often confuse the difference between classes and objects. Here are the main ideas:
 
 
 

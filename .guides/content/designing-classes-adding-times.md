@@ -1,5 +1,4 @@
-Suppose you are going to a movie that starts at 18:50 (or 6:50 PM), and the running time is 2 hours 16 minutes.
-What time does the movie end?
+Suppose you are going to a movie that starts at 18:50 (or 6:50 PM), and the running time is 2 hours 16 minutes. What time does the movie end?
 
 We'll use `Time` objects to figure it out.
 
@@ -17,8 +16,7 @@ Here are two ways we could “add” the `Time` objects:
 *  We could write an instance method that gets invoked on one object and takes the other as a parameter.
 
 
-To demonstrate the difference, we'll do both.
-Here is a simple version that uses the static approach:
+To demonstrate the difference, we'll do both. Here is a simple version that uses the static approach:
 
 
 ```code
@@ -36,6 +34,9 @@ And here's how we would invoke the static method:
 ```code
 Time endTime = Time.add(startTime, runningTime);
 ```
+
+{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+
 
 On the other hand, here's what it looks like as an instance method:
 
@@ -66,13 +67,12 @@ And here's how we would invoke the instance method:
 Time endTime = startTime.add(runningTime);
 ```
 
-That's all there is to it.
-Static methods and instance methods do the same thing, and you can convert from one to the other with just a few changes.
+{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 2 )
 
-There's only one problem: the addition code itself is not correct.
-For this example, it returns `20:66`, which is not a valid time.
-If `second` exceeds 59, we have to “carry” into the minutes column, and if `minute` exceeds 59, we have to carry into `hour`.
-Here is a better version of `add`:
+
+That's all there is to it. Static methods and instance methods do the same thing, and you can convert from one to the other with just a few changes.
+
+There's only one problem: the addition code itself is not correct. For this example, it returns `20:66`, which is not a valid time. If `second` exceeds 59, we have to “carry” into the minutes column, and if `minute` exceeds 59, we have to carry into `hour`. Here is a better version of `add`:
 
 ```code
 public Time add(Time t2) {
@@ -92,5 +92,7 @@ public Time add(Time t2) {
 }
 ```
 
-It's still possible that `hour` may exceed 23, but there's no `days` attribute to carry into.
-In that case, `sum.hour -= 24` would yield the correct result.
+{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 3 )
+
+
+It's still possible that `hour` may exceed 23, but there's no `days` attribute to carry into. In that case, `sum.hour -= 24` would yield the correct result.

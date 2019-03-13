@@ -1,14 +1,15 @@
-You can pass objects as parameters in the usual way.
-For example:
+You can pass objects as parameters in the usual way. For example:
 
 ```code
 public static void printPoint(Point p) {
     System.out.println("(" + p.x + ", " + p.y + ")");
 }
 ```
+Try it out in the pane to the left. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/PointObjs.java java -cp code/ PointObjs )
 
-This method takes a point as an argument and displays its attributes in parentheses.
-If you invoke `printPoint(blank)`, it displays `(3, 4)`.
+
+This method takes a point as an argument and displays its attributes in parentheses. If you invoke `printPoint(blank)`, it displays `(3, 4)`.
 
 As another example, we can rewrite the `distance` method from Section 4.8 so that it takes two `Point`s as parameters instead of four `double`s.
 
@@ -22,23 +23,21 @@ public static double distance(Point p1, Point p2) {
 
 Passing objects as parameters makes the source code more readable and less error-prone, because related values are bundled together.
 
-You actually don't need to write a `distance` method, because `Point` objects have one built-in already.
-To compute the distance between two points, we invoke `distance` on one and pass the other as an argument.
+You actually don't need to write a `distance` method, because `Point` objects have one built-in already. To compute the distance between two points, we invoke `distance` on one and pass the other as an argument.
 
 ```code
 Point p1 = new Point(0, 0);
 Point p2 = new Point(3, 4);
 double dist = p1.distance(p2);  // dist is 5.0
 ```
+{Run!}(sh .guides/bg.sh javac code/PointObjs.java java -cp code/ PointObjs 2 )
 
-It turns out you don't need the `printPoint` method either.
-If you invoke `System.out.println(blank)` you get even more information:
+
+It turns out you don't need the `printPoint` method either. If you invoke `System.out.println(blank)` you get even more information:
 
 ```code
 java.awt.Point[x=3,y=4]
 ```
 
 
-`Point` objects provide a method called `toString` that returns a string representation of a point.
-When you call `println` with objects, it automatically calls `toString` and displays the result.
-In this case, it shows the name of the type (`java.awt.Point`) and the names and values of the attributes.
+`Point` objects provide a method called `toString` that returns a string representation of a point. When you call `println` with objects, it automatically calls `toString` and displays the result. In this case, it shows the name of the type (`java.awt.Point`) and the names and values of the attributes.

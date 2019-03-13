@@ -1,5 +1,4 @@
-The chapters of this book are meant to be read in order, because each one builds on the previous one.
-We also include several appendixes with material that can be read at any time:
+The chapters of this book are meant to be read in order, because each one builds on the previous one. We also include several appendixes with material that can be read at any time:
 
 
 

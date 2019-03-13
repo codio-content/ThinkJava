@@ -1,10 +1,7 @@
-The loops we have written so far have several elements in common.
-They start by initializing a variable, they have a condition that depends on that variable, and inside the loop they do something to update that variable.
+The loops we have written so far have several elements in common. They start by initializing a variable, they have a condition that depends on that variable, and inside the loop they do something to update that variable.
 
 
-Running the same code multiple times is called **iteration**.
-This type of loop is so common that there is another statement, the `for` loop, that expresses it more concisely.
-For example, we can rewrite the 2-4-6-8 loop this way:
+Running the same code multiple times is called **iteration**. This type of loop is so common that there is another statement, the `for` loop, that expresses it more concisely. For example, we can rewrite the 2-4-6-8 loop this way:
 
 ```code
 for (int i = 2; i <= 8; i += 2) {
@@ -30,16 +27,13 @@ Otherwise, the body of the loop is executed (again).
 1.  At the end of each iteration, the *update* runs, and we go back to step 2.
 
 
-The `for` loop is often easier to read because it puts all the loop-related statements at the top of the loop.
-Doing so allows you to focus on the statements in the loop body.
-Figure 6.2 illustrates `for` loops with a flowchart.
+The `for` loop is often easier to read because it puts all the loop-related statements at the top of the loop. Doing so allows you to focus on the statements in the loop body. Figure 6.2 illustrates `for` loops with a flowchart.
 
-![Figure 7.2 Flow of execution for a `for` loop.](figs/for.jpg)
+![Figure 6.2 Flow of execution for a `for` loop.](figs/for.jpg)
 
-**Figure 7.2 Flow of execution for a `for` loop.**
+**Figure 6.2 Flow of execution for a `for` loop.**
 
-There is another difference between `for` loops and `while` loops: if you declare a variable in the initializer, it only exists *inside* the `for` loop.
-For example:
+There is another difference between `for` loops and `while` loops: if you declare a variable in the initializer, it only exists *inside* the `for` loop. For example:
 
 ```code
 for (int n = 3; n > 0; n--) {
@@ -51,8 +45,7 @@ System.out.println("n is now " + n);  // compiler error
 {Run!}(sh .guides/bg.sh javac code/For.java java -cp code/ For )
 
 
-The last line tries to display `n` (for no reason other than demonstration) but it won't work.
-If you need to use a loop variable outside the loop, you have to declare it *outside* the loop, like this:
+The last line tries to display `n` (for no reason other than demonstration) but it won't work. If you need to use a loop variable outside the loop, you have to declare it *outside* the loop, like this:
 
 ```code
 int n;
@@ -62,5 +55,4 @@ for (n = 3; n > 0; n--) {
 System.out.println("n is now " + n);
 ```
 
-Notice that the `for` statement does not say `int n = 3`.
-Rather, it simply initializes the existing variable `n`.
+Notice that the `for` statement does not say `int n = 3`. Rather, it simply initializes the existing variable `n`.

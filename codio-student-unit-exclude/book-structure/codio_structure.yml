@@ -93,8 +93,7 @@ sections:
         - remove: 1
           position: 87
         - add:  |
-             See the example java code in the top-left pane.
-             To compile and run the code, press the "Run!"
+             See the example java code in the top-left pane. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/Hello.java java -cp code/ Hello )
      
           position: 105
@@ -109,9 +108,15 @@ sections:
   - name: Compiling Java programs
     type: section
     transformations:
-        - add: Try it out by typing `javac code/HelloWorld.java` into the terminal in the bottom-left pane and pressing Enter.
+        - add:  |
+
+              Try it out by typing `javac code/HelloWorld.java` into the terminal in the bottom-left pane and pressing Enter.
+  
           position: 251
-        - add: Try it out by typing `java -cp code/ HelloWorld` into the terminal in the bottom-left pane and pressing Enter.
+        - add:  |
+
+              Try it out by typing `java -cp code/ HelloWorld` into the terminal in the bottom-left pane and pressing Enter.
+  
           position: 264
     configuration:
       layout: 3-cell
@@ -130,16 +135,16 @@ sections:
         - remove: 1
           position: 273
         - add: |
-               For example, take a look at Hello2.java in the top-left pane which displays more than one line of output.
-               To compile and run the code, press the "Run!"
+
+               For example, take a look at Hello2.java in the top-left pane which displays more than one line of output. To compile and run the code, press the "Run!"
                {Run!}(sh .guides/bg.sh javac code/Hello2.java java -cp code/ Hello2 )
        
           position: 274
         - remove: 1
           position: 301
         - add: |
-               For example, take a look at Goodbye.java in the bottom-left pane which uses `print` instead of `println` to avoid the newling at the end.
-               To compile and run the code, press the "Run!"
+
+               For example, take a look at Goodbye.java in the bottom-left pane which uses `print` instead of `println` to avoid the newling at the end. To compile and run the code, press the "Run!"
                {Run!}(sh .guides/bg.sh javac code/Goodbye.java java -cp code/ Goodbye )
        
           position: 302
@@ -160,16 +165,16 @@ sections:
         - remove: 1
           position: 338
         - add: |
-               For example, the program in the top-left pane, `Goodbye.java` *is* legal.
-               To compile and run the code, press the "Run!"
+
+               For example, the program in the top-left pane, `Goodbye.java` *is* legal. To compile and run the code, press the "Run!"
                {Run!}(sh .guides/bg.sh javac code/1/Goodbye.java java -cp code/1/ Goodbye )
     
           position: 339
         - remove: 1
           position: 350
         - add: |
-               For example, we could write the same program like the example `Goodbye.java` in the bottom-left pane.
-               To compile and run the code, press the "Run!"
+
+               For example, we could write the same program like the example `Goodbye.java` in the bottom-left pane. To compile and run the code, press the "Run!"
                {Run!}(sh .guides/bg.sh javac code/2/Goodbye.java java -cp code/2/ Goodbye )
     
           position: 351
@@ -188,8 +193,8 @@ sections:
     type: section
     transformations:
         - add:  |
-             See the example java code in the left panel.
-             To compile and run the code, press the "Run!"
+
+             See the example java code in the left panel. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/Hello3.java java -cp code/ Hello3 )
      
           position: 395

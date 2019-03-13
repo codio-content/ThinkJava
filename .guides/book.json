@@ -109,21 +109,21 @@
     {
      "children": [
       {
-       "id": "computer-programming-exercises-1-1",
-       "pageId": "computer-programming-exercises-1-1",
-       "title": "Exercises 1.1",
+       "id": "computer-programming-exercise-1-1",
+       "pageId": "computer-programming-exercise-1-1",
+       "title": "Exercise 1.1",
        "type": "page"
       },
       {
-       "id": "computer-programming-exercises-1-2",
-       "pageId": "computer-programming-exercises-1-2",
-       "title": "Exercises 1.2",
+       "id": "computer-programming-exercise-1-2",
+       "pageId": "computer-programming-exercise-1-2",
+       "title": "Exercise 1.2",
        "type": "page"
       },
       {
-       "id": "computer-programming-exercises-1-3",
-       "pageId": "computer-programming-exercises-1-3",
-       "title": "Exercises 1.3",
+       "id": "computer-programming-exercise-1-3",
+       "pageId": "computer-programming-exercise-1-3",
+       "title": "Exercise 1.3",
        "type": "page"
       }
      ],
@@ -209,21 +209,21 @@
     {
      "children": [
       {
-       "id": "variables-and-operators-exercises-2-1",
-       "pageId": "variables-and-operators-exercises-2-1",
-       "title": "Exercises 2.1",
+       "id": "variables-and-operators-exercise-2-1",
+       "pageId": "variables-and-operators-exercise-2-1",
+       "title": "Exercise 2.1",
        "type": "page"
       },
       {
-       "id": "variables-and-operators-exercises-2-2",
-       "pageId": "variables-and-operators-exercises-2-2",
-       "title": "Exercises 2.2",
+       "id": "variables-and-operators-exercise-2-2",
+       "pageId": "variables-and-operators-exercise-2-2",
+       "title": "Exercise 2.2",
        "type": "page"
       },
       {
-       "id": "variables-and-operators-exercises-2-3",
-       "pageId": "variables-and-operators-exercises-2-3",
-       "title": "Exercises 2.3",
+       "id": "variables-and-operators-exercise-2-3",
+       "pageId": "variables-and-operators-exercise-2-3",
+       "title": "Exercise 2.3",
        "type": "page"
       }
      ],
@@ -303,27 +303,27 @@
     {
      "children": [
       {
-       "id": "input-and-output-exercises-3-1",
-       "pageId": "input-and-output-exercises-3-1",
-       "title": "Exercises 3.1",
+       "id": "input-and-output-exercise-3-1",
+       "pageId": "input-and-output-exercise-3-1",
+       "title": "Exercise 3.1",
        "type": "page"
       },
       {
-       "id": "input-and-output-exercises-3-2",
-       "pageId": "input-and-output-exercises-3-2",
-       "title": "Exercises 3.2",
+       "id": "input-and-output-exercise-3-2",
+       "pageId": "input-and-output-exercise-3-2",
+       "title": "Exercise 3.2",
        "type": "page"
       },
       {
-       "id": "input-and-output-exercises-3-3",
-       "pageId": "input-and-output-exercises-3-3",
-       "title": "Exercises 3.3",
+       "id": "input-and-output-exercise-3-3",
+       "pageId": "input-and-output-exercise-3-3",
+       "title": "Exercise 3.3",
        "type": "page"
       },
       {
-       "id": "input-and-output-exercises-3-4",
-       "pageId": "input-and-output-exercises-3-4",
-       "title": "Exercises 3.4",
+       "id": "input-and-output-exercise-3-4",
+       "pageId": "input-and-output-exercise-3-4",
+       "title": "Exercise 3.4",
        "type": "page"
       }
      ],
@@ -397,39 +397,39 @@
     {
      "children": [
       {
-       "id": "methods-and-testing-exercises-4-1",
-       "pageId": "methods-and-testing-exercises-4-1",
-       "title": "Exercises 4.1",
+       "id": "methods-and-testing-exercise-4-1",
+       "pageId": "methods-and-testing-exercise-4-1",
+       "title": "Exercise 4.1",
        "type": "page"
       },
       {
-       "id": "methods-and-testing-exercises-4-2",
-       "pageId": "methods-and-testing-exercises-4-2",
-       "title": "Exercises 4.2",
+       "id": "methods-and-testing-exercise-4-2",
+       "pageId": "methods-and-testing-exercise-4-2",
+       "title": "Exercise 4.2",
        "type": "page"
       },
       {
-       "id": "methods-and-testing-exercises-4-3",
-       "pageId": "methods-and-testing-exercises-4-3",
-       "title": "Exercises 4.3",
+       "id": "methods-and-testing-exercise-4-3",
+       "pageId": "methods-and-testing-exercise-4-3",
+       "title": "Exercise 4.3",
        "type": "page"
       },
       {
-       "id": "methods-and-testing-exercises-4-4",
-       "pageId": "methods-and-testing-exercises-4-4",
-       "title": "Exercises 4.4",
+       "id": "methods-and-testing-exercise-4-4",
+       "pageId": "methods-and-testing-exercise-4-4",
+       "title": "Exercise 4.4",
        "type": "page"
       },
       {
-       "id": "methods-and-testing-exercises-4-5",
-       "pageId": "methods-and-testing-exercises-4-5",
-       "title": "Exercises 4.5",
+       "id": "methods-and-testing-exercise-4-5",
+       "pageId": "methods-and-testing-exercise-4-5",
+       "title": "Exercise 4.5",
        "type": "page"
       },
       {
-       "id": "methods-and-testing-exercises-4-6",
-       "pageId": "methods-and-testing-exercises-4-6",
-       "title": "Exercises 4.6",
+       "id": "methods-and-testing-exercise-4-6",
+       "pageId": "methods-and-testing-exercise-4-6",
+       "title": "Exercise 4.6",
        "type": "page"
       }
      ],
@@ -509,45 +509,45 @@
     {
      "children": [
       {
-       "id": "conditionals-and-logic-exercises-5-1",
-       "pageId": "conditionals-and-logic-exercises-5-1",
-       "title": "Exercises 5.1",
+       "id": "conditionals-and-logic-exercise-5-1",
+       "pageId": "conditionals-and-logic-exercise-5-1",
+       "title": "Exercise 5.1",
        "type": "page"
       },
       {
-       "id": "conditionals-and-logic-exercises-5-2",
-       "pageId": "conditionals-and-logic-exercises-5-2",
-       "title": "Exercises 5.2",
+       "id": "conditionals-and-logic-exercise-5-2",
+       "pageId": "conditionals-and-logic-exercise-5-2",
+       "title": "Exercise 5.2",
        "type": "page"
       },
       {
-       "id": "conditionals-and-logic-exercises-5-3",
-       "pageId": "conditionals-and-logic-exercises-5-3",
-       "title": "Exercises 5.3",
+       "id": "conditionals-and-logic-exercise-5-3",
+       "pageId": "conditionals-and-logic-exercise-5-3",
+       "title": "Exercise 5.3",
        "type": "page"
       },
       {
-       "id": "conditionals-and-logic-exercises-5-4",
-       "pageId": "conditionals-and-logic-exercises-5-4",
-       "title": "Exercises 5.4",
+       "id": "conditionals-and-logic-exercise-5-4",
+       "pageId": "conditionals-and-logic-exercise-5-4",
+       "title": "Exercise 5.4",
        "type": "page"
       },
       {
-       "id": "conditionals-and-logic-exercises-5-5",
-       "pageId": "conditionals-and-logic-exercises-5-5",
-       "title": "Exercises 5.5",
+       "id": "conditionals-and-logic-exercise-5-5",
+       "pageId": "conditionals-and-logic-exercise-5-5",
+       "title": "Exercise 5.5",
        "type": "page"
       },
       {
-       "id": "conditionals-and-logic-exercises-5-6",
-       "pageId": "conditionals-and-logic-exercises-5-6",
-       "title": "Exercises 5.6",
+       "id": "conditionals-and-logic-exercise-5-6",
+       "pageId": "conditionals-and-logic-exercise-5-6",
+       "title": "Exercise 5.6",
        "type": "page"
       },
       {
-       "id": "conditionals-and-logic-exercises-5-7",
-       "pageId": "conditionals-and-logic-exercises-5-7",
-       "title": "Exercises 5.7",
+       "id": "conditionals-and-logic-exercise-5-7",
+       "pageId": "conditionals-and-logic-exercise-5-7",
+       "title": "Exercise 5.7",
        "type": "page"
       }
      ],
@@ -633,39 +633,39 @@
     {
      "children": [
       {
-       "id": "loops-and-strings-exercises-6-1",
-       "pageId": "loops-and-strings-exercises-6-1",
-       "title": "Exercises 6.1",
+       "id": "loops-and-strings-exercise-6-1",
+       "pageId": "loops-and-strings-exercise-6-1",
+       "title": "Exercise 6.1",
        "type": "page"
       },
       {
-       "id": "loops-and-strings-exercises-6-2",
-       "pageId": "loops-and-strings-exercises-6-2",
-       "title": "Exercises 6.2",
+       "id": "loops-and-strings-exercise-6-2",
+       "pageId": "loops-and-strings-exercise-6-2",
+       "title": "Exercise 6.2",
        "type": "page"
       },
       {
-       "id": "loops-and-strings-exercises-6-3",
-       "pageId": "loops-and-strings-exercises-6-3",
-       "title": "Exercises 6.3",
+       "id": "loops-and-strings-exercise-6-3",
+       "pageId": "loops-and-strings-exercise-6-3",
+       "title": "Exercise 6.3",
        "type": "page"
       },
       {
-       "id": "loops-and-strings-exercises-6-4",
-       "pageId": "loops-and-strings-exercises-6-4",
-       "title": "Exercises 6.4",
+       "id": "loops-and-strings-exercise-6-4",
+       "pageId": "loops-and-strings-exercise-6-4",
+       "title": "Exercise 6.4",
        "type": "page"
       },
       {
-       "id": "loops-and-strings-exercises-6-5",
-       "pageId": "loops-and-strings-exercises-6-5",
-       "title": "Exercises 6.5",
+       "id": "loops-and-strings-exercise-6-5",
+       "pageId": "loops-and-strings-exercise-6-5",
+       "title": "Exercise 6.5",
        "type": "page"
       },
       {
-       "id": "loops-and-strings-exercises-6-6",
-       "pageId": "loops-and-strings-exercises-6-6",
-       "title": "Exercises 6.6",
+       "id": "loops-and-strings-exercise-6-6",
+       "pageId": "loops-and-strings-exercise-6-6",
+       "title": "Exercise 6.6",
        "type": "page"
       }
      ],
@@ -745,51 +745,51 @@
     {
      "children": [
       {
-       "id": "arrays-and-references-exercises-7-1",
-       "pageId": "arrays-and-references-exercises-7-1",
-       "title": "Exercises 7.1",
+       "id": "arrays-and-references-exercise-7-1",
+       "pageId": "arrays-and-references-exercise-7-1",
+       "title": "Exercise 7.1",
        "type": "page"
       },
       {
-       "id": "arrays-and-references-exercises-7-2",
-       "pageId": "arrays-and-references-exercises-7-2",
-       "title": "Exercises 7.2",
+       "id": "arrays-and-references-exercise-7-2",
+       "pageId": "arrays-and-references-exercise-7-2",
+       "title": "Exercise 7.2",
        "type": "page"
       },
       {
-       "id": "arrays-and-references-exercises-7-3",
-       "pageId": "arrays-and-references-exercises-7-3",
-       "title": "Exercises 7.3",
+       "id": "arrays-and-references-exercise-7-3",
+       "pageId": "arrays-and-references-exercise-7-3",
+       "title": "Exercise 7.3",
        "type": "page"
       },
       {
-       "id": "arrays-and-references-exercises-7-4",
-       "pageId": "arrays-and-references-exercises-7-4",
-       "title": "Exercises 7.4",
+       "id": "arrays-and-references-exercise-7-4",
+       "pageId": "arrays-and-references-exercise-7-4",
+       "title": "Exercise 7.4",
        "type": "page"
       },
       {
-       "id": "arrays-and-references-exercises-7-5",
-       "pageId": "arrays-and-references-exercises-7-5",
-       "title": "Exercises 7.5",
+       "id": "arrays-and-references-exercise-7-5",
+       "pageId": "arrays-and-references-exercise-7-5",
+       "title": "Exercise 7.5",
        "type": "page"
       },
       {
-       "id": "arrays-and-references-exercises-7-6",
-       "pageId": "arrays-and-references-exercises-7-6",
-       "title": "Exercises 7.6",
+       "id": "arrays-and-references-exercise-7-6",
+       "pageId": "arrays-and-references-exercise-7-6",
+       "title": "Exercise 7.6",
        "type": "page"
       },
       {
-       "id": "arrays-and-references-exercises-7-7",
-       "pageId": "arrays-and-references-exercises-7-7",
-       "title": "Exercises 7.7",
+       "id": "arrays-and-references-exercise-7-7",
+       "pageId": "arrays-and-references-exercise-7-7",
+       "title": "Exercise 7.7",
        "type": "page"
       },
       {
-       "id": "arrays-and-references-exercises-7-8",
-       "pageId": "arrays-and-references-exercises-7-8",
-       "title": "Exercises 7.8",
+       "id": "arrays-and-references-exercise-7-8",
+       "pageId": "arrays-and-references-exercise-7-8",
+       "title": "Exercise 7.8",
        "type": "page"
       }
      ],
@@ -857,45 +857,45 @@
     {
      "children": [
       {
-       "id": "recursive-methods-exercises-8-1",
-       "pageId": "recursive-methods-exercises-8-1",
-       "title": "Exercises 8.1",
+       "id": "recursive-methods-exercise-8-1",
+       "pageId": "recursive-methods-exercise-8-1",
+       "title": "Exercise 8.1",
        "type": "page"
       },
       {
-       "id": "recursive-methods-exercises-8-2",
-       "pageId": "recursive-methods-exercises-8-2",
-       "title": "Exercises 8.2",
+       "id": "recursive-methods-exercise-8-2",
+       "pageId": "recursive-methods-exercise-8-2",
+       "title": "Exercise 8.2",
        "type": "page"
       },
       {
-       "id": "recursive-methods-exercises-8-3",
-       "pageId": "recursive-methods-exercises-8-3",
-       "title": "Exercises 8.3",
+       "id": "recursive-methods-exercise-8-3",
+       "pageId": "recursive-methods-exercise-8-3",
+       "title": "Exercise 8.3",
        "type": "page"
       },
       {
-       "id": "recursive-methods-exercises-8-4",
-       "pageId": "recursive-methods-exercises-8-4",
-       "title": "Exercises 8.4",
+       "id": "recursive-methods-exercise-8-4",
+       "pageId": "recursive-methods-exercise-8-4",
+       "title": "Exercise 8.4",
        "type": "page"
       },
       {
-       "id": "recursive-methods-exercises-8-5",
-       "pageId": "recursive-methods-exercises-8-5",
-       "title": "Exercises 8.5",
+       "id": "recursive-methods-exercise-8-5",
+       "pageId": "recursive-methods-exercise-8-5",
+       "title": "Exercise 8.5",
        "type": "page"
       },
       {
-       "id": "recursive-methods-exercises-8-6",
-       "pageId": "recursive-methods-exercises-8-6",
-       "title": "Exercises 8.6",
+       "id": "recursive-methods-exercise-8-6",
+       "pageId": "recursive-methods-exercise-8-6",
+       "title": "Exercise 8.6",
        "type": "page"
       },
       {
-       "id": "recursive-methods-exercises-8-7",
-       "pageId": "recursive-methods-exercises-8-7",
-       "title": "Exercises 8.7",
+       "id": "recursive-methods-exercise-8-7",
+       "pageId": "recursive-methods-exercise-8-7",
+       "title": "Exercise 8.7",
        "type": "page"
       }
      ],
@@ -963,39 +963,39 @@
     {
      "children": [
       {
-       "id": "immutable-objects-exercises-9-1",
-       "pageId": "immutable-objects-exercises-9-1",
-       "title": "Exercises 9.1",
+       "id": "immutable-objects-exercise-9-1",
+       "pageId": "immutable-objects-exercise-9-1",
+       "title": "Exercise 9.1",
        "type": "page"
       },
       {
-       "id": "immutable-objects-exercises-9-2",
-       "pageId": "immutable-objects-exercises-9-2",
-       "title": "Exercises 9.2",
+       "id": "immutable-objects-exercise-9-2",
+       "pageId": "immutable-objects-exercise-9-2",
+       "title": "Exercise 9.2",
        "type": "page"
       },
       {
-       "id": "immutable-objects-exercises-9-3",
-       "pageId": "immutable-objects-exercises-9-3",
-       "title": "Exercises 9.3",
+       "id": "immutable-objects-exercise-9-3",
+       "pageId": "immutable-objects-exercise-9-3",
+       "title": "Exercise 9.3",
        "type": "page"
       },
       {
-       "id": "immutable-objects-exercises-9-4",
-       "pageId": "immutable-objects-exercises-9-4",
-       "title": "Exercises 9.4",
+       "id": "immutable-objects-exercise-9-4",
+       "pageId": "immutable-objects-exercise-9-4",
+       "title": "Exercise 9.4",
        "type": "page"
       },
       {
-       "id": "immutable-objects-exercises-9-5",
-       "pageId": "immutable-objects-exercises-9-5",
-       "title": "Exercises 9.5",
+       "id": "immutable-objects-exercise-9-5",
+       "pageId": "immutable-objects-exercise-9-5",
+       "title": "Exercise 9.5",
        "type": "page"
       },
       {
-       "id": "immutable-objects-exercises-9-6",
-       "pageId": "immutable-objects-exercises-9-6",
-       "title": "Exercises 9.6",
+       "id": "immutable-objects-exercise-9-6",
+       "pageId": "immutable-objects-exercise-9-6",
+       "title": "Exercise 9.6",
        "type": "page"
       }
      ],
@@ -1075,21 +1075,21 @@
     {
      "children": [
       {
-       "id": "mutable-objects-exercises-10-1",
-       "pageId": "mutable-objects-exercises-10-1",
-       "title": "Exercises 10.1",
+       "id": "mutable-objects-exercise-10-1",
+       "pageId": "mutable-objects-exercise-10-1",
+       "title": "Exercise 10.1",
        "type": "page"
       },
       {
-       "id": "mutable-objects-exercises-10-2",
-       "pageId": "mutable-objects-exercises-10-2",
-       "title": "Exercises 10.2",
+       "id": "mutable-objects-exercise-10-2",
+       "pageId": "mutable-objects-exercise-10-2",
+       "title": "Exercise 10.2",
        "type": "page"
       },
       {
-       "id": "mutable-objects-exercises-10-3",
-       "pageId": "mutable-objects-exercises-10-3",
-       "title": "Exercises 10.3",
+       "id": "mutable-objects-exercise-10-3",
+       "pageId": "mutable-objects-exercise-10-3",
+       "title": "Exercise 10.3",
        "type": "page"
       }
      ],
@@ -1169,33 +1169,33 @@
     {
      "children": [
       {
-       "id": "designing-classes-exercises-11-1",
-       "pageId": "designing-classes-exercises-11-1",
-       "title": "Exercises 11.1",
+       "id": "designing-classes-exercise-11-1",
+       "pageId": "designing-classes-exercise-11-1",
+       "title": "Exercise 11.1",
        "type": "page"
       },
       {
-       "id": "designing-classes-exercises-11-2",
-       "pageId": "designing-classes-exercises-11-2",
-       "title": "Exercises 11.2",
+       "id": "designing-classes-exercise-11-2",
+       "pageId": "designing-classes-exercise-11-2",
+       "title": "Exercise 11.2",
        "type": "page"
       },
       {
-       "id": "designing-classes-exercises-11-3",
-       "pageId": "designing-classes-exercises-11-3",
-       "title": "Exercises 11.3",
+       "id": "designing-classes-exercise-11-3",
+       "pageId": "designing-classes-exercise-11-3",
+       "title": "Exercise 11.3",
        "type": "page"
       },
       {
-       "id": "designing-classes-exercises-11-4",
-       "pageId": "designing-classes-exercises-11-4",
-       "title": "Exercises 11.4",
+       "id": "designing-classes-exercise-11-4",
+       "pageId": "designing-classes-exercise-11-4",
+       "title": "Exercise 11.4",
        "type": "page"
       },
       {
-       "id": "designing-classes-exercises-11-5",
-       "pageId": "designing-classes-exercises-11-5",
-       "title": "Exercises 11.5",
+       "id": "designing-classes-exercise-11-5",
+       "pageId": "designing-classes-exercise-11-5",
+       "title": "Exercise 11.5",
        "type": "page"
       }
      ],
@@ -1281,27 +1281,27 @@
     {
      "children": [
       {
-       "id": "arrays-of-objects-exercises-12-1",
-       "pageId": "arrays-of-objects-exercises-12-1",
-       "title": "Exercises 12.1",
+       "id": "arrays-of-objects-exercise-12-1",
+       "pageId": "arrays-of-objects-exercise-12-1",
+       "title": "Exercise 12.1",
        "type": "page"
       },
       {
-       "id": "arrays-of-objects-exercises-12-2",
-       "pageId": "arrays-of-objects-exercises-12-2",
-       "title": "Exercises 12.2",
+       "id": "arrays-of-objects-exercise-12-2",
+       "pageId": "arrays-of-objects-exercise-12-2",
+       "title": "Exercise 12.2",
        "type": "page"
       },
       {
-       "id": "arrays-of-objects-exercises-12-3",
-       "pageId": "arrays-of-objects-exercises-12-3",
-       "title": "Exercises 12.3",
+       "id": "arrays-of-objects-exercise-12-3",
+       "pageId": "arrays-of-objects-exercise-12-3",
+       "title": "Exercise 12.3",
        "type": "page"
       },
       {
-       "id": "arrays-of-objects-exercises-12-4",
-       "pageId": "arrays-of-objects-exercises-12-4",
-       "title": "Exercises 12.4",
+       "id": "arrays-of-objects-exercise-12-4",
+       "pageId": "arrays-of-objects-exercise-12-4",
+       "title": "Exercise 12.4",
        "type": "page"
       }
      ],
@@ -1381,39 +1381,39 @@
     {
      "children": [
       {
-       "id": "objects-of-arrays-exercises-13-1",
-       "pageId": "objects-of-arrays-exercises-13-1",
-       "title": "Exercises 13.1",
+       "id": "objects-of-arrays-exercise-13-1",
+       "pageId": "objects-of-arrays-exercise-13-1",
+       "title": "Exercise 13.1",
        "type": "page"
       },
       {
-       "id": "objects-of-arrays-exercises-13-2",
-       "pageId": "objects-of-arrays-exercises-13-2",
-       "title": "Exercises 13.2",
+       "id": "objects-of-arrays-exercise-13-2",
+       "pageId": "objects-of-arrays-exercise-13-2",
+       "title": "Exercise 13.2",
        "type": "page"
       },
       {
-       "id": "objects-of-arrays-exercises-13-3",
-       "pageId": "objects-of-arrays-exercises-13-3",
-       "title": "Exercises 13.3",
+       "id": "objects-of-arrays-exercise-13-3",
+       "pageId": "objects-of-arrays-exercise-13-3",
+       "title": "Exercise 13.3",
        "type": "page"
       },
       {
-       "id": "objects-of-arrays-exercises-13-4",
-       "pageId": "objects-of-arrays-exercises-13-4",
-       "title": "Exercises 13.4",
+       "id": "objects-of-arrays-exercise-13-4",
+       "pageId": "objects-of-arrays-exercise-13-4",
+       "title": "Exercise 13.4",
        "type": "page"
       },
       {
-       "id": "objects-of-arrays-exercises-13-5",
-       "pageId": "objects-of-arrays-exercises-13-5",
-       "title": "Exercises 13.5",
+       "id": "objects-of-arrays-exercise-13-5",
+       "pageId": "objects-of-arrays-exercise-13-5",
+       "title": "Exercise 13.5",
        "type": "page"
       },
       {
-       "id": "objects-of-arrays-exercises-13-6",
-       "pageId": "objects-of-arrays-exercises-13-6",
-       "title": "Exercises 13.6",
+       "id": "objects-of-arrays-exercise-13-6",
+       "pageId": "objects-of-arrays-exercise-13-6",
+       "title": "Exercise 13.6",
        "type": "page"
       }
      ],
@@ -1475,27 +1475,27 @@
     {
      "children": [
       {
-       "id": "extending-classes-exercises-14-1",
-       "pageId": "extending-classes-exercises-14-1",
-       "title": "Exercises 14.1",
+       "id": "extending-classes-exercise-14-1",
+       "pageId": "extending-classes-exercise-14-1",
+       "title": "Exercise 14.1",
        "type": "page"
       },
       {
-       "id": "extending-classes-exercises-14-2",
-       "pageId": "extending-classes-exercises-14-2",
-       "title": "Exercises 14.2",
+       "id": "extending-classes-exercise-14-2",
+       "pageId": "extending-classes-exercise-14-2",
+       "title": "Exercise 14.2",
        "type": "page"
       },
       {
-       "id": "extending-classes-exercises-14-3",
-       "pageId": "extending-classes-exercises-14-3",
-       "title": "Exercises 14.3",
+       "id": "extending-classes-exercise-14-3",
+       "pageId": "extending-classes-exercise-14-3",
+       "title": "Exercise 14.3",
        "type": "page"
       },
       {
-       "id": "extending-classes-exercises-14-4",
-       "pageId": "extending-classes-exercises-14-4",
-       "title": "Exercises 14.4",
+       "id": "extending-classes-exercise-14-4",
+       "pageId": "extending-classes-exercise-14-4",
+       "title": "Exercise 14.4",
        "type": "page"
       }
      ],

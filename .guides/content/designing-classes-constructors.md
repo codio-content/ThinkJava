@@ -1,5 +1,4 @@
-After declaring instance variables, the next step is to define a **constructor**, which is a special method that initializes the object.
-The syntax for constructors is similar to that of other methods, except:
+After declaring instance variables, the next step is to define a **constructor**, which is a special method that initializes the object. The syntax for constructors is similar to that of other methods, except:
 
 
 
@@ -18,18 +17,15 @@ public Time() {
     this.second = 0.0;
 }
 ```
-
-This constructor does not take any arguments.
-Each line initializes an instance variable to zero (which in this example means midnight).
+[Highlight in Code](open_file code/Time.java panel=0 ref="public Time()" count=5)
 
 
-The name `this` is a keyword that refers to the object we are creating.
-You can use `this` the same way you use the name of any other object.
-For example, you can read and write the instance variables of `this`, and you can pass `this` as an argument to other methods.
-But you do not declare `this`, and you can't make an assignment to it.
+This constructor does not take any arguments. Each line initializes an instance variable to zero (which in this example means midnight).
 
-A common error when writing constructors is to put a `return` statement at the end.
-Like `void` methods, constructors do not return values.
+
+The name `this` is a keyword that refers to the object we are creating. You can use `this` the same way you use the name of any other object. For example, you can read and write the instance variables of `this`, and you can pass `this` as an argument to other methods. But you do not declare `this`, and you can't make an assignment to it.
+
+A common error when writing constructors is to put a `return` statement at the end. Like `void` methods, constructors do not return values.
 
 To create a `Time` object, you must use the `new` operator:
 
@@ -40,19 +36,18 @@ public static void main(String[] args) {
 ```
 
 
-When you use `new`, Java creates the object and invokes your constructor to initialize the instance variables.
-When the constructor is done, `new` returns a reference to the new object.
-In this example, the reference gets assigned to the variable `time`, which has type `Time`.
-Figure 11.1 shows the result.
+{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
 
 
-![Figure 12.1 Memory diagram of a `Time` object.](figs/time.jpg)
-
-**Figure 12.1 Memory diagram of a `Time` object.**
+When you use `new`, Java creates the object and invokes your constructor to initialize the instance variables. When the constructor is done, `new` returns a reference to the new object. In this example, the reference gets assigned to the variable `time`, which has type `Time`. Figure 11.1 shows the result.
 
 
-Beginners sometimes make the mistake of using `new` in the constructor.
-Doing so causes an infinite recursion, since `new` invokes the same constructor, which uses `new` again, which invokes the constructor again, and so on.
+![Figure 11.1 Memory diagram of a `Time` object.](figs/time.jpg)
+
+**Figure 11.1 Memory diagram of a `Time` object.**
+
+
+Beginners sometimes make the mistake of using `new` in the constructor. Doing so causes an infinite recursion, since `new` invokes the same constructor, which uses `new` again, which invokes the constructor again, and so on.
 
 ```code
 public Time() {
