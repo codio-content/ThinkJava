@@ -37,6 +37,9 @@ private void swapCards(int i, int j) {
 }
 ```
 
+{Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+
+
 
 Methods like `randomInt` and `swapCards` are called **helper methods**, because they help you solve parts of the problem.
 Helper methods are often `private`, since they are specific to the internal algorithms of the class.

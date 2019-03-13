@@ -24,6 +24,8 @@ public class Time {
     private double second;
 }
 ```
+[Highlight in Code](open_file code/Time.java panel=0 ref="public class Time" count=5)
+
 
 
 The `Time` class is `public`, which means that it can be used in other classes.

@@ -56,4 +56,7 @@ To create a `Card` object, we use the `new` operator:
 Card threeOfClubs = new Card(3, 0);
 ```
 
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+
+
 The result is a reference to a `Card` that represents the “3 of Clubs”.

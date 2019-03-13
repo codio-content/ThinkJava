@@ -14,6 +14,9 @@ public static int search(Card[] cards, Card target) {
 }
 ```
 
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+
+
 
 The method returns as soon as it discovers the card, which means we don't have to traverse the entire array if we find the target.
 If we get to the end of the loop, we know the card is not in the array.

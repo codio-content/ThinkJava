@@ -11,6 +11,9 @@ The following example creates a `Rectangle` object and makes the variable `box` 
 ```code
 Rectangle box = new Rectangle(0, 0, 100, 200);
 ```
+Try it out in the pane to the left. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ReturnObjs.java java -cp code/ ReturnObjs )
+
 
 Figure 10.2 shows the effect of this assignment.
 
@@ -37,6 +40,8 @@ public static Point findCenter(Rectangle box) {
     return new Point(x, y);
 }
 ```
+{Run!}(sh .guides/bg.sh javac code/ReturnObjs.java java -cp code/ ReturnObjs 2 )
+
 
 The return type of this method is `Point`.
 The last line creates a new `Point` object and returns a reference to it.

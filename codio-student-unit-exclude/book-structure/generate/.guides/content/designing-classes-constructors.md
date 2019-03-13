@@ -18,6 +18,8 @@ public Time() {
     this.second = 0.0;
 }
 ```
+[Highlight in Code](open_file code/Time.java panel=0 ref="public Time()" count=5)
+
 
 This constructor does not take any arguments.
 Each line initializes an instance variable to zero (which in this example means midnight).
@@ -38,6 +40,9 @@ public static void main(String[] args) {
     Time time = new Time();
 }
 ```
+
+
+{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
 
 
 When you use `new`, Java creates the object and invokes your constructor to initialize the instance variables.

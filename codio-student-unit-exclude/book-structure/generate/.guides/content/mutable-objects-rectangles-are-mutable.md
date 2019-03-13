@@ -6,6 +6,9 @@ Rectangle box = new Rectangle(0, 0, 100, 200);
 box.x = box.x + 50;
 box.y = box.y + 100;
 ```
+Try it out in the pane to the left. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ReturnObjs.java java -cp code/ ReturnObjs )
+
 
 The result is shown in Figure 10.4.
 
@@ -30,6 +33,8 @@ Invoking this method has the effect of modifying the `Rectangle` that is passed 
 Rectangle box = new Rectangle(0, 0, 100, 200);
 moveRect(box, 50, 100);  // now at (50, 100, 100, 200)
 ```
+{Run!}(sh .guides/bg.sh javac code/ReturnObjs.java java -cp code/ ReturnObjs 2 )
+
 
 
 Modifying objects by passing them as arguments to methods can be useful.

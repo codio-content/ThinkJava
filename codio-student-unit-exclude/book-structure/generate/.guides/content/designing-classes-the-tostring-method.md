@@ -40,5 +40,8 @@ Or you can invoke it indirectly through `println`:
 System.out.println(time);
 ```
 
+{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+
+
 In this example, `this` in `toString` refers to the same object as `time`.
 The return value is `"11:59:59.9"`.

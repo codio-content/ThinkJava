@@ -60,6 +60,9 @@ public void reshuffle() {
 }
 ```
 
+{Run!}(sh .guides/bg.sh javac code/Eights.java java -cp code/ Eights )
+
+
 The first line saves the top card from `discardPile`.
 The next line transfers the rest of the cards to `drawPile`.
 Then we put the saved card back into `discardPile` and shuffle `drawPile`.
@@ -85,6 +88,9 @@ public Player nextPlayer(Player current) {
     }
 }
 ```
+
+{Run!}(sh .guides/bg.sh javac code/Eights.java java -cp code/ Eights 2 )
+
 
 The last method from our bottom-up design is `displayState`.
 It displays the hand of each player, the contents of the discard pile, and how many cards are in the draw pile.
@@ -124,6 +130,9 @@ public void playGame() {
     two.displayScore();
 }
 ```
+
+{Run!}(sh .guides/bg.sh javac code/Eights.java java -cp code/ Eights 3)
+
 
 Done!
 Notice the result of bottom-up design is similar to top-down: we have a high-level method that calls helper methods.

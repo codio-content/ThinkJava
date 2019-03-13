@@ -24,4 +24,7 @@ private int indexLowest(int low, int high) {
 ```
 
 
+{Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+
+
 One of the exercises at the end of the chapter asks you to write `indexLowest`, and then use it and `swapCards` to implement `selectionSort`.

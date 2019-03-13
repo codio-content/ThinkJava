@@ -25,6 +25,9 @@ Deck deck = new Deck();
 deck.print();  // correct
 ```
 
+{Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+
+
 Notice that `Deck` with a capital `D` is a class, and `deck` with a lowercase `d` is a variable.
 When you invoke `deck.print()`, the reference of `deck` becomes the reference `this`.
 For static methods, there is no such thing as `this`.

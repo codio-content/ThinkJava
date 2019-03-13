@@ -32,6 +32,9 @@ public class Pile {
 }
 ```
 
+{Run!}(sh .guides/bg.sh javac code/Pile.java java -cp code/ Pile )
+
+
 
 When you declare an `ArrayList`, you specify the type it contains in angle brackets (`<>`).
 This declaration says that `cards` is not just an `ArrayList`, it's an `ArrayList` of `Card` objects.
@@ -66,6 +69,9 @@ public int size() {
 ```
 
 
+{Run!}(sh .guides/bg.sh javac code/Pile.java java -cp code/ Pile 2 )
+
+
 Methods like `addCard`, `popCard`, and `size`, which invoke another method without doing much additional work, are called **wrapper methods**.
 The last method we need adds an entire subdeck to the pile.
 
@@ -92,6 +98,9 @@ Pile p2 = new Pile();
 p2.addDeck(deck.subdeck(26, 51));
 ```
 
+{Run!}(sh .guides/bg.sh javac code/Pile.java java -cp code/ Pile 3 )
+
+
 The game itself is a loop that repeats until one of the piles is empty.
 At each iteration, we draw a card from each pile and compare their ranks.
 
@@ -111,6 +120,9 @@ while (p1.size() > 0 && p2.size() > 0) {
         p2.addCard(c2);
     } else {  // it's a tie...draw four more cards
 ```
+
+{Run!}(sh .guides/bg.sh javac code/Pile.java java -cp code/ Pile 4 )
+
 
 One of the exercises at the end of this chapter asks you to implement the `else` block when there's a tie.
 After the `while` loop ends, we display the winner based on which pile is not empty.

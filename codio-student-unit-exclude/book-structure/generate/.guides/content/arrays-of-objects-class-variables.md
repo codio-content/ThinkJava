@@ -26,6 +26,9 @@ public class Card {
 }
 ```
 
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+
+
 
 Class variables are allocated when the program begins (or when the class is used for the first time) and survive until the program ends.
 In contrast, instance variables like `rank` and `suit` are allocated when the program creates `new` objects, and they are reclaimed when the object is garbage-collected.

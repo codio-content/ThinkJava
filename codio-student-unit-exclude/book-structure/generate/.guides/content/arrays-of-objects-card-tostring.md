@@ -67,6 +67,9 @@ public String toString() {
 When we display a card, `println` automatically calls `toString`.
 The output of the following code is `Jack of Diamonds`.
 
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+
+
 ```code
 Card card = new Card(11, 1);
 System.out.println(card);

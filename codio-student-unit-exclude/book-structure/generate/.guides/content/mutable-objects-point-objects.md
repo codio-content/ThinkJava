@@ -17,6 +17,9 @@ Point blank;
 blank = new Point(3, 4);
 ```
 
+Try it out in the pane to the left. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/PointObjs.java java -cp code/ PointObjs )
+
 
 The first line declares that `blank` has type `Point`.
 The second line creates the new `Point` with the given coordinates.
@@ -42,6 +45,8 @@ For example:
 ```code
 int x = blank.x;
 ```
+{Run!}(sh .guides/bg.sh javac code/PointObjs.java java -cp code/ PointObjs 2 )
+
 
 The expression `blank.x` means “go to the object `blank` refers to, and get the value of the attribute `x`.”
 In this case, we assign that value to a local variable named `x`.

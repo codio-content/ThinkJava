@@ -39,6 +39,9 @@ System.out.printf("Draw Pile has %d cards.\n",
                   drawPile.size());
 ```
 
+{Run!}(sh .guides/bg.sh javac code/CardCollection.java java -cp code/ CardCollection )
+
+
 Because the deck is shuffled randomly, you should get a different hand each time you run this example.
 The output will look something like:
 

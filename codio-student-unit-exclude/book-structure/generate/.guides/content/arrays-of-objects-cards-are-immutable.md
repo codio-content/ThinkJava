@@ -11,6 +11,9 @@ public int getSuit() {
 }
 ```
 
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+
+
 
 Whether or not to provide setters is a design decision.
 If we did, cards would be mutable, so you could transform one card into another.
@@ -30,6 +33,9 @@ public class Card {
     ...
 }
 ```
+
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 2 )
+
 
 You can still assign values to these variables inside a constructor.
 But if someone writes a method that tries to modify these variables, they'll get a compiler error.

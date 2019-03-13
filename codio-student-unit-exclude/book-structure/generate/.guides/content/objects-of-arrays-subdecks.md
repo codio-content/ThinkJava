@@ -12,6 +12,9 @@ public Deck subdeck(int low, int high) {
 }
 ```
 
+{Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+
+
 The first line creates an unpopulated subdeck (an array of `null` references).
 Inside the `for` loop, the subdeck gets populated with references in the deck.
 

@@ -5,6 +5,9 @@ The following statement creates an array of 52 cards:
 Card[] cards = new Card[52];
 ```
 
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+
+
 Figure 12.2 shows the memory diagram for this array.
 
 ![Figure 13.2 Memory diagram of an unpopulated `Card` array.](figs/cardarray.jpg)
@@ -43,6 +46,9 @@ for (int suit = 0; suit <= 3; suit++) {
 }
 ```
 
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 2 )
+
+
 The outer loop iterates suits from 0 to 3.
 For each suit, the inner loop iterates ranks from 1 to 13.
 Since the outer loop runs 4 times, and the inner loop runs 13 times for each suit, the body is executed 52 times.
@@ -66,6 +72,9 @@ public static void printDeck(Card[] cards) {
     }
 }
 ```
+
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 3 )
+
 
 
 Since `cards` has type `Card[]`, an element of `cards` has type `Card`.

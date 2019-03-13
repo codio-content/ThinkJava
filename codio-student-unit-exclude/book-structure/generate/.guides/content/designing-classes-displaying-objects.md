@@ -7,6 +7,9 @@ public static void main(String[] args) {
 }
 ```
 
+{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+
+
 
 The output will look something like:
 
@@ -41,6 +44,9 @@ public static void printTime(Time t) {
         t.hour, t.minute, t.second);
 }
 ```
+
+{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 2 )
+
 
 As a reminder, you need to use `%d` with integers and `%f` with floating-point numbers.
 The `02` option means “total width 2, with leading zeros if necessary”, and the `04.1` option means “total width 4, one digit after the decimal point, leading zeros if necessary”.

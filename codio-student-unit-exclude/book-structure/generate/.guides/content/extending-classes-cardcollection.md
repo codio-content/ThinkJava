@@ -55,6 +55,9 @@ public Card popCard(int i) {
 }
 ```
 
+{Run!}(sh .guides/bg.sh javac code/CardCollection.java java -cp code/ CardCollection )
+
+
 
 If we are dealing cards from a shuffled deck, we don't care which card gets removed.
 It is most efficient to choose the last one, so we don't have to shift any cards left.
@@ -93,6 +96,9 @@ public Card getCard(int i) {
 }
 ```
 
+{Run!}(sh .guides/bg.sh javac code/CardCollection.java java -cp code/ CardCollection 2 )
+
+
 The `lastCard` method gets the last card (but doesn't remove it):
 
 ```code
@@ -125,3 +131,5 @@ public void shuffle() {
     }
 }
 ```
+
+{Run!}(sh .guides/bg.sh javac code/CardCollection.java java -cp code/ CardCollection 3)

@@ -34,6 +34,9 @@ public Card play(Eights eights, Card prev) {
 }
 ```
 
+{Run!}(sh .guides/bg.sh javac code/Player.java java -cp code/ Player )
+
+
 The first parameter is a reference to the `Eights` object that encapsulates the state of the game.
 We'll need it if we have to draw a new card.
 The second parameter, `prev`, is the card on top of the discard pile.
@@ -71,6 +74,9 @@ public Card drawForMatch(Eights eights, Card prev) {
 }
 ```
 
+{Run!}(sh .guides/bg.sh javac code/Player.java java -cp code/ Player 2 )
+
+
 The `while` loop runs until it finds a match (we'll assume for now that it always does).
 It uses the `Eights` object to draw a card.
 If it matches, it returns the card.
@@ -93,5 +99,8 @@ public static boolean cardMatches(Card card1, Card card2) {
     return false;
 }
 ```
+
+{Run!}(sh .guides/bg.sh javac code/Player.java java -cp code/ Player )
+
 
 Finally, `Player` provides a `score` method, which computes penalty points for cards left in a player's hand at the end of the game.

@@ -7,6 +7,9 @@ public boolean equals(Card that) {
 }
 ```
 
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+
+
 
 It would also be nice to have a method for comparing cards, so we can tell if one is higher or lower than another.
 For primitive types, we can use the comparison operators -- `<`, `>`, etc.\ -- to compare values.
@@ -49,6 +52,9 @@ public int compareTo(Card that) {
     return 0;
 }
 ```
+
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 2 )
+
 
 `compareTo` returns 1 if `this` wins, -1 if `that` wins, and 0 if they are equivalent.
 It compares suits first.

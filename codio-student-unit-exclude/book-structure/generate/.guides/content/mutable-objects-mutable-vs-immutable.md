@@ -6,7 +6,10 @@ They do not give `public` access to their attributes, and they do not provide me
 
 Immutable objects have a number of advantages that help improve the performance and reliability of programs.
 For example, two strings that contain the same contents can be stored in memory only once.
-The Java compiler automatically detects this situation:
+
+The Java compiler automatically detecets this situation. See the example in the top-left panel. To run the example, click the "Run!" button below.
+{Run!}(sh .guides/bg.sh javac code/Surprise.java java -cp code/ Surprise )
+
 
 
 
@@ -24,7 +27,10 @@ It's more efficient to move a rectangle by simply changing its coordinates than 
 And as we'll see later on, it's easier to implement objects that allow their attributes to be changed.
 
 Strings are particularly inefficient when you need to concatenate them multiple times.
-Consider the following program that inputs ten lines from `System.in` and concatenates them into a single `String`.
+
+Consider the program in the bottom-left panel that inputs ten lines from `System.in` and concatenates them into a single `String`. To run the example, click the "Run!" button below.
+{Run!}(sh .guides/bg.sh javac code/Append.java java -cp code/ Append )
+
 
 
 
@@ -50,6 +56,9 @@ for (int i = 0; i < 10; i++) {
     text.append('\n');
 }
 ```
+
+{Run!}(sh .guides/bg.sh javac code/Append.java java -cp code/ Append 2 )
+
 
 `StringBuilder` provides a number of `append` and `insert` methods that work with strings efficiently.
 It also allows you to `delete` portions of a string.

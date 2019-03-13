@@ -38,6 +38,9 @@ public Deck() {
 }
 ```
 
+{Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+
+
 This method is similar to the example in Section 12.6; we just turned it into a constructor.
 We can now create a standard `Deck` like this:
 
