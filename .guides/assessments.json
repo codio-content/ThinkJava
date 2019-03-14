@@ -278,5 +278,132 @@
    "previewType": "NONE",
    "points": 1
   }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2791946401",
+  "source": {
+   "name": "exercise-1-1a",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "In computer jargon, what's the difference between a statement and a comment?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3354245947",
+  "source": {
+   "name": "exercise-1-1b",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "What does it mean to say that a program is portable?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-824459802",
+  "source": {
+   "name": "exercise-1-1c",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "In common English, what does the word compile mean?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3752516518",
+  "source": {
+   "name": "exercise-1-1d",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "What is an executable? Why is that word used as a noun?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1005800380",
+  "source": {
+   "name": "exercise-1-2",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": false,
+   "preExecuteCommand": "",
+   "command": "javac code/Exercise_1_2.java && java -cp code/ Exercise_1_2",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Submit your code by pressing the button below.",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "Hello, World!\nHow are you?",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ]
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1099192244",
+  "source": {
+   "name": "exercise-1-3",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": false,
+   "instructions": "How many of the above generated an error?",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "<<<9>>>",
+   "tokens": {
+    "blank": [
+     "9"
+    ],
+    "text": [
+     0
+    ]
+   }
+  }
  }
 ]
