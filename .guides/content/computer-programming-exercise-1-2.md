@@ -1,4 +1,3 @@
-**Exercise 1.2:**
 Before you do anything else, find out how to compile and run a Java program. Some environments provide sample programs similar to the example in Section 1.3.
 
 1.  Type in the hello world program, then compile and run it. You can do this by entering `javac code/Exercise_1_2.java` followed by `java -cp code/ Exercise_1_2` or by pressing the button below:

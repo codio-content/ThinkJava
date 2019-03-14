@@ -8,8 +8,7 @@ Error messages from the compiler usually indicate where in the program the error
 
 
 
-See the example java code in the left panel.
-To compile and run the code, press the "Run!"
+Follow along using the example java code in the left panel. To compile and run the code, press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/1/Hello.java java -cp code/1/ Hello )
 
 

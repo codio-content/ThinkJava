@@ -110,11 +110,13 @@ sections:
     transformations:
         - add:  |
 
+              
               Try it out by typing `javac code/HelloWorld.java` into the terminal in the bottom-left pane and pressing Enter.
   
           position: 251
         - add:  |
 
+              
               Try it out by typing `java -cp code/ HelloWorld` into the terminal in the bottom-left pane and pressing Enter.
   
           position: 264
@@ -136,6 +138,7 @@ sections:
           position: 273
         - add: |
 
+
                For example, take a look at Hello2.java in the top-left pane which displays more than one line of output. To compile and run the code, press the "Run!"
                {Run!}(sh .guides/bg.sh javac code/Hello2.java java -cp code/ Hello2 )
        
@@ -143,6 +146,7 @@ sections:
         - remove: 1
           position: 301
         - add: |
+
 
                For example, take a look at Goodbye.java in the bottom-left pane which uses `print` instead of `println` to avoid the newling at the end. To compile and run the code, press the "Run!"
                {Run!}(sh .guides/bg.sh javac code/Goodbye.java java -cp code/ Goodbye )
@@ -165,7 +169,6 @@ sections:
         - remove: 1
           position: 338
         - add: |
-
                For example, the program in the top-left pane, `Goodbye.java` *is* legal. To compile and run the code, press the "Run!"
                {Run!}(sh .guides/bg.sh javac code/1/Goodbye.java java -cp code/1/ Goodbye )
     
@@ -173,7 +176,6 @@ sections:
         - remove: 1
           position: 350
         - add: |
-
                For example, we could write the same program like the example `Goodbye.java` in the bottom-left pane. To compile and run the code, press the "Run!"
                {Run!}(sh .guides/bg.sh javac code/2/Goodbye.java java -cp code/2/ Goodbye )
     
@@ -193,7 +195,6 @@ sections:
     type: section
     transformations:
         - add:  |
-
              See the example java code in the left panel. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/Hello3.java java -cp code/ Hello3 )
      
@@ -251,7 +252,7 @@ sections:
       files:
         - path: "#tabs"
           action: close
-        - path: "code/Exercise-1-2.java"
+        - path: "code/Exercise_1_2.java"
           panel: 0
           action: open
         - path: "#terminal: "
@@ -266,7 +267,7 @@ sections:
       files:
         - path: "#tabs"
           action: close
-        - path: "code/Exercise-1-2.java"
+        - path: "code/Exercise_1_2.java"
           panel: 0
           action: open
         - path: "#terminal: "
@@ -305,15 +306,10 @@ sections:
     type: section
     transformations:
         - add:  |
-             See the example java code in the left panel.
-             To compile and run the code, press the "Run!"
+             See the example java code in the left panel. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/Printing.java java -cp code/ Printing )
      
           position: 211
-        - add:  |
-             {Run!}(sh .guides/bg.sh javac code/Printing.java java -cp code/ Printing 2 )
-     
-          position: 225
     configuration:
       layout: 2-panels
       files:
@@ -326,8 +322,7 @@ sections:
     type: section
     transformations:
         - add:  |
-             See the example java code in the left panel.
-             To compile and run the code, press the "Run!"
+             See the example java code in the left panel. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/Arithmetic.java java -cp code/ Arithmetic )
      
           position: 278
@@ -348,8 +343,7 @@ sections:
     type: section
     transformations:
         - add:  |
-             See the example java code in the left panel.
-             To compile and run the code, press the "Run!"
+             See the example java code in the left panel. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/Floating.java java -cp code/ Floating )
      
           position: 364
@@ -377,8 +371,7 @@ sections:
     type: section
     transformations:
         - add:  |
-             See the example java code in the left panel.
-             To compile and run the code, press the "Run!"
+             See the example java code in the left panel. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/StringOps.java java -cp code/ StringOps )
      
           position: 505
@@ -394,8 +387,7 @@ sections:
     type: section
     transformations:
         - add:  |
-             See the example java code in the left panel.
-             To compile and run the code, press the "Run!"
+             Follow along using the example java code in the left panel. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/1/Hello.java java -cp code/1/ Hello )
      
           position: 575
@@ -410,12 +402,13 @@ sections:
   - name: Other types of errors
     type: section
     transformations:
+        - remove: 1
+          position: 653
         - add:  |
-             See the example java code in the left panel.
-             To compile and run the code, press the "Run!"
+             For example, see a version of the hello world program with a logic error in the left panel. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/2/Hello.java java -cp code/2/ Hello )
      
-          position: 666
+          position: 654
     configuration:
       layout: 2-panels
       files:
@@ -446,14 +439,35 @@ sections:
     type: section
     chapter: Variables and operators
     section: Exercises
+    configuration:
+    layout: 1-panel
+    files:
+        - path: "#tabs"
+          action: close
   - name: Exercise 2.2
     type: section
     chapter: Variables and operators
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise_2_2.java"
+          panel: 0
+          action: open
   - name: Exercise 2.3
     type: section
     chapter: Variables and operators
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise_2_3.java"
+          panel: 0
+          action: open
 #Chapter 3
   - name: Input and output
     type: chapter
@@ -3082,8 +3096,7 @@ insert_sections:
     section: Exercises
     before: false
     markdown: |
-      Computer scientists have the annoying habit of using common English words to mean something other than their common English meaning.
-      For example, in English, statements and comments are the same thing, but in programs they are different.
+      Computer scientists have the annoying habit of using common English words to mean something other than their common English meaning. For example, in English, statements and comments are the same thing, but in programs they are different.
 
 
       1.  {Submit Answer!|assessment}(free-text-2791946401)
@@ -3146,94 +3159,70 @@ insert_sections:
     chapter: Variables and operators
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex2.1
+    markdown: |
+      If you are using this book in a class, you might enjoy this exercise. Find a partner and play “Stump the Chump”:
 
-      If you are using this book in a class, you might enjoy this exercise.
-      Find a partner and play ``Stump the Chump'':
-
-      Start with a program that compiles and runs correctly.
-      One player looks away while the other player adds an error to the program.
-      Then the first player tries to find and fix the error.
-      You get two points if you find the error without compiling the program, one point if you find it using the compiler, and your opponent gets a point if you don't find it.
-
-      \end{exercise}
+      1. Start with a program that compiles and runs correctly.
+      1. One player looks away while the other player adds an error to the program.
+      1. Then the first player tries to find and fix the error.
+      1. You get two points if you find the error without compiling the program, one point if you find it using the compiler, and your opponent gets a point if you don't find it.
   - name: Exercise 2.2
     type: section
     chapter: Variables and operators
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex2.2
-      \label{ex:date}
+    markdown: |
+      The point of this exercise is (1) to use string concatenation to display values with different types (`int` and `String`), and (2) to practice developing programs gradually by adding a few statements at a time.
 
-      The point of this exercise is (1) to use string concatenation to display values with different types (\java{int} and \java{String}), and (2) to practice developing programs gradually by adding a few statements at a time.
+      1.  Use the IDE on the left to write the answer to this exercise. Copy or type in something like the hello world program and make sure you can compile and run it.
 
-      \begin{enumerate}
+          {Run!}(sh .guides/bg.sh javac code/Exercise_2_2.java java -cp code/ Exercise_2_2 )
 
-      \item Create a new program named {\tt Date.java}.
-      Copy or type in something like the hello world program and make sure you can compile and run it.
+      1.  Following the example in Section 2.4, write a program that creates variables named `day`, `date`, `month`, and `year`. The variable `day` will contain the day of the week (like Friday), and `date` will contain the day of the month (like the 13th). Assign values to those variables that represent today's date.
 
-      \item Following the example in Section~\ref{sec:printvar}, write a program that creates variables named \java{day}, \java{date}, \java{month}, and \java{year}.
-      The variable \java{day} will contain the day of the week (like Friday), and \java{date} will contain the day of the month (like the 13th).
-      %What type is each variable?
-      Assign values to those variables that represent today's date.
+      1.  Display the value of each variable on a line by itself. This is an intermediate step that is useful for checking that everything is working so far. Compile and run your program before moving on.
 
-      \item Display the value of each variable on a line by itself.
-      This is an intermediate step that is useful for checking that everything is working so far.
-      Compile and run your program before moving on.
+          {Run!}(sh .guides/bg.sh javac code/Exercise_2_2.java java -cp code/ Exercise_2_2 2 )
 
-      \item Modify the program so that it displays the date in standard American format, for example: {\tt Thursday, July 16, 2015}.
+      1.  Modify the program so that it displays the date in standard American format, for example: `Thursday, July 16, 2015`.
 
-      \item Modify the program so it also displays the date in European format.
-      The final output should be:
+      1.  Modify the program so it also displays the date in European format. The final output should be:
 
-      \begin{stdout}
+      ```code
       American format:
       Thursday, July 16, 2015
       European format:
       Thursday 16 July 2015
-      \end{stdout}
-
-      %{\it Hint:} You should be able to copy, paste, and modify the code from Step 4 when completing Step 5.
-      \end{enumerate}
-
-      \end{exercise}
+      ```
   - name: Exercise 2.3
     type: section
     chapter: Variables and operators
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex2.3
-
+    markdown: |
       The point of this exercise is to (1) use some of the arithmetic operators, and (2) start thinking about compound entities (like time of day) that are represented with multiple values.
 
-      \begin{enumerate}
 
-      \item Create a new program called {\tt Time.java}.
-      From now on, we won't remind you to start with a small, working program, but you should.
+      1.  Use the IDE on the left to write the answer to this exercise. From now on, we won't remind you to start with a small, working program, but you should.
 
-      \item Following the example program in Section~\ref{sec:printvar}, create variables named \java{hour}, \java{minute}, and \java{second}.
-      Assign values that are roughly the current time.
-      Use a 24-hour clock so that at 2pm the value of \java{hour} is 14.
+          {Run!}(sh .guides/bg.sh javac code/Exercise_2_3.java java -cp code/ Exercise_2_3 )
 
-      \item Make the program calculate and display the number of seconds since midnight.
+      1.  Following the example program in Section 2.4, create variables named `hour`, `minute`, and `second`.
+          Assign values that are roughly the current time.
+          Use a 24-hour clock so that at 2pm the value of `hour` is 14.
 
-      \item Calculate and display the number of seconds remaining in the day.
+      1.  Make the program calculate and display the number of seconds since midnight.
 
-      \item Calculate and display the percentage of the day that has passed.
-      You might run into problems when computing percentages with integers, so consider using floating-point.
+      1.  Calculate and display the number of seconds remaining in the day.
 
-      \item Change the values of \java{hour}, \java{minute}, and \java{second} to reflect the current time.
-      Then write code to compute the elapsed time since you started working on this exercise.
+      1.  Calculate and display the percentage of the day that has passed.
+          You might run into problems when computing percentages with integers, so consider using floating-point.
 
-      \end{enumerate}
+      1.  Change the values of `hour`, `minute`, and `second` to reflect the current time.
+          Then write code to compute the elapsed time since you started working on this exercise.
 
-      {\it Hint:} You might want to use additional variables to hold values during the computation.
-      Variables that are used in a computation but never displayed are sometimes called ``intermediate'' or ``temporary'' variables.
 
-      \end{exercise}
+      *Hint:* You might want to use additional variables to hold values during the computation. Variables that are used in a computation but never displayed are sometimes called “intermediate” or “temporary” variables.
 #Chapter 3
   - name: Exercise 3.1
     type: section

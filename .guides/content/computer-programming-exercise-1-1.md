@@ -1,6 +1,4 @@
-**Exercise 1.1:**
-Computer scientists have the annoying habit of using common English words to mean something other than their common English meaning.
-For example, in English, statements and comments are the same thing, but in programs they are different.
+Computer scientists have the annoying habit of using common English words to mean something other than their common English meaning. For example, in English, statements and comments are the same thing, but in programs they are different.
 
 
 1.  {Submit Answer!|assessment}(free-text-2791946401)

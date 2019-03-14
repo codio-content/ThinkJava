@@ -1,5 +1,4 @@
-It's possible to display multiple lines of output with only one line of code. You just have to tell Java where to put the line breaks. See the example java code in the left panel.
-To compile and run the code, press the "Run!"
+It's possible to display multiple lines of output with only one line of code. You just have to tell Java where to put the line breaks. See the example java code in the left panel. To compile and run the code, press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/Hello3.java java -cp code/ Hello3 )
 
 

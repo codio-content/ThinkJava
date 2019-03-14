@@ -18,8 +18,7 @@ System.out.println(1 + 2 + "Hello");
 System.out.println("Hello" + 1 + 2);
 // the output is Hello12
 ```
-See the example java code in the left panel.
-To compile and run the code, press the "Run!"
+See the example java code in the left panel. To compile and run the code, press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/StringOps.java java -cp code/ StringOps )
 
 

@@ -5,8 +5,7 @@ String firstLine = "Hello, again!";
 System.out.println(firstLine);
 ```
 
-See the example java code in the left panel.
-To compile and run the code, press the "Run!"
+See the example java code in the left panel. To compile and run the code, press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/Printing.java java -cp code/ Printing )
 
 
@@ -16,8 +15,6 @@ When we talk about displaying a variable, we generally mean the *value* of the v
 System.out.print("The value of firstLine is ");
 System.out.println(firstLine);
 ```
-{Run!}(sh .guides/bg.sh javac code/Printing.java java -cp code/ Printing 2 )
-
 
 For this example, the output is:
 

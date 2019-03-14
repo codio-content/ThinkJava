@@ -12,8 +12,7 @@ double minute = 59.0;
 System.out.print("Fraction of the hour that has passed: ");
 System.out.println(minute / 60.0);
 ```
-See the example java code in the left panel.
-To compile and run the code, press the "Run!"
+See the example java code in the left panel. To compile and run the code, press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/Floating.java java -cp code/ Floating )
 
 

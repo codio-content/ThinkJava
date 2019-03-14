@@ -27,12 +27,18 @@ In contrast, a **compiler** reads the entire program and translates it completel
 Java is *both* compiled and interpreted. Instead of translating programs directly into machine language, the Java compiler generates **byte code**. Similar to object code, byte code is easy and fast to interpret. But it is also portable, so it is possible to compile a Java program on one machine, transfer the byte code to another machine, and run the byte code on the other machine. This ability is an advantage of Java over some other high-level languages.
 
 
-Figure 1.3 shows the steps of the development process. The Java compiler is a program named `javac`. It translates `.java` files into `.class` files that store the resulting byte code. The Java interpreter is a program named `java`, which is short for “Java Virtual Machine” (JVM). Try it out by typing `javac code/HelloWorld.java` into the terminal in the bottom-left pane and pressing Enter.
+Figure 1.3 shows the steps of the development process. The Java compiler is a program named `javac`. It translates `.java` files into `.class` files that store the resulting byte code. The Java interpreter is a program named `java`, which is short for “Java Virtual Machine” (JVM). 
+
+Try it out by typing `javac code/HelloWorld.java` into the terminal in the bottom-left pane and pressing Enter.
+
 
 ![Figure 1.3 The process of compiling and running a Java program.](figs/compiler.jpg)
 
 **Figure 1.3 The process of compiling and running a Java program.**
 
-The programmer writes source code in the file `Hello.java` and uses `javac` to compile it. If there are no errors, the compiler saves the byte code in the file `Hello.class`. To run the program, the programmer uses `java` to interpret the byte code. The result of the program is then displayed on the screen. Try it out by typing `java -cp code/ HelloWorld` into the terminal in the bottom-left pane and pressing Enter.
+The programmer writes source code in the file `Hello.java` and uses `javac` to compile it. If there are no errors, the compiler saves the byte code in the file `Hello.class`. To run the program, the programmer uses `java` to interpret the byte code. The result of the program is then displayed on the screen. 
+
+Try it out by typing `java -cp code/ HelloWorld` into the terminal in the bottom-left pane and pressing Enter.
+
 
 Although it might seem complicated, these steps are automated for you in most program development environments. Usually you only have to press a button or type a single command to compile and run your program. On the other hand, it is important to know what steps are happening in the background, so if something goes wrong you can figure out what it is.

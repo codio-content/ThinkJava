@@ -16,13 +16,11 @@ Sometimes error messages contain additional information that doesn't make sense.
 
 
 
-The third type of error is a **logic error**. If your program has a logic error, it will compile and run without generating error messages, but it will not do the right thing. Instead, it will do exactly what you told it to do. For example, here is a version of the hello world program with a logic error:
-
-
-
-See the example java code in the left panel.
-To compile and run the code, press the "Run!"
+The third type of error is a **logic error**. If your program has a logic error, it will compile and run without generating error messages, but it will not do the right thing. Instead, it will do exactly what you told it to do. For example, see a version of the hello world program with a logic error in the left panel. To compile and run the code, press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/2/Hello.java java -cp code/2/ Hello )
+
+
+
 
 
 This program compiles and runs just fine, but the output is:

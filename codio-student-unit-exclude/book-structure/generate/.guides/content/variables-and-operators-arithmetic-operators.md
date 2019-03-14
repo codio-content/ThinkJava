@@ -8,8 +8,7 @@ int minute = 59;
 System.out.print("Number of minutes since midnight: ");
 System.out.println(hour * 60 + minute);
 ```
-See the example java code in the left panel.
-To compile and run the code, press the "Run!"
+See the example java code in the left panel. To compile and run the code, press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/Arithmetic.java java -cp code/ Arithmetic )
 
 

@@ -413,11 +413,16 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/Exercise-1-2.java"
+          "path": "code/Exercise_1_2.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
         }
       ],
       "id": "computer-programming-exercise-1-2",
-      "layout": "2-panels",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -428,8 +433,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-exercise-1-3.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_1_2.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "computer-programming-exercise-1-3",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -716,8 +737,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-exercise-2-2.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_2_2.java"
+        }
+      ],
       "id": "variables-and-operators-exercise-2-2",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -728,8 +760,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-exercise-2-3.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_2_3.java"
+        }
+      ],
       "id": "variables-and-operators-exercise-2-3",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
