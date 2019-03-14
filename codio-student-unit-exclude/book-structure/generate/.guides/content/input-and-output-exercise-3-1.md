@@ -1,6 +1,11 @@
-**Exercise 3.1:**
-
 When you use `printf`, the Java compiler does not check your format string.
-See what happens if you try to display a value with type `int` using `%f`.
-And what happens if you display a `double` using `%d`?
-What if you use two format specifiers, but then only provide one value?
+
+{Run!}(sh .guides/bg.sh javac code/Exercise_3_1.java java -cp code/ Exercise_3_1 )
+
+{Submit Answer!|assessment}(multiple-choice-4268363025)
+
+{Submit Answer!|assessment}(multiple-choice-1183993682)
+
+{Submit Answer!|assessment}(multiple-choice-4125459234)
+
+{Run!}(sh .guides/bg.sh javac code/Exercise_3_1.java java -cp code/ Exercise_3_1 2)

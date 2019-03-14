@@ -486,12 +486,19 @@ sections:
   - name: The Scanner class
     type: section
     transformations:
+        - add:  |
+            [Highlight in Code](open_file code/Echo.java panel=0 ref="import" count=1)
+  
+          position: 87
+        - add:  |
+            [Highlight in Code](open_file code/Echo.java panel=0 ref="Scanner in" count=1)
+  
+          position: 104
         - remove: 1
           position: 106
         - add:  |
              
-             See the example java code in the top-left panel. This example reads two lines and repeats them back to the user.
-             To compile and run the code, press the "Run!"
+             See the example java code in the top-left panel. This example reads two lines and repeats them back to the user. To compile and run the code, press the "Run!"
              {Run! | terminal}(javac code/Echo.java && java -cp code/ Echo)
      
           position: 108
@@ -517,27 +524,24 @@ sections:
     type: section
     transformations:
         - add:  |
-             
-             Follow along in the top-left panel.
-             To compile and run the code, press the "Run!"
+             Follow along in the top-left panel. To compile and run the code, press the "Run!"
              {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals)
      
           position: 196
         - add:  |
-             
-             {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals )
-     
+             [Highlight in Code](open_file code/Literals.java panel=0 ref="int inch" count=3)
+  
+          position: 204
+        - add:  |
+             [Highlight in Code](open_file code/Literals.java panel=0 ref="How many inches?" count=2)
+  
           position: 216
         - add:  |
+             [Highlight in Code](open_file code/Literals.java panel=0 ref="inch * 2.54" count=3)
              
              {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals )
      
           position: 225
-        - add:  |
-             
-             {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals )
-     
-          position: 250
         - add:  |
              
              {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals )
@@ -559,20 +563,12 @@ sections:
     transformations:
         - add:  |
              
-             Try it out in the top-right panel.
-             To compile and run the code, press the "Run!"
+             Try it out in the top-right panel. To compile and run the code, press the "Run!"
              {Run! | terminal}(javac code/Formatting.java && java -cp code/ Formatting)
      
           position: 276
         - add:  |
              
-             Try it out in the top-right panel.
-             {Run! | terminal}(javac code/Formatting.java && java -cp code/ Formatting )
-     
-          position: 300
-        - add:  |
-             
-             Try it out in the top-right panel.
              {Run! | terminal}(javac code/Formatting.java && java -cp code/ Formatting )
      
           position: 314
@@ -592,20 +588,12 @@ sections:
     transformations:
         - add:  |
              
-             Try it out in the left panel.
-             To compile and run the code, press the "Run!"
+             Try it out in the left panel. To compile and run the code, press the "Run!"
              {Run!}(sh .guides/bg.sh javac code/Casting.java java -cp code/ Casting )
      
           position: 411
         - add:  |
              
-             Try it out in the left panel.
-             {Run!}(sh .guides/bg.sh javac code/Casting.java java -cp code/ Casting 2 )
-     
-          position: 437
-        - add:  |
-             
-             Try it out in the left panel.
              {Run!}(sh .guides/bg.sh javac code/Casting.java java -cp code/ Casting 3 )
      
           position: 446
@@ -640,8 +628,7 @@ sections:
         - remove: 1
           position: 501
         - add:  |
-             
-             Look at the code in the left panel which puts everything together in a complete program.
+             Take a look at the code in the left panel which puts everything together in a complete program.
              {Run! | terminal}(javac code/Convert.java && java -cp code/ Convert )
      
           position: 502
@@ -659,6 +646,12 @@ sections:
   - name: The Scanner bug
     type: section
     transformations:
+        - add:  |
+            [Highlight in Code](open_file code/ScannerBug.java panel=0 ref="What is your name?" count=5)
+            
+            {Run! | terminal}(javac code/ScannerBug.java && java -cp code/ ScannerBug)
+  
+          position: 564
         - add:  |
              
              {Run! | terminal}(javac code/ScannerBug.java && java -cp code/ ScannerBug)
@@ -694,7 +687,7 @@ sections:
     transformations:
       - remove: 3
         position: 717
-      - remove: 99
+      - remove: 100
         position: 724
     configuration:
       layout: 1-panel
@@ -705,18 +698,59 @@ sections:
     type: section
     chapter: Input and output
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise_3_1.java"
+          panel: 0
+          action: open
   - name: Exercise 3.2
     type: section
     chapter: Input and output
     section: Exercises
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/CtoF.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
   - name: Exercise 3.3
     type: section
     chapter: Input and output
     section: Exercises
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/TimeConv.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
   - name: Exercise 3.4
     type: section
     chapter: Input and output
     section: Exercises
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/ch03/GuessStarter.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
 #Chapter 4
   - name: Methods and testing
     type: chapter
@@ -3229,116 +3263,83 @@ insert_sections:
     chapter: Input and output
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex3.1
+    markdown: |
+      When you use `printf`, the Java compiler does not check your format string.
 
-      When you use \java{printf}, the Java compiler does not check your format string.
-      See what happens if you try to display a value with type \java{int} using \java{\%f}.
-      And what happens if you display a \java{double} using \java{\%d}?
-      What if you use two format specifiers, but then only provide one value?
+      {Run!}(sh .guides/bg.sh javac code/Exercise_3_1.java java -cp code/ Exercise_3_1 )
 
-      \end{exercise}
+      {Submit Answer!|assessment}(multiple-choice-4268363025)
+
+      {Submit Answer!|assessment}(multiple-choice-1183993682)
+
+      {Submit Answer!|assessment}(multiple-choice-4125459234)
+
+      {Run!}(sh .guides/bg.sh javac code/Exercise_3_1.java java -cp code/ Exercise_3_1 2)
   - name: Exercise 3.2
     type: section
     chapter: Input and output
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex3.2
+    markdown: |
+      Write a program that converts a temperature from Celsius to Fahrenheit. It should (1) prompt the user for input, (2) read a `double` value from the keyboard, (3) calculate the result, and (4) format the output to one decimal place. For example, it should display `"24.0 C = 75.2 F"`.
 
-      Write a program that converts a temperature from Celsius to Fahrenheit.
-      It should (1) prompt the user for input, (2) read a \java{double} value from the keyboard, (3) calculate the result, and (4) format the output to one decimal place.
-      For example, it should display {\tt "24.0 C = 75.2 F"}.
+      Here is the formula. Be careful not to use integer division!
+      $ F = C \times \frac{9}{5} + 32 $
 
-      Here is the formula.
-      Be careful not to use integer division!
-      %
-      \[ F = C \times \frac{9}{5} + 32 \]
+      {Test it! | terminal}(javac code/CtoF.java && java -cp code/ CtoF)
 
-      \end{exercise}
+      {Submit Answer!|assessment}(code-output-compare-167464931)
   - name: Exercise 3.3
     type: section
     chapter: Input and output
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex3.3
+    markdown: |
+      Write a program that converts a total number of seconds to hours, minutes, and seconds. It should (1) prompt the user for input, (2) read an integer from the keyboard, (3) calculate the result, and (4) use `printf` to display the output. For example, `"5000 seconds = 1 hours, 23 minutes, and 20 seconds"`.
 
-      Write a program that converts a total number of seconds to hours, minutes, and seconds.
-      It should (1) prompt the user for input, (2) read an integer from the keyboard, (3) calculate the result, and (4) use \java{printf} to display the output.
-      For example, {\tt "5000 seconds = 1 hours, 23 minutes, and 20 seconds"}.
+      *Hint:* Use the remainder operator.
 
-      {\it Hint:} Use the remainder operator.
+      {Run! | terminal}(javac code/TimeConv.java && java -cp code/ TimeConv)
 
-      \end{exercise}
+      {Submit Answer!|assessment}(code-output-compare-1034781984)
   - name: Exercise 3.4
     type: section
     chapter: Input and output
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex3.4
-      \label{guess}
+    markdown: |
+      The goal of this exercise is to program a “Guess My Number” game. When it's finished, it will work like this:
 
-      The goal of this exercise is to program a ``Guess My Number'' game.
-      When it's finished, it will work like this:
-
-      \begin{stdout}
+      ```code
       I'm thinking of a number between 1 and 100
       (including both). Can you guess what it is?
       Type a number: 45
       Your guess is: 45
       The number I was thinking of is: 14
       You were off by: 31
-      \end{stdout}
+      ```
 
-      To choose a random number, you can use the \java{Random} class in \java{java.util}.
-      Here's how it works:
+      To choose a random number, you can use the `Random` class in `java.util`. Check out the `GuessStarter` code in the left panel to see how it works.
 
-      \index{GuessStarter.java}
+      Like the `Scanner` class we saw in this chapter, `Random` has to be imported before we can use it. And as we saw with `Scanner`, we have to use the `new` operator to create a `Random` (number generator).
 
-      \begin{trinket}{GuessStarter.java}
-      import java.util.Random;
+      Then we can use the method `nextInt` to generate a random number. In this example, the result of `nextInt(100)` will be between 0 and 99, including both. Adding 1 yields a number between 1 and 100, including both.
 
-      public class GuessStarter {
 
-          public static void main(String[] args) {
-              // pick a random number
-              Random random = new Random();
-              int number = random.nextInt(100) + 1;
-              System.out.println(number);
-          }
-      }
-      \end{trinket}
 
-      \index{new}
-      \index{operator!new}
+      1.  Checkout the definition of `GuessStarter` in a file called `GuessStarter.java` (on the left).
 
-      Like the \java{Scanner} class we saw in this chapter, \java{Random} has to be imported before we can use it.
-      And as we saw with \java{Scanner}, we have to use the \java{new} operator to create a \java{Random} (number generator).
+      1.  Compile and run this program.
 
-      Then we can use the method \java{nextInt} to generate a random number.
-      In this example, the result of \java{nextInt(100)} will be between 0 and 99, including both.
-      Adding 1 yields a number between 1 and 100, including both.
+          {Run! | terminal}(javac code/ch03/GuessStarter.java && java -cp code/ch03 GuessStarter)
 
-      \begin{enumerate}
+      1.  Modify the program to prompt the user, then use a `Scanner` to read a line of user input.
+          Compile and test the program.
 
-      \item The definition of \java{GuessStarter} is in a file called {\tt GuessStarter.java}, in the directory called {\tt ch03}, in the repository for this book.
-      %Instructions for downloading this code are on page~\pageref{code}.
+      1.  Read the user input as an integer and display the result.
+          Again, compile and test.
 
-      \item Compile and run this program.
-
-      \item Modify the program to prompt the user, then use a \java{Scanner} to read a line of user input.
-      Compile and test the program.
-
-      \item Read the user input as an integer and display the result.
-      Again, compile and test.
-
-      \item Compute and display the difference between the user's guess and the number that was generated.
-
-      \end{enumerate}
-
-      \end{exercise}
+      1.  Compute and display the difference between the user's guess and the number that was generated.
 #Chapter 4
   - name: Exercise 4.1
     type: section

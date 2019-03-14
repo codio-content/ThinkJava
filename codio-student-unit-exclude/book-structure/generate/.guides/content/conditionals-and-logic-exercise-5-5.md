@@ -1,6 +1,6 @@
 **Exercise 5.5:**
 
-Now that we have conditional statements, we can get back to the “Guess My Number” game from Exercise 3.4.
+Now that we have conditional statements, we can get back to the “Guess My Number” game from Exercise guess.
 
 You should already have a program that chooses a random number, prompts the user to guess it, and displays the difference between the guess and the chosen number.
 

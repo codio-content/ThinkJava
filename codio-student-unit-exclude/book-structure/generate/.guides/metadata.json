@@ -1059,8 +1059,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-exercise-3-1.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_3_1.java"
+        }
+      ],
       "id": "input-and-output-exercise-3-1",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1071,8 +1082,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-exercise-3-2.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/CtoF.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "input-and-output-exercise-3-2",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1083,8 +1110,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-exercise-3-3.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/TimeConv.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "input-and-output-exercise-3-3",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1095,8 +1138,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-exercise-3-4.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch03/GuessStarter.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "input-and-output-exercise-3-4",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],

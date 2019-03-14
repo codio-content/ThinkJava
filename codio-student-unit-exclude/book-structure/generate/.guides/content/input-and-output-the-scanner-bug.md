@@ -7,6 +7,10 @@ System.out.print("What is your age? ");
 age = in.nextInt();
 System.out.printf("Hello %s, age %d\n", name, age);
 ```
+[Highlight in Code](open_file code/ScannerBug.java panel=0 ref="What is your name?" count=5)
+
+{Run! | terminal}(javac code/ScannerBug.java && java -cp code/ ScannerBug)
+
 
 The output might look something like this:
 

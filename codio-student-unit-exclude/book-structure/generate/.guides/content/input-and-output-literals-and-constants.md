@@ -1,9 +1,7 @@
 Although most of the world has adopted the metric system for weights and measures, some countries are stuck with Imperial units. For example, when talking with friends in Europe about the weather, people in the United States might have to convert from Celsius to Fahrenheit and back. Or they might want to convert height in inches to centimeters.
 
 
-We can write a program to help. 
-Follow along in the top-left panel.
-To compile and run the code, press the "Run!"
+We can write a program to help. Follow along in the top-left panel. To compile and run the code, press the "Run!"
 {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals)
  We'll use a `Scanner` to input a measurement in inches, convert to centimeters, and then display the results. The following lines declare the variables and create the `Scanner`:
 
@@ -12,6 +10,8 @@ int inch;
 double cm;
 Scanner in = new Scanner(System.in);
 ```
+[Highlight in Code](open_file code/Literals.java panel=0 ref="int inch" count=3)
+
 
 
 The next step is to prompt the user for the input. We'll use `print` instead of `println` so they can enter the input on the same line as the **prompt**. And we'll use the `Scanner` method `nextInt`, which reads input from the keyboard and converts it to an integer:
@@ -20,8 +20,7 @@ The next step is to prompt the user for the input. We'll use `print` instead of 
 System.out.print("How many inches? ");
 inch = in.nextInt();
 ```
-
-{Run! | terminal}(javac code/Literals.java && java -cp code/ Literals )
+[Highlight in Code](open_file code/Literals.java panel=0 ref="How many inches?" count=2)
 
 
 Next we multiply the number of inches by 2.54, since that's how many centimeters there are per inch, and display the results:
@@ -32,6 +31,7 @@ System.out.print(inch + " in = ");
 System.out.println(cm + " cm");
 ```
 
+[Highlight in Code](open_file code/Literals.java panel=0 ref="inch * 2.54" count=3)
 
 {Run! | terminal}(javac code/Literals.java && java -cp code/ Literals )
  This code works correctly, but it has a minor problem. If another programmer reads this code, they might wonder where 2.54 comes from. For the benefit of others (and yourself in the future), it would be better to assign this value to a variable with a meaningful name.
@@ -49,9 +49,7 @@ double cmPerInch = 2.54;
 cm = inch * cmPerInch;
 ```
 
-
-{Run! | terminal}(javac code/Literals.java && java -cp code/ Literals )
- This version is easier to read and less error-prone, but it still has a problem. Variables can vary (hence the term), but the number of centimeters in an inch does not. Once we assign a value to `cmPerInch`, it should never change. Java provides the keyword `final`, a language feature that enforces this rule.
+This version is easier to read and less error-prone, but it still has a problem. Variables can vary (hence the term), but the number of centimeters in an inch does not. Once we assign a value to `cmPerInch`, it should never change. Java provides the keyword `final`, a language feature that enforces this rule.
 
 ```code
 final double CM_PER_INCH = 2.54;
