@@ -1019,5 +1019,169 @@
     }
    ]
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-436735314",
+  "source": {
+   "name": "exercise-8-1",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "javac code/Exercise_8_1.java",
+   "command": "java -cp code/ Exercise_8_1",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Use `Scanner` to ask the use for the number to start the song at.\n\nHint: Don’t forget to import Scanner!",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "0",
+     "output": "No bottles of beer on the wall,<br/>\nno bottles of beer,<br/>\nya' can't take one down, ya' can't pass it around,<br/>\n'cause there are no more bottles of beer on the wall!",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "2",
+     "output": "2 bottles of beer on the wall,<br/>\n2 bottles of beer,<br/>\nya' take one down, ya' pass it around,<br/>\n1 bottle of beer on the wall.\n\n1 bottle of beer on the wall,<br/>\n1 bottle of beer,<br/>\nya' take one down, ya' pass it around,<br/>\n0 bottles of beer on the wall.\n\nNo bottles of beer on the wall,<br/>\nno bottles of beer,<br/>\nya' can't take one down, ya' can't pass it around,<br/>\n'cause there are no more bottles of beer on the wall!",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1415874548",
+  "source": {
+   "name": "exercise-8-2",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "javac code/Exercise_8_2.java",
+   "command": "java -cp code/ Exercise_8_2",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Use Scanner to ask the use for a int to pass in to the method.\nThen print out the returned value.\n\nHint: Don’t forget to import Scanner!",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "6",
+     "output": "9",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "9",
+     "output": "25",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-160671833",
+  "source": {
+   "name": "exercise-8-4",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "javac code/Exercise_8_4.java",
+   "command": "java -cp code/ Exercise_8_4",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Use `Scanner` to ask the user for the two ints (one at a time) to pass in to the method.\nThen print out the returned value.\n",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "3\n10",
+     "output": "8189",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-565198109",
+  "source": {
+   "name": "exercise-8-5",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "javac code/Exercise_8_5.java",
+   "command": "java -cp code/ Exercise_8_5",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Use Scanner to ask the user for two ints (one at a time) to pass in to the method.\nThen print out the returned value.",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "2\n3",
+     "output": "8",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "4\n2",
+     "output": "16",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "2\n4",
+     "output": "16",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ]
+  }
  }
 ]

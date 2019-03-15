@@ -1932,30 +1932,98 @@ sections:
     type: section
     chapter: Recursive methods
     section: Exercises
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise_8_1.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
   - name: Exercise 8.2
     type: section
     chapter: Recursive methods
     section: Exercises
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise_8_2.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
   - name: Exercise 8.3
     type: section
     chapter: Recursive methods
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise_8_3.java"
+          panel: 0
+          action: open
   - name: Exercise 8.4
     type: section
     chapter: Recursive methods
     section: Exercises
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise_8_4.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
   - name: Exercise 8.5
     type: section
     chapter: Recursive methods
     section: Exercises
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise_8_5.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
   - name: Exercise 8.6
     type: section
     chapter: Recursive methods
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise_8_6.java"
+          panel: 0
+          action: open
   - name: Exercise 8.7
     type: section
     chapter: Recursive methods
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Recurse.java"
+          panel: 0
+          action: open
 # Chapter 9
   - name: Immutable objects
     type: chapter
@@ -4110,59 +4178,50 @@ insert_sections:
     chapter: Recursive methods
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex5.5
-
+    markdown: |
       The purpose of this exercise is to take a problem and break it into smaller problems, and to solve the smaller problems by writing simple methods.
-      Consider the first verse of the song ``99 Bottles of Beer'':
+      Consider the first verse of the song “99 Bottles of Beer”:
 
-      \begin{quote}
-      99 bottles of beer on the wall,\\
-      99 bottles of beer,\\
-      ya' take one down, ya' pass it around,\\
-      98 bottles of beer on the wall.
-      \end{quote}
+      > 99 bottles of beer on the wall,<br/>
+      > 99 bottles of beer,<br/>
+      > ya' take one down, ya' pass it around,<br/>
+      > 98 bottles of beer on the wall.
 
       Subsequent verses are identical except that the number of bottles gets smaller by one in each verse, until the last verse:
 
-      \begin{quote}
-      No bottles of beer on the wall,\\
-      no bottles of beer,\\
-      ya' can't take one down, ya' can't pass it around,\\
-      'cause there are no more bottles of beer on the wall!
-      \end{quote}
+      > No bottles of beer on the wall,<br/>
+      > no bottles of beer,<br/>
+      > ya' can't take one down, ya' can't pass it around,<br/>
+      > 'cause there are no more bottles of beer on the wall!
 
       And then the song (finally) ends.
 
-      Write a program that displays the entire lyrics of ``99 Bottles of Beer''.
-      Your program should include a recursive method that does the hard part, but you might want to write additional methods to separate other parts of the program.
-      As you develop your code, test it with a small number of verses, like \java{3}.
+      Write a program that displays the entire lyrics of “99 Bottles of Beer”. Your program should include a recursive method that does the hard part, but you might want to write additional methods to separate other parts of the program. As you develop your code, test it with a small number of verses, like `3`.
 
-      \end{exercise}
+      {Test it! | terminal}(javac code/Exercise_8_1.java && java -cp code/ Exercise_8_1)
+
+      {Submit It!|assessment}(code-output-compare-436735314)
   - name: Exercise 8.2
     type: section
     chapter: Recursive methods
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex6.7
+    markdown: |
+      Write a recursive method named `oddSum` that takes a positive odd integer `n` and returns the sum of odd integers from 1 to n. Start with a base case, and use temporary variables to debug your solution. You might find it helpful to print the value of `n` each time `oddSum` is invoked.
 
-      Write a recursive method named \java{oddSum} that takes a positive odd integer \java{n} and returns the sum of odd integers from 1 to n.
-      Start with a base case, and use temporary variables to debug your solution.
-      You might find it helpful to print the value of \java{n} each time \java{oddSum} is invoked.
+      {Test It! | terminal}(javac code/Exercise_8_2.java && java -cp code/ Exercise_8_2)
 
-      \end{exercise}
+      {Submit It!|assessment}(code-output-compare-1415874548)
+
   - name: Exercise 8.3
     type: section
     chapter: Recursive methods
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex6.6
-
+    markdown: |
       In this exercise, you will use a stack diagram to understand the execution of the following recursive method.
 
-      \begin{code}
+      ```code
       public static void main(String[] args) {
           System.out.println(prod(1, 4));
       }
@@ -4176,183 +4235,147 @@ insert_sections:
               return result;
           }
       }
-      \end{code}
+      ```
 
-      \begin{enumerate}
+      1.  Draw a stack diagram showing the state of the program just before the last invocation of `prod` completes.
 
-      \item Draw a stack diagram showing the state of the program just before the last invocation of \java{prod} completes.
+      1.  What is the output of this program? (Try to answer this question on paper first, then run the code to check your answer.)
 
-      \item What is the output of this program?
-      (Try to answer this question on paper first, then run the code to check your answer.)
+          {Run!}(sh .guides/bg.sh javac code/Exercise_8_3.java java -cp code/ Exercise_8_3 )
 
-      \item Explain in a few words what \java{prod} does (without getting into the details of how it works).
+      1.  Explain in a few words what `prod` does (without getting into the details of how it works).
 
-      \item Rewrite \java{prod} without the temporary variables \java{recurse} and \java{result}.
-      {\it Hint:} You only need one line for the \java{else} branch.
-
-      \end{enumerate}
-
-      \end{exercise}
+      1.  Rewrite `prod` without the temporary variables `recurse` and `result`.
+      *Hint:* You only need one line for the `else` branch.
   - name: Exercise 8.4
     type: section
     chapter: Recursive methods
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex6.8
-
+    markdown: |
       The goal of this exercise is to translate a recursive definition into a Java method.
       The Ackermann function is defined for non-negative integers as follows:
-      \begin{eqnarray*}
+      $$
       A(m, n) = \begin{cases}
                     n+1 & \mbox{if } m = 0 \\
               A(m-1, 1) & \mbox{if } m > 0 \mbox{ and } n = 0 \\
       A(m-1, A(m, n-1)) & \mbox{if } m > 0 \mbox{ and } n > 0
       \end{cases}
-      \end{eqnarray*}
+      $$
 
-      Write a recursive method called \java{ack} that takes two \java{int}s as parameters and that computes and returns the value of the Ackermann function.
+      Write a recursive method called `ack` that takes two `int`s as parameters and that computes and returns the value of the Ackermann function.
 
-      Test your implementation of Ackermann by invoking it from \java{main} and displaying the return value.
-      Note the return value gets very big very quickly.
-      You should try it only for small values of $m$ and $n$ (not bigger than 3).
+      Test your implementation of Ackermann by invoking it from `main` and displaying the return value. Note the return value gets very big very quickly. You should try it only for small values of $m$ and $n$ (not bigger than 3).
 
-      \end{exercise}
+      {Test it! | terminal}(javac code/Exercise_8_4.java && java -cp code/ Exercise_8_4)
+
+      {Submit It!|assessment}(code-output-compare-160671833)
   - name: Exercise 8.5
     type: section
     chapter: Recursive methods
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex6.9
-      \label{ex.power}
+    markdown: |
+      Write a recursive method called `power` that takes a double `x` and an integer `n` and returns $x^n$.
 
-      Write a recursive method called \java{power} that takes a double \java{x} and an integer \java{n} and returns $x^n$.
-
-      {\it Hint:} A recursive definition of this operation is $x^n = x \cdot x^{n-1}$.
+      *Hint:* A recursive definition of this operation is $x^n = x \cdot x^{n-1}$.
       Also, remember that anything raised to the zeroth power is 1.
 
-      Optional challenge: you can make this method more efficient, when \java{n} is even, using $x^n = \left( x^{n/2} \right)^2$.
+      Optional challenge: you can make this method more efficient, when `n` is even, using $x^n = \left( x^{n/2} \right)^2$.
 
-      \end{exercise}
+      {Test it! | terminal}(javac code/Exercise_8_5.java && java -cp code/ Exercise_8_5)
+
+      {Submit It!|assessment}(code-output-compare-565198109)
   - name: Exercise 8.6
     type: section
     chapter: Recursive methods
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex8.8
+    markdown: |
+      Many of the patterns we have seen for traversing arrays can also be written recursively. It is not common, but it is a useful exercise.
 
-      Many of the patterns we have seen for traversing arrays can also be written recursively.
-      It is not common, but it is a useful exercise.
+      1.  Write a method called `maxInRange` that takes an array of integers and two indexes, `lowIndex` and `highIndex`, and finds the maximum value in the array, but only considering the elements between `lowIndex` and `highIndex`, including both.
 
-      \begin{enumerate}
-
-      \item Write a method called \java{maxInRange} that takes an array of integers and two indexes, \java{lowIndex} and \java{highIndex}, and finds the maximum value in the array, but only considering the elements between \java{lowIndex} and \java{highIndex}, including both.
-
-      This method should be recursive.
-      If the length of the range is 1, that is, if \java{lowIndex == highIndex}, we know immediately that the sole element in the range must be the maximum.
-      So that's the base case.
+      This method should be recursive. If the length of the range is 1, that is, if `lowIndex == highIndex`, we know immediately that the sole element in the range must be the maximum. So that's the base case.
 
       If there is more than one element in the range, we can break the array into two pieces, find the maximum in each of the pieces, and then find the maximum of the maxima.
 
-      \item Methods like \java{maxInRange} can be awkward to use.
-      To find the largest element in an array, we have to provide the range for the entire array.
+      1.  Methods like `maxInRange` can be awkward to use.
+          To find the largest element in an array, we have to provide the range for the entire array.
 
-      \begin{code}
+      ```code
       double max = maxInRange(a, 0, a.length - 1);
-      \end{code}
+      ```
 
-      Write a method called \java{max} that takes an array and uses \java{maxInRange} to find and return the largest element.
+      Write a method called `max` that takes an array and uses `maxInRange` to find and return the largest element.
 
-      \end{enumerate}
-
-      \end{exercise}
+      {Run!}(sh .guides/bg.sh javac code/Exercise_8_6.java java -cp code/ Exercise_8_6 )
   - name: Exercise 8.7
     type: section
     chapter: Recursive methods
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex9.4
+    markdown: |
+      Create a program called `Recurse.java` and type in the following methods:
 
-      Create a program called {\tt Recurse.java} and type in the following methods:
-
-      \begin{code}
+      ```code
       /**
        * Returns the first character of the given String.
        */
       public static char first(String s) {
           return s.charAt(0);
       }
-      \end{code}
 
-      \begin{code}
       /**
        * Returns all but the first letter of the given String.
        */
       public static String rest(String s) {
           return s.substring(1);
       }
-      \end{code}
 
-      \begin{code}
       /**
        * Returns all but the first and last letter of the String.
        */
       public static String middle(String s) {
           return s.substring(1, s.length() - 1);
       }
-      \end{code}
 
-      \begin{code}
       /**
        * Returns the length of the given String.
        */
       public static int length(String s) {
           return s.length();
       }
-      \end{code}
+      ```
 
-      \begin{enumerate}
 
-      \item Write some code in \java{main} that tests each of these methods.
-      Make sure they work, and you understand what they do.
 
-      \item Using these methods, and without using any other \java{String} methods, write a method called \java{printString} that takes a string as a parameter and that displays the letters of the string, one on each line.
-      It should be a void method.
+      1.  Write some code in `main` that tests each of these methods. Make sure they work, and you understand what they do.
 
-      \item Again using only these methods, write a method called \java{printBackward} that does the same thing as \java{printString} but that displays the string backward (again, one character per line).
+          {Run!}(sh .guides/bg.sh javac code/Recurse.java java -cp code/ Recurse )
 
-      \item Now write a method called \java{reverseString} that takes a string as a parameter and that returns a new string as a return value.
-      The new string should contain the same letters as the parameter, but in reverse order.
+      1.  Using these methods, and without using any other `String` methods, write a method called `printString` that takes a string as a parameter and that displays the letters of the string, one on each line. It should be a void method.
 
-      \begin{code}
-      String backwards = reverseString("coffee");
-      System.out.println(backwards);
-      \end{code}
+      1.  Again using only these methods, write a method called `printBackward` that does the same thing as `printString` but that displays the string backward (again, one character per line).
 
-      The output of this example code should be:
+      1.  Now write a method called `reverseString` that takes a string as a parameter and that returns a new string as a return value. The new string should contain the same letters as the parameter, but in reverse order.
 
-      \begin{stdout}
-      eeffoc
-      \end{stdout}
+          ```code
+          String backwards = reverseString("coffee");
+          System.out.println(backwards);
+          ```
 
-      \index{palindrome}
+          The output of this example code should be:
 
-      \item A palindrome is a word that reads the same both forward and backward, like ``otto'' and ``palindromeemordnilap''.
-      Here's one way to test whether a string is a palindrome:
+          ```code
+          eeffoc
+          ```
 
-      \begin{quotation}
-      \noindent
-      A single letter is a palindrome, a two-letter word is a palindrome if the letters are the same, and any other word is a palindrome if the first letter is the same as the last and the middle is a palindrome.
-      \end{quotation}
+      1.  A palindrome is a word that reads the same both forward and backward, like “otto” and “palindromeemordnilap”. Here's one way to test whether a string is a palindrome:
 
-      Write a recursive method named \java{isPalindrome} that takes a \java{String} and returns a \java{boolean} indicating whether the word is a palindrome.
+          > A single letter is a palindrome, a two-letter word is a palindrome if the letters are the same, and any other word is a palindrome if the first letter is the same as the last and the middle is a palindrome.
 
-      \end{enumerate}
-
-      \end{exercise}
+          Write a recursive method named `isPalindrome` that takes a `String` and returns a `boolean` indicating whether the word is a palindrome.
 
 #Chapter 9
   - name: Exercise 9.1

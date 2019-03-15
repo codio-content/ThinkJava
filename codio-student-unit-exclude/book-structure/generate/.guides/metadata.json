@@ -3111,8 +3111,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-exercise-8-1.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_8_1.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "recursive-methods-exercise-8-1",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -3123,8 +3139,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-exercise-8-2.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_8_2.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "recursive-methods-exercise-8-2",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -3135,8 +3167,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-exercise-8-3.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_8_3.java"
+        }
+      ],
       "id": "recursive-methods-exercise-8-3",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -3147,8 +3190,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-exercise-8-4.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_8_4.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "recursive-methods-exercise-8-4",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -3159,8 +3218,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-exercise-8-5.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_8_5.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "recursive-methods-exercise-8-5",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -3171,8 +3246,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-exercise-8-6.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_8_6.java"
+        }
+      ],
       "id": "recursive-methods-exercise-8-6",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -3183,8 +3269,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-exercise-8-7.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Recurse.java"
+        }
+      ],
       "id": "recursive-methods-exercise-8-7",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
