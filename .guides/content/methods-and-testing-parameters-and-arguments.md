@@ -3,8 +3,7 @@ Some of the methods we have used require arguments, which are the values you pro
 For example, the `Math.sin` method takes a `double` argument. To find the sine of a number, you have to provide the number: `Math.sin(0.0)`. Similarly, the `System.out.println` method takes a `String` argument. To display a message, you have to provide the message: `System.out.println("Hello")`.
 
 
-When you invoke a method, you provide the arguments. When you define a method, you name the **parameters**, which are variables that indicate what arguments are required. 
-The class in the top-left pane shows an example.
+When you invoke a method, you provide the arguments. When you define a method, you name the **parameters**, which are variables that indicate what arguments are required. The class in the top-left pane shows an example.
 {Run!}(sh .guides/bg.sh javac code/PrintTwice.java java -cp code/ PrintTwice )
 
 

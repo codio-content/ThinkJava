@@ -12,8 +12,7 @@ Java converts an `int` to a `double` automatically, since no information is lost
 The simplest way to convert a floating-point value to an integer is to use a **type cast**, so called because it molds or “casts” a value from one type to another. The syntax for type casting is to put the name of the type in parentheses and use it as an operator.
 
 
-Try it out in the left panel.
-To compile and run the code, press the "Run!"
+Try it out in the left panel. To compile and run the code, press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/Casting.java java -cp code/ Casting )
 
 ```code
@@ -38,10 +37,6 @@ double x = (int) pi * 20.0;  // result is 60.0, not 62.0
 ```
 
 
-Try it out in the left panel.
-{Run!}(sh .guides/bg.sh javac code/Casting.java java -cp code/ Casting 2 )
-
-
 Keeping that in mind, here's how we can convert centimeters to inches:
 
 ```code
@@ -50,6 +45,5 @@ System.out.printf("%f cm = %d in\n", cent, inch);
 ```
 
 
-Try it out in the left panel.
 {Run!}(sh .guides/bg.sh javac code/Casting.java java -cp code/ Casting 3 )
  The parentheses after the cast operator require the division to happen before the type cast. And the result is rounded toward zero. We will see in the next chapter how to round floating-point numbers to the closest integer.

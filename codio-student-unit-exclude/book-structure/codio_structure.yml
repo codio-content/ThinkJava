@@ -1244,7 +1244,7 @@ sections:
   
           position: 30
         - add:  |
-             {Run!}(sh .guides/bg.sh javac code/BlastOff.java java -cp code/ BlastOff )
+             {Run!}(sh .guides/bg.sh javac code/BlastOff.java java -cp code/ BlastOff 2)
   
           position: 100
     configuration:
@@ -1288,7 +1288,7 @@ sections:
           position: 178
         - add: |
           
-              {Run!}(sh .guides/bg.sh javac code/For.java java -cp code/ For )
+              {Run!}(sh .guides/bg.sh javac code/For.java java -cp code/ For 2)
   
           position: 215
     configuration:
@@ -1458,26 +1458,80 @@ sections:
     type: section
     chapter: Loops and strings
     section: Exercises
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Exercise 6.2
     type: section
     chapter: Loops and strings
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise_6_2.java"
+          panel: 0
+          action: open
   - name: Exercise 6.3
     type: section
     chapter: Loops and strings
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise_6_3.java"
+          panel: 0
+          action: open
   - name: Exercise 6.4
     type: section
     chapter: Loops and strings
     section: Exercises
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise_6_4.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
   - name: Exercise 6.5
     type: section
     chapter: Loops and strings
     section: Exercises
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise_6_5.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
   - name: Exercise 6.6
     type: section
     chapter: Loops and strings
     section: Exercises
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise_6_6.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
 # Chapter 7
   - name: Arrays and references
     type: chapter
@@ -3752,12 +3806,10 @@ insert_sections:
     chapter: Loops and strings
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex7.1
-
+    markdown: |
       Consider the following methods:
 
-      \begin{code}
+      ```code
       public static void main(String[] args) {
           loop(10);
       }
@@ -3773,142 +3825,94 @@ insert_sections:
               }
           }
       }
-      \end{code}
+      ```
 
-      \begin{enumerate}
+      1.  Draw a table that shows the value of the variables `i` and `n` during the execution of `loop`. The table should contain one column for each variable and one line for each iteration.
 
-      \item Draw a table that shows the value of the variables \java{i} and \java{n} during the execution of \java{loop}.
-      The table should contain one column for each variable and one line for each iteration.
+      1.  {Check It!|assessment}(fill-in-the-blanks-1059885000)
 
-      \item What is the output of this program?
-
-      \item Can you prove that this loop terminates for any positive value of \java{n}?
-
-      % If i is odd and we increment by 1, the result is even.  So the second
-      % branch is always followed by the first branch.
-      % If i is even and we divide by 2, the result might be odd.  So in the
-      % worst case, we might alternate between the branches.
-      % But we can't do more of the second branch than the first.
-      % So we divide at least as often as we add.
-
-      % If i is 1, we're done.
-      % If i is 2, we divide by 2 and we're done.
-      % If i is greater than 2, the first branch decreases more than the
-      % second branch increases.
-      % So if we do one of each, the net effect is a decrease.
-      % Therefore, the value of i has to decrease after any two steps.
-
-      \end{enumerate}
-
-      \end{exercise}
+      1.  Can you prove that this loop terminates for any positive value of `n`?
   - name: Exercise 6.2
     type: section
     chapter: Loops and strings
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex7.2
+    markdown: |
+      Let's say you are given a number, $a$, and you want to find its square root. One way to do that is to start with a rough guess about the answer, $x_0$, and then improve the guess using this formula:
 
-      Let's say you are given a number, $a$, and you want to find its square root.
-      One way to do that is to start with a rough guess about the answer, $x_0$, and then improve the guess using this formula:
-      %
-      \[ x_1 =(x_0 + a/x_0) / 2 \]
-      %
-      For example, if we want to find the square root of 9, and we start with $x_0 = 6$, then $x_1 = (6 + 9/6) / 2 = 3.75$, which is closer.
-      We can repeat the procedure, using $x_1$ to calculate $x_2$, and so on.
-      In this case, $x_2 = 3.075$ and $x_3 = 3.00091$.
-      So it converges quickly on the correct answer.
+      $ x_1 =(x_0 + a/x_0) / 2 $
 
-      Write a method called \java{squareRoot} that takes a \java{double} and returns an approximation of the square root of the parameter, using this technique.
-      You should not use \java{Math.sqrt}.
+      For example, if we want to find the square root of 9, and we start with $x_0 = 6$, then $x_1 = (6 + 9/6) / 2 = 3.75$, which is closer. We can repeat the procedure, using $x_1$ to calculate $x_2$, and so on. In this case, $x_2 = 3.075$ and $x_3 = 3.00091$. So it converges quickly on the correct answer.
 
-      As your initial guess, you should use $a/2$.
-      Your method should iterate until it gets two consecutive estimates that differ by less than 0.0001.
-      %In other words, return when the absolute value of $x_n - x_{n-1}$ is less than 0.0001.
-      You can use \java{Math.abs} to calculate the absolute value of the difference.
+      Write a method called `squareRoot` that takes a `double` and returns an approximation of the square root of the parameter, using this technique. You should not use `Math.sqrt`.
 
-      \end{exercise}
+      As your initial guess, you should use $a/2$. Your method should iterate until it gets two consecutive estimates that differ by less than 0.0001. You can use `Math.abs` to calculate the absolute value of the difference.
+
+      {Run!}(sh .guides/bg.sh javac code/Exercise_6_2.java java -cp code/ Exercise_6_2 )
   - name: Exercise 6.3
     type: section
     chapter: Loops and strings
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex7.6
-
+    markdown: |
       One way to evaluate $\exp(-x^2)$ is to use the infinite series expansion:
-      %
-      \[ \exp(-x^2) = 1 - x^2 + x^4/2 - x^6/6 + \ldots \]
-      %
-      The $i$th term in this series is $(-1)^i x^{2i} / i!$.
-      Write a method named \java{gauss} that takes \java{x} and \java{n} as arguments and returns the sum of the first \java{n} terms of the series.
-      You should not use \java{factorial} or \java{pow}.
 
-      \end{exercise}
+      $ \exp(-x^2) = 1 - x^2 + x^4/2 - x^6/6 + \ldots $
+
+      The $i$th term in this series is $(-1)^i x^{2i} / i!$. Write a method named `gauss` that takes `x` and `n` as arguments and returns the sum of the first `n` terms of the series. You should not use `factorial` or `pow`.
+
+      {Run!}(sh .guides/bg.sh javac code/Exercise_6_2.java java -cp code/ Exercise_6_2 )
   - name: Exercise 6.4
     type: section
     chapter: Loops and strings
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex9.5
+    markdown: |
+      A word is said to be “abecedarian” if the letters in the word appear in alphabetical order. For example, the following are all six-letter English abecedarian words:
 
-      \index{abecedarian}
+      > abdest, acknow, acorsy, adempt, adipsy, agnosy, befist, behint, 
+      > beknow, bijoux, biopsy, cestuy, chintz, deflux, dehors, dehort, 
+      > deinos, diluvy, dimpsy 
 
-      A word is said to be ``abecedarian'' if the letters in the word appear in alphabetical order.
-      For example, the following are all six-letter English abecedarian words:
+      Write a method called `isAbecedarian` that takes a `String` and returns a `boolean` indicating whether the word is abecedarian.
 
-      \begin{quote}
-      abdest, acknow, acorsy, adempt, adipsy, agnosy, befist, behint, %\\
-      beknow, bijoux, biopsy, cestuy, chintz, deflux, dehors, dehort, %\\
-      deinos, diluvy, dimpsy %\\
-      \end{quote}
+      {Test it! | terminal}(javac code/Exercise_6_4.java && java -cp code/ Exercise_6_4)
 
-      Write a method called \java{isAbecedarian} that takes a \java{String} and returns a \java{boolean} indicating whether the word is abecedarian.
-      %Your method can be iterative or recursive.
-
-      \end{exercise}
+      {Submit It!|assessment}(code-output-compare-1622713340)
   - name: Exercise 6.5
     type: section
     chapter: Loops and strings
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex9.6
-      \label{doubloon}
-
-      \index{doubloon}
-
-      A word is said to be a ``doubloon'' if every letter that appears in the word appears exactly twice.
+    markdown: |
+      A word is said to be a “doubloon” if every letter that appears in the word appears exactly twice.
       Here are some example doubloons found in the dictionary:
 
-      \begin{quote}
-      Abba, Anna, appall, appearer, appeases, arraigning, beriberi, bilabial, boob, Caucasus, coco, Dada, deed, Emmett, Hannah, horseshoer, intestines, Isis, mama, Mimi, murmur, noon, Otto, papa, peep, reappear, redder, sees, Shanghaiings, Toto
-      \end{quote}
+      > Abba, Anna, appall, appearer, appeases, arraigning, beriberi, bilabial, boob, Caucasus, coco, Dada, deed, Emmett, Hannah, horseshoer, intestines, Isis, mama, Mimi, murmur, noon, Otto, papa, peep, reappear, redder, sees, Shanghaiings, Toto
 
-      Write a method called \java{isDoubloon} that takes a string and checks whether it is a doubloon.
-      To ignore case, invoke the \java{toLowerCase} method before checking.
-      \end{exercise}
+      Write a method called `isDoubloon` that takes a string and checks whether it is a doubloon. To ignore case, invoke the `toLowerCase` method before checking.
+
+      {Test It! | terminal}(javac code/Exercise_6_5.java && java -cp code/ Exercise_6_5)
+
+      {Submit It!|assessment}(code-output-compare-4088069480)
   - name: Exercise 6.6
     type: section
     chapter: Loops and strings
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex9.8
+    markdown: |
+      In Scrabble each player has a set of tiles with letters on them. The object of the game is to use those letters to spell words. The scoring system is complex, but longer words are usually worth more than shorter words.
 
-      \index{Scrabble}
+      Imagine you are given your set of tiles as a string, like `"quijibo"`, and you are given another string to test, like `"jib"`.
 
-      In Scrabble\footnote{Scrabble is a registered trademark owned in the USA and Canada by Hasbro Inc., and in the rest of the world by J.\ W.\ Spear \& Sons Limited of Maidenhead, Berkshire, England, a subsidiary of Mattel Inc.} each player has a set of tiles with letters on them.
-      The object of the game is to use those letters to spell words.
-      The scoring system is complex, but longer words are usually worth more than shorter words.
+      Write a method called `canSpell` that takes two strings and checks whether the set of tiles can spell the word. You might have more than one tile with the same letter, but you can only use each tile once.
 
-      Imagine you are given your set of tiles as a string, like \java{"quijibo"}, and you are given another string to test, like \java{"jib"}.
+      {Test it! | terminal}(javac code/Exercise_6_6.java && java -cp code/ Exercise_6_6)
 
-      Write a method called \java{canSpell} that takes two strings and checks whether the set of tiles can spell the word.
-      You might have more than one tile with the same letter, but you can only use each tile once.
+      {Submit It!|assessment}(code-output-compare-2674729083)
 
-      \end{exercise}
+
+      *Scrabble is a registered trademark owned in the USA and Canada by Hasbro Inc., and in the rest of the world by J.\ W.\ Spear \& Sons Limited of Maidenhead, Berkshire, England, a subsidiary of Mattel Inc.*
 
 #Chapter 7
   - name: Exercise 7.1

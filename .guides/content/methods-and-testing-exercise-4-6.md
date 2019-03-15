@@ -1,9 +1,7 @@
-**Exercise 4.6:**
-
 Many computations can be expressed more concisely using the “multadd” operation, which takes three operands and computes `a * b + c`.
 Some processors even provide a hardware implementation of this operation for floating-point numbers.
 
-
+{Run!}(sh .guides/bg.sh javac code/Exercise_4_6.java java -cp code/ Exercise_4_6 )
 
 1.  Create a new program called `Multadd.java`.
 
@@ -13,7 +11,10 @@ Some processors even provide a hardware implementation of this operation for flo
 
 1.  Also in `main`, use `multadd` to compute the following values:
 $$
-\sin \frac{\pi}{4} + \frac{\cos \frac{\pi}{4}}{2} & <br/>
+\sin \frac{\pi}{4} + \frac{\cos \frac{\pi}{4}}{2}
+$$
+
+$$
 \log 10 + \log 20
 $$
 

@@ -405,5 +405,537 @@
     ]
    }
   }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1512412783",
+  "source": {
+   "name": "exercise-4-1",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "javac code/Exercise_2_2.java",
+   "command": "java -cp code/ Exercise_2_2",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "When you are ready to submit your code, remove the prompt message and click the button below.",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "Thursday\n16\nJuly\n2015",
+     "output": "American format:\nThursday, July 16, 2015\nEuropean format:\nThursday 16 July 2015",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "Saturday\n22\nJuly\n2015",
+     "output": "American format:\nSaturday, July 22, 2015\nEuropean format:\nSaturday 22 July 2015",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ]
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2152552529",
+  "source": {
+   "name": "exercise-4-2a",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "What is the line number of the first line of code in this program to be executed?",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "<<<4>>>",
+   "tokens": {
+    "blank": [
+     "4"
+    ],
+    "text": [
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-182016295",
+  "source": {
+   "name": "exercise-4-2b",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "What is the line number of the second line of code that is executed in this program?",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "<<<13>>>",
+   "tokens": {
+    "blank": [
+     "13"
+    ],
+    "text": [
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3375902994",
+  "source": {
+   "name": "exercise_4_2c",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "What is the value of the parameter `blimp` when `baffle` gets invoked?",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "<<<rattle>>>",
+   "tokens": {
+    "blank": [
+     "rattle"
+    ],
+    "text": [
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3371088969",
+  "source": {
+   "name": "exercise-4-2d",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "What is the output of this program?",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "<<<ik>>>\n<<<rattle>>>\n<<<ping zoop>>>\n<<<boo-wa-ha-ha>>>",
+   "tokens": {
+    "blank": [
+     "ik",
+     "rattle",
+     "ping zoop",
+     "boo-wa-ha-ha"
+    ],
+    "text": [
+     0,
+     "\n",
+     0,
+     "\n",
+     0,
+     "\n",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1395462419",
+  "source": {
+   "name": "exercise-4-3",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "What is output by the following program? Be precise about where there are spaces and where there are newlines.",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "<<<No, I wug.>>>\n<<<You wugga wug.>>>\n<<<I wug.>>>",
+   "tokens": {
+    "blank": [
+     "No, I wug.",
+     "You wugga wug.",
+     "I wug."
+    ],
+    "text": [
+     0,
+     "\n",
+     0,
+     "\n",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3715087313",
+  "source": {
+   "name": "exercise-4-4a",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "What happens if you invoke a value method and don't do anything with the result; that is, if you don't assign it to a variable or use it as part of a larger expression?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2841236582",
+  "source": {
+   "name": "exercise-4-4b",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "What happens if you use a void method as part of an expression?\n    For example, try `System.out.println(\"boo!\") + 7;`",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-3212186746",
+  "source": {
+   "name": "exercise-4-5",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": false,
+   "instructions": "Re-arrange the blocks so they represent the output of the program",
+   "points": "1",
+   "learningObjectives": "",
+   "oneTimeTest": false,
+   "initial": "just for\nany not more \nIt's breakfast \n!",
+   "options": "{\n  \"sortableID\": \"sortable\",\n  \"can_indent\": false\n}",
+   "grader": "1"
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-1092028033",
+  "source": {
+   "name": "exercise-5-2",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": false,
+   "instructions": "What is the output of the following program? Determine the answer without using a computer.",
+   "points": "1",
+   "learningObjectives": "",
+   "oneTimeTest": false,
+   "initial": "true\ntrue\nping!\npong!",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"can_indent\": false\n}",
+   "grader": "1"
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2416765379",
+  "source": {
+   "name": "exercise-5-3",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "Rewrite the following code using a single `if` statement.\n\n```code\nif (x > 0) {\n    if (x < 10) {\n        System.out.println(\"positive single digit number.\");\n    }\n}\n```",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "```code\nif ( <<< x > 0 && x < 10 >>> ) {\n        System.out.println(\"positive single digit number.\");\n    }\n}\n```",
+   "tokens": {
+    "blank": [
+     " x > 0 && x < 10 "
+    ],
+    "text": [
+     "```code\nif ( ",
+     0,
+     " ) {\n        System.out.println(\"positive single digit number.\");\n    }\n}\n```"
+    ]
+   }
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3676762189",
+  "source": {
+   "name": "exercise-5-6",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "javac code/Quadratic.java",
+   "command": "java -cp code/ Quadratic",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "When you are ready to submit your code, remove the prompt message and click the button below.",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "2\n3\n1.125",
+     "output": "-0.75",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "12\n-9.6\n1.44",
+     "output": "0.6\n0.2",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "2\n3\n-1",
+     "output": "-1.7807764064044\n0.28077640640442",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-4068291909",
+  "source": {
+   "name": "exercise-5-7",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "javac code/Triangle.java",
+   "command": "java -cp code/ Triangle",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "When you are ready to submit your code, remove the prompt message and click the button below.",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "3\n4\n5",
+     "output": "Yes",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "2\n2\n6",
+     "output": "No",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ]
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1059885000",
+  "source": {
+   "name": "exercise-6-1",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "What is the output of this program?",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "<<<10>>>\n<<<5>>>\n<<<6>>>\n<<<3>>>\n<<<4>>>\n<<<2>>>",
+   "tokens": {
+    "blank": [
+     "10",
+     "5",
+     "6",
+     "3",
+     "4",
+     "2"
+    ],
+    "text": [
+     0,
+     "\n",
+     0,
+     "\n",
+     0,
+     "\n",
+     0,
+     "\n",
+     0,
+     "\n",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1622713340",
+  "source": {
+   "name": "exercise-6-4",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "javac code/Exercise_6_4.java",
+   "command": "java -cp code/ Exercise_6_4",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Use `Scanner` to ask the use for a string to pass in to the method.\nThen print out the returned value.\n\n*Hint:* Don't forget to import Scanner!",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "banana",
+     "output": "False",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "adempt",
+     "output": "True",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-4088069480",
+  "source": {
+   "name": "exercise-6-5",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "javac code/Exercise_6_5.java",
+   "command": "java -cp code/ Exercise_6_5",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Use `Scanner` to ask the use for a string to pass in to the method.\nThen print out the returned value.\n\n*Hint*: Don’t forget to import Scanner!",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "banana",
+     "output": "False",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "appeases",
+     "output": "True",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2674729083",
+  "source": {
+   "name": "exercise-6-6",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "javac code/Exercise_6_6.java",
+   "command": "java -cp code/ Exercise_6_6",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Use `Scanner` to ask the use for the two strings to pass in to the method (one at a time).\nThen print out the returned value.\n\n*Hint*: Don’t forget to import Scanner!",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "apple\nbanana",
+     "output": "False",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "abcdefghijk\nbad",
+     "output": "True",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ]
+  }
  }
 ]

@@ -1,4 +1,4 @@
-We now return to the example from the beginning of the chapter and present a solution to Exercise 6.5 using arrays. Here is the problem again:
+We now return to the example from the beginning of the chapter and present a solution to Exercise doubloon using arrays. Here is the problem again:
 
 
 

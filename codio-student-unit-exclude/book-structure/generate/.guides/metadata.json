@@ -2253,8 +2253,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-exercise-6-1.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "loops-and-strings-exercise-6-1",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2265,8 +2271,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-exercise-6-2.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_6_2.java"
+        }
+      ],
       "id": "loops-and-strings-exercise-6-2",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2277,8 +2294,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-exercise-6-3.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_6_3.java"
+        }
+      ],
       "id": "loops-and-strings-exercise-6-3",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2289,8 +2317,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-exercise-6-4.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_6_4.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "loops-and-strings-exercise-6-4",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2301,8 +2345,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-exercise-6-5.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_6_5.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "loops-and-strings-exercise-6-5",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2313,8 +2373,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-exercise-6-6.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_6_6.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "loops-and-strings-exercise-6-6",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],

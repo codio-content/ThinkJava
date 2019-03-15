@@ -1059,8 +1059,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-exercise-3-1.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_3_1.java"
+        }
+      ],
       "id": "input-and-output-exercise-3-1",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1071,8 +1082,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-exercise-3-2.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/CtoF.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "input-and-output-exercise-3-2",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1083,8 +1110,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-exercise-3-3.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/TimeConv.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "input-and-output-exercise-3-3",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1095,8 +1138,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-exercise-3-4.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch03/GuessStarter.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "input-and-output-exercise-3-4",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1340,8 +1399,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-exercise-4-1.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_2_2.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "methods-and-testing-exercise-4-1",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1352,8 +1427,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-exercise-4-2.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_4_2.java"
+        }
+      ],
       "id": "methods-and-testing-exercise-4-2",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1364,8 +1450,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-exercise-4-3.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "methods-and-testing-exercise-4-3",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1376,8 +1468,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-exercise-4-4.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_4_4.java"
+        }
+      ],
       "id": "methods-and-testing-exercise-4-4",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1388,8 +1491,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-exercise-4-5.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "methods-and-testing-exercise-4-5",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1400,8 +1509,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-exercise-4-6.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_4_6.java"
+        }
+      ],
       "id": "methods-and-testing-exercise-4-6",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1673,8 +1793,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-exercise-5-1.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "conditionals-and-logic-exercise-5-1",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1685,8 +1811,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-exercise-5-2.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "conditionals-and-logic-exercise-5-2",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1697,8 +1829,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-exercise-5-3.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "conditionals-and-logic-exercise-5-3",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1709,8 +1847,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-exercise-5-4.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Fermat.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "conditionals-and-logic-exercise-5-4",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1721,8 +1875,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-exercise-5-5.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch03/GuessStarter.java"
+        }
+      ],
       "id": "conditionals-and-logic-exercise-5-5",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1733,8 +1898,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-exercise-5-6.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Quadratic.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "conditionals-and-logic-exercise-5-6",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1745,8 +1926,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-exercise-5-7.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Triangle.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/Quadratic.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "conditionals-and-logic-exercise-5-7",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2051,8 +2253,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-exercise-6-1.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "loops-and-strings-exercise-6-1",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2063,8 +2271,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-exercise-6-2.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_6_2.java"
+        }
+      ],
       "id": "loops-and-strings-exercise-6-2",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2075,8 +2294,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-exercise-6-3.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_6_3.java"
+        }
+      ],
       "id": "loops-and-strings-exercise-6-3",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2087,8 +2317,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-exercise-6-4.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_6_4.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "loops-and-strings-exercise-6-4",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2099,8 +2345,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-exercise-6-5.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_6_5.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "loops-and-strings-exercise-6-5",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2111,8 +2373,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/loops-and-strings-exercise-6-6.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_6_6.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "loops-and-strings-exercise-6-6",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],

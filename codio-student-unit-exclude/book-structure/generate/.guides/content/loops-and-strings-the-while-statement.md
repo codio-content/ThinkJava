@@ -63,7 +63,7 @@ while (n != 1) {
     }
 }
 ```
-{Run!}(sh .guides/bg.sh javac code/BlastOff.java java -cp code/ BlastOff )
+{Run!}(sh .guides/bg.sh javac code/BlastOff.java java -cp code/ BlastOff 2)
 
 
 Each time through the loop, the program displays the value of `n` and then checks whether it is even or odd. If it is even, the value of `n` is divided by two. If it is odd, the value is replaced by $3n+1$. For example, if the starting value is 3, the resulting sequence is 3, 10, 5, 16, 8, 4, 2, 1.

@@ -42,7 +42,7 @@ for (int n = 3; n > 0; n--) {
 System.out.println("n is now " + n);  // compiler error
 ```
 
-{Run!}(sh .guides/bg.sh javac code/For.java java -cp code/ For )
+{Run!}(sh .guides/bg.sh javac code/For.java java -cp code/ For 2)
 
 
 The last line tries to display `n` (for no reason other than demonstration) but it won't work. If you need to use a loop variable outside the loop, you have to declare it *outside* the loop, like this:

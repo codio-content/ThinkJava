@@ -26,9 +26,7 @@ if (x >= 0) {
 }
 ```
 
-The output is better now, but there is another problem. What if the user doesn't enter a number at all? What would happen if they typed the word “hello”, either on accident or on purpose? 
-{Run! | terminal}(javac code/ValidInput.java && java -cp code/ ValidInput)
-
+The output is better now, but there is another problem. What if the user doesn't enter a number at all? What would happen if they typed the word “hello”, either on accident or on purpose?
 
 
 

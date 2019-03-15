@@ -1,5 +1,3 @@
-**Exercise 5.6:**
-
 Write a program named `Quadratic.java` that finds the roots of $ax^2 + bx + c = 0$ using the quadratic formula:
 $$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 Prompt the user to input integers for $a$, $b$, and $c$.
@@ -11,3 +9,7 @@ Specifically, it should not divide by zero or take the square root of a negative
 Be sure to validate all inputs.
 The user should never see an input mismatch exception.
 Display specific error messages that include the invalid input.
+
+{Test it! | terminal}(javac code/Quadratic.java && java -cp code/ch03 Quadratic)
+
+{Check It!|assessment}(code-output-compare-3676762189)

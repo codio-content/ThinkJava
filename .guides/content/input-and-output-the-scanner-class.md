@@ -6,6 +6,8 @@ For example, `Scanner` is a class that provides methods for inputting words, num
 ```code
 import java.util.Scanner;
 ```
+[Highlight in Code](open_file code/Echo.java panel=0 ref="import" count=1)
+
 
 
 This **import statement** tells the compiler that when you refer to `Scanner`, you mean the one defined in `java.util`. Using an import statement is necessary because there might be another class named `Scanner` in another package. Import statements can't be inside a class definition. By convention, they are usually at the beginning of the file.
@@ -15,12 +17,13 @@ Next you have to initialize the `Scanner`. This line declares a `Scanner` variab
 ```code
 Scanner in = new Scanner(System.in);
 ```
+[Highlight in Code](open_file code/Echo.java panel=0 ref="Scanner in" count=1)
+
 
 The `Scanner` class provides a method called `nextLine` that reads a line of input from the keyboard and returns a `String`.
 
 
-See the example java code in the top-left panel. This example reads two lines and repeats them back to the user.
-To compile and run the code, press the "Run!"
+See the example java code in the top-left panel. This example reads two lines and repeats them back to the user. To compile and run the code, press the "Run!"
 {Run! | terminal}(javac code/Echo.java && java -cp code/ Echo)
 
 

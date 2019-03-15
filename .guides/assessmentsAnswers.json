@@ -25,5 +25,31 @@
     "state": "fail"
    }
   ]
+ },
+ {
+  "taskId": "fill-in-the-blanks-3371088969",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "parsons-puzzle-3212186746",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-1059885000",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
  }
 ]
