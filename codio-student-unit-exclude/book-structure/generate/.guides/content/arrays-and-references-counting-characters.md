@@ -44,6 +44,9 @@ for (int count : counts) {
 }
 return true;  // is a doubloon
 ```
+See the example java code in the left pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/Doubloon.java java -cp code/ Doubloon )
+
 
 Like in Section 7.5, we can return immediately if the inner condition is true (which, in this example, means that the word is not a doubloon). If we make it all the way through the `for` loop, we know that all counts are 0 or 2.
 

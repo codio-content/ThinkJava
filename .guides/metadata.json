@@ -2428,10 +2428,15 @@
           "action": "open",
           "panel": 0,
           "path": "code/CreatingArrays.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#tutor: code/CreatingArrays.java"
         }
       ],
       "id": "arrays-and-references-creating-arrays",
-      "layout": "2-panels",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2449,12 +2454,17 @@
         },
         {
           "action": "open",
-          "panel": 1,
+          "panel": 0,
           "path": "code/AccessingElements.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#tutor: code/AccessingElements.java"
         }
       ],
       "id": "arrays-and-references-accessing-elements",
-      "layout": "2-panels-guides-left",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2495,12 +2505,17 @@
         },
         {
           "action": "open",
-          "panel": 1,
+          "panel": 0,
           "path": "code/CopyingArrays.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#tutor: code/CopyingArrays.java"
         }
       ],
       "id": "arrays-and-references-copying-arrays",
-      "layout": "2-panels-guides-left",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2520,10 +2535,15 @@
           "action": "open",
           "panel": 0,
           "path": "code/TraversingArrays.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#tutor: code/TraversingArrays.java"
         }
       ],
       "id": "arrays-and-references-array-traversal",
-      "layout": "2-panels",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2589,10 +2609,15 @@
           "action": "open",
           "panel": 0,
           "path": "code/Enhanced.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#tutor: Enhanced.java"
         }
       ],
       "id": "arrays-and-references-the-enhanced-for-loop",
-      "layout": "2-panels",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2611,16 +2636,11 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/Counting.java"
-        },
-        {
-          "action": "open",
-          "panel": 1,
           "path": "code/Doubloon.java"
         }
       ],
       "id": "arrays-and-references-counting-characters",
-      "layout": "3-cell",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2667,8 +2687,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-exercise-7-1.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-and-references-exercise-7-1",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2679,8 +2705,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-exercise-7-2.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-and-references-exercise-7-2",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2691,8 +2723,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-exercise-7-3.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/IndexOfMax.java"
+        }
+      ],
       "id": "arrays-and-references-exercise-7-3",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2703,8 +2746,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-exercise-7-4.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Sieve.java"
+        }
+      ],
       "id": "arrays-and-references-exercise-7-4",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2715,8 +2769,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-exercise-7-5.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_7_5.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "arrays-and-references-exercise-7-5",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2727,8 +2797,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-exercise-7-6.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_7_6.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/Exercise_7_5.java"
+        }
+      ],
       "id": "arrays-and-references-exercise-7-6",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2739,8 +2825,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-exercise-7-7.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_7_7.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "arrays-and-references-exercise-7-7",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2751,8 +2853,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-exercise-7-8.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Anagrams.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
       "id": "arrays-and-references-exercise-7-8",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],

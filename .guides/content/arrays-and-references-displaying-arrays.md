@@ -4,6 +4,9 @@ You can use `println` to display an array, but it probably doesn't do what you w
 int[] a = {1, 2, 3, 4};
 System.out.println(a);
 ```
+See the example java code in the left pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/DisplayingArrays.java java -cp code/ DisplayingArrays )
+
 
 Unfortunately, the output is something like:
 
@@ -35,6 +38,8 @@ The Java library provides a utility class `java.util.Arrays` that has methods fo
 ```code
 System.out.println(Arrays.toString(a));
 ```
+{Run!}(sh .guides/bg.sh javac code/DisplayingArrays.java java -cp code/ DisplayingArrays )
+
 
 And the output is:
 

@@ -227,7 +227,7 @@
    "showGuidanceAfterResponse": false,
    "arePartialPointsAllowed": false,
    "oneTimeTest": true,
-   "instructions": "What is the output of the following program? \n\nDescribe in a few words what `mus` does.\n\n\nDraw a stack diagram just before `mus` returns.\n\n```code\npublic static int[] make(int n) {\n    int[] a = new int[n];\n    for (int i = 0; i < n; i++) {\n        a[i] = i + 1;\n    }\n    return a;\n}\n```\n\n```code\npublic static void dub(int[] jub) {\n    for (int i = 0; i < jub.length; i++) {\n        jub[i] *= 2;\n    }\n}\n```\n\n```code\npublic static int mus(int[] zoo) {\n    int fus = 0;\n    for (int i = 0; i < zoo.length; i++) {\n        fus += zoo[i];\n    }\n    return fus;\n}\n```\n\n```code\npublic static void main(String[] args) {\n    int[] bob = make(5);\n    dub(bob);\n    System.out.println(mus(bob));\n}\n```",
+   "instructions": "What is the output of the following program? \n\nDescribe in a few words what `mus` does.\n\n\nDraw a stack diagram just before `mus` returns.\n\n```code\npublic static int[] make(int n) {\n    int[] a = new int[n];\n    for (int i = 0; i < n; i++) {\n        a[i] = i + 1;\n    }\n    return a;\n}\n\npublic static void dub(int[] jub) {\n    for (int i = 0; i < jub.length; i++) {\n        jub[i] *= 2;\n    }\n}\n\npublic static int mus(int[] zoo) {\n    int fus = 0;\n    for (int i = 0; i < zoo.length; i++) {\n        fus += zoo[i];\n    }\n    return fus;\n}\n\npublic static void main(String[] args) {\n    int[] bob = make(5);\n    dub(bob);\n    System.out.println(mus(bob));\n}\n```",
    "learningObjectives": "",
    "previewType": "NONE",
    "points": 1
@@ -238,7 +238,7 @@
   "taskId": "multiple-choice-3241266919",
   "source": {
    "name": "exercise7-3a",
-   "showName": true,
+   "showName": false,
    "bloomsObjectiveLevel": "",
    "guidance": "",
    "showGuidanceAfterResponse": false,
@@ -932,6 +932,88 @@
      "arguments": "",
      "input": "abcdefghijk\nbad",
      "output": "True",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2616825575",
+  "source": {
+   "name": "exercise-7-5",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "javac code/Exercise_7_5.java",
+   "command": "java -cp code/ Exercise_7_5",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Use `Scanner` to ask the user for an integer `n`.\nSet the array of factors to `{1, 2, 3, 5}`\nThen print out the returned value.\n\n*Hint*: Don’t forget to import Scanner!",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "11",
+     "output": "False",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "30",
+     "output": "True",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1428839038",
+  "source": {
+   "name": "exercise-7-8",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "preExecuteCommand": "javac code/Anagrams.java",
+   "command": "java - cp code/ Anagrams",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "Use `Scanner` to ask the user for the two strings (one at a time) to pass in to the method.\nThen print out the returned value.\n\n*Hint*: Don’t forget to import Scanner!",
+   "learningObjectives": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "bad\ndab",
+     "output": "True",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "apple\nbanana",
+     "output": "False",
      "showFeedback": false,
      "feedback": ""
     }

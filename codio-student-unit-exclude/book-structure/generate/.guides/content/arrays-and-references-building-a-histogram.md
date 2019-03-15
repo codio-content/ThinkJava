@@ -29,6 +29,9 @@ int c = inRange(scores, 70, 80);
 int d = inRange(scores, 60, 70);
 int f = inRange(scores, 0, 60);
 ```
+See the example java code in the right pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/Remainder.java java -cp code/ Remainder )
+
 
 This code is repetitive, but it is acceptable as long as the number of ranges is small. Suppose we wanted to keep track of the number of times each individual score appears. Then we would have to write 100 lines of code:
 

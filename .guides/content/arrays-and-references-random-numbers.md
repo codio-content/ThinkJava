@@ -22,6 +22,9 @@ public static int[] randomArray(int size) {
     return a;
 }
 ```
+See the example java code in the left pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/RandomNums.java java -cp code/ RandomNums )
+
 
 The following `main` method generates an array and displays it using `printArray` from Section 7.3. We could have used `Arrays.toString`, but we like seeing curly braces instead of square brackets.
 
