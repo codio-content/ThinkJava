@@ -4221,8 +4221,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/designing-classes-exercise-11-1.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#preview: https://docs.oracle.com/javase/7/docs/api/java/awt/Rectangle.html"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://docs.oracle.com/javase/7/docs/api/java/lang/String.html"
+        }
+      ],
       "id": "designing-classes-exercise-11-1",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -4233,8 +4249,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/designing-classes-exercise-11-2.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Time.java"
+        }
+      ],
       "id": "designing-classes-exercise-11-2",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -4245,8 +4272,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/designing-classes-exercise-11-3.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Tile.java"
+        }
+      ],
       "id": "designing-classes-exercise-11-3",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -4257,8 +4295,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/designing-classes-exercise-11-4.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Date.java"
+        }
+      ],
       "id": "designing-classes-exercise-11-4",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -4269,8 +4318,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/designing-classes-exercise-11-5.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Rational.java"
+        }
+      ],
       "id": "designing-classes-exercise-11-5",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -4575,8 +4635,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-of-objects-exercise-12-1.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Card.java"
+        }
+      ],
       "id": "arrays-of-objects-exercise-12-1",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -4587,8 +4658,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-of-objects-exercise-12-2.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Card.java"
+        }
+      ],
       "id": "arrays-of-objects-exercise-12-2",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -4599,25 +4681,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-of-objects-exercise-12-3.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Card.java"
+        }
+      ],
       "id": "arrays-of-objects-exercise-12-3",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
       "teacherOnly": false,
       "title": "Exercise 12.3",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-of-objects-exercise-12-4.md",
-      "files": [],
-      "id": "arrays-of-objects-exercise-12-4",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercise 12.4",
       "type": "markdown"
     },
     {

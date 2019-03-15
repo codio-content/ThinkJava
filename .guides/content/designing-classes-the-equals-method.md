@@ -38,7 +38,7 @@ public boolean equals(Time that) {
 }
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 6 )
 
 
 `equals` is an instance method, so it doesn't have the keyword `static`. It uses `this` to refer to current object, and `that` to refer to the other. The parameter named `that` is not a keyword and could have a different name, but it improves readability. We can invoke `equals` as follows:
@@ -57,7 +57,7 @@ public boolean equals(String str) {
 }
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 2 )
+{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 7 )
 
 
 The `equals` method is now overloaded. If we invoke `time1.equals(time3)`, the first method will be used; `time1.equals("09:30:00.0")` uses the second.

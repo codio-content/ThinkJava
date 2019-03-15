@@ -11,7 +11,7 @@ Card card = new Card(11, 0);
 System.out.println(binarySearch(cards, card));
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 12 )
 
 
 We expect to find this card at position 10 (since the “Ace of Clubs” is at position 0). Here is the output of `binarySearch`:

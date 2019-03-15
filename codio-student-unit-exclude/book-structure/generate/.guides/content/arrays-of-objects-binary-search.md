@@ -36,7 +36,7 @@ public static int binarySearch(Card[] cards, Card target) {
 }
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 11 )
 
 
 First, we declare `low` and `high` variables to represent the range we are searching. Initially we search the entire array, from `0` to `cards.length - 1`.

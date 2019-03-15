@@ -17,7 +17,7 @@ public Time() {
     this.second = 0.0;
 }
 ```
-[Highlight in Code](open_file code/Time.java panel=0 ref="public Time()" count=5)
+[Highlight in Code](open_file code/Time.java panel=0 ref="public Time" count=5)
 
 
 This constructor does not take any arguments. Each line initializes an instance variable to zero (which in this example means midnight).

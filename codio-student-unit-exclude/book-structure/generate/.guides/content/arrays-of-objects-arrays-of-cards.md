@@ -4,7 +4,7 @@ Just as you can create an array of `String` objects, you can create an array of 
 Card[] cards = new Card[52];
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 7 )
 
 
 Figure 12.2 shows the memory diagram for this array.
@@ -42,7 +42,7 @@ for (int suit = 0; suit <= 3; suit++) {
 }
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 2 )
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 8 )
 
 
 The outer loop iterates suits from 0 to 3. For each suit, the inner loop iterates ranks from 1 to 13. Since the outer loop runs 4 times, and the inner loop runs 13 times for each suit, the body is executed 52 times.
@@ -65,7 +65,7 @@ public static void printDeck(Card[] cards) {
 }
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 3 )
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 9 )
 
 
 

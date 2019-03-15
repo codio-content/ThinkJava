@@ -10,7 +10,7 @@ public int getSuit() {
 }
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 5 )
 
 
 
@@ -28,7 +28,7 @@ public class Card {
 }
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 2 )
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 6 )
 
 
 You can still assign values to these variables inside a constructor. But if someone writes a method that tries to modify these variables, they'll get a compiler error. Putting these kinds of safeguards into the code helps prevent future mistakes and hours of debugging.

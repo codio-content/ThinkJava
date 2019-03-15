@@ -35,7 +35,7 @@ And here's how we would invoke the static method:
 Time endTime = Time.add(startTime, runningTime);
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 8 )
 
 
 On the other hand, here's what it looks like as an instance method:
@@ -67,7 +67,7 @@ And here's how we would invoke the instance method:
 Time endTime = startTime.add(runningTime);
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 2 )
+{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 9 )
 
 
 That's all there is to it. Static methods and instance methods do the same thing, and you can convert from one to the other with just a few changes.
@@ -92,7 +92,7 @@ public Time add(Time t2) {
 }
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 3 )
+{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 10 )
 
 
 It's still possible that `hour` may exceed 23, but there's no `days` attribute to carry into. In that case, `sum.hour -= 24` would yield the correct result.

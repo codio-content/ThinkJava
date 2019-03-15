@@ -19,7 +19,7 @@ public static int binarySearch(Card[] cards, Card target,
 }
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 13 )
 
 
 Instead of a `while` loop, we have an `if` statement to terminate the recursion. We call this `if` statement the base case. If `high` is less than `low`, there are no cards between them, and we conclude that the card is not in the array.

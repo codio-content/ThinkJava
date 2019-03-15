@@ -17,7 +17,7 @@ public void increment(double seconds) {
 The `increment` method modifies an existing `Time` object. It doesn't create a new one, and it doesn't return anything.
 
 
-{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 11 )
 
 
 In contrast, methods like `add` (in the previous section) are called **pure** because:

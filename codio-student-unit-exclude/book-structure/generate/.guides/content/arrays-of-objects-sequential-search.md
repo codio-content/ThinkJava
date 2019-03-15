@@ -12,7 +12,7 @@ public static int search(Card[] cards, Card target) {
 }
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 10 )
 
 
 

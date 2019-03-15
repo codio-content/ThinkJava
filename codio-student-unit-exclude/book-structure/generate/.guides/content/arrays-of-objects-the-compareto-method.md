@@ -7,7 +7,7 @@ public boolean equals(Card that) {
 }
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 3 )
 
 
 
@@ -39,7 +39,7 @@ public int compareTo(Card that) {
 }
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 2 )
+{Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 4 )
 
 
 `compareTo` returns 1 if `this` wins, -1 if `that` wins, and 0 if they are equivalent. It compares suits first. If the suits are the same, it compares ranks. If the ranks are also the same, it returns 0.

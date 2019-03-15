@@ -2498,7 +2498,7 @@ sections:
     type: section
     transformations:
         - add:  |
-             [Highlight in Code](open_file code/Time.java panel=0 ref="public Time()" count=5)
+             [Highlight in Code](open_file code/Time.java panel=0 ref="public Time" count=5)
   
           position: 118
         - add:  |
@@ -2519,7 +2519,7 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 2 )
  
           position: 213
     configuration:
@@ -2548,12 +2548,12 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 3 )
  
           position: 351
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 2 )
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 4 )
  
           position: 394
     configuration:
@@ -2569,7 +2569,7 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 5 )
  
           position: 451
     configuration:
@@ -2585,12 +2585,12 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 6 )
  
           position: 521
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 2 )
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 7 )
  
           position: 543
     configuration:
@@ -2606,17 +2606,17 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 8 )
  
           position: 591
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 2 )
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 9 )
  
           position: 623
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 3 )
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 10 )
  
           position: 649
     configuration:
@@ -2632,7 +2632,7 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+              {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 11 )
  
           position: 679
     configuration:
@@ -2665,22 +2665,65 @@ sections:
     type: section
     chapter: Designing classes
     section: Exercises
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#preview: https://docs.oracle.com/javase/7/docs/api/java/awt/Rectangle.html"
+          panel: 0
+          action: open
+        - path: "#preview: https://docs.oracle.com/javase/7/docs/api/java/lang/String.html"
+          panel: 1
+          action: open
   - name: Exercise 11.2
     type: section
     chapter: Designing classes
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Time.java"
+          panel: 0
+          action: open
   - name: Exercise 11.3
     type: section
     chapter: Designing classes
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Tile.java"
+          panel: 0
+          action: open
   - name: Exercise 11.4
     type: section
     chapter: Designing classes
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Date.java"
+          panel: 0
+          action: open
   - name: Exercise 11.5
     type: section
     chapter: Designing classes
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Rational.java"
+          panel: 0
+          action: open
 #Chapter 12
   - name: Arrays of objects
     type: chapter
@@ -2726,7 +2769,7 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 2 )
  
           position: 233
     configuration:
@@ -2742,12 +2785,12 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 3 )
  
           position: 267
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 2 )
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 4 )
  
           position: 317
     configuration:
@@ -2763,12 +2806,12 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 5 )
  
           position: 338
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 2 )
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 6 )
  
           position: 360
     configuration:
@@ -2784,17 +2827,17 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 7 )
  
           position: 387
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 2 )
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 8 )
  
           position: 434
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 3 )
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 9 )
  
           position: 464
     configuration:
@@ -2810,7 +2853,7 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 10 )
  
           position: 499
     configuration:
@@ -2826,7 +2869,7 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 11 )
  
           position: 562
     configuration:
@@ -2842,7 +2885,7 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 12 )
  
           position: 601
     configuration:
@@ -2861,7 +2904,7 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card )
+              {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 13 )
  
           position: 670
     configuration:
@@ -2897,18 +2940,43 @@ sections:
     type: section
     chapter: Arrays of objects
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Card.java"
+          panel: 0
+          action: open
   - name: Exercise 12.2
     type: section
     chapter: Arrays of objects
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Card.java"
+          panel: 0
+          action: open
   - name: Exercise 12.3
     type: section
     chapter: Arrays of objects
     section: Exercises
-  - name: Exercise 12.4
-    type: section
-    chapter: Arrays of objects
-    section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Card.java"
+          panel: 0
+          action: open
+#  - name: Exercise 12.4
+#    type: section
+#    chapter: Arrays of objects
+#    section: Exercises
+
 #Chapter 13
   - name: Objects of arrays
     type: chapter
@@ -4703,139 +4771,107 @@ insert_sections:
     chapter: Designing classes
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex11.1
+    markdown: |
+      Review the documentation of `java.awt.Rectangle`. Which methods are pure? Which are modifiers?
 
-      Review the documentation of \java{java.awt.Rectangle}.
-      Which methods are pure?
-      Which are modifiers?
-
-      If you review the documentation of \java{java.lang.String}, you should see that there are no modifiers, because strings are immutable.
-
-      \end{exercise}
+      If you review the documentation of `java.lang.String`, you should see that there are no modifiers, because strings are immutable.
   - name: Exercise 11.2
     type: section
     chapter: Designing classes
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex11.2
+    markdown: |
+      The implementation of `increment` in this chapter is not very efficient. Can you rewrite it so it doesn't use any loops?
 
-      The implementation of \java{increment} in this chapter is not very efficient.
-      Can you rewrite it so it doesn't use any loops?
+      *Hint:* Remember the remainder operator. And yes, it works with `double`s too.
 
-      {\it Hint:} Remember the remainder operator. And yes, it works with \java{double}s too.
-
-      \end{exercise}
+      {Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
   - name: Exercise 11.3
     type: section
     chapter: Designing classes
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex11.3
-      \index{Scrabble}
-
+    markdown: |
       In the board game Scrabble, each tile contains a letter, which is used to spell words in rows and columns, and a score, which is used to determine the value of words.
 
-      \begin{enumerate}
+      1.  Write a definition for a class named `Tile` that represents Scrabble tiles.
+          The instance variables should include a character named `letter` and an integer named `value`.
 
-      \item Write a definition for a class named \java{Tile} that represents Scrabble tiles.
-      The instance variables should include a character named \java{letter} and an integer named \java{value}.
+      1.  Write a constructor that takes parameters named `letter` and `value` and initializes the instance variables.
 
-      \item Write a constructor that takes parameters named \java{letter} and \java{value} and initializes the instance variables.
+      1.  Write a method named `printTile` that takes a `Tile` object as a parameter and displays the instance variables in a reader-friendly format.
 
-      \item Write a method named \java{printTile} that takes a \java{Tile} object as a parameter and displays the instance variables in a reader-friendly format.
+      1.  Write a method named `testTile` that creates a `Tile` object with the letter `Z` and the value `10`, and then uses `printTile` to display the state of the object.
 
-      \item Write a method named \java{testTile} that creates a \java{Tile} object with the letter \java{Z} and the value \java{10}, and then uses \java{printTile} to display the state of the object.
+      1.  Implement the `toString` and `equals` methods for a `Tile`.
 
-      \item Implement the \java{toString} and \java{equals} methods for a \java{Tile}.
-
-      \item Create getters and setters for each of the attributes.
-
-      \end{enumerate}
+      1.  Create getters and setters for each of the attributes.
 
       The point of this exercise is to practice the mechanical part of creating a new class definition.
-      \end{exercise}
+
+      {Run!}(sh .guides/bg.sh javac code/Tile.java java -cp code/ Tile )
   - name: Exercise 11.4
     type: section
     chapter: Designing classes
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex11.4
+    markdown: |
+      Write a class definition for `Date`, an object type that contains three integers: `year`, `month`, and `day`. This class should provide two constructors. The first should take no parameters and initialize a default date. The second should take parameters named `year`, `month` and `day`, and use them to initialize the instance variables.
 
-      Write a class definition for \java{Date}, an object type that contains three integers: \java{year}, \java{month}, and \java{day}.
-      This class should provide two constructors.
-      The first should take no parameters and initialize a default date.
-      The second should take parameters named \java{year}, \java{month} and \java{day}, and use them to initialize the instance variables.
+      Write a `main` method that creates a new `Date` object named `birthday`. The new object should contain your birth date. You can use either constructor.
 
-      Write a \java{main} method that creates a new \java{Date} object named \java{birthday}.
-      The new object should contain your birth date.
-      You can use either constructor.
-      %Compare your implementation to \java{java.util.Date}.
-
-      \end{exercise}
+      {Run!}(sh .guides/bg.sh javac code/Date.java java -cp code/ Date )
   - name: Exercise 11.5
     type: section
     chapter: Designing classes
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex11.5
-
-      \index{rational number}
-
+    markdown: |
       A rational number is a number that can be represented as the ratio of two integers.
       For example, $2/3$ is a rational number, and you can think of 7 as a rational number with an implicit 1 in the denominator.
-      %The goal of this exercise is to write a class definition for rational numbers.
 
-      \begin{enumerate}
 
-      \item Define a class called \java{Rational}.
-      A \java{Rational} object should have two integer instance variables that store the numerator and denominator.
+      1.  Define a class called `Rational`.
+          A `Rational` object should have two integer instance variables that store the numerator and denominator.
 
-      \item Write a constructor that takes no arguments and that sets the numerator to 0 and denominator to 1.
+      1.  Write a constructor that takes no arguments and that sets the numerator to 0 and denominator to 1.
 
-      \item Write an instance method called \java{printRational} that displays a \java{Rational} in some reasonable format.
+      1.  Write an instance method called `printRational` that displays a `Rational` in some reasonable format.
 
-      \item Write a \java{main} method that creates a new object with type \java{Rational}, sets its instance variables to some values, and displays the object.
+      1.  Write a `main` method that creates a new object with type `Rational`, sets its instance variables to some values, and displays the object.
 
-      \item At this stage, you have a minimal testable program.
-      Test it and, if necessary, debug it.
+      1.  At this stage, you have a minimal testable program.
+          Test it and, if necessary, debug it.
 
-      \item Write a \java{toString} method for \java{Rational} and test it using \java{println}.
+          {Run!}(sh .guides/bg.sh javac code/Rational.java java -cp code/ Rational )
 
-      \item Write a second constructor that takes two arguments and uses them to initialize the instance variables.
+      1.  Write a `toString` method for `Rational` and test it using `println`.
 
-      \item Write an instance method called \java{negate} that reverses the sign of a rational number.
-      This method should be a modifier, so it should be void.
-      Add lines to \java{main} to test the new method.
+      1.  Write a second constructor that takes two arguments and uses them to initialize the instance variables.
 
-      \item Write an instance method called \java{invert} that inverts the number by swapping the numerator and denominator.
-      It should be a modifier.
-      Add lines to \java{main} to test the new method.
+      1.  Write an instance method called `negate` that reverses the sign of a rational number.
+          This method should be a modifier, so it should be void.
+          Add lines to `main` to test the new method.
 
-      \item Write an instance method called \java{toDouble} that converts the rational number to a \java{double} (floating-point number) and returns the result.
-      This method is a pure method; it does not modify the object.
-      As always, test the new method.
+      1.  Write an instance method called `invert` that inverts the number by swapping the numerator and denominator.
+          It should be a modifier.
+          Add lines to `main` to test the new method.
 
-      \item Write an instance method named \java{reduce} that reduces a rational number to its lowest terms by finding the greatest common divisor (GCD) of the numerator and denominator and dividing through.
-      This method should be a pure method; it should not modify the instance variables of the object on which it is invoked.
+      1.  Write an instance method called `toDouble` that converts the rational number to a `double` (floating-point number) and returns the result.
+          This method is a pure method; it does not modify the object.
+          As always, test the new method.
 
-      {\it Hint:} Finding the GCD only takes a few lines of code.
-      Search the web for ``Euclidean algorithm''.
+          {Run!}(sh .guides/bg.sh javac code/Rational.java java -cp code/ Rational 2 )
 
-      \item Write an instance method called \java{add} that takes a \java{Rational} number as an argument, adds it to \java{this}, and returns a new \java{Rational} object.
+      1.  Write an instance method named `reduce` that reduces a rational number to its lowest terms by finding the greatest common divisor (GCD) of the numerator and denominator and dividing through. This method should be a pure method; it should not modify the instance variables of the object on which it is invoked.
 
-      There are several ways to add fractions.
-      You can use any one you want, but you should make sure that the result of the operation is reduced so that the numerator and denominator have no common divisor (other than 1).
+          *Hint:* Finding the GCD only takes a few lines of code. Search the web for “Euclidean algorithm”.
 
-      \end{enumerate}
+      1.  Write an instance method called `add` that takes a `Rational` number as an argument, adds it to `this`, and returns a new `Rational` object.
+
+          There are several ways to add fractions. You can use any one you want, but you should make sure that the result of the operation is reduced so that the numerator and denominator have no common divisor (other than 1).
 
       The purpose of this exercise is to write a class definition that includes a variety of methods, including constructors, static methods, instance methods, modifiers, and pure methods.
-
-      \end{exercise}
 
 #Chapter 12
   - name: Exercise 12.1
@@ -4843,117 +4879,101 @@ insert_sections:
     chapter: Arrays of objects
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex12.1
+    markdown: |
+      Encapsulate the deck-building code from Section 12.6 in a method called `makeDeck` that takes no parameters and returns a fully-populated array of `Card`s.
 
-      Encapsulate the deck-building code from Section~\ref{cardarray} in a method called \java{makeDeck} that takes no parameters and returns a fully-populated array of \java{Card}s.
-
-      \end{exercise}
+      {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 14 )
   - name: Exercise 12.2
     type: section
     chapter: Arrays of objects
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex12.2
+    markdown: |
+      In some card games, Aces are ranked higher than Kings. Modify the `compareTo` method to implement this ordering.
 
-      In some card games, Aces are ranked higher than Kings.
-      Modify the \java{compareTo} method to implement this ordering.
-
-      \end{exercise}
+      {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 15 )
   - name: Exercise 12.3
     type: section
     chapter: Arrays of objects
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex12.3
+    markdown: |
+      In Poker a “flush” is a hand that contains five or more cards of the same suit. A hand can contain any number of cards.
 
-      In Poker a ``flush'' is a hand that contains five or more cards of the same suit.
-      A hand can contain any number of cards.
+      1.  Write a method called `suitHist` that takes an array of cards as a parameter and that returns a histogram of the suits in the hand. Your solution should only traverse the array once.
 
-      \index{histogram}
+      1.  Write a method called `hasFlush` that takes an array of cards as a parameter and returns `true` if the hand contains a flush (and `false` otherwise).
 
-      \begin{enumerate}
-
-      \item Write a method called \java{suitHist} that takes an array of cards as a parameter and that returns a histogram of the suits in the hand.
-      Your solution should only traverse the array once.
-
-      \item Write a method called \java{hasFlush} that takes an array of cards as a parameter and returns \java{true} if the hand contains a flush (and \java{false} otherwise).
-
-      \end{enumerate}
-
-      \end{exercise}
-  - name: Exercise 12.4
-    type: section
-    chapter: Arrays of objects
-    section: Exercises
-    before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex12.4
-
-      Working with cards is more interesting if you can display them on the screen.
-      If you have not already read Appendix~\ref{graphics} about 2D graphics, you should read it before working on this exercise.
-      In the code directory for this chapter, {\tt ch12}, you will find:
-
-      \begin{itemize}
-
-      \item {\tt cardset-oxymoron}: A directory containing images of playing cards.
-
-      \item {\tt CardTable.java}: A sample program that demonstrates how to read and display images.
-
-      \end{itemize}
-
-      \index{array!2D}
-
-      This code demonstrates the use of a 2D array, specifically an array of images.
-      The declaration looks like this:
-
-      \begin{code}
-      private Image[][] images;
-      \end{code}
-
-      The variable \java{images} refers to a 2D array of \java{Image} objects, which are defined in the \java{java.awt} package.
-      Here's the code that creates the array itself:
-
-      \begin{code}
-      images = new Image[14][4];
-      \end{code}
-
-      The array has 14 rows (one for each rank plus an unused row for rank 0) and 4 columns (one for each suit).
-      Here's the loop that populates the array:
-
-      \begin{code}
-      String cardset = "cardset-oxymoron";
-      String suits = "cdhs";
-
-      for (int suit = 0; suit <= 3; suit++) {
-          char c = suits.charAt(suit);
-
-          for (int rank = 1; rank <= 13; rank++) {
-              String s = String.format("%s/%02d%c.gif",
-                                       cardset, rank, c);
-              images[rank][suit] = new ImageIcon(s).getImage();
-          }
-      }
-      \end{code}
-
-      The variable \java{cardset} contains the name of the directory that contains the image files.
-      \java{suits} is a string that contains the single-letter abbreviations for the suits.
-      These strings are used to assemble \java{s}, which contains the filename for each image.
-      For example, when \java{rank=1} and \java{suit=2}, the value of \java{s} is \java{"cardset-oxymoron/01h.gif"}, which is an image of the Ace of Hearts.
-
-      The last line of the loop reads the image file, extracts an \java{Image} object, and assigns it to a location in the array, as specified by the indexes \java{rank} and \java{suit}.
-      For example, the image of the Ace of Hearts is stored in row 1, column 2.
-
-      If you compile and run {\tt CardTable.java}, you should see images of a deck of cards laid out on a green table.
-      You can use this class as a starting place to implement your own card games.
-
-      %TODO: We should make an actual exercise out of this.
-      % Maybe take an array of cards and display them in a row at a given location?
-      % Or we could make this a new section and emphasize the use of 2D arrays more.
-
-      \end{exercise}
+      {Run!}(sh .guides/bg.sh javac code/Card.java java -cp code/ Card 16 )
+#  - name: Exercise 12.4
+#    type: section
+#    chapter: Arrays of objects
+#    section: Exercises
+#    before: false
+#    latex: |
+#      \begin{exercise}  %%V6 Ex12.4
+#
+#      Working with cards is more interesting if you can display them on the screen.
+#      If you have not already read Appendix~\ref{graphics} about 2D graphics, you should read it before working on this exercise.
+#      In the code directory for this chapter, {\tt ch12}, you will find:
+#
+#      \begin{itemize}
+#
+#      \item {\tt cardset-oxymoron}: A directory containing images of playing cards.
+#
+#      \item {\tt CardTable.java}: A sample program that demonstrates how to read and display images.
+#
+#      \end{itemize}
+#      \index{array!2D}
+#
+ #     This code demonstrates the use of a 2D array, specifically an array of images.
+ #     The declaration looks like this:
+#
+ #     \begin{code}
+ #     private Image[][] images;
+ #     \end{code}
+#
+ #     The variable \java{images} refers to a 2D array of \java{Image} objects, which are defined in the \java{java.awt} package.
+ #     Here's the code that creates the array itself:
+#
+ #     \begin{code}
+ #     images = new Image[14][4];
+ #     \end{code}
+#
+ #     The array has 14 rows (one for each rank plus an unused row for rank 0) and 4 columns (one for each suit).
+ #     Here's the loop that populates the array:
+#
+ #     \begin{code}
+ #     String cardset = "cardset-oxymoron";
+ #     String suits = "cdhs";
+#
+  #    for (int suit = 0; suit <= 3; suit++) {
+  #        char c = suits.charAt(suit);
+#
+  #        for (int rank = 1; rank <= 13; rank++) {
+  #            String s = String.format("%s/%02d%c.gif",
+  #                                     cardset, rank, c);
+ #             images[rank][suit] = new ImageIcon(s).getImage();
+  #        }
+  #    }
+ #     \end{code}
+#
+  #    The variable \java{cardset} contains the name of the directory that contains the image files.
+  #    \java{suits} is a string that contains the single-letter abbreviations for the suits.
+ #     These strings are used to assemble \java{s}, which contains the filename for each image.
+  #    For example, when \java{rank=1} and \java{suit=2}, the value of \java{s} is \java{"cardset-oxymoron/01h.gif"}, which is an image of the Ace of Hearts.
+#
+ #     The last line of the loop reads the image file, extracts an \java{Image} object, and assigns it to a location in the array, as specified by the indexes \java{rank} and \java{suit}.
+  #    For example, the image of the Ace of Hearts is stored in row 1, column 2.
+#
+  #    If you compile and run {\tt CardTable.java}, you should see images of a deck of cards laid out on a green table.
+ #     You can use this class as a starting place to implement your own card games.
+#
+#      %TODO: We should make an actual exercise out of this.
+#      % Maybe take an array of cards and display them in a row at a given location?
+#      % Or we could make this a new section and emphasize the use of 2D arrays more.
+#
+#      \end{exercise}
 
 #Chapter 13
   - name: Exercise 13.1

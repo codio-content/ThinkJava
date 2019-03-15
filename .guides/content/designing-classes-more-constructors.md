@@ -20,7 +20,7 @@ To invoke this second constructor, you have to provide arguments after the `new`
 Time time = new Time(11, 59, 59.9);
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time )
+{Run!}(sh .guides/bg.sh javac code/Time.java java -cp code/ Time 2 )
 
 
 Overloading constructors provides the flexibility to create an object first and then fill in the attributes, or collect all the information before creating the object itself.
