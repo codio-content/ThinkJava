@@ -19,7 +19,7 @@ On the other hand, mutable objects have their own advantages. It's more efficien
 
 Strings are particularly inefficient when you need to concatenate them multiple times. 
 Consider the program in the bottom-left panel that inputs ten lines from `System.in` and concatenates them into a single `String`. To run the example, click the "Run!" button below.
-{Run!}(sh .guides/bg.sh javac code/Append.java java -cp code/ Append )
+{Run! | terminal}(javac code/Append.java && java -cp code/ Append)
 
 
 
@@ -42,7 +42,7 @@ for (int i = 0; i < 10; i++) {
 }
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Append.java java -cp code/ Append 2 )
+{Run! | terminal}(javac code/Append.java && java -cp code/ Append)
 
 
 `StringBuilder` provides a number of `append` and `insert` methods that work with strings efficiently. It also allows you to `delete` portions of a string.

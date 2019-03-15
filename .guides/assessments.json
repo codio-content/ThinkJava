@@ -1183,5 +1183,115 @@
     }
    ]
   }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-897455674",
+  "source": {
+   "name": "exercise-10-1b",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "Is the `blank` object mutable or immutable? How can you tell?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2073659227",
+  "source": {
+   "name": "exercise-10-1a",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "What is the output of the program?",
+   "points": "1",
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "<<<Error>>>",
+   "tokens": {
+    "blank": [
+     "Error"
+    ],
+    "text": [
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-522877701",
+  "source": {
+   "name": "exercise-10-1a",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "What is the output of the program?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3775858035",
+  "source": {
+   "name": "exercise-10-2",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "What is the output of this program?\n(Can you tell without running it?)",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2190936241",
+  "source": {
+   "name": "exercise-10-3a",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "What is the output of the program?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-1542807523",
+  "source": {
+   "name": "exercise-10-3b",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "At the end of `main`, are `p1` and `p2` aliased? Why or why not?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
  }
 ]

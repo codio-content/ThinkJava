@@ -30,7 +30,7 @@ name = name.toUpperCase();    // references the new string
 System.out.println(name);
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Remainder.java java -cp code/ Remainder 2 )
+{Run!}(sh .guides/bg.sh javac code/ImmutableStrings.java java -cp code/ ImmutableStrings 2 )
 
 
 A similar method is `replace`, which finds and replaces instances of one string within another. This example replaces `"Computer Science"` with `"CS"`:

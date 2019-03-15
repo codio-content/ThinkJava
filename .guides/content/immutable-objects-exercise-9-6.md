@@ -1,6 +1,3 @@
-**Exercise 9.6:**
-
-
 The following code fragment traverses a string and checks whether it has the same number of open and close parentheses:
 
 ```code
@@ -19,9 +16,9 @@ for (int i = 0; i < s.length(); i++) {
 System.out.println(count);
 ```
 
-
-
 1.  Encapsulate this fragment in a method that takes a string argument and returns the final value of `count`.
+
+    {Run!}(sh .guides/bg.sh javac code/Exercise_9_6.java java -cp code/ Exercise_9_6 )
 
 1.  Test your method with multiple strings, including some that are balanced and some that are not.
 

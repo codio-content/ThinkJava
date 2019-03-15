@@ -3507,8 +3507,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/immutable-objects-exercise-9-1.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Test.java"
+        }
+      ],
       "id": "immutable-objects-exercise-9-1",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -3519,8 +3530,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/immutable-objects-exercise-9-2.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/CopyingArrays.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/Histogram.java"
+        }
+      ],
       "id": "immutable-objects-exercise-9-2",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -3531,8 +3558,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/immutable-objects-exercise-9-3.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Big.java"
+        }
+      ],
       "id": "immutable-objects-exercise-9-3",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -3543,8 +3581,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/immutable-objects-exercise-9-4.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/BigInteger2.java"
+        }
+      ],
       "id": "immutable-objects-exercise-9-4",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -3555,8 +3604,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/immutable-objects-exercise-9-5.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_9_5.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/ValueReturning.java"
+        }
+      ],
       "id": "immutable-objects-exercise-9-5",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -3567,8 +3632,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/immutable-objects-exercise-9-6.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Exercise_9_6.java"
+        }
+      ],
       "id": "immutable-objects-exercise-9-6",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -3689,8 +3765,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-aliasing-revisited.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects-aliasing-revisited",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -3701,8 +3783,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-java-library-source.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects-java-library-source",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -3713,8 +3801,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-class-diagrams.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects-class-diagrams",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -3725,8 +3819,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-garbage-collection.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects-garbage-collection",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -3801,8 +3901,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-exercise-10-1.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects-exercise-10-1",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -3813,8 +3919,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-exercise-10-2.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects-exercise-10-2",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -3825,8 +3937,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-exercise-10-3.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects-exercise-10-3",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],

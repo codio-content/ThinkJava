@@ -1,7 +1,4 @@
-**Exercise 9.4:**
-
-Many encryption algorithms depend on the ability to raise large integers to a power.
-Here is a method that implements an efficient algorithm for integer exponentiation:
+Many encryption algorithms depend on the ability to raise large integers to a power. Here is a method that implements an efficient algorithm for integer exponentiation:
 
 ```code
 public static int pow(int x, int n) {
@@ -23,3 +20,5 @@ public static int pow(int x, int n) {
 The problem with this method is that it only works if the result is small enough to be represented by an `int`. Rewrite it so that the result is a `BigInteger`. The parameters should still be integers, though.
 
 You should use the `BigInteger` methods `add` and `multiply`. But don't use `BigInteger.pow`; that would spoil the fun.
+
+{Run!}(sh .guides/bg.sh javac code/BigInteger2.java java -cp code/ BigInteger2 )

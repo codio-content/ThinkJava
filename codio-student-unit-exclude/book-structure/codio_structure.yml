@@ -2048,7 +2048,7 @@ sections:
   
           position: 152
         - add:  |
-              {Run!}(sh .guides/bg.sh javac code/Remainder.java java -cp code/ Remainder 2 )
+              {Run!}(sh .guides/bg.sh javac code/ImmutableStrings.java java -cp code/ ImmutableStrings 2 )
  
           position: 173
     configuration:
@@ -2160,15 +2160,15 @@ sections:
     transformations:
         - add:  |
              Try it out yourself in the pane to the left. To compile and run the code, press the "Run!"
-             {Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev )
+             {Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev 5 )
   
           position: 569
         - add:  |
-             {Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev 2 )
+             {Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev 6 )
  
           position: 595
         - add:  |
-             {Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev 3 )
+             {Run!}(sh .guides/bg.sh javac code/ProgramDev.java java -cp code/ ProgramDev 7 )
  
           position: 631
     configuration:
@@ -2201,26 +2201,80 @@ sections:
     type: section
     chapter: Immutable objects
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Test.java"
+          panel: 0
+          action: open
   - name: Exercise 9.2
     type: section
     chapter: Immutable objects
     section: Exercises
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/CopyingArrays.java"
+          panel: 0
+          action: open
+        - path: "code/Histogram.java"
+          panel: 1
+          action: open
   - name: Exercise 9.3
     type: section
     chapter: Immutable objects
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Big.java"
+          panel: 0
+          action: open
   - name: Exercise 9.4
     type: section
     chapter: Immutable objects
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/BigInteger2.java"
+          panel: 0
+          action: open
   - name: Exercise 9.5
     type: section
     chapter: Immutable objects
     section: Exercises
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise_9_5.java"
+          panel: 0
+          action: open
+        - path: "code/ValueReturning.java"
+          panel: 1
+          action: open
   - name: Exercise 9.6
     type: section
     chapter: Immutable objects
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Exercise_9_6.java"
+          panel: 0
+          action: open
 #Chapter 10
   - name: Mutable objects
     type: chapter
@@ -2312,31 +2366,31 @@ sections:
   - name: Aliasing revisited
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Java library source
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Class diagrams
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Garbage collection
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Mutable vs immutable
     type: section
     transformations:
@@ -2353,12 +2407,12 @@ sections:
         - add:  |
 
               Consider the program in the bottom-left panel that inputs ten lines from `System.in` and concatenates them into a single `String`. To run the example, click the "Run!" button below.
-              {Run!}(sh .guides/bg.sh javac code/Append.java java -cp code/ Append )
+              {Run! | terminal}(javac code/Append.java && java -cp code/ Append)
   
           position: 522
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Append.java java -cp code/ Append 2 )
+              {Run! | terminal}(javac code/Append.java && java -cp code/ Append)
   
           position: 562
     configuration:
@@ -2394,14 +2448,29 @@ sections:
     type: section
     chapter: Mutable objects
     section: Exercises
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Exercise 10.2
     type: section
     chapter: Mutable objects
     section: Exercises
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
   - name: Exercise 10.3
     type: section
     chapter: Mutable objects
     section: Exercises
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
 #Chapter 11
   - name: Designing classes
     type: chapter
@@ -4383,116 +4452,79 @@ insert_sections:
     chapter: Immutable objects
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex9.1
-
+    markdown: |
       The point of this exercise is to explore Java types and fill in some of the details that aren't covered in the chapter.
 
-      \index{concatenate}
+      1.  Create a new program named `Test.java` and write a `main` method that contains expressions that combine various types using the `+` operator.
+          For example, what happens when you “add” a `String` and a `char`?
+          Does it perform character addition or string concatenation?
+          What is the type of the result?
+          (How can you determine the type of the result?)
 
-      \begin{enumerate}
+          {Run!}(sh .guides/bg.sh javac code/Test.java java -cp code/ Test )
 
-      \item Create a new program named {\tt Test.java} and write a \java{main} method that contains expressions that combine various types using the \java{+} operator.
-      For example, what happens when you ``add'' a \java{String} and a \java{char}?
-      Does it perform character addition or string concatenation?
-      What is the type of the result?
-      (How can you determine the type of the result?)
+      1.  Make a bigger copy of the following table and fill it in.
+          At the intersection of each pair of types, you should indicate whether it is legal to use the `+` operator with these types, what operation is performed (addition or concatenation), and what the type of the result is.
 
-      \item Make a bigger copy of the following table and fill it in.
-      At the intersection of each pair of types, you should indicate whether it is legal to use the \java{+} operator with these types, what operation is performed (addition or concatenation), and what the type of the result is.
+          |&  boolean |  char  |  ~int ~ | double | String <br/> \hline|
+          |-|-|-|-|-|
+          |boolean|         |        |         |        |        <br/> \hline|
+          |char   |         |        |         |        |        <br/> \hline|
+          |int    |         |        |         |        |        <br/> \hline|
+          |double |         |        |         |        |        <br/> \hline|
+          |String |         |        |         |        |        <br/> \hline|
 
-      \begin{center}
-      \begin{tabular}{|l|l|l|l|l|l|} \hline
-              &  boolean  &  ~char~  &  ~~int~~  &  double  &  String \\ \hline
-      boolean &           &          &           &          &         \\ \hline
-      char    &           &          &           &          &         \\ \hline
-      int     &           &          &           &          &         \\ \hline
-      double  &           &          &           &          &         \\ \hline
-      String  &           &          &           &          &         \\ \hline
-      \end{tabular}
-      \end{center}
 
-      \item Think about some of the choices the designers of Java made, based on this table.
-      How many of the entries seem unavoidable, as if there was no other choice?
-      How many seem like arbitrary choices from several equally reasonable possibilities?
-      Which entries seem most problematic?
+      1.  Think about some of the choices the designers of Java made, based on this table. How many of the entries seem unavoidable, as if there was no other choice? How many seem like arbitrary choices from several equally reasonable possibilities? Which entries seem most problematic?
 
-      \item Here's a puzzler: normally, the statement \java{x++} is exactly equivalent to \java{x = x + 1}.
-      But if \java{x} is a \java{char}, it's not exactly the same!
-      In that case, \java{x++} is legal, but \java{x = x + 1} causes an error.
-      Try it out and see what the error message is, then see if you can figure out what is going on.
+      1.  Here's a puzzler: normally, the statement `x++` is exactly equivalent to `x = x + 1`. But if `x` is a `char`, it's not exactly the same! In that case, `x++` is legal, but `x = x + 1` causes an error. Try it out and see what the error message is, then see if you can figure out what is going on.
 
-      \item What happens when you add \java{""} (the empty string) to the other types, for example, \java{"" + 5}?
-
-      %\item For each data type, what types of values can you assign to it?
-      %For example, you can assign an \java{int} to a \java{double} but not vice versa.
-
-      \end{enumerate}
-
-      \end{exercise}
+      1.  What happens when you add `""` (the empty string) to the other types, for example, `"" + 5`?
   - name: Exercise 9.2
     type: section
     chapter: Immutable objects
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex8.1
-
+    markdown: |
       The goal of this exercise is to practice encapsulation and generalization using some of the examples in previous chapters.
 
-      \begin{enumerate}
+      1.  Starting with the code in Section 7.5, write a method called `powArray` that takes a `double` array, `a`, and returns a new array that contains the elements of `a` squared. Generalize it to take a second argument and raise the elements of `a` to the given power.
 
-      \item Starting with the code in Section~\ref{traversal}, write a method called \java{powArray} that takes a \java{double} array, \java{a}, and returns a new array that contains the elements of \java{a} squared.
-      Generalize it to take a second argument and raise the elements of \java{a} to the given power.
+          {Run!}(sh .guides/bg.sh javac code/CopyingArrays.java java -cp code/ CopyingArrays )
 
-      \item Starting with the code in Section~\ref{enhanced}, write a method called \java{histogram} that takes an \java{int} array of scores from 0 to (but not including) 100, and returns a histogram of 100 counters.
-      Generalize it to take the number of counters as an argument.
+      1.  Starting with the code in Section 7.8, write a method called `histogram` that takes an `int` array of scores from 0 to (but not including) 100, and returns a histogram of 100 counters. Generalize it to take the number of counters as an argument.
 
-      \end{enumerate}
-
-      \end{exercise}
+          {Run!}(sh .guides/bg.sh javac code/Histogram.java java -cp code/ Histogram )
   - name: Exercise 9.3
     type: section
     chapter: Immutable objects
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex10.4
-
-      \index{factorial}
-
+    markdown: |
       You might be sick of the factorial method by now, but we're going to do one more version.
 
-      \begin{enumerate}
+      1.  Create a new program called `Big.java` and write an iterative version of `factorial` (using a `for` loop)
 
-      \item Create a new program called {\tt Big.java} and write an iterative version of \java{factorial} (using a \java{for} loop).
+          {Run!}(sh .guides/bg.sh javac code/Big.java java -cp code/ Big )
 
-      \item Display a table of the integers from 0 to 30 along with their factorials.
-      At some point around 15, you will probably see that the answers are not correct anymore.
-      Why not?
+      1.  Display a table of the integers from 0 to 30 along with their factorials.
+          At some point around 15, you will probably see that the answers are not correct anymore.
+          Why not?
 
-      \item Convert \java{factorial} so that it performs its calculation using BigIntegers and returns a \java{BigInteger} as a result.
-      You can leave the parameter alone; it will still be an integer.
+      1.  Convert `factorial` so that it performs its calculation using BigIntegers and returns a `BigInteger` as a result. You can leave the parameter alone; it will still be an integer.
 
-      \item Try displaying the table again with your modified factorial method.
-      Is it correct up to 30?
-      How high can you make it go?
-
-      \end{enumerate}
-
-      \end{exercise}
+      1.  Try displaying the table again with your modified factorial method.
+          Is it correct up to 30?
+          How high can you make it go?
   - name: Exercise 9.4
     type: section
     chapter: Immutable objects
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex10.5
+    markdown: |
+      Many encryption algorithms depend on the ability to raise large integers to a power. Here is a method that implements an efficient algorithm for integer exponentiation:
 
-      Many encryption algorithms depend on the ability to raise large integers to a power.
-      Here is a method that implements an efficient algorithm for integer exponentiation:
-
-      \begin{code}
+      ```code
       public static int pow(int x, int n) {
           if (n == 0) return 1;
 
@@ -4507,79 +4539,55 @@ insert_sections:
               return t * t * x;
           }
       }
-      \end{code}
+      ```
 
-      The problem with this method is that it only works if the result is small enough to be represented by an \java{int}.
-      Rewrite it so that the result is a \java{BigInteger}.
-      The parameters should still be integers, though.
+      The problem with this method is that it only works if the result is small enough to be represented by an `int`. Rewrite it so that the result is a `BigInteger`. The parameters should still be integers, though.
 
-      You should use the \java{BigInteger} methods \java{add} and \java{multiply}.
-      But don't use \java{BigInteger.pow}; that would spoil the fun.
+      You should use the `BigInteger` methods `add` and `multiply`. But don't use `BigInteger.pow`; that would spoil the fun.
 
-      \end{exercise}
+      {Run!}(sh .guides/bg.sh javac code/BigInteger2.java java -cp code/ BigInteger2 )
   - name: Exercise 9.5
     type: section
     chapter: Immutable objects
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex7.5
-
-      %The purpose of this exercise is to practice using \java{BigInteger} and \java{BigDecimal}.
-
+    markdown: |
       One way to calculate $e^x$ is to use the following infinite series expansion.
       The $i$th term in the series is $x^i / i!$.
-      %
-      \[ e^x = 1 + x + x^2 / 2! + x^3 / 3! + x^4 / 4! + \ldots \]
-      %
-      \begin{enumerate}
+      $ e^x = 1 + x + x^2 / 2! + x^3 / 3! + x^4 / 4! + \ldots $
 
-      \item Write a method called \java{myexp} that takes \java{x} and \java{n} as parameters and estimates $e^x$ by adding the first \java{n} terms of this series.
-      You can use the \java{factorial} method from Section~\ref{factorial} or your iterative version from the previous exercise.
 
-      \index{efficiency}
+      1.  Write a method called `myexp` that takes `x` and `n` as parameters and estimates $e^x$ by adding the first `n` terms of this series. You can use the `factorial` method from Section 8.3 or your iterative version from the previous exercise.
 
-      \item You can make this method more efficient by observing that the numerator of each term is the same as its predecessor multiplied by \java{x}, and the denominator is the same as its predecessor multiplied by \java{i}.
+          {Run!}(sh .guides/bg.sh javac code/Exercise_9_5.java java -cp code/ Exercise_9_5 )
 
-      Use this observation to eliminate the use of \java{Math.pow} and \java{factorial}, and check that you get the same result.
+      1.  You can make this method more efficient by observing that the numerator of each term is the same as its predecessor multiplied by `x`, and the denominator is the same as its predecessor multiplied by `i`.
 
-      \item Write a method called \java{check} that takes a parameter, \java{x}, and displays \java{x}, \java{myexp(x)}, and \java{Math.exp(x)}.
-      The output should look something like:
+          Use this observation to eliminate the use of `Math.pow` and `factorial`, and check that you get the same result.
 
-      \begin{stdout}
-      1.0     2.708333333333333     2.718281828459045
-      \end{stdout}
+      1.  Write a method called `check` that takes a parameter, `x`, and displays `x`, `myexp(x)`, and `Math.exp(x)`.
+          The output should look something like:
 
-      You can use the escape sequence \java{"\\t"} to put a tab character between columns of a table.
+          ```code
+          1.0     2.708333333333333     2.718281828459045
+          ```
 
-      \item Vary the number of terms in the series (the second argument that \java{check} sends to \java{myexp}) and see the effect on the accuracy of the result.
-      Adjust this value until the estimated value agrees with the correct answer when \java{x} is 1.
+          You can use the escape sequence `"<br/>t"` to put a tab character between columns of a table.
 
-      \item Write a loop in \java{main} that invokes \java{check} with the values 0.1, 1.0, 10.0, and 100.0.
-      How does the accuracy of the result vary as \java{x} varies?
-      Compare the number of digits of agreement rather than the difference between the actual and estimated values.
+      1.  Vary the number of terms in the series (the second argument that `check` sends to `myexp`) and see the effect on the accuracy of the result. Adjust this value until the estimated value agrees with the correct answer when `x` is 1.
 
-      \item Add a loop in \java{main} that checks \java{myexp} with the values -0.1, -1.0, -10.0, and -100.0.
-      Comment on the accuracy.
+      1.  Write a loop in `main` that invokes `check` with the values 0.1, 1.0, 10.0, and 100.0. How does the accuracy of the result vary as `x` varies? Compare the number of digits of agreement rather than the difference between the actual and estimated values.
 
-      \end{enumerate}
-
-      \end{exercise}
+      1.  Add a loop in `main` that checks `myexp` with the values -0.1, -1.0, -10.0, and -100.0. Comment on the accuracy.
   - name: Exercise 9.6
     type: section
     chapter: Immutable objects
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex9.3
-
-      \index{encapsulation}
-      \index{generalization}
-
-      %The purpose of this exercise is to review encapsulation and generalization (see Section~\ref{encapsulation}).
+    markdown: |
       The following code fragment traverses a string and checks whether it has the same number of open and close parentheses:
 
-      \begin{code}
+      ```code
       String s = "((3 + 7) * 2)";
       int count = 0;
 
@@ -4593,19 +4601,15 @@ insert_sections:
       }
 
       System.out.println(count);
-      \end{code}
+      ```
 
-      \begin{enumerate}
+      1.  Encapsulate this fragment in a method that takes a string argument and returns the final value of `count`.
 
-      \item Encapsulate this fragment in a method that takes a string argument and returns the final value of \java{count}.
+          {Run!}(sh .guides/bg.sh javac code/Exercise_9_6.java java -cp code/ Exercise_9_6 )
 
-      \item Test your method with multiple strings, including some that are balanced and some that are not.
+      1.  Test your method with multiple strings, including some that are balanced and some that are not.
 
-      \item Generalize the code so that it works on any string. What could you do to generalize it more?
-
-      \end{enumerate}
-
-      \end{exercise}
+      1.  Generalize the code so that it works on any string. What could you do to generalize it more?
     
 #Chapter 10 
   - name: Exercise 10.1
@@ -4613,31 +4617,24 @@ insert_sections:
     chapter: Mutable objects
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex10.1
-
+    markdown: |
       The point of this exercise is to make sure you understand the mechanism for passing objects as parameters.
 
-      \begin{enumerate}
+      1.  For the following program, draw a stack diagram showing the local variables and parameters of `main` and `riddle` just before `riddle` returns.
+          Use arrows to show which objects each variable references.
 
-      \item For the following program, draw a stack diagram showing the local variables and parameters of \java{main} and \java{riddle} just before \java{riddle} returns.
-      Use arrows to show which objects each variable references.
+      1.  {Submit Answer!|assessment}(free-text-522877701)
 
-      \item What is the output of the program?
+      1.  {Submit Answer!|assessment}(free-text-897455674)
 
-      \item Is the \java{blank} object mutable or immutable?
-      How can you tell?
 
-      \end{enumerate}
 
-      \begin{code}
+      ```code
       public static int riddle(int x, Point p) {
           x = x + 7;
           return x + p.x + p.y;
       }
-      \end{code}
 
-      \begin{code}
       public static void main(String[] args) {
           int x = 5;
           Point blank = new Point(1, 2);
@@ -4647,34 +4644,22 @@ insert_sections:
           System.out.println(blank.x);
           System.out.println(blank.y);
       }
-      \end{code}
-
-      \end{exercise}
+      ```
   - name: Exercise 10.2
     type: section
     chapter: Mutable objects
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex10.2
+    markdown: |
+      The point of this exercise is to make sure you understand the mechanism for returning new objects from methods. The following code uses `findCenter` and `distance` as defined in this chapter.
 
-      The point of this exercise is to make sure you understand the mechanism for returning new objects from methods.
-      The following code uses \java{findCenter} and \java{distance} as defined in this chapter.
+      1.  Draw a stack diagram showing the state of the program just before `findCenter` returns. Include all variables and parameters, and show the objects those variables refer to.
 
-      \begin{enumerate}
+      1.  Draw a stack diagram showing the state of the program just before `distance` returns. Show all variables, parameters, and objects.
 
-      \item Draw a stack diagram showing the state of the program just before \java{findCenter} returns.
-      Include all variables and parameters, and show the objects those variables refer to.
+      1.  {Submit Answer!|assessment}(free-text-3775858035)
 
-      \item Draw a stack diagram showing the state of the program just before \java{distance} returns.
-      Show all variables, parameters, and objects.
-
-      \item What is the output of this program?
-      (Can you tell without running it?)
-
-      \end{enumerate}
-
-      \begin{code}
+      ```code
       public static void main(String[] args) {
           Point blank = new Point(5, 8);
 
@@ -4684,34 +4669,23 @@ insert_sections:
           double dist = distance(center, blank);
           System.out.println(dist);
       }
-      \end{code}
-
-      \end{exercise}
+      ```
   - name: Exercise 10.3
     type: section
     chapter: Mutable objects
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex10.3
+    markdown: |
+      This exercise is about aliasing. Recall that aliases are two variables that refer to the same object. The following code uses `findCenter` and `printPoint` as defined in this chapter.
 
-      This exercise is about aliasing.
-      Recall that aliases are two variables that refer to the same object.
-      The following code uses \java{findCenter} and \java{printPoint} as defined in this chapter.
+      1.  Draw a diagram that shows the state of the program just before the end of `main`. Include all local variables and the objects they refer to.
 
-      \begin{enumerate}
+      1.  {Submit Answer!|assessment}(free-text-2190936241)
 
-      \item Draw a diagram that shows the state of the program just before the end of \java{main}.
-      Include all local variables and the objects they refer to.
+      1.  {Submit Answer!|assessment}(free-text-1542807523)
 
-      \item What is the output of the program?
 
-      \item At the end of \java{main}, are \java{p1} and \java{p2} aliased?
-      Why or why not?
-
-      \end{enumerate}
-
-      \begin{code}
+      ```code
       public static void main(String[] args) {
           Rectangle box1 = new Rectangle(2, 4, 7, 9);
           Point p1 = findCenter(box1);
@@ -4721,9 +4695,7 @@ insert_sections:
           Point p2 = findCenter(box1);
           printPoint(p2);
       }
-      \end{code}
-
-      \end{exercise}
+      ```
 
 #Chapter 11
   - name: Exercise 11.1
