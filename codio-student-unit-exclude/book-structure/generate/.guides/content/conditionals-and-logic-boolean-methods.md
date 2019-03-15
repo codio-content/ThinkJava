@@ -41,7 +41,5 @@ if (isSingleDigit(z)) {
     System.out.println("z is big");
 }
 ```
-{Run!}(sh .guides/bg.sh javac code/BooleanMethods.java java -cp code/ BooleanMethods 2 )
-
 
 Examples like this one almost read like English: “If is single digit z, print ... else print ...”.

@@ -37,4 +37,3 @@ if (!evenFlag) {
     System.out.println("n was odd when I checked it");
 }
 ```
-{Run!}(sh .guides/bg.sh javac code/BooleanVars.java java -cp code/ BooleanVars 2 )

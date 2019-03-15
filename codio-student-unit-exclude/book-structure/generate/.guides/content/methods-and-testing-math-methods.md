@@ -16,8 +16,7 @@ double degrees = 90;
 double angle = degrees / 180.0 * Math.PI;
 ```
 
-Notice that `PI` is in capital letters. Java does not recognize `Pi`, `pi`, or `pie`. Also, `PI` is the name of a variable, not a method, so it doesn't have parentheses. The same is true for the constant `Math.E`, which approximates Euler's number. 
-Try out some of these Math functions in the panel to the left.
+Notice that `PI` is in capital letters. Java does not recognize `Pi`, `pi`, or `pie`. Also, `PI` is the name of a variable, not a method, so it doesn't have parentheses. The same is true for the constant `Math.E`, which approximates Euler's number. Try out some of these Math functions in the panel to the left.
 {Run!}(sh .guides/bg.sh javac code/MathFun.java java -cp code/ MathFun )
 
 

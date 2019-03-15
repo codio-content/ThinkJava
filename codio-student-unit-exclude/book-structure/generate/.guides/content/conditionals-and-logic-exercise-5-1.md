@@ -1,5 +1,3 @@
-**Exercise 5.1:**
-
 Using the following variables, evaluate the logic expressions in the table below.
 Write your answers as true, false, or error.
 
@@ -16,7 +14,7 @@ String hello = "world";
 
 |Expression|Result |
 |-|-|
-|`yes == no &#124;&#124; grade > amount`|\hspace{5em} |
+|`yes == no &#124;&#124; grade > amount`| |
 |`amount == 40.0 &#124;&#124; 50.0`| |
 |`hiVal != loVal &#124;&#124; loVal < 0`| |
 |`True &#124;&#124; hello.length() > 0`| |
