@@ -30,7 +30,7 @@ private void swapCards(int i, int j) {
 }
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+{Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck 2 )
 
 
 

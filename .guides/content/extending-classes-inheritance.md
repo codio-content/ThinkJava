@@ -20,7 +20,7 @@ public class Deck extends CardCollection {
 ```
 
 
-{Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+{Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck 9 )
 
 
 The first line uses the keyword `extends` to indicate that `Deck` extends the class `CardCollection`. That means a `Deck` object has the same instance variables and methods as a `CardCollection`. Another way to say the same thing is that `Deck` “inherits from” `CardCollection`. We could also say that `CardCollection` is a **superclass**, and `Deck` is one of its subclasses.

@@ -86,7 +86,7 @@ public static boolean cardMatches(Card card1, Card card2) {
 }
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Player.java java -cp code/ Player )
+{Run!}(sh .guides/bg.sh javac code/Player.java java -cp code/ Player 3 )
 
 
 Finally, `Player` provides a `score` method, which computes penalty points for cards left in a player's hand at the end of the game.

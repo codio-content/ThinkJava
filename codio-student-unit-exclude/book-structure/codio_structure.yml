@@ -3006,7 +3006,7 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck 2 )
  
           position: 153
     configuration:
@@ -3022,7 +3022,7 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck 3 )
  
           position: 201
     configuration:
@@ -3036,16 +3036,16 @@ sections:
   - name: Merge sort
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Subdecks
     type: section
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck 4 )
  
           position: 263
     configuration:
@@ -3061,7 +3061,7 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck 5 )
  
           position: 335
     configuration:
@@ -3077,7 +3077,7 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck 6 )
  
           position: 374
     configuration:
@@ -3093,7 +3093,7 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck 7 )
  
           position: 430
     configuration:
@@ -3157,26 +3157,61 @@ sections:
     type: section
     chapter: Objects of arrays
     section: Exercises
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Deck.java"
+          panel: 0
+          action: open
+        - path: "#preview: https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuilder.html"
+          panel: 1
+          action: open
   - name: Exercise 13.2
     type: section
     chapter: Objects of arrays
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/ch13/Deck.java"
+          panel: 0
+          action: open
   - name: Exercise 13.3
     type: section
     chapter: Objects of arrays
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/ch13/Deck.java"
+          panel: 0
+          action: open
   - name: Exercise 13.4
     type: section
     chapter: Objects of arrays
     section: Exercises
-  - name: Exercise 13.5
-    type: section
-    chapter: Objects of arrays
-    section: Exercises
-  - name: Exercise 13.6
-    type: section
-    chapter: Objects of arrays
-    section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/ch13/Deck.java"
+          panel: 0
+          action: open
+#  - name: Exercise 13.5
+#    type: section
+#    chapter: Objects of arrays
+#    section: Exercises
+#  - name: Exercise 13.6
+#    type: section
+#    chapter: Objects of arrays
+#    section: Exercises
 #Chapter 14
   - name: Extending classes
     type: chapter
@@ -3216,7 +3251,7 @@ sections:
     transformations:
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+              {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck 9 )
  
           position: 206
         - add:  |
@@ -3233,6 +3268,8 @@ sections:
           panel: 0
           action: open
         - path: "code/Hand.java"
+          panel: 1
+          action: open
   - name: Dealing cards
     type: section
     transformations:
@@ -3264,7 +3301,7 @@ sections:
           position: 432
         - add:  |
 
-              {Run!}(sh .guides/bg.sh javac code/Player.java java -cp code/ Player )
+              {Run!}(sh .guides/bg.sh javac code/Player.java java -cp code/ Player 3 )
  
           position: 455
     configuration:
@@ -3304,10 +3341,10 @@ sections:
   - name: Class relationships
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Vocabulary
     type: section
     configuration:
@@ -3330,247 +3367,297 @@ sections:
     type: section
     chapter: Extending classes
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Player.java"
+          panel: 0
+          action: open
   - name: Exercise 14.2
     type: section
     chapter: Extending classes
     section: Exercises
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Eights.java"
+          panel: 0
+          action: open
+        - path: "code/Player.java"
+          panel: 1
+          action: open
+        - path: "code/Genius.java"
+          panel: 1
+          action: open
   - name: Exercise 14.3
     type: section
     chapter: Extending classes
     section: Exercises
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Eights.java"
+          panel: 0
+          action: open
   - name: Exercise 14.4
     type: section
     chapter: Extending classes
     section: Exercises
+    configuration:
+      layout: 4-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Hand.java"
+          panel: 0
+          action: open
+        - path: "code/Card.java"
+          panel: 0
+          action: open
+        - path: "code/EightsHand.java"
+          panel: 2
+          action: open
+        - path: "code/EightsCard.java"
+          panel: 2
+          action: open
+        - path: "code/Eights.java"
+          panel: 3
+          action: open
 #Appendix A
   - name: Tools
     type: chapter
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Installing DrJava
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: DrJava interactions
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Command-line interface
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Command-line testing
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Running Checkstyle
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Tracing with a debugger
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Testing with JUnit
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Vocabulary
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
 #Appendix B
   - name: Javadoc
     type: chapter
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Reading documentation
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Writing documentation
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Javadoc tags
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Example source file
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Vocabulary
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
 #Appendix C
   - name: Graphics
     type: chapter
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Creating graphics
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Graphics methods
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Example drawing
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Vocabulary
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Exercises
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
 #Appendix D
   - name: Debugging
     type: chapter
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Compile-time errors
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Run-time errors
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Logic errors
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
 #Appendix E
   - name: Extras
     type: chapter
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Unreachable code
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Method composition
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Overloading methods
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Generating tables
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: The do-while loop
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: Break and continue
     type: section
     configuration:
-    layout: 1-panel
-    files:
-        - path: "#tabs"
-          action: close
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
 #inserting exercises on seperate pages so that they are cherry-pick-able
 insert_sections:
 #Chapter 1
@@ -4981,150 +5068,68 @@ insert_sections:
     chapter: Objects of arrays
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex13.5
+    markdown: |
+      Write a `toString` method for the `Deck` class. It should return a single string that represents the cards in the deck. When it's printed, this string should display the same results as the `print` method in Section 13.1.
 
-      Write a \java{toString} method for the \java{Deck} class.
-      It should return a single string that represents the cards in the deck.
-      When it's printed, this string should display the same results as the \java{print} method in Section~\ref{deck}.
+      *Hint:* You can use the `+` operator to concatenate strings, but it is not very efficient. Consider using `java.lang.StringBuilder` instead; you can review the documentation by doing a web search for “Java StringBuilder”.
 
-      \index{StringBuilder}
-      \index{efficiency}
-
-      {\it Hint:} You can use the \java{+} operator to concatenate strings, but it is not very efficient.
-      Consider using \java{java.lang.StringBuilder} instead; you can review the documentation by doing a web search for ``Java StringBuilder''.
-
-      \end{exercise}
+      {Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck 15 )
   - name: Exercise 13.2
     type: section
     chapter: Objects of arrays
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex13.2
-      \label{ex.shuffle}
-
+    markdown: |
       The goal of this exercise is to implement the shuffling algorithm from this chapter.
 
-      \begin{enumerate}
+      1.  In the repository for this book, you should find the file named `Deck.java`. Check that you can compile it in your environment.
 
-      \item In the repository for this book, you should find the file named {\tt Deck.java}.
-      Check that you can compile it in your environment.
+      1.  Implement the `randomInt` method. You can use the `nextInt` method provided by `java.util.Random`, which we saw in Section 7.6.
 
-      \item Implement the \java{randomInt} method.
-      You can use the \java{nextInt} method provided by \java{java.util.Random}, which we saw in Section~\ref{random}.
+            *Hint:* Avoid creating a `Random` object every time `randomInt` is invoked by defining a class variable.
 
-      {\it Hint:} Avoid creating a \java{Random} object every time \java{randomInt} is invoked by defining a class variable.
+      1.  Implement the `swapCards` method that takes two indexes and swaps the cards at the given locations.
 
-      \item Implement the \java{swapCards} method that takes two indexes and swaps the cards at the given locations.
+      1.  Implement the `shuffle` method using the algorithm in Section 13.2.
 
-      \item Implement the \java{shuffle} method using the algorithm in Section~\ref{shuffle}.
-
-      \end{enumerate}
-
-      \end{exercise}
+      {Run!}(sh .guides/bg.sh javac code/ch13/Deck.java java -cp code/ch13/ Deck )
   - name: Exercise 13.3
     type: section
     chapter: Objects of arrays
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex13.3
+    markdown: |
+      The goal of this exercise is to implement the sorting algorithms from this chapter. Use the `Deck.java` file from the previous exercise, or create a new one from scratch.
 
-      The goal of this exercise is to implement the sorting algorithms from this chapter.
-      Use the {\tt Deck.java} file from the previous exercise, or create a new one from scratch.
+      1.  Implement the `indexLowest` method. Use the `Card.compareTo` method to find the lowest card in a given range of the deck (from `lowIndex` to `highIndex`, including both).
 
-      \begin{enumerate}
+      1.  Implement `selectionSort` using the algorithm in Section 13.3.
 
-      \item Implement the \java{indexLowest} method.
-      Use the \java{Card.compareTo} method to find the lowest card in a given range of the deck (from \java{lowIndex} to \java{highIndex}, including both).
+      1.  Using the pseudocode in Section 13.4, implement the `merge` method. The best way to test it is to build and shuffle a deck. Then use `subdeck` to form two small subdecks, and use selection sort to sort them. Finally, pass the two halves to `merge` and see if it works.
 
-      \item Implement \java{selectionSort} using the algorithm in Section~\ref{sorting}.
+      1.  Implement `almostMergeSort`, the one that divides the deck in half, uses `selectionSort` to sort the two halves, and uses `merge` to create a new, sorted deck. You should be able to reuse code from the previous step.
 
-      \item Using the pseudocode in Section~\ref{mergesort}, implement the \java{merge} method.
-      The best way to test it is to build and shuffle a deck.
-      Then use \java{subdeck} to form two small subdecks, and use selection sort to sort them.
-      Finally, pass the two halves to \java{merge} and see if it works.
-      \index{testing}
+      1.  Implement `mergeSort` recursively. Remember that `selectionSort` is a modifier and `mergeSort` is a pure method, which means that they get invoked differently:
 
-      \item Implement \java{almostMergeSort}, the one that divides the deck in half, uses \java{selectionSort} to sort the two halves, and uses \java{merge} to create a new, sorted deck.
-      You should be able to reuse code from the previous step.
-
-      \item Implement \java{mergeSort} recursively.
-      Remember that \java{selectionSort} is a modifier and \java{mergeSort} is a pure method, which means that they get invoked differently:
-
-      \begin{code}
+      ```code
       deck.selectionSort();      // modifies an existing deck
       deck = deck.mergeSort();   // replaces old deck with new
-      \end{code}
+      ```
 
-      \end{enumerate}
-
-      \end{exercise}
+      {Run!}(sh .guides/bg.sh javac code/ch13/Deck.java java -cp code/ch13/ Deck 2 )
   - name: Exercise 13.4
     type: section
     chapter: Objects of arrays
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}
+    markdown: |
+      You can learn more about the sorting algorithms in this chapter, and others, at [http://www.sorting-algorithms.com/](sorting-algorithms.com). This site provides explanations of the algorithms and animations that show how they work. It also includes an analysis of their efficiency.
 
-      %%V6 Ex13.1
-      You can learn more about the sorting algorithms in this chapter, and others, at \href{http://www.sorting-algorithms.com/}{sorting-algorithms.com}.
-      This site provides explanations of the algorithms and animations that show how they work.
-      It also includes an analysis of their efficiency.
+      For example, “insertion sort” is an algorithm that inserts elements into place, one at a time. Read about it at [http://www.sorting-algorithms.com/insertion-sort](http://www.sorting-algorithms.com/insertion-sort). Then write a method named `insertionSort` that implements this algorithm.
 
-      %%V6 Ex13.4
-      For example, ``insertion sort'' is an algorithm that inserts elements into place, one at a time.
-      Read about it at \url{http://www.sorting-algorithms.com/insertion-sort}.
-      Then write a method named \java{insertionSort} that implements this algorithm.
+      One goal of this exercise is to practice top-down design. Your solution should use a helper method, named `insert`, that implements the inner loop of the algorithm. `insertionSort` should invoke this method $n-1$ times.
 
-      One goal of this exercise is to practice top-down design.
-      Your solution should use a helper method, named \java{insert}, that implements the inner loop of the algorithm.
-      \java{insertionSort} should invoke this method $n-1$ times.
-
-
-      \end{exercise}
-  - name: Exercise 13.5
-    type: section
-    chapter: Objects of arrays
-    section: Exercises
-    before: false
-    latex: |
-      \begin{exercise}  %%V6.5 NEW
-
-      Find and open the file \java{War.java} in the repository.
-      The \java{main} method contains all the code from the last section of this chapter.
-      Check that you can compile and run this code before proceeding.
-
-      The program is incomplete; it does not handle the case when two cards have the same rank.
-      Finish implementing the \java{main} method beginning at the line that says: \java{// it's a tie...draw four more cards}.
-
-      When there's a tie, draw three cards from each pile and store them in a collection, along with the original two.
-      Then draw one more card from each pile and compare them.
-      Whoever wins the tie will take all ten of these cards.
-
-      If one pile does not have at least four cards, the game ends immediately.
-      If a tie ends with a tie, flip a coin and give the cards to one of the players.
-
-      Notice that this program depends on \java{Deck.shuffle}.
-      If you haven't implemented the \java{shuffle} method (see Exercise~\ref{ex.shuffle}), the game won't be that fun.
-      Player 1 will have the Ace through King of the first two suits, and Player 2 will have the the Ace through King of the other two suits, all in the same order.
-
-      \end{exercise}
-  - name: Exercise 13.6
-    type: section
-    chapter: Objects of arrays
-    section: Exercises
-    before: false
-    latex: |
-      \begin{exercise}  %%V6.5 NEW
-
-      Extend your program from the previous exercise to handle the case when a tie ends with a tie.
-      In other words, when the fourth cards have the same rank, add three more cards to the collection and try again.
-      You will need to wrap your code in a loop, for example: \java{while (diff == 0)}.
-
-      \end{exercise}
+      {Run!}(sh .guides/bg.sh javac code/ch13/Deck.java java -cp code/ch13/ Deck )
 
 #Chapter 14
   - name: Exercise 14.1
@@ -5132,62 +5137,44 @@ insert_sections:
     chapter: Extending classes
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex14.1
+    markdown: |
+      Design a better strategy for the `Player.play` method. For example, if there are multiple cards you can play, and one of them is an eight, you might want to play the eight.
 
-      Design a better strategy for the \java{Player.play} method.
-      For example, if there are multiple cards you can play, and one of them is an eight, you might want to play the eight.
+      Think of other ways you can minimize penalty points, such as playing the highest-ranking cards first. Write a new class that extends `Player` and overrides `play` to implement your strategy.
 
-      \index{override}
-
-      Think of other ways you can minimize penalty points, such as playing the highest-ranking cards first.
-      Write a new class that extends \java{Player} and overrides \java{play} to implement your strategy.
-
-      \end{exercise}
+      {Run!}(sh .guides/bg.sh javac code/Player.java java -cp code/ Player )
   - name: Exercise 14.2
     type: section
     chapter: Extending classes
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex14.2
+    markdown: |
+      Write a loop that plays the game 100 times and keeps track of how many times each player wins. If you implemented multiple strategies in the previous exercise, you can play them against each other to evaluate which one works best.
 
-      Write a loop that plays the game 100 times and keeps track of how many times each player wins.
-      If you implemented multiple strategies in the previous exercise, you can play them against each other to evaluate which one works best.
+      *Hint:* Design a `Genius` class that extends `Player` and overrides the `play` method, and then replace one of the players with a `Genius` object.
 
-      {\it Hint:} Design a \java{Genius} class that extends \java{Player} and overrides the \java{play} method, and then replace one of the players with a \java{Genius} object.
-
-      \end{exercise}
+      {Run!}(sh .guides/bg.sh javac code/Eights.java java -cp code/ Eights )
   - name: Exercise 14.3
     type: section
     chapter: Extending classes
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex14.3
+    markdown: |
+      One limitation of the program we wrote in this chapter is that it only handles two players. Modify the `Eights` class to create an `ArrayList` of players, and modify `nextPlayer` to select the next player.
 
-      One limitation of the program we wrote in this chapter is that it only handles two players.
-      Modify the \java{Eights} class to create an \java{ArrayList} of players, and modify \java{nextPlayer} to select the next player.
-
-      \end{exercise}
+      {Run!}(sh .guides/bg.sh javac code/Eights.java java -cp code/ Eights )
   - name: Exercise 14.4
     type: section
     chapter: Extending classes
     section: Exercises
     before: false
-    latex: |
-      \begin{exercise}  %%V6 Ex14.4
+    markdown: |
+      When we designed the program for this chapter, we tried to minimize the number of classes. As a result, we ended up with a few awkward methods. For example, `cardMatches` is a static method in `Player`, but it would be more natural if it were an instance method in `Card`.
 
-      When we designed the program for this chapter, we tried to minimize the number of classes.
-      As a result, we ended up with a few awkward methods.
-      For example, \java{cardMatches} is a static method in \java{Player}, but it would be more natural if it were an instance method in \java{Card}.
+      The problem is that `Card` is supposed to be useful for any card game, not just *Crazy Eights*. You can solve this problem by adding a new class, `EightsCard`, that extends `Card` and provides a method, `match`, that checks whether two cards match according to the rules of *Crazy Eights*.
 
-      The problem is that \java{Card} is supposed to be useful for any card game, not just {\it Crazy Eights}.
-      You can solve this problem by adding a new class, \java{EightsCard}, that extends \java{Card} and provides a method, \java{match}, that checks whether two cards match according to the rules of {\it Crazy Eights}.
-
-      At the same time, you could create a new class, \java{EightsHand}, that extends \java{Hand} and provides a method, \java{scoreHand}, that adds up the scores of the cards in the hand.
-      And while you're at it, you could add a method named \java{scoreCard} to \java{EightsCard}.
+      At the same time, you could create a new class, `EightsHand`, that extends `Hand` and provides a method, `scoreHand`, that adds up the scores of the cards in the hand. And while you're at it, you could add a method named `scoreCard` to `EightsCard`.
 
       Whether or not you actually make these changes, draw a UML class diagram that shows this alternative object hierarchy.
 
-      \end{exercise}
+      {Run!}(sh .guides/bg.sh javac code/Eights.java java -cp code/ Eights )

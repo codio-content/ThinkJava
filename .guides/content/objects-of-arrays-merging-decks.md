@@ -23,7 +23,7 @@ private static Deck merge(Deck d1, Deck d2) {
 }
 ```
 
-{Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck )
+{Run!}(sh .guides/bg.sh javac code/Deck.java java -cp code/ Deck 5 )
 
 
 An exercise at the end of the chapter asks you to implement `merge`. It's somewhat tricky, so be sure to test it with different subdecks. Once your `merge` method is working correctly, you can use it to write a simplified version of merge sort:

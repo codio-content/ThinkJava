@@ -4791,8 +4791,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/objects-of-arrays-merge-sort.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "objects-of-arrays-merge-sort",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -4954,8 +4960,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/objects-of-arrays-exercise-13-1.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Deck.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuilder.html"
+        }
+      ],
       "id": "objects-of-arrays-exercise-13-1",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -4966,8 +4988,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/objects-of-arrays-exercise-13-2.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch13/Deck.java"
+        }
+      ],
       "id": "objects-of-arrays-exercise-13-2",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -4978,8 +5011,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/objects-of-arrays-exercise-13-3.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch13/Deck.java"
+        }
+      ],
       "id": "objects-of-arrays-exercise-13-3",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -4990,37 +5034,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/objects-of-arrays-exercise-13-4.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch13/Deck.java"
+        }
+      ],
       "id": "objects-of-arrays-exercise-13-4",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
       "teacherOnly": false,
       "title": "Exercise 13.4",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/objects-of-arrays-exercise-13-5.md",
-      "files": [],
-      "id": "objects-of-arrays-exercise-13-5",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercise 13.5",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/objects-of-arrays-exercise-13-6.md",
-      "files": [],
-      "id": "objects-of-arrays-exercise-13-6",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercise 13.6",
       "type": "markdown"
     },
     {
@@ -5078,6 +5109,8 @@
           "path": "code/Deck.java"
         },
         {
+          "action": "open",
+          "panel": 1,
           "path": "code/Hand.java"
         }
       ],
@@ -5162,8 +5195,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/extending-classes-class-relationships.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "extending-classes-class-relationships",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5210,8 +5249,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/extending-classes-exercise-14-1.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Player.java"
+        }
+      ],
       "id": "extending-classes-exercise-14-1",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5222,8 +5272,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/extending-classes-exercise-14-2.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Eights.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/Player.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/Genius.java"
+        }
+      ],
       "id": "extending-classes-exercise-14-2",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5234,8 +5305,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/extending-classes-exercise-14-3.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Eights.java"
+        }
+      ],
       "id": "extending-classes-exercise-14-3",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5246,8 +5328,39 @@
     {
       "chapter": false,
       "content-file": ".guides/content/extending-classes-exercise-14-4.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Hand.java"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Card.java"
+        },
+        {
+          "action": "open",
+          "panel": 2,
+          "path": "code/EightsHand.java"
+        },
+        {
+          "action": "open",
+          "panel": 2,
+          "path": "code/EightsCard.java"
+        },
+        {
+          "action": "open",
+          "panel": 3,
+          "path": "code/Eights.java"
+        }
+      ],
       "id": "extending-classes-exercise-14-4",
+      "layout": "4-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5258,8 +5371,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/tools.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "tools",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5270,8 +5389,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tools-installing-drjava.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "tools-installing-drjava",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5282,8 +5407,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tools-drjava-interactions.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "tools-drjava-interactions",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5294,8 +5425,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tools-command-line-interface.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "tools-command-line-interface",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5306,8 +5443,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tools-command-line-testing.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "tools-command-line-testing",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5318,8 +5461,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tools-running-checkstyle.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "tools-running-checkstyle",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5330,8 +5479,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tools-tracing-with-a-debugger.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "tools-tracing-with-a-debugger",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5342,8 +5497,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tools-testing-with-junit.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "tools-testing-with-junit",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5354,8 +5515,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tools-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "tools-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5366,8 +5533,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/javadoc.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "javadoc",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5378,8 +5551,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/javadoc-reading-documentation.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "javadoc-reading-documentation",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5390,8 +5569,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/javadoc-writing-documentation.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "javadoc-writing-documentation",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5402,8 +5587,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/javadoc-javadoc-tags.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "javadoc-javadoc-tags",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5414,8 +5605,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/javadoc-example-source-file.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "javadoc-example-source-file",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5426,8 +5623,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/javadoc-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "javadoc-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5438,8 +5641,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/graphics.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "graphics",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5450,8 +5659,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/graphics-creating-graphics.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "graphics-creating-graphics",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5462,8 +5677,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/graphics-graphics-methods.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "graphics-graphics-methods",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5474,8 +5695,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/graphics-example-drawing.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "graphics-example-drawing",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5486,8 +5713,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/graphics-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "graphics-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5498,8 +5731,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/graphics-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "graphics-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5510,8 +5749,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/debugging.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "debugging",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5522,8 +5767,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/debugging-compile-time-errors.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "debugging-compile-time-errors",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5534,8 +5785,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/debugging-run-time-errors.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "debugging-run-time-errors",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5546,8 +5803,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/debugging-logic-errors.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "debugging-logic-errors",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5558,8 +5821,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/extras.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "extras",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5570,8 +5839,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/extras-unreachable-code.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "extras-unreachable-code",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5582,8 +5857,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/extras-method-composition.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "extras-method-composition",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5594,8 +5875,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/extras-overloading-methods.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "extras-overloading-methods",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5606,8 +5893,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/extras-generating-tables.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "extras-generating-tables",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5618,8 +5911,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/extras-the-do-while-loop.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "extras-the-do-while-loop",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -5630,8 +5929,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/extras-break-and-continue.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "extras-break-and-continue",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
