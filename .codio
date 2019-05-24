@@ -8,5 +8,6 @@
         "Current File (static)": "https://{{domain}}/{{filepath}}",
         "Box URL": "http://{{domain3000}}/",
         "Box URL SSL": "https://{{domain3000}}/"
-    }
+    },
+  "debugger": [{"type":"JAVA","command":"-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5105","before":"cd code/ && javac -g -d . Append.java && java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5105 Append ","single":true,"path":"Append.java","args":"","rootFolder":"code/","uuid":"37cc4d2c-b211-5413-e357-76c766aa1311","name":"For"}]
 }
