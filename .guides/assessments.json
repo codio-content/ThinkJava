@@ -5,16 +5,13 @@
   "source": {
    "name": "Exercise 3.2",
    "showName": false,
-   "bloomsObjectiveLevel": "",
+   "instructions": "When you are ready to submit your code, remove the prompt message and click the button below.",
+   "command": "java -cp code/ CtoF",
+   "preExecuteCommand": "javac code/CtoF.java",
    "guidance": "",
    "showGuidanceAfterResponse": false,
-   "showExpectedAnswer": true,
-   "preExecuteCommand": "javac CtoF.java",
-   "command": "java CtoF",
    "points": 1,
    "oneTimeTest": false,
-   "instructions": "When you are ready to submit your code, remove the prompt message and click the button below.",
-   "learningObjectives": "",
    "options": {
     "ignoreCase": true,
     "ignoreWhitespaces": true,
@@ -22,13 +19,41 @@
     "matchSubstring": true,
     "timeout": 30
    },
+   "showExpectedAnswer": true,
    "sequence": [
     {
      "arguments": "",
      "input": "24\n",
-     "output": "24.0 C = 75.2 F"
+     "output": "24.0 C = 75.2 F",
+     "showFeedback": false,
+     "feedback": ""
     }
-   ]
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/CtoF.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/CtoF.java"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  },
  {
@@ -139,16 +164,13 @@
   "source": {
    "name": "exercise-3-3",
    "showName": false,
-   "bloomsObjectiveLevel": "",
+   "instructions": "When you are ready to submit your code, remove the prompt message and click the button below.",
+   "command": "java -cp code/ TimeConv",
+   "preExecuteCommand": "javac code/TimeConv.java",
    "guidance": "",
    "showGuidanceAfterResponse": false,
-   "showExpectedAnswer": true,
-   "preExecuteCommand": "javac TimeConv.java",
-   "command": "java TimeConv",
    "points": 1,
    "oneTimeTest": false,
-   "instructions": "When you are ready to submit your code, remove the prompt message and click the button below.",
-   "learningObjectives": "",
    "options": {
     "ignoreCase": true,
     "ignoreWhitespaces": true,
@@ -156,13 +178,42 @@
     "matchSubstring": true,
     "timeout": 30
    },
+   "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "",
      "input": "5000",
-     "output": "5000 seconds = 1 hours, 23 minutes, and 20 seconds"
+     "output": "5000 seconds = 1 hours, 23 minutes, and 20 seconds",
+     "showFeedback": false,
+     "feedback": ""
     }
-   ]
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/TimeConv.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/TimeConv.java"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  },
  {

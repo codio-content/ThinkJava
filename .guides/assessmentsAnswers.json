@@ -1,3 +1,44 @@
 [
- 
+ {
+  "taskId": "code-output-compare-167464931",
+  "points": 0,
+  "results": [
+   {
+    "guidance": null,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1600711009320,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "output": "Traceback (most recent call last):\n  File \"/usr/share/codio/assessments/executor.py\", line 9, in <module>\n    from lib.grade import send_partial\n  File \"/usr/share/codio/assessments/lib/grade.py\", line 3, in <module>\n    import requests\nImportError: No module named requests",
+    "timestamp": 1600710699938,
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "code-output-compare-1034781984",
+  "points": 0,
+  "results": [
+   {
+    "guidance": null,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1600711048196,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "output": "{\"error\": \"Pre command failed:\\njavac: file not found: TimeConv.java\\nUsage: javac <options> <source files>\\nuse -help for a list of possible options\\n\\n\"}",
+    "timestamp": 1600711011891,
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "output": "Traceback (most recent call last):\n  File \"/usr/share/codio/assessments/executor.py\", line 9, in <module>\n    from lib.grade import send_partial\n  File \"/usr/share/codio/assessments/lib/grade.py\", line 3, in <module>\n    import requests\nImportError: No module named requests",
+    "timestamp": 1600710707919,
+    "state": "fail"
+   }
+  ]
+ }
 ]
